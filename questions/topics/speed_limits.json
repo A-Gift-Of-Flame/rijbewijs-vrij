@@ -1,0 +1,77 @@
+[
+  {
+    "id": "SPD-001",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "Wat is de maximumsnelheid binnen de bebouwde kom in België?",
+      "en": "What is the maximum speed limit in a built-up area in Belgium?",
+      "fr": "Quelle est la vitesse maximale en agglomération en Belgique ?",
+      "de": "Was ist die Höchstgeschwindigkeit innerhalb geschlossener Ortschaften in Belgien?"
+    },
+    "options": {
+      "nl": ["30 km/u", "50 km/u", "70 km/u", "90 km/u"],
+      "en": ["30 km/h", "50 km/h", "70 km/h", "90 km/h"],
+      "fr": ["30 km/h", "50 km/h", "70 km/h", "90 km/h"],
+      "de": ["30 km/h", "50 km/h", "70 km/h", "90 km/h"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Binnen de bebouwde kom geldt een maximumsnelheid van 50 km/u, tenzij anders aangegeven (Wegcode art. 11.1).",
+      "en": "In built-up areas the default speed limit is 50 km/h unless otherwise signed (Wegcode art. 11.1).",
+      "fr": "En agglomération, la vitesse maximale est de 50 km/h sauf indication contraire (Code de la route art. 11.1).",
+      "de": "Innerhalb geschlossener Ortschaften gilt Tempo 50, sofern nicht anders beschildert (StVO Art. 11.1)."
+    },
+    "legal_ref": "Wegcode art. 11.1"
+  },
+  {
+    "id": "SPD-002",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "Wat is de maximumsnelheid op een autosnelweg in België?",
+      "en": "What is the maximum speed limit on a motorway in Belgium?",
+      "fr": "Quelle est la vitesse maximale sur une autoroute en Belgique ?",
+      "de": "Was ist die Höchstgeschwindigkeit auf einer Autobahn in Belgien?"
+    },
+    "options": {
+      "nl": ["100 km/u", "110 km/u", "120 km/u", "130 km/u"],
+      "en": ["100 km/h", "110 km/h", "120 km/h", "130 km/h"],
+      "fr": ["100 km/h", "110 km/h", "120 km/h", "130 km/h"],
+      "de": ["100 km/h", "110 km/h", "120 km/h", "130 km/h"]
+    },
+    "correct": 2,
+    "explanation": {
+      "nl": "Op autosnelwegen geldt een maximumsnelheid van 120 km/u (Wegcode art. 11.3).",
+      "en": "On motorways the speed limit is 120 km/h (Wegcode art. 11.3).",
+      "fr": "Sur les autoroutes, la vitesse maximale est de 120 km/h (Code de la route art. 11.3).",
+      "de": "Auf Autobahnen gilt Tempo 120 (StVO Art. 11.3)."
+    },
+    "legal_ref": "Wegcode art. 11.3"
+  },
+  {
+    "id": "SPD-003",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "Wat is de maximumsnelheid buiten de bebouwde kom op een gewone weg (geen autosnelweg)?",
+      "en": "What is the default speed limit outside built-up areas on an ordinary road (not motorway)?",
+      "fr": "Quelle est la vitesse maximale hors agglomération sur une route ordinaire (pas une autoroute) ?",
+      "de": "Was ist die Höchstgeschwindigkeit außerorts auf einer normalen Straße (keine Autobahn)?"
+    },
+    "options": {
+      "nl": ["70 km/u", "90 km/u", "100 km/u", "120 km/u"],
+      "en": ["70 km/h", "90 km/h", "100 km/h", "120 km/h"],
+      "fr": ["70 km/h", "90 km/h", "100 km/h", "120 km/h"],
+      "de": ["70 km/h", "90 km/h", "100 km/h", "120 km/h"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Buiten de bebouwde kom op gewone wegen geldt 90 km/u tenzij anders aangeduid (Wegcode art. 11.2).",
+      "en": "Outside built-up areas on ordinary roads the limit is 90 km/h unless otherwise signed (Wegcode art. 11.2).",
+      "fr": "Hors agglomération sur routes ordinaires, la limite est de 90 km/h sauf indication contraire (Code de la route art. 11.2).",
+      "de": "Außerorts auf normalen Straßen gilt Tempo 90, sofern nicht anders beschildert (StVO Art. 11.2)."
+    },
+    "legal_ref": "Wegcode art. 11.2"
+  }
+]

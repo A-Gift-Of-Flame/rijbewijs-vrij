@@ -1,0 +1,52 @@
+[
+  {
+    "id": "MWY-001",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "Wat is de minimumsnelheid op een Belgische autosnelweg?",
+      "en": "What is the minimum speed on a Belgian motorway?",
+      "fr": "Quelle est la vitesse minimale sur une autoroute belge ?",
+      "de": "Was ist die Mindestgeschwindigkeit auf einer belgischen Autobahn?"
+    },
+    "options": {
+      "nl": ["50 km/u", "60 km/u", "70 km/u", "80 km/u"],
+      "en": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"],
+      "fr": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"],
+      "de": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Op autosnelwegen geldt een minimumsnelheid van 70 km/u op de rijbaan. Wie te langzaam rijdt belemmert het verkeer (Wegcode art. 11.3).",
+      "en": "The minimum speed on motorway lanes is 70 km/h. Driving too slowly obstructs traffic (Wegcode art. 11.3).",
+      "fr": "La vitesse minimale sur les voies d'autoroute est de 70 km/h. Rouler trop lentement entrave la circulation (Code de la route art. 11.3).",
+      "de": "Die Mindestgeschwindigkeit auf Autobahnspuren beträgt 70 km/h. Zu langsames Fahren behindert den Verkehr (StVO Art. 11.3)."
+    },
+    "legal_ref": "Wegcode art. 11.3"
+  },
+  {
+    "id": "MWY-002",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "Mag u achteruit rijden op een autosnelweg?",
+      "en": "Are you allowed to reverse on a motorway?",
+      "fr": "Êtes-vous autorisé à faire marche arrière sur une autoroute ?",
+      "de": "Darf man auf einer Autobahn rückwärts fahren?"
+    },
+    "options": {
+      "nl": ["Ja, als u voorbij een afrit gemist heeft", "Ja, maar alleen op de pechstrook", "Nee, nooit", "Ja, als er weinig verkeer is"],
+      "en": ["Yes, if you have passed a missed exit", "Yes, but only on the hard shoulder", "No, never", "Yes, if traffic is light"],
+      "fr": ["Oui, si vous avez raté une sortie", "Oui, mais uniquement sur la bande d'arrêt d'urgence", "Non, jamais", "Oui, si la circulation est faible"],
+      "de": ["Ja, wenn Sie eine Ausfahrt verpasst haben", "Ja, aber nur auf dem Standstreifen", "Nein, niemals", "Ja, wenn wenig Verkehr ist"]
+    },
+    "correct": 2,
+    "explanation": {
+      "nl": "Achteruitrijden op autosnelwegen is altijd verboden, ook op de pechstrook. Rijd naar de volgende afrit (Wegcode art. 23).",
+      "en": "Reversing on motorways is always prohibited, including on the hard shoulder. Drive to the next exit (Wegcode art. 23).",
+      "fr": "Faire marche arrière sur les autoroutes est toujours interdit, y compris sur la bande d'arrêt d'urgence. Roulez jusqu'à la prochaine sortie (Code de la route art. 23).",
+      "de": "Rückwärtsfahren auf Autobahnen ist immer verboten, auch auf dem Standstreifen. Fahren Sie zur nächsten Ausfahrt (StVO Art. 23)."
+    },
+    "legal_ref": "Wegcode art. 23"
+  }
+]

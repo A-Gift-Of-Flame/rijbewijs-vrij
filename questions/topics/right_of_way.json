@@ -1,0 +1,77 @@
+[
+  {
+    "id": "ROW-001",
+    "topic": "right_of_way",
+    "verified": false,
+    "question": {
+      "nl": "U nadert een kruispunt zonder verkeersborden. Een voertuig komt van rechts. Wie heeft voorrang?",
+      "en": "You approach an unmarked intersection. A vehicle comes from the right. Who has right of way?",
+      "fr": "Vous approchez d'un carrefour sans panneaux. Un véhicule vient de droite. Qui a la priorité ?",
+      "de": "Sie nähern sich einer Kreuzung ohne Verkehrszeichen. Ein Fahrzeug kommt von rechts. Wer hat Vorfahrt?"
+    },
+    "options": {
+      "nl": ["U, want u reed er eerst naartoe", "Het voertuig van rechts", "Degene die harder rijdt"],
+      "en": ["You, because you arrived first", "The vehicle from the right", "Whoever is driving faster"],
+      "fr": ["Vous, car vous êtes arrivé en premier", "Le véhicule venant de droite", "Celui qui roule le plus vite"],
+      "de": ["Sie, weil Sie zuerst ankamen", "Das Fahrzeug von rechts", "Wer schneller fährt"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Op een ongeregeld kruispunt heeft het verkeer van rechts altijd voorrang (Wegcode art. 12.1).",
+      "en": "At an uncontrolled intersection, traffic from the right always has right of way (Wegcode art. 12.1).",
+      "fr": "À un carrefour non réglementé, la priorité de droite s'applique toujours (Code de la route art. 12.1).",
+      "de": "An einer ungeregelten Kreuzung hat der Verkehr von rechts immer Vorfahrt (StVO Art. 12.1)."
+    },
+    "legal_ref": "Wegcode art. 12.1"
+  },
+  {
+    "id": "ROW-002",
+    "topic": "right_of_way",
+    "verified": false,
+    "question": {
+      "nl": "U rijdt op een weg met het bord 'Voorrangsweg'. Wie heeft voorrang op het kruispunt?",
+      "en": "You are on a road marked with a 'Priority Road' sign. Who has right of way at the intersection?",
+      "fr": "Vous êtes sur une route signalée 'Route prioritaire'. Qui a la priorité au carrefour ?",
+      "de": "Sie fahren auf einer als 'Vorfahrtstraße' gekennzeichneten Straße. Wer hat an der Kreuzung Vorfahrt?"
+    },
+    "options": {
+      "nl": ["U heeft altijd voorrang", "Het verkeer van rechts heeft voorrang", "Hangt af van het type kruispunt"],
+      "en": ["You always have right of way", "Traffic from the right has priority", "Depends on the type of intersection"],
+      "fr": ["Vous avez toujours la priorité", "Le trafic venant de droite a la priorité", "Cela dépend du type de carrefour"],
+      "de": ["Sie haben immer Vorfahrt", "Der Verkehr von rechts hat Vorfahrt", "Hängt vom Kreuzungstyp ab"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Op een voorrangsweg heeft u voorrang op al het verkeer dat de voorrangsweg kruist, ongeacht de richting (Wegcode art. 12.4).",
+      "en": "On a priority road, you have right of way over all traffic crossing it, regardless of direction (Wegcode art. 12.4).",
+      "fr": "Sur une route prioritaire, vous avez la priorité sur tout le trafic qui la croise, quelle que soit la direction (Code de la route art. 12.4).",
+      "de": "Auf einer Vorfahrtstraße haben Sie Vorfahrt gegenüber dem gesamten kreuzenden Verkehr (StVO Art. 12.4)."
+    },
+    "legal_ref": "Wegcode art. 12.4"
+  },
+  {
+    "id": "ROW-003",
+    "topic": "right_of_way",
+    "verified": false,
+    "question": {
+      "nl": "Een tram nadert van links. U rijdt op een weg zonder voorrangsregeling. Wie heeft voorrang?",
+      "en": "A tram approaches from the left. You are on an uncontrolled road. Who has right of way?",
+      "fr": "Un tram arrive de gauche. Vous êtes sur une route sans réglementation de priorité. Qui a la priorité ?",
+      "de": "Eine Straßenbahn nähert sich von links. Sie befinden sich auf einer ungeregelten Straße. Wer hat Vorfahrt?"
+    },
+    "options": {
+      "nl": ["U, want de tram komt van links", "De tram, altijd", "Hangt af van de snelheid van de tram"],
+      "en": ["You, because the tram comes from the left", "The tram, always", "Depends on the tram's speed"],
+      "fr": ["Vous, car le tram vient de gauche", "Le tram, toujours", "Cela dépend de la vitesse du tram"],
+      "de": ["Sie, weil die Straßenbahn von links kommt", "Die Straßenbahn, immer", "Hängt von der Geschwindigkeit der Straßenbahn ab"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Trams hebben altijd voorrang op ander wegverkeer, ongeacht de richting waaruit zij komen (Wegcode art. 12.3).",
+      "en": "Trams always have right of way over other road traffic, regardless of which direction they come from (Wegcode art. 12.3).",
+      "fr": "Les trams ont toujours la priorité sur les autres usagers de la route, quelle que soit leur direction (Code de la route art. 12.3).",
+      "de": "Straßenbahnen haben immer Vorfahrt gegenüber dem übrigen Straßenverkehr, unabhängig von ihrer Richtung (StVO Art. 12.3)."
+    },
+    "legal_ref": "Wegcode art. 12.3"
+  }
+]

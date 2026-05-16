@@ -1,0 +1,52 @@
+[
+  {
+    "id": "DST-001",
+    "topic": "safe_distances",
+    "verified": false,
+    "question": {
+      "nl": "Wat is de vuistregel voor minimale volgafstand op een droge weg?",
+      "en": "What is the rule of thumb for minimum following distance on a dry road?",
+      "fr": "Quelle est la règle générale pour la distance de sécurité minimale sur route sèche ?",
+      "de": "Was ist die Faustregel für den Mindestabstand auf trockener Fahrbahn?"
+    },
+    "options": {
+      "nl": ["1 seconde", "2 seconden", "3 seconden", "5 seconden"],
+      "en": ["1 second", "2 seconds", "3 seconds", "5 seconds"],
+      "fr": ["1 seconde", "2 secondes", "3 secondes", "5 secondes"],
+      "de": ["1 Sekunde", "2 Sekunden", "3 Sekunden", "5 Sekunden"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Houd minimaal 2 seconden afstand op droog wegdek. Bij regen, mist of gladheid minstens verdubbelen (Wegcode art. 10).",
+      "en": "Keep at least 2 seconds following distance on dry road. Double it in rain, fog, or slippery conditions (Wegcode art. 10).",
+      "fr": "Maintenez au moins 2 secondes de distance sur route sèche. Doublez cette distance par temps de pluie, de brouillard ou sur route glissante (Code de la route art. 10).",
+      "de": "Halten Sie mindestens 2 Sekunden Abstand auf trockener Fahrbahn. Bei Regen, Nebel oder Glätte mindestens verdoppeln (StVO Art. 10)."
+    },
+    "legal_ref": "Wegcode art. 10"
+  },
+  {
+    "id": "DST-002",
+    "topic": "safe_distances",
+    "verified": false,
+    "question": {
+      "nl": "Op een autosnelweg bij nat wegdek, wat is de aanbevolen minimale volgafstand?",
+      "en": "On a motorway with wet road surface, what is the recommended minimum following distance?",
+      "fr": "Sur autoroute avec chaussée mouillée, quelle est la distance de sécurité minimale recommandée ?",
+      "de": "Auf der Autobahn bei nasser Fahrbahn, was ist der empfohlene Mindestabstand?"
+    },
+    "options": {
+      "nl": ["2 seconden", "4 seconden", "6 seconden", "10 seconden"],
+      "en": ["2 seconds", "4 seconds", "6 seconds", "10 seconds"],
+      "fr": ["2 secondes", "4 secondes", "6 secondes", "10 secondes"],
+      "de": ["2 Sekunden", "4 Sekunden", "6 Sekunden", "10 Sekunden"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bij nat wegdek verdubbelt de stopafstand. De aanbevolen volgafstand is dan minimaal 4 seconden (Wegcode art. 10).",
+      "en": "On wet surfaces braking distance doubles. The recommended following distance increases to at least 4 seconds (Wegcode art. 10).",
+      "fr": "Sur sol mouillé, la distance de freinage double. La distance de sécurité recommandée passe à au moins 4 secondes (Code de la route art. 10).",
+      "de": "Auf nasser Fahrbahn verdoppelt sich der Bremsweg. Der empfohlene Abstand beträgt mindestens 4 Sekunden (StVO Art. 10)."
+    },
+    "legal_ref": "Wegcode art. 10"
+  }
+]

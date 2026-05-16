@@ -1,0 +1,52 @@
+[
+  {
+    "id": "MRK-001",
+    "topic": "road_markings",
+    "verified": false,
+    "question": {
+      "nl": "Wat betekent een doorgetrokken witte streep in het midden van de rijbaan?",
+      "en": "What does a continuous white line in the centre of the road mean?",
+      "fr": "Que signifie une ligne blanche continue au centre de la chaussée ?",
+      "de": "Was bedeutet eine durchgehende weiße Linie in der Mitte der Fahrbahn?"
+    },
+    "options": {
+      "nl": ["U mag de lijn overschrijden bij inhalen", "U mag de lijn niet overschrijden", "U mag de lijn overschrijden als er geen verkeer is", "De lijn geldt alleen voor vrachtwagens"],
+      "en": ["You may cross the line when overtaking", "You must not cross the line", "You may cross if there is no traffic", "The line applies to trucks only"],
+      "fr": ["Vous pouvez franchir la ligne lors d'un dépassement", "Vous ne devez pas franchir la ligne", "Vous pouvez franchir s'il n'y a pas de trafic", "La ligne s'applique uniquement aux camions"],
+      "de": ["Sie dürfen die Linie beim Überholen überqueren", "Sie dürfen die Linie nicht überqueren", "Sie dürfen überqueren wenn kein Verkehr ist", "Die Linie gilt nur für LKW"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een doorgetrokken witte streep mag nooit worden overschreden of gereden over. Ze scheidt rijstroken en geeft aan dat inhalen verboden is (Wegcode art. 72).",
+      "en": "A continuous white line must never be crossed or driven over. It separates lanes and indicates overtaking is prohibited (Wegcode art. 72).",
+      "fr": "Une ligne blanche continue ne doit jamais être franchie ou empruntée. Elle sépare les voies et indique que le dépassement est interdit (Code de la route art. 72).",
+      "de": "Eine durchgehende weiße Linie darf niemals überquert oder befahren werden. Sie trennt Fahrspuren und zeigt an, dass Überholen verboten ist (StVO Art. 72)."
+    },
+    "legal_ref": "Wegcode art. 72"
+  },
+  {
+    "id": "MRK-002",
+    "topic": "road_markings",
+    "verified": false,
+    "question": {
+      "nl": "Wat geven gele zigzaglijnen langs de rijbaan aan?",
+      "en": "What do yellow zigzag lines along the road indicate?",
+      "fr": "Que signifient les lignes jaunes en zigzag le long de la chaussée ?",
+      "de": "Was zeigen gelbe Zickzacklinien entlang der Fahrbahn an?"
+    },
+    "options": {
+      "nl": ["Parkeren toegestaan voor maximaal 30 minuten", "Parkeren en stilstaan verboden", "Alleen laden en lossen toegestaan", "Parkeren verboden, stilstaan toegestaan"],
+      "en": ["Parking allowed for max 30 minutes", "Parking and stopping prohibited", "Loading and unloading only", "Parking prohibited, stopping allowed"],
+      "fr": ["Stationnement autorisé 30 minutes max", "Stationnement et arrêt interdits", "Chargement et déchargement uniquement", "Stationnement interdit, arrêt autorisé"],
+      "de": ["Parken für max. 30 Minuten erlaubt", "Parken und Halten verboten", "Nur Be- und Entladen erlaubt", "Parken verboten, Halten erlaubt"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Gele zigzaglijnen betekenen dat zowel parkeren als stilstaan verboden is op dat weggedeelte (Wegcode art. 77).",
+      "en": "Yellow zigzag lines mean both parking and stopping are prohibited on that section of road (Wegcode art. 77).",
+      "fr": "Les lignes jaunes en zigzag signifient que le stationnement et l'arrêt sont tous deux interdits sur ce tronçon de route (Code de la route art. 77).",
+      "de": "Gelbe Zickzacklinien bedeuten, dass sowohl Parken als auch Halten auf diesem Straßenabschnitt verboten ist (StVO Art. 77)."
+    },
+    "legal_ref": "Wegcode art. 77"
+  }
+]

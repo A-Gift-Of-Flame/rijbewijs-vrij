@@ -1,0 +1,52 @@
+[
+  {
+    "id": "VSF-001",
+    "topic": "vehicle_safety",
+    "verified": false,
+    "question": {
+      "nl": "Wanneer bent u verplicht een gevarendriehoek te plaatsen?",
+      "en": "When are you required to place a warning triangle?",
+      "fr": "Quand êtes-vous obligé de placer un triangle de signalisation ?",
+      "de": "Wann sind Sie verpflichtet, ein Warndreieck aufzustellen?"
+    },
+    "options": {
+      "nl": ["Alleen bij pech op de autosnelweg", "Bij elke stilstand op de rijbaan die gevaar kan opleveren", "Alleen als de motor niet meer start", "Nooit verplicht als er waarschuwingslichten zijn"],
+      "en": ["Only for breakdowns on the motorway", "For any stop on the road that could cause danger", "Only if the engine won't start", "Never required if hazard lights are on"],
+      "fr": ["Uniquement en cas de panne sur l'autoroute", "Pour tout arrêt sur la voie pouvant créer un danger", "Uniquement si le moteur ne démarre pas", "Jamais obligatoire si les feux de détresse sont allumés"],
+      "de": ["Nur bei Panne auf der Autobahn", "Bei jedem Halt auf der Fahrbahn, der eine Gefahr darstellen kann", "Nur wenn der Motor nicht anspringt", "Nie erforderlich wenn Warnblinkanlage eingeschaltet ist"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "U bent verplicht een gevarendriehoek te plaatsen bij elke gedwongen stilstand op de rijbaan die gevaar kan opleveren voor andere weggebruikers. De driehoek moet op voldoende afstand geplaatst worden (Wegcode art. 21).",
+      "en": "You must place a warning triangle for any forced stop on the road that could endanger other users. The triangle must be placed at sufficient distance (Wegcode art. 21).",
+      "fr": "Vous devez placer un triangle de signalisation lors de tout arrêt forcé sur la chaussée pouvant mettre en danger d'autres usagers. Le triangle doit être placé à distance suffisante (Code de la route art. 21).",
+      "de": "Sie müssen ein Warndreieck aufstellen bei jedem erzwungenen Halt auf der Fahrbahn, der andere Verkehrsteilnehmer gefährden könnte. Das Dreieck muss in ausreichendem Abstand aufgestellt werden (StVO Art. 21)."
+    },
+    "legal_ref": "Wegcode art. 21"
+  },
+  {
+    "id": "VSF-002",
+    "topic": "vehicle_safety",
+    "verified": false,
+    "question": {
+      "nl": "Wat is de minimale profieldiepte voor banden op een personenwagen in België?",
+      "en": "What is the minimum tread depth for tyres on a passenger car in Belgium?",
+      "fr": "Quelle est la profondeur minimale de la bande de roulement pour les pneus d'une voiture particulière en Belgique ?",
+      "de": "Was ist die Mindestprofiltiefe für Reifen eines Personenkraftwagens in Belgien?"
+    },
+    "options": {
+      "nl": ["1 mm", "1,6 mm", "2 mm", "3 mm"],
+      "en": ["1 mm", "1.6 mm", "2 mm", "3 mm"],
+      "fr": ["1 mm", "1,6 mm", "2 mm", "3 mm"],
+      "de": ["1 mm", "1,6 mm", "2 mm", "3 mm"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "De minimale profieldiepte voor personenwagens is 1,6 mm over de volledige breedte van het loopvlak. Rijden met te versleten banden is gevaarlijk en verboden.",
+      "en": "The minimum tread depth for passenger cars is 1.6 mm across the full width of the tread. Driving on worn tyres is dangerous and illegal.",
+      "fr": "La profondeur minimale de la bande de roulement pour les voitures particulières est de 1,6 mm sur toute la largeur de la bande de roulement. Rouler avec des pneus usés est dangereux et illégal.",
+      "de": "Die Mindestprofiltiefe für Personenkraftwagen beträgt 1,6 mm über die gesamte Breite der Lauffläche. Mit abgenutzten Reifen zu fahren ist gefährlich und verboten."
+    },
+    "legal_ref": "KB 15 maart 1968 — technische eisen voertuigen"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ENV-001",
+    "topic": "environmental",
+    "verified": false,
+    "question": {
+      "nl": "Wat is een LEZ (Lage-Emissiezone)?",
+      "en": "What is a LEZ (Low Emission Zone)?",
+      "fr": "Qu'est-ce qu'une ZBE (Zone à Basses Émissions) ?",
+      "de": "Was ist eine LEZ (Niedrigemissionszone)?"
+    },
+    "options": {
+      "nl": ["Een zone waar alleen elektrische voertuigen mogen rijden", "Een afgebakend gebied waar voertuigen met te hoge uitstoot verboden zijn", "Een zone met verlaagde maximumsnelheid voor milieuredenen", "Een parkeerzone voor milieuvriendelijke voertuigen"],
+      "en": ["A zone where only electric vehicles may drive", "A defined area where vehicles with excessive emissions are prohibited", "A zone with reduced speed limit for environmental reasons", "A parking zone for eco-friendly vehicles"],
+      "fr": ["Une zone où seuls les véhicules électriques peuvent circuler", "Une zone délimitée où les véhicules à émissions excessives sont interdits", "Une zone avec limitation de vitesse réduite pour raisons environnementales", "Une zone de stationnement pour véhicules écologiques"],
+      "de": ["Eine Zone wo nur Elektrofahrzeuge fahren dürfen", "Ein definiertes Gebiet wo Fahrzeuge mit zu hohem Ausstoß verboten sind", "Eine Zone mit reduziertem Tempolimit aus Umweltgründen", "Eine Parkzone für umweltfreundliche Fahrzeuge"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een LEZ is een afgebakend stedelijk gebied waar voertuigen met te veel uitstoot niet mogen rijden. Antwerpen, Gent en Brussel hebben LEZ-zones. De regels zijn gebaseerd op de Euro-uitstootnorm van uw voertuig.",
+      "en": "A LEZ is a defined urban area where high-emission vehicles are prohibited. Antwerp, Ghent, and Brussels have LEZ zones. Rules are based on your vehicle's Euro emission standard.",
+      "fr": "Une ZBE est une zone urbaine délimitée où les véhicules à fortes émissions sont interdits. Anvers, Gand et Bruxelles ont des zones ZBE. Les règles sont basées sur la norme Euro d'émission de votre véhicule.",
+      "de": "Eine LEZ ist ein definiertes städtisches Gebiet, in dem Fahrzeuge mit hohem Schadstoffausstoß verboten sind. Antwerpen, Gent und Brüssel haben LEZ-Zonen. Die Regeln basieren auf der Euro-Abgasnorm Ihres Fahrzeugs."
+    },
+    "legal_ref": "Vlaamse LEZ-wetgeving / Brussels LEZ-ordonnantie"
+  }
+]

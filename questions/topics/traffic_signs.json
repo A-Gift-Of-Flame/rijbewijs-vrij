@@ -1,0 +1,102 @@
+[
+  {
+    "id": "SGN-001",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Een driehoekig bord met rode rand en een uitroepteken betekent:",
+      "en": "A triangular sign with a red border and exclamation mark means:",
+      "fr": "Un panneau triangulaire à bordure rouge avec un point d'exclamation signifie :",
+      "de": "Ein dreieckiges Schild mit rotem Rand und Ausrufezeichen bedeutet:"
+    },
+    "options": {
+      "nl": ["Verbod om verder te rijden", "Algemeen gevaar — wees voorzichtig", "Verplichte rijrichting", "Einde van alle verboden"],
+      "en": ["No entry", "General hazard — proceed with caution", "Mandatory direction", "End of all restrictions"],
+      "fr": ["Interdiction de continuer", "Danger général — soyez prudent", "Direction obligatoire", "Fin de toutes les interdictions"],
+      "de": ["Einfahrt verboten", "Allgemeine Gefahr — Vorsicht", "Vorgeschriebene Fahrtrichtung", "Ende aller Verbote"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Driehoekige borden met rode rand zijn waarschuwingsborden. Het uitroepteken is het algemene gevaarbord (Wegcode bijlage 1).",
+      "en": "Triangular signs with a red border are warning signs. The exclamation mark is the general hazard sign (Wegcode Annex 1).",
+      "fr": "Les panneaux triangulaires à bordure rouge sont des panneaux d'avertissement. Le point d'exclamation est le panneau de danger général (Code de la route Annexe 1).",
+      "de": "Dreieckige Schilder mit rotem Rand sind Warnschilder. Das Ausrufezeichen ist das allgemeine Gefahrschild (StVO Anlage 1)."
+    },
+    "legal_ref": "Wegcode bijlage 1 — waarschuwingsborden"
+  },
+  {
+    "id": "SGN-002",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Ronde borden met rode rand en witte achtergrond zijn:",
+      "en": "Round signs with a red border and white background are:",
+      "fr": "Les panneaux ronds à bordure rouge et fond blanc sont :",
+      "de": "Runde Schilder mit rotem Rand und weißem Hintergrund sind:"
+    },
+    "options": {
+      "nl": ["Waarschuwingsborden", "Verbodsborden", "Gebodsborden", "Informatieborden"],
+      "en": ["Warning signs", "Prohibition signs", "Mandatory signs", "Information signs"],
+      "fr": ["Panneaux d'avertissement", "Panneaux d'interdiction", "Panneaux d'obligation", "Panneaux d'information"],
+      "de": ["Warnschilder", "Verbotsschilder", "Gebotsschilder", "Informationsschilder"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Ronde borden met rode rand op witte achtergrond zijn verbodsborden (Wegcode bijlage 1).",
+      "en": "Round signs with a red border on a white background are prohibition signs (Wegcode Annex 1).",
+      "fr": "Les panneaux ronds à bordure rouge sur fond blanc sont des panneaux d'interdiction (Code de la route Annexe 1).",
+      "de": "Runde Schilder mit rotem Rand auf weißem Hintergrund sind Verbotsschilder (StVO Anlage 1)."
+    },
+    "legal_ref": "Wegcode bijlage 1 — verbodsborden"
+  },
+  {
+    "id": "SGN-003",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Ronde borden met blauwe achtergrond zijn:",
+      "en": "Round signs with a blue background are:",
+      "fr": "Les panneaux ronds à fond bleu sont :",
+      "de": "Runde Schilder mit blauem Hintergrund sind:"
+    },
+    "options": {
+      "nl": ["Verbodsborden", "Waarschuwingsborden", "Gebodsborden", "Informatieborden"],
+      "en": ["Prohibition signs", "Warning signs", "Mandatory signs", "Information signs"],
+      "fr": ["Panneaux d'interdiction", "Panneaux d'avertissement", "Panneaux d'obligation", "Panneaux d'information"],
+      "de": ["Verbotsschilder", "Warnschilder", "Gebotsschilder", "Informationsschilder"]
+    },
+    "correct": 2,
+    "explanation": {
+      "nl": "Ronde borden met blauwe achtergrond zijn gebodsborden — ze geven aan wat verplicht is (Wegcode bijlage 1).",
+      "en": "Round signs with a blue background are mandatory signs — they indicate what is required (Wegcode Annex 1).",
+      "fr": "Les panneaux ronds à fond bleu sont des panneaux d'obligation — ils indiquent ce qui est obligatoire (Code de la route Annexe 1).",
+      "de": "Runde Schilder mit blauem Hintergrund sind Gebotsschilder — sie geben an, was vorgeschrieben ist (StVO Anlage 1)."
+    },
+    "legal_ref": "Wegcode bijlage 1 — gebodsborden"
+  },
+  {
+    "id": "SGN-004",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Wat betekent een bord B1 (gelijkzijdige driehoek met punt naar boven, rode rand)?",
+      "en": "What does sign B1 (equilateral triangle pointing up, red border) mean?",
+      "fr": "Que signifie le panneau B1 (triangle équilatéral pointe en haut, bordure rouge) ?",
+      "de": "Was bedeutet Zeichen B1 (gleichseitiges Dreieck mit Spitze nach oben, roter Rand)?"
+    },
+    "options": {
+      "nl": ["Voorrang verlenen", "Stop", "Voorrangsweg", "Verboden in te rijden"],
+      "en": ["Yield / Give way", "Stop", "Priority road", "No entry"],
+      "fr": ["Céder le passage", "Stop", "Route prioritaire", "Accès interdit"],
+      "de": ["Vorfahrt gewähren", "Stop", "Vorfahrtstraße", "Einfahrt verboten"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Bord B1 is het 'voorrang verlenen'-bord. U moet voorrang geven aan al het verkeer op de kruisende weg (Wegcode bijlage 2).",
+      "en": "Sign B1 is the 'yield' sign. You must give way to all traffic on the crossing road (Wegcode Annex 2).",
+      "fr": "Le panneau B1 est le panneau 'céder le passage'. Vous devez laisser la priorité à tout le trafic sur la route qui croise (Code de la route Annexe 2).",
+      "de": "Zeichen B1 ist das 'Vorfahrt gewähren'-Schild. Sie müssen dem gesamten Verkehr auf der kreuzenden Straße Vorfahrt gewähren (StVO Anlage 2)."
+    },
+    "legal_ref": "Wegcode bijlage 2 — bord B1"
+  }
+]

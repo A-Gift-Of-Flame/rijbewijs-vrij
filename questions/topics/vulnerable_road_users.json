@@ -1,0 +1,52 @@
+[
+  {
+    "id": "VRU-001",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "Wat moet u doen wanneer u een voetganger op een zebrapad ziet?",
+      "en": "What must you do when you see a pedestrian at a zebra crossing?",
+      "fr": "Que devez-vous faire lorsque vous voyez un piéton à un passage pour piétons ?",
+      "de": "Was müssen Sie tun, wenn Sie einen Fußgänger an einem Zebrastreifen sehen?"
+    },
+    "options": {
+      "nl": ["Doorrijden als er geen verkeerslicht is", "Vertragen en voorrang geven aan de voetganger", "Claxonneren en doorrijden", "Stoppen alleen als de voetganger al op het zebrapad staat"],
+      "en": ["Continue if there is no traffic light", "Slow down and give way to the pedestrian", "Honk and continue", "Stop only if the pedestrian is already on the crossing"],
+      "fr": ["Continuer s'il n'y a pas de feu", "Ralentir et céder la priorité au piéton", "Klaxonner et continuer", "S'arrêter seulement si le piéton est déjà sur le passage"],
+      "de": ["Weiterfahren wenn keine Ampel vorhanden", "Langsamer werden und dem Fußgänger Vorfahrt gewähren", "Hupen und weiterfahren", "Nur anhalten wenn der Fußgänger bereits auf dem Zebrastreifen ist"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "U moet altijd vertragen en voorrang geven aan voetgangers op of bij een zebrapad, ook als zij er nog niet op staan maar duidelijk willen oversteken (Wegcode art. 40).",
+      "en": "You must always slow down and give way to pedestrians at or approaching a zebra crossing, even if they have not yet stepped onto it but clearly intend to cross (Wegcode art. 40).",
+      "fr": "Vous devez toujours ralentir et céder la priorité aux piétons sur ou près d'un passage pour piétons, même s'ils n'y sont pas encore mais ont clairement l'intention de traverser (Code de la route art. 40).",
+      "de": "Sie müssen an Zebrastreifen immer langsamer werden und Fußgängern Vorfahrt gewähren, auch wenn sie noch nicht auf dem Zebrastreifen sind, aber deutlich überqueren wollen (StVO Art. 40)."
+    },
+    "legal_ref": "Wegcode art. 40"
+  },
+  {
+    "id": "VRU-002",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "Hoeveel afstand moet u houden bij het inhalen van een fietser?",
+      "en": "What minimum lateral distance must you maintain when overtaking a cyclist?",
+      "fr": "Quelle distance latérale minimale devez-vous maintenir lors du dépassement d'un cycliste ?",
+      "de": "Welchen Mindestabstand müssen Sie beim Überholen eines Radfahrers einhalten?"
+    },
+    "options": {
+      "nl": ["0,5 meter", "1 meter", "1,5 meter", "2 meter"],
+      "en": ["0.5 metres", "1 metre", "1.5 metres", "2 metres"],
+      "fr": ["0,5 mètre", "1 mètre", "1,5 mètre", "2 mètres"],
+      "de": ["0,5 Meter", "1 Meter", "1,5 Meter", "2 Meter"]
+    },
+    "correct": 2,
+    "explanation": {
+      "nl": "Bij het inhalen van fietsers en andere kwetsbare weggebruikers moet u minimaal 1,5 meter zijdelingse afstand houden (Wegcode art. 40bis).",
+      "en": "When overtaking cyclists and other vulnerable road users you must maintain a minimum lateral distance of 1.5 metres (Wegcode art. 40bis).",
+      "fr": "Lors du dépassement de cyclistes et autres usagers vulnérables, vous devez maintenir une distance latérale minimale de 1,5 mètre (Code de la route art. 40bis).",
+      "de": "Beim Überholen von Fahrradfahrern und anderen schwachen Verkehrsteilnehmern müssen Sie einen seitlichen Mindestabstand von 1,5 Meter einhalten (StVO Art. 40bis)."
+    },
+    "legal_ref": "Wegcode art. 40bis"
+  }
+]

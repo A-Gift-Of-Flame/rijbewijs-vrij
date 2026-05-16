@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ALC-001",
+    "topic": "alcohol_drugs",
+    "verified": false,
+    "question": {
+      "nl": "Wat is de wettelijke alcohollimiet voor ervaren bestuurders in België (bloedalcohol)?",
+      "en": "What is the legal blood alcohol limit for experienced drivers in Belgium?",
+      "fr": "Quelle est la limite légale d'alcoolémie pour les conducteurs expérimentés en Belgique ?",
+      "de": "Was ist der gesetzliche Blutalkoholgrenzwert für erfahrene Fahrer in Belgien?"
+    },
+    "options": {
+      "nl": ["0,2 promille", "0,5 promille", "0,8 promille", "1,0 promille"],
+      "en": ["0.2 g/l", "0.5 g/l", "0.8 g/l", "1.0 g/l"],
+      "fr": ["0,2 g/l", "0,5 g/l", "0,8 g/l", "1,0 g/l"],
+      "de": ["0,2 ‰", "0,5 ‰", "0,8 ‰", "1,0 ‰"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "De wettelijke alcohollimiet voor ervaren bestuurders is 0,5 promille (g/l bloed). Voor beginnende bestuurders (< 2 jaar rijbewijs) geldt 0,2 promille (Wegcode art. 34).",
+      "en": "The legal blood alcohol limit for experienced drivers is 0.5 g/l. For new drivers (licence held < 2 years) the limit is 0.2 g/l (Wegcode art. 34).",
+      "fr": "La limite légale d'alcoolémie pour les conducteurs expérimentés est de 0,5 g/l. Pour les nouveaux conducteurs (permis < 2 ans), la limite est de 0,2 g/l (Code de la route art. 34).",
+      "de": "Der gesetzliche Blutalkoholgrenzwert für erfahrene Fahrer beträgt 0,5 ‰. Für Fahranfänger (Führerschein < 2 Jahre) gilt 0,2 ‰ (StVO Art. 34)."
+    },
+    "legal_ref": "Wegcode art. 34"
+  },
+  {
+    "id": "ALC-002",
+    "topic": "alcohol_drugs",
+    "verified": false,
+    "question": {
+      "nl": "Wat is de alcohollimiet voor bestuurders met minder dan 2 jaar rijervaring?",
+      "en": "What is the alcohol limit for drivers with less than 2 years of driving experience?",
+      "fr": "Quelle est la limite d'alcool pour les conducteurs ayant moins de 2 ans d'expérience de conduite ?",
+      "de": "Was ist der Alkoholgrenzwert für Fahrer mit weniger als 2 Jahren Fahrerfahrung?"
+    },
+    "options": {
+      "nl": ["0,0 promille", "0,2 promille", "0,5 promille", "0,8 promille"],
+      "en": ["0.0 g/l", "0.2 g/l", "0.5 g/l", "0.8 g/l"],
+      "fr": ["0,0 g/l", "0,2 g/l", "0,5 g/l", "0,8 g/l"],
+      "de": ["0,0 ‰", "0,2 ‰", "0,5 ‰", "0,8 ‰"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Beginnende bestuurders (rijbewijs minder dan 2 jaar) mogen maximaal 0,2 promille hebben (Wegcode art. 34).",
+      "en": "New drivers (licence held less than 2 years) may have a maximum of 0.2 g/l blood alcohol (Wegcode art. 34).",
+      "fr": "Les nouveaux conducteurs (permis depuis moins de 2 ans) ne peuvent pas dépasser 0,2 g/l d'alcoolémie (Code de la route art. 34).",
+      "de": "Fahranfänger (Führerschein seit weniger als 2 Jahren) dürfen maximal 0,2 ‰ Blutalkohol haben (StVO Art. 34)."
+    },
+    "legal_ref": "Wegcode art. 34"
+  }
+]

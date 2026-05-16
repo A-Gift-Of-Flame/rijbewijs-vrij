@@ -1,0 +1,47 @@
+[
+  {
+    "id": "FAD-001",
+    "topic": "first_aid",
+    "verified": false,
+    "question": {
+      "nl": "U komt aan bij een verkeersongeval met gewonden. Wat is de juiste volgorde van handelen?",
+      "en": "You arrive at a road accident with injured people. What is the correct order of actions?",
+      "fr": "Vous arrivez sur les lieux d'un accident de la route avec des blessés. Quel est l'ordre correct des actions ?",
+      "de": "Sie kommen an einem Verkehrsunfall mit Verletzten an. Was ist die richtige Reihenfolge der Maßnahmen?"
+    },
+    "options": {
+      "nl": [
+        "Veiligstellen — Verwittigen — Verzorgen",
+        "Verzorgen — Veiligstellen — Verwittigen",
+        "Verwittigen — Veiligstellen — Verzorgen",
+        "Verzorgen — Verwittigen — Veiligstellen"
+      ],
+      "en": [
+        "Secure — Alert — Assist",
+        "Assist — Secure — Alert",
+        "Alert — Secure — Assist",
+        "Assist — Alert — Secure"
+      ],
+      "fr": [
+        "Sécuriser — Alerter — Secourir",
+        "Secourir — Sécuriser — Alerter",
+        "Alerter — Sécuriser — Secourir",
+        "Secourir — Alerter — Sécuriser"
+      ],
+      "de": [
+        "Sichern — Alarmieren — Helfen",
+        "Helfen — Sichern — Alarmieren",
+        "Alarmieren — Sichern — Helfen",
+        "Helfen — Alarmieren — Sichern"
+      ]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "De juiste volgorde is: 1) Veiligstellen (gevarendriehoek, waarschuwingslichten), 2) Verwittigen (112 bellen), 3) Verzorgen (eerste hulp verlenen). Uw eigen veiligheid en die van anderen komt eerst.",
+      "en": "The correct order is: 1) Secure the scene (warning triangle, hazard lights), 2) Alert emergency services (call 112), 3) Assist the injured. Your safety and that of others comes first.",
+      "fr": "L'ordre correct est : 1) Sécuriser (triangle de signalisation, feux de détresse), 2) Alerter les secours (appeler le 112), 3) Secourir les blessés. Votre sécurité et celle des autres passe en premier.",
+      "de": "Die richtige Reihenfolge ist: 1) Absichern (Warndreieck, Warnblinkanlage), 2) Alarmieren (112 anrufen), 3) Helfen (Erste Hilfe leisten). Ihre Sicherheit und die der anderen hat Vorrang."
+    },
+    "legal_ref": "Wegcode art. 32 — hulpverlening bij ongevallen"
+  }
+]
