@@ -2,7 +2,7 @@
 
 **Free, open-source Belgian driver's license theory preparation — no account, no ads, no cost.**
 
-> *Rijbewijs Vrij* = "Free License" (NL) · *Permis Libre* (FR) · *Freier Führerschein* (DE)
+> *Rijbewijs Vrij* = "Free License" (NL) · *Permis Libre* (FR) · *Freier Führerschein* (DE) · "Free License" (EN)
 
 ---
 
@@ -21,7 +21,9 @@ Commercial prep platforms charge €20–€50 for what should be public knowled
 - **Exam simulation** — timed 50-question mock exams matching the official GOCA format (pass mark: 41/50)
 - **Instant explanations** — every wrong answer shows the rule behind it, with legal references
 - **Progress tracking** — local storage only, no account required
-- **Trilingual** — Dutch · French · German (switch at any time)
+- **Quadrilingual** — Dutch · English · French\* · German\* (switch at any time)
+
+  > \* French and German translations are AI-generated. Native speaker corrections welcome via PR.
 - **Offline capable** — works as a PWA after first load
 
 ---
@@ -52,17 +54,20 @@ Format (draft):
   "image": "signs/B15.svg",
   "question": {
     "nl": "Wie heeft voorrang?",
+    "en": "Who has right of way?",
     "fr": "Qui a la priorité ?",
     "de": "Wer hat Vorfahrt?"
   },
   "options": {
     "nl": ["Ik", "De fietser rechts", "De auto links"],
+    "en": ["Me", "The cyclist on the right", "The car on the left"],
     "fr": ["Moi", "Le cycliste à droite", "La voiture à gauche"],
     "de": ["Ich", "Der Radfahrer rechts", "Das Auto links"]
   },
   "correct": 1,
   "explanation": {
     "nl": "Rechts heeft altijd voorrang, tenzij anders aangegeven. (Wegcode art. 12)",
+    "en": "Right of way always applies to the right unless otherwise indicated. (Wegcode art. 12)",
     "fr": "La priorité de droite s'applique toujours sauf indication contraire. (Code de la route art. 12)",
     "de": "Rechts hat immer Vorfahrt, sofern nicht anders angegeben. (Straßenverkehrsordnung Art. 12)"
   },
@@ -93,7 +98,7 @@ Based on the [GOCA](https://www.goca.be) exam framework:
 
 All contributions welcome — especially:
 
-1. **Question bank** — translate, verify, add missing questions
+1. **Question bank** — translate, verify, add missing questions (FR/DE native corrections especially welcome)
 2. **Traffic sign SVGs** — clean, licensed vector assets
 3. **Frontend** — UI/UX, accessibility, mobile
 4. **Legal review** — flag outdated references after Wegcode changes
