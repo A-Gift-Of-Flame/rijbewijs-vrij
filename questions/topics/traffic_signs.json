@@ -482,10 +482,10 @@
     "topic": "traffic_signs",
     "verified": false,
     "question": {
-      "nl": "Een rond bord met blauwe achtergrond, witte 'P'. Wat betekent dit?",
-      "en": "Round sign with blue background, white 'P'. Meaning?",
-      "fr": "Panneau rond, fond bleu, 'P' blanc. Signification ?",
-      "de": "Rundes Schild, blauer Grund, weißes 'P'. Bedeutung?"
+      "nl": "Een vierkant/rechthoekig bord met blauwe achtergrond, witte 'P'. Wat betekent dit?",
+      "en": "Square/rectangular sign with blue background, white 'P'. Meaning?",
+      "fr": "Panneau carré/rectangulaire, fond bleu, 'P' blanc. Signification ?",
+      "de": "Quadratisches/rechteckiges Schild, blauer Grund, weißes 'P'. Bedeutung?"
     },
     "options": {
       "nl": [

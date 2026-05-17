@@ -242,10 +242,10 @@
     },
     "correct": 1,
     "explanation": {
-      "nl": "Personenauto's met aanhangwagen tot 750 kg of caravan mogen 120 km/u op de autosnelweg, indien de aanhangwagen geschikt is. Anders maximaal 90 km/u of de specifieke aanhangwagen-snelheid (Wegcode art. 11.3 + 21.2).",
-      "en": "Cars with a trailer up to 750 kg or caravan may drive 120 km/h on the motorway if the trailer is suited. Otherwise max 90 km/h or the trailer's plated speed (Wegcode art. 11.3 + 21.2).",
-      "fr": "Les voitures avec remorque jusqu'à 750 kg ou caravane peuvent rouler à 120 km/h sur autoroute si adaptées. Sinon max 90 km/h ou la vitesse de la remorque (Code de la route art. 11.3 + 21.2).",
-      "de": "Pkw mit Anhänger bis 750 kg oder Wohnwagen dürfen mit 120 km/h auf der Autobahn fahren, wenn geeignet. Sonst max 90 km/h oder Anhängergeschwindigkeit (StVO Art. 11.3 + 21.2)."
+      "nl": "Personenwagens met een aanhangwagen mogen 120 km/u rijden op de autosnelweg als de totale combinatiemassa (voertuig + aanhangwagen) niet meer dan 3.500 kg bedraagt. Boven 3.500 kg geldt een maximum van 90 km/u (Wegcode art. 21.2).",
+      "en": "Cars with a trailer may drive 120 km/h on the motorway if the total combination mass (car + trailer) does not exceed 3,500 kg. Above 3,500 kg the limit is 90 km/h (Wegcode art. 21.2).",
+      "fr": "Une voiture avec remorque peut rouler à 120 km/h sur autoroute si la masse totale de la combinaison (voiture + remorque) ne dépasse pas 3 500 kg. Au-delà de 3 500 kg, la limite est 90 km/h (Code de la route art. 21.2).",
+      "de": "Pkw mit Anhänger dürfen mit 120 km/h auf der Autobahn fahren, wenn die Gesamtkombinationsmasse (Fahrzeug + Anhänger) 3.500 kg nicht überschreitet. Darüber gilt 90 km/h (StVO Art. 21.2)."
     },
     "legal_ref": "Wegcode art. 11.3"
   },

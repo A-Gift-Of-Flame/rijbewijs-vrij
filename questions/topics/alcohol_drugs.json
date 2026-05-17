@@ -92,10 +92,10 @@
     },
     "correct": 1,
     "explanation": {
-      "nl": "De strenge limiet van 0,2 g/l geldt voor bestuurders van voertuigen met meer dan 8+1 zitplaatsen, vrachtwagens >3,5 ton en bezoldigd vervoer (taxi). Voor andere bestuurders, ook beginners, geldt 0,5 g/l (Wegverkeerswet art. 34).",
-      "en": "The 0.2 g/l limit applies to drivers of vehicles with 8+1 seats, trucks over 3.5 t and paid transport (taxi). Others, including new drivers, fall under 0.5 g/l (Belgian Road Traffic Act art. 34).",
-      "fr": "0,2 g/l s'applique aux véhicules de plus de 8+1 places, camions >3,5 t et transport rémunéré (taxi). Les autres, y compris débutants, restent à 0,5 g/l (Loi circulation routière art. 34).",
-      "de": "0,2 g/l gilt für Fahrzeuge mit über 8+1 Plätzen, Lkw über 3,5 t und entgeltlichen Personenverkehr (Taxi). Andere, auch Fahranfänger, fallen unter 0,5 g/l (StVG Art. 34)."
+      "nl": "De strenge limiet van 0,2 g/l geldt voor bestuurders van voertuigen met meer dan 8+1 zitplaatsen, vrachtwagens >3,5 ton en bezoldigd vervoer (taxi), én voor beginnende bestuurders (rijbewijs < 2 jaar). Andere bestuurders met meer dan 2 jaar rijervaring vallen onder de 0,5 g/l-grens (Wegverkeerswet art. 34).",
+      "en": "The 0.2 g/l limit applies to drivers of vehicles with 8+1 seats, trucks over 3.5 t and paid transport (taxi), and to new drivers (licence < 2 years). Other drivers with more than 2 years' experience fall under the 0.5 g/l limit (Belgian Road Traffic Act art. 34).",
+      "fr": "0,2 g/l s'applique aux véhicules de plus de 8+1 places, camions >3,5 t, transport rémunéré (taxi), et aux conducteurs débutants (permis < 2 ans). Les autres conducteurs (> 2 ans d'expérience) restent à 0,5 g/l (Loi circulation routière art. 34).",
+      "de": "0,2 g/l gilt für Fahrzeuge mit über 8+1 Plätzen, Lkw >3,5 t, entgeltlichen Personenverkehr (Taxi) und Fahranfänger (Führerschein < 2 Jahre). Andere Fahrer mit mehr als 2 Jahren Erfahrung fallen unter 0,5 g/l (StVG Art. 34)."
     },
     "legal_ref": "Wegverkeerswet art. 34"
   },
