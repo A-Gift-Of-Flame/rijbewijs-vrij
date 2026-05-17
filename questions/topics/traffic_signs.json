@@ -10,10 +10,30 @@
       "de": "Ein dreieckiges Schild mit rotem Rand und Ausrufezeichen bedeutet:"
     },
     "options": {
-      "nl": ["Verbod om verder te rijden", "Algemeen gevaar — wees voorzichtig", "Verplichte rijrichting", "Einde van alle verboden"],
-      "en": ["No entry", "General hazard — proceed with caution", "Mandatory direction", "End of all restrictions"],
-      "fr": ["Interdiction de continuer", "Danger général — soyez prudent", "Direction obligatoire", "Fin de toutes les interdictions"],
-      "de": ["Einfahrt verboten", "Allgemeine Gefahr — Vorsicht", "Vorgeschriebene Fahrtrichtung", "Ende aller Verbote"]
+      "nl": [
+        "Verbod om verder te rijden",
+        "Algemeen gevaar — wees voorzichtig",
+        "Verplichte rijrichting",
+        "Einde van alle verboden"
+      ],
+      "en": [
+        "No entry",
+        "General hazard — proceed with caution",
+        "Mandatory direction",
+        "End of all restrictions"
+      ],
+      "fr": [
+        "Interdiction de continuer",
+        "Danger général — soyez prudent",
+        "Direction obligatoire",
+        "Fin de toutes les interdictions"
+      ],
+      "de": [
+        "Einfahrt verboten",
+        "Allgemeine Gefahr — Vorsicht",
+        "Vorgeschriebene Fahrtrichtung",
+        "Ende aller Verbote"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -23,7 +43,7 @@
       "de": "Dreieckige Schilder mit rotem Rand sind Warnschilder. Das Ausrufezeichen ist das allgemeine Gefahrschild (StVO Anlage 1)."
     },
     "legal_ref": "Wegcode bijlage 1 — waarschuwingsborden",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_A51.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Belgian_road_sign_A51.svg"
   },
   {
     "id": "SGN-002",
@@ -36,10 +56,30 @@
       "de": "Runde Schilder mit rotem Rand und weißem Hintergrund sind:"
     },
     "options": {
-      "nl": ["Waarschuwingsborden", "Verbodsborden", "Gebodsborden", "Informatieborden"],
-      "en": ["Warning signs", "Prohibition signs", "Mandatory signs", "Information signs"],
-      "fr": ["Panneaux d'avertissement", "Panneaux d'interdiction", "Panneaux d'obligation", "Panneaux d'information"],
-      "de": ["Warnschilder", "Verbotsschilder", "Gebotsschilder", "Informationsschilder"]
+      "nl": [
+        "Waarschuwingsborden",
+        "Verbodsborden",
+        "Gebodsborden",
+        "Informatieborden"
+      ],
+      "en": [
+        "Warning signs",
+        "Prohibition signs",
+        "Mandatory signs",
+        "Information signs"
+      ],
+      "fr": [
+        "Panneaux d'avertissement",
+        "Panneaux d'interdiction",
+        "Panneaux d'obligation",
+        "Panneaux d'information"
+      ],
+      "de": [
+        "Warnschilder",
+        "Verbotsschilder",
+        "Gebotsschilder",
+        "Informationsschilder"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -61,10 +101,30 @@
       "de": "Runde Schilder mit blauem Hintergrund sind:"
     },
     "options": {
-      "nl": ["Verbodsborden", "Waarschuwingsborden", "Gebodsborden", "Informatieborden"],
-      "en": ["Prohibition signs", "Warning signs", "Mandatory signs", "Information signs"],
-      "fr": ["Panneaux d'interdiction", "Panneaux d'avertissement", "Panneaux d'obligation", "Panneaux d'information"],
-      "de": ["Verbotsschilder", "Warnschilder", "Gebotsschilder", "Informationsschilder"]
+      "nl": [
+        "Verbodsborden",
+        "Waarschuwingsborden",
+        "Gebodsborden",
+        "Informatieborden"
+      ],
+      "en": [
+        "Prohibition signs",
+        "Warning signs",
+        "Mandatory signs",
+        "Information signs"
+      ],
+      "fr": [
+        "Panneaux d'interdiction",
+        "Panneaux d'avertissement",
+        "Panneaux d'obligation",
+        "Panneaux d'information"
+      ],
+      "de": [
+        "Verbotsschilder",
+        "Warnschilder",
+        "Gebotsschilder",
+        "Informationsschilder"
+      ]
     },
     "correct": 2,
     "explanation": {
@@ -86,10 +146,30 @@
       "de": "Was bedeutet Zeichen B1 (gleichseitiges Dreieck mit Spitze nach oben, roter Rand)?"
     },
     "options": {
-      "nl": ["Voorrang verlenen", "Stop", "Voorrangsweg", "Verboden in te rijden"],
-      "en": ["Yield / Give way", "Stop", "Priority road", "No entry"],
-      "fr": ["Céder le passage", "Stop", "Route prioritaire", "Accès interdit"],
-      "de": ["Vorfahrt gewähren", "Stop", "Vorfahrtstraße", "Einfahrt verboten"]
+      "nl": [
+        "Voorrang verlenen",
+        "Stop",
+        "Voorrangsweg",
+        "Verboden in te rijden"
+      ],
+      "en": [
+        "Yield / Give way",
+        "Stop",
+        "Priority road",
+        "No entry"
+      ],
+      "fr": [
+        "Céder le passage",
+        "Stop",
+        "Route prioritaire",
+        "Accès interdit"
+      ],
+      "de": [
+        "Vorfahrt gewähren",
+        "Stop",
+        "Vorfahrtstraße",
+        "Einfahrt verboten"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -99,7 +179,7 @@
       "de": "Zeichen B1 ist das 'Vorfahrt gewähren'-Schild. Sie müssen dem gesamten Verkehr auf der kreuzenden Straße Vorfahrt gewähren (StVO Anlage 2)."
     },
     "legal_ref": "Wegcode bijlage 2 — bord B1",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_B1.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Belgian_road_sign_B1.svg"
   },
   {
     "id": "SGN-005",
@@ -112,10 +192,26 @@
       "de": "Sie sehen ein rundes Schild, weißer Grund, roter Rand, schwarze '50'. Bedeutung?"
     },
     "options": {
-      "nl": ["Aanbevolen snelheid 50 km/u", "Maximumsnelheid 50 km/u", "Einde 50 km/u zone"],
-      "en": ["Recommended speed 50 km/h", "Maximum speed 50 km/h", "End of 50 km/h zone"],
-      "fr": ["Vitesse conseillée 50 km/h", "Vitesse maximale 50 km/h", "Fin de zone 50 km/h"],
-      "de": ["Empfohlene Geschwindigkeit 50 km/h", "Höchstgeschwindigkeit 50 km/h", "Ende der 50-km/h-Zone"]
+      "nl": [
+        "Aanbevolen snelheid 50 km/u",
+        "Maximumsnelheid 50 km/u",
+        "Einde 50 km/u zone"
+      ],
+      "en": [
+        "Recommended speed 50 km/h",
+        "Maximum speed 50 km/h",
+        "End of 50 km/h zone"
+      ],
+      "fr": [
+        "Vitesse conseillée 50 km/h",
+        "Vitesse maximale 50 km/h",
+        "Fin de zone 50 km/h"
+      ],
+      "de": [
+        "Empfohlene Geschwindigkeit 50 km/h",
+        "Höchstgeschwindigkeit 50 km/h",
+        "Ende der 50-km/h-Zone"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -125,7 +221,7 @@
       "de": "Zeichen C43 (rund, weiß, roter Rand, schwarze Zahl) ordnet eine Höchstgeschwindigkeit an. Hier 50 km/h (StVO Art. 68.3)."
     },
     "legal_ref": "Wegcode art. 68.3 (C43)",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_C43_50.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Belgian_road_sign_C43_50.svg"
   },
   {
     "id": "SGN-006",
@@ -138,10 +234,26 @@
       "de": "Rundes blaues Schild mit weißem Pfeil nach rechts. Bedeutung?"
     },
     "options": {
-      "nl": ["Verboden rechts af te slaan", "Verplichte rijrichting: naar rechts", "Voorrang aan rechts"],
-      "en": ["No right turn", "Mandatory direction: right", "Yield to the right"],
-      "fr": ["Interdiction de tourner à droite", "Direction obligatoire: à droite", "Priorité à droite"],
-      "de": ["Rechtsabbiegen verboten", "Vorgeschriebene Fahrtrichtung: rechts", "Vorfahrt rechts"]
+      "nl": [
+        "Verboden rechts af te slaan",
+        "Verplichte rijrichting: naar rechts",
+        "Voorrang aan rechts"
+      ],
+      "en": [
+        "No right turn",
+        "Mandatory direction: right",
+        "Yield to the right"
+      ],
+      "fr": [
+        "Interdiction de tourner à droite",
+        "Direction obligatoire: à droite",
+        "Priorité à droite"
+      ],
+      "de": [
+        "Rechtsabbiegen verboten",
+        "Vorgeschriebene Fahrtrichtung: rechts",
+        "Vorfahrt rechts"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -151,7 +263,7 @@
       "de": "Ein rundes blaues Schild mit weißem Pfeil ist ein Vorschriftszeichen (D-Reihe). Pfeil = vorgeschriebene Richtung (StVO Art. 69)."
     },
     "legal_ref": "Wegcode art. 69 (D1)",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_D1_rd.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Belgian_road_sign_D1_rd.svg"
   },
   {
     "id": "SGN-007",
@@ -164,10 +276,26 @@
       "de": "Was bedeutet Zeichen F1 (rechteckig, Ortsname schwarz auf weiß)?"
     },
     "options": {
-      "nl": ["Een toeristische bezienswaardigheid", "Begin bebouwde kom — automatisch 50 km/u", "Wegwijzer naar een dorp"],
-      "en": ["A tourist attraction", "Start of built-up area — automatically 50 km/h", "Direction sign to a village"],
-      "fr": ["Site touristique", "Entrée d'agglomération — automatiquement 50 km/h", "Direction vers un village"],
-      "de": ["Touristische Sehenswürdigkeit", "Ortseingang — automatisch 50 km/h", "Wegweiser zu einem Dorf"]
+      "nl": [
+        "Een toeristische bezienswaardigheid",
+        "Begin bebouwde kom — automatisch 50 km/u",
+        "Wegwijzer naar een dorp"
+      ],
+      "en": [
+        "A tourist attraction",
+        "Start of built-up area — automatically 50 km/h",
+        "Direction sign to a village"
+      ],
+      "fr": [
+        "Site touristique",
+        "Entrée d'agglomération — automatiquement 50 km/h",
+        "Direction vers un village"
+      ],
+      "de": [
+        "Touristische Sehenswürdigkeit",
+        "Ortseingang — automatisch 50 km/h",
+        "Wegweiser zu einem Dorf"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -189,10 +317,26 @@
       "de": "Was bedeutet Zeichen F3 (Ortsname mit rotem Diagonalstrich)?"
     },
     "options": {
-      "nl": ["Einde van de bebouwde kom — de standaardlimiet buiten de kom geldt weer", "Doodlopende weg", "Verboden in te rijden in deze gemeente"],
-      "en": ["End of built-up area — default outside-town limit applies again", "Dead-end road", "Entry forbidden in this town"],
-      "fr": ["Fin d'agglomération — la vitesse hors agglomération s'applique à nouveau", "Voie sans issue", "Accès interdit à cette commune"],
-      "de": ["Ortsende — Außerorts-Tempo gilt wieder", "Sackgasse", "Einfahrt in den Ort verboten"]
+      "nl": [
+        "Einde van de bebouwde kom — de standaardlimiet buiten de kom geldt weer",
+        "Doodlopende weg",
+        "Verboden in te rijden in deze gemeente"
+      ],
+      "en": [
+        "End of built-up area — default outside-town limit applies again",
+        "Dead-end road",
+        "Entry forbidden in this town"
+      ],
+      "fr": [
+        "Fin d'agglomération — la vitesse hors agglomération s'applique à nouveau",
+        "Voie sans issue",
+        "Accès interdit à cette commune"
+      ],
+      "de": [
+        "Ortsende — Außerorts-Tempo gilt wieder",
+        "Sackgasse",
+        "Einfahrt in den Ort verboten"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -214,10 +358,26 @@
       "de": "Rundes rotes Schild mit weißem Querbalken. Bedeutung?"
     },
     "options": {
-      "nl": ["Stop, controle", "Verboden richting voor iedere bestuurder", "Voorrang aan tegenliggers"],
-      "en": ["Stop, control", "No entry for all drivers", "Yield to oncoming traffic"],
-      "fr": ["Stop, contrôle", "Sens interdit à tout conducteur", "Cédez aux véhicules en sens inverse"],
-      "de": ["Halt, Kontrolle", "Verbot der Einfahrt für alle Fahrzeuge", "Vorfahrt gewähren dem Gegenverkehr"]
+      "nl": [
+        "Stop, controle",
+        "Verboden richting voor iedere bestuurder",
+        "Voorrang aan tegenliggers"
+      ],
+      "en": [
+        "Stop, control",
+        "No entry for all drivers",
+        "Yield to oncoming traffic"
+      ],
+      "fr": [
+        "Stop, contrôle",
+        "Sens interdit à tout conducteur",
+        "Cédez aux véhicules en sens inverse"
+      ],
+      "de": [
+        "Halt, Kontrolle",
+        "Verbot der Einfahrt für alle Fahrzeuge",
+        "Vorfahrt gewähren dem Gegenverkehr"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -227,7 +387,7 @@
       "de": "Zeichen C1 (rund, rot, weißer Querbalken) verbietet die Einfahrt für alle. Häufig bei Einbahnstraßen (StVO Art. 68)."
     },
     "legal_ref": "Wegcode art. 68 (C1)",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_C1.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Belgian_road_sign_C1.svg"
   },
   {
     "id": "SGN-010",
@@ -240,10 +400,26 @@
       "de": "Dreieckiges Schild mit rotem Rand, weißem Grund, mit Radfahrer. Bedeutung?"
     },
     "options": {
-      "nl": ["Verplicht fietspad", "Gevaar: oversteekplaats voor fietsers of veel fietsers", "Verboden voor fietsen"],
-      "en": ["Mandatory cycle path", "Danger: cyclist crossing or many cyclists", "No cycling"],
-      "fr": ["Piste cyclable obligatoire", "Danger: traversée cyclistes ou nombreux cyclistes", "Cyclistes interdits"],
-      "de": ["Vorgeschriebener Radweg", "Gefahr: Radfahrer queren oder viele Radfahrer", "Radfahrverbot"]
+      "nl": [
+        "Verplicht fietspad",
+        "Gevaar: oversteekplaats voor fietsers of veel fietsers",
+        "Verboden voor fietsen"
+      ],
+      "en": [
+        "Mandatory cycle path",
+        "Danger: cyclist crossing or many cyclists",
+        "No cycling"
+      ],
+      "fr": [
+        "Piste cyclable obligatoire",
+        "Danger: traversée cyclistes ou nombreux cyclistes",
+        "Cyclistes interdits"
+      ],
+      "de": [
+        "Vorgeschriebener Radweg",
+        "Gefahr: Radfahrer queren oder viele Radfahrer",
+        "Radfahrverbot"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -253,7 +429,7 @@
       "de": "Rot-weißes Dreieck ist Gefahrenzeichen (A-Reihe). Radfahrer-Symbol warnt vor Querungsstelle oder vielen Radfahrern (StVO Art. 67, Zeichen A25)."
     },
     "legal_ref": "Wegcode art. 67 (A25)",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_A25.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Belgian_road_sign_A25.svg"
   },
   {
     "id": "SGN-011",
@@ -266,10 +442,26 @@
       "de": "Dreieckiges Schild, roter Rand, weißer Grund, mit spielenden Kindern. Bedeutung?"
     },
     "options": {
-      "nl": ["Speelstraat — niet binnenrijden", "Gevaar: kinderen kunnen plots oversteken", "School op deze plaats verboden"],
-      "en": ["Play street — do not enter", "Danger: children may cross unexpectedly", "School forbidden here"],
-      "fr": ["Rue réservée au jeu — interdit", "Danger: enfants pouvant traverser", "École interdite ici"],
-      "de": ["Spielstraße — Einfahrt verboten", "Gefahr: Kinder können plötzlich queren", "Schule hier verboten"]
+      "nl": [
+        "Speelstraat — niet binnenrijden",
+        "Gevaar: kinderen kunnen plots oversteken",
+        "School op deze plaats verboden"
+      ],
+      "en": [
+        "Play street — do not enter",
+        "Danger: children may cross unexpectedly",
+        "School forbidden here"
+      ],
+      "fr": [
+        "Rue réservée au jeu — interdit",
+        "Danger: enfants pouvant traverser",
+        "École interdite ici"
+      ],
+      "de": [
+        "Spielstraße — Einfahrt verboten",
+        "Gefahr: Kinder können plötzlich queren",
+        "Schule hier verboten"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -279,7 +471,7 @@
       "de": "Zeichen A23 warnt vor Orten mit vielen Kindern (Schule, Spielplatz). Geschwindigkeit verringern (StVO Art. 67, Zeichen A23)."
     },
     "legal_ref": "Wegcode art. 67 (A23)",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_A23.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Belgian_road_sign_A23.svg"
   },
   {
     "id": "SGN-012",
@@ -292,10 +484,26 @@
       "de": "Rundes Schild, blauer Grund, weißes 'P'. Bedeutung?"
     },
     "options": {
-      "nl": ["Parkeren verboden", "Toegelaten parkeerplaats", "Politiepost"],
-      "en": ["No parking", "Permitted parking", "Police station"],
-      "fr": ["Stationnement interdit", "Parking autorisé", "Poste de police"],
-      "de": ["Parken verboten", "Erlaubter Parkplatz", "Polizeiwache"]
+      "nl": [
+        "Parkeren verboden",
+        "Toegelaten parkeerplaats",
+        "Politiepost"
+      ],
+      "en": [
+        "No parking",
+        "Permitted parking",
+        "Police station"
+      ],
+      "fr": [
+        "Stationnement interdit",
+        "Parking autorisé",
+        "Poste de police"
+      ],
+      "de": [
+        "Parken verboten",
+        "Erlaubter Parkplatz",
+        "Polizeiwache"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -317,10 +525,26 @@
       "de": "Zeichen E1 (rund, blau, roter Rand mit einer Diagonale). Was verboten?"
     },
     "options": {
-      "nl": ["Stilstaan én parkeren", "Alleen parkeren, stilstaan blijft toegestaan", "Alleen stilstaan, parkeren blijft toegestaan"],
-      "en": ["Standing and parking", "Only parking; standing still allowed", "Only standing; parking still allowed"],
-      "fr": ["Arrêt et stationnement interdits", "Stationnement uniquement; arrêt autorisé", "Arrêt uniquement; stationnement autorisé"],
-      "de": ["Halten und Parken verboten", "Nur Parken; Halten erlaubt", "Nur Halten; Parken erlaubt"]
+      "nl": [
+        "Stilstaan én parkeren",
+        "Alleen parkeren, stilstaan blijft toegestaan",
+        "Alleen stilstaan, parkeren blijft toegestaan"
+      ],
+      "en": [
+        "Standing and parking",
+        "Only parking; standing still allowed",
+        "Only standing; parking still allowed"
+      ],
+      "fr": [
+        "Arrêt et stationnement interdits",
+        "Stationnement uniquement; arrêt autorisé",
+        "Arrêt uniquement; stationnement autorisé"
+      ],
+      "de": [
+        "Halten und Parken verboten",
+        "Nur Parken; Halten erlaubt",
+        "Nur Halten; Parken erlaubt"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -330,7 +554,7 @@
       "de": "Zeichen E1 (eine Diagonale) verbietet Parken, Halten erlaubt. Zeichen E3 (Kreuz) verbietet beides (StVO Art. 70)."
     },
     "legal_ref": "Wegcode art. 70 (E1/E3)",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_E1.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Belgian_road_sign_E1.svg"
   },
   {
     "id": "SGN-014",
@@ -343,10 +567,26 @@
       "de": "Was bedeutet Zeichen D7 (rund, blau, weißes Fahrrad)?"
     },
     "options": {
-      "nl": ["Fietsen toegelaten", "Verplicht fietspad: fietsers en bromfietsers klasse A moeten het gebruiken", "Verboden voor fietsen"],
-      "en": ["Bicycles allowed", "Mandatory cycle path: cyclists and class-A mopeds must use it", "No cycling"],
-      "fr": ["Vélos autorisés", "Piste cyclable obligatoire: cyclistes et cyclomoteurs A doivent l'emprunter", "Vélos interdits"],
-      "de": ["Radfahren erlaubt", "Vorgeschriebener Radweg: Radfahrer und Mofas Klasse A müssen ihn benutzen", "Radfahrverbot"]
+      "nl": [
+        "Fietsen toegelaten",
+        "Verplicht fietspad: fietsers en bromfietsers klasse A moeten het gebruiken",
+        "Verboden voor fietsen"
+      ],
+      "en": [
+        "Bicycles allowed",
+        "Mandatory cycle path: cyclists and class-A mopeds must use it",
+        "No cycling"
+      ],
+      "fr": [
+        "Vélos autorisés",
+        "Piste cyclable obligatoire: cyclistes et cyclomoteurs A doivent l'emprunter",
+        "Vélos interdits"
+      ],
+      "de": [
+        "Radfahren erlaubt",
+        "Vorgeschriebener Radweg: Radfahrer und Mofas Klasse A müssen ihn benutzen",
+        "Radfahrverbot"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -355,8 +595,7 @@
       "fr": "Le panneau D7 désigne une piste cyclable obligatoire. Les cyclistes et cyclomoteurs A doivent l'emprunter; les autres ne peuvent pas (Code de la route art. 69 + art. 9).",
       "de": "Zeichen D7 zeigt einen vorgeschriebenen Radweg. Radfahrer und Mofas Klasse A müssen ihn nutzen; andere nicht (StVO Art. 69 + Art. 9)."
     },
-    "legal_ref": "Wegcode art. 69 (D7)",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_D7.svg"
+    "legal_ref": "Wegcode art. 69 (D7)"
   },
   {
     "id": "SGN-015",
@@ -369,10 +608,26 @@
       "de": "Bedeutung von F19 (quadratisch, blau, weißer Pfeil und darunter roter Pfeil)?"
     },
     "options": {
-      "nl": ["Eenrichtingsverkeer; verkeer in tegenovergestelde richting verboden", "Begin autoweg", "Tweerichtingsweg, oppassen voor tegenverkeer"],
-      "en": ["One-way street; opposite direction forbidden", "Start of expressway", "Two-way road, watch oncoming"],
-      "fr": ["Sens unique; sens opposé interdit", "Début de voie rapide", "Voie à double sens"],
-      "de": ["Einbahnstraße; Gegenrichtung verboten", "Beginn Schnellstraße", "Zweirichtungsverkehr"]
+      "nl": [
+        "Eenrichtingsverkeer; verkeer in tegenovergestelde richting verboden",
+        "Begin autoweg",
+        "Tweerichtingsweg, oppassen voor tegenverkeer"
+      ],
+      "en": [
+        "One-way street; opposite direction forbidden",
+        "Start of expressway",
+        "Two-way road, watch oncoming"
+      ],
+      "fr": [
+        "Sens unique; sens opposé interdit",
+        "Début de voie rapide",
+        "Voie à double sens"
+      ],
+      "de": [
+        "Einbahnstraße; Gegenrichtung verboten",
+        "Beginn Schnellstraße",
+        "Zweirichtungsverkehr"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -382,7 +637,7 @@
       "de": "Zeichen F19 zeigt eine Einbahnstraße in Richtung des weißen Pfeils (StVO Art. 71)."
     },
     "legal_ref": "Wegcode art. 71 (F19)",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_F19.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Belgian_road_sign_F19.svg"
   },
   {
     "id": "SGN-016",
@@ -395,10 +650,26 @@
       "de": "Dreieck mit rotem Rand, zwei gegenläufigen Pfeilen (rot und schwarz). Bedeutung?"
     },
     "options": {
-      "nl": ["Eenrichtingsverkeer eindigt", "Tweerichtingsverkeer (gevaar)", "Verboden in te halen"],
-      "en": ["End of one-way street", "Two-way traffic warning", "No overtaking"],
-      "fr": ["Fin de sens unique", "Circulation à double sens (danger)", "Interdiction de dépasser"],
-      "de": ["Ende der Einbahn", "Gegenverkehr (Gefahr)", "Überholverbot"]
+      "nl": [
+        "Eenrichtingsverkeer eindigt",
+        "Tweerichtingsverkeer (gevaar)",
+        "Verboden in te halen"
+      ],
+      "en": [
+        "End of one-way street",
+        "Two-way traffic warning",
+        "No overtaking"
+      ],
+      "fr": [
+        "Fin de sens unique",
+        "Circulation à double sens (danger)",
+        "Interdiction de dépasser"
+      ],
+      "de": [
+        "Ende der Einbahn",
+        "Gegenverkehr (Gefahr)",
+        "Überholverbot"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -420,10 +691,26 @@
       "de": "Was bedeutet rundes rotes Schild mit weißem Fahrrad?"
     },
     "options": {
-      "nl": ["Verplicht fietspad", "Verboden toegang voor fietsers", "Einde fietspad"],
-      "en": ["Mandatory cycle path", "No entry for cyclists", "End of cycle path"],
-      "fr": ["Piste cyclable obligatoire", "Accès interdit aux cyclistes", "Fin de piste cyclable"],
-      "de": ["Vorgeschriebener Radweg", "Einfahrt für Radfahrer verboten", "Ende Radweg"]
+      "nl": [
+        "Verplicht fietspad",
+        "Verboden toegang voor fietsers",
+        "Einde fietspad"
+      ],
+      "en": [
+        "Mandatory cycle path",
+        "No entry for cyclists",
+        "End of cycle path"
+      ],
+      "fr": [
+        "Piste cyclable obligatoire",
+        "Accès interdit aux cyclistes",
+        "Fin de piste cyclable"
+      ],
+      "de": [
+        "Vorgeschriebener Radweg",
+        "Einfahrt für Radfahrer verboten",
+        "Ende Radweg"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -433,7 +720,7 @@
       "de": "Zeichen C11 (rund, weiß, roter Rand, Fahrrad) verbietet Radfahrer. Nicht mit D7 (blau, vorgeschriebener Radweg) verwechseln (StVO Art. 68)."
     },
     "legal_ref": "Wegcode art. 68 (C11)",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_C11.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Belgian_road_sign_C11.svg"
   },
   {
     "id": "SGN-018",
@@ -446,10 +733,26 @@
       "de": "Quadratisches blaues Schild mit weißem Auto von oben. Bedeutung?"
     },
     "options": {
-      "nl": ["Garageplaats", "Begin van een autosnelweg", "Begin van een autoweg (voorbehouden aan motorvoertuigen)"],
-      "en": ["Garage location", "Start of motorway", "Start of an expressway (reserved for motor vehicles)"],
-      "fr": ["Garage", "Début d'autoroute", "Début de voie réservée aux véhicules à moteur"],
-      "de": ["Garage", "Beginn Autobahn", "Beginn Kraftfahrstraße (nur Kfz)"]
+      "nl": [
+        "Garageplaats",
+        "Begin van een autosnelweg",
+        "Begin van een autoweg (voorbehouden aan motorvoertuigen)"
+      ],
+      "en": [
+        "Garage location",
+        "Start of motorway",
+        "Start of an expressway (reserved for motor vehicles)"
+      ],
+      "fr": [
+        "Garage",
+        "Début d'autoroute",
+        "Début de voie réservée aux véhicules à moteur"
+      ],
+      "de": [
+        "Garage",
+        "Beginn Autobahn",
+        "Beginn Kraftfahrstraße (nur Kfz)"
+      ]
     },
     "correct": 2,
     "explanation": {
@@ -459,7 +762,7 @@
       "de": "Zeichen F9 zeigt den Beginn einer Kraftfahrstraße: nur Kfz, die mindestens 70 km/h erreichen. Radfahrer, Fußgänger, Mofas verboten (StVO Art. 22 + Zeichen F9)."
     },
     "legal_ref": "Wegcode art. 22 (F9)",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_F9.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Belgian_road_sign_F9.svg"
   },
   {
     "id": "SGN-019",
@@ -472,10 +775,26 @@
       "de": "Dreieck mit rotem Rand, Ausrufezeichen in der Mitte. Bedeutung?"
     },
     "options": {
-      "nl": ["Gevaar: aard wordt op een onderbord vermeld", "Verboden te stoppen", "Voorrang aan tegenliggers"],
-      "en": ["Danger: nature shown on a sub-sign", "No stopping", "Yield to oncoming traffic"],
-      "fr": ["Danger: nature indiquée sur un panneau additionnel", "Arrêt interdit", "Cédez aux véhicules en sens inverse"],
-      "de": ["Gefahr: Art steht auf Zusatzschild", "Halteverbot", "Vorfahrt für Gegenverkehr"]
+      "nl": [
+        "Gevaar: aard wordt op een onderbord vermeld",
+        "Verboden te stoppen",
+        "Voorrang aan tegenliggers"
+      ],
+      "en": [
+        "Danger: nature shown on a sub-sign",
+        "No stopping",
+        "Yield to oncoming traffic"
+      ],
+      "fr": [
+        "Danger: nature indiquée sur un panneau additionnel",
+        "Arrêt interdit",
+        "Cédez aux véhicules en sens inverse"
+      ],
+      "de": [
+        "Gefahr: Art steht auf Zusatzschild",
+        "Halteverbot",
+        "Vorfahrt für Gegenverkehr"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -485,7 +804,7 @@
       "de": "Zeichen A51 ist eine allgemeine Warnung. Die genaue Gefahr steht auf einem Zusatzschild (StVO Art. 67)."
     },
     "legal_ref": "Wegcode art. 67 (A51)",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_A51.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Belgian_road_sign_A51.svg"
   },
   {
     "id": "SGN-020",
@@ -498,10 +817,26 @@
       "de": "Was bedeutet C23 (rund, weiß, roter Rand, Lkw)?"
     },
     "options": {
-      "nl": ["Toegang verboden voor bestuurders van vrachtwagens", "Inhalen verboden voor vrachtwagens", "Parkeerplaats vrachtwagens"],
-      "en": ["Entry forbidden for trucks", "No overtaking for trucks", "Truck parking"],
-      "fr": ["Accès interdit aux camions", "Interdiction de dépasser pour camions", "Parking poids lourds"],
-      "de": ["Einfahrt für Lkw verboten", "Überholverbot für Lkw", "Lkw-Parkplatz"]
+      "nl": [
+        "Toegang verboden voor bestuurders van vrachtwagens",
+        "Inhalen verboden voor vrachtwagens",
+        "Parkeerplaats vrachtwagens"
+      ],
+      "en": [
+        "Entry forbidden for trucks",
+        "No overtaking for trucks",
+        "Truck parking"
+      ],
+      "fr": [
+        "Accès interdit aux camions",
+        "Interdiction de dépasser pour camions",
+        "Parking poids lourds"
+      ],
+      "de": [
+        "Einfahrt für Lkw verboten",
+        "Überholverbot für Lkw",
+        "Lkw-Parkplatz"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -511,7 +846,7 @@
       "de": "Zeichen C23 verbietet die Einfahrt für Güterfahrzeuge über 3,5 t zGM, sofern Zusatzschild nichts anderes regelt (StVO Art. 68)."
     },
     "legal_ref": "Wegcode art. 68 (C23)",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_C23.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Belgian_road_sign_C23.svg"
   },
   {
     "id": "SGN-021",
@@ -524,10 +859,26 @@
       "de": "Dreieck mit abfallendem weißem Pfeil und '10%'. Bedeutung?"
     },
     "options": {
-      "nl": ["Gevaarlijke afdaling van 10%", "Wegversmalling 10 m", "Stijging 10%"],
-      "en": ["Dangerous descent of 10%", "Road narrowing 10 m", "Climb of 10%"],
-      "fr": ["Descente dangereuse 10%", "Rétrécissement 10 m", "Montée 10%"],
-      "de": ["Gefährliches Gefälle 10%", "Engstelle 10 m", "Steigung 10%"]
+      "nl": [
+        "Gevaarlijke afdaling van 10%",
+        "Wegversmalling 10 m",
+        "Stijging 10%"
+      ],
+      "en": [
+        "Dangerous descent of 10%",
+        "Road narrowing 10 m",
+        "Climb of 10%"
+      ],
+      "fr": [
+        "Descente dangereuse 10%",
+        "Rétrécissement 10 m",
+        "Montée 10%"
+      ],
+      "de": [
+        "Gefährliches Gefälle 10%",
+        "Engstelle 10 m",
+        "Steigung 10%"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -549,10 +900,26 @@
       "de": "Zeichen C35 (rund, weiß, roter Rand, zwei Autos nebeneinander, eines rot). Was verboten?"
     },
     "options": {
-      "nl": ["Parkeren naast elkaar", "Inhalen door motorvoertuigen, behalve motorfietsen zonder zijspan", "Tweerichtingsverkeer"],
-      "en": ["Parking side by side", "Overtaking by motor vehicles, except motorcycles without sidecar", "Two-way traffic"],
-      "fr": ["Stationnement côte à côte", "Dépassement par véhicules à moteur (sauf motos sans side-car)", "Double sens"],
-      "de": ["Parken nebeneinander", "Überholen durch Kfz, außer Motorräder ohne Beiwagen", "Gegenverkehr"]
+      "nl": [
+        "Parkeren naast elkaar",
+        "Inhalen door motorvoertuigen, behalve motorfietsen zonder zijspan",
+        "Tweerichtingsverkeer"
+      ],
+      "en": [
+        "Parking side by side",
+        "Overtaking by motor vehicles, except motorcycles without sidecar",
+        "Two-way traffic"
+      ],
+      "fr": [
+        "Stationnement côte à côte",
+        "Dépassement par véhicules à moteur (sauf motos sans side-car)",
+        "Double sens"
+      ],
+      "de": [
+        "Parken nebeneinander",
+        "Überholen durch Kfz, außer Motorräder ohne Beiwagen",
+        "Gegenverkehr"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -562,7 +929,7 @@
       "de": "Zeichen C35 verbietet das Überholen durch Kfz, ausgenommen Motorräder ohne Beiwagen. Gilt bis C37 oder zur nächsten Kreuzung (StVO Art. 68)."
     },
     "legal_ref": "Wegcode art. 68 (C35)",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_C35.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Belgian_road_sign_C35.svg"
   },
   {
     "id": "SGN-023",
@@ -575,10 +942,26 @@
       "de": "Quadratisches blaues Schild, weißes 'P' mit 'M' darunter. Bedeutung?"
     },
     "options": {
-      "nl": ["Parkeerplaats voor motorfietsen", "Parking + winkelcentrum", "Parking voor mindervaliden"],
-      "en": ["Parking for motorcycles", "Parking + shopping centre", "Parking for disabled"],
-      "fr": ["Stationnement motos", "Parking + centre commercial", "Stationnement handicapés"],
-      "de": ["Parkplatz für Motorräder", "Parkplatz + Einkaufszentrum", "Behindertenparkplatz"]
+      "nl": [
+        "Parkeerplaats voor motorfietsen",
+        "Parking + winkelcentrum",
+        "Parking voor mindervaliden"
+      ],
+      "en": [
+        "Parking for motorcycles",
+        "Parking + shopping centre",
+        "Parking for disabled"
+      ],
+      "fr": [
+        "Stationnement motos",
+        "Parking + centre commercial",
+        "Stationnement handicapés"
+      ],
+      "de": [
+        "Parkplatz für Motorräder",
+        "Parkplatz + Einkaufszentrum",
+        "Behindertenparkplatz"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -600,10 +983,26 @@
       "de": "Rechteckiges blaues Schild mit weißem Strich durch Lkw. Bedeutung?"
     },
     "options": {
-      "nl": ["Einde inhaalverbod voor vrachtwagens (bord C39)", "Vrachtwagens niet welkom", "Parking voorbehouden voor auto's"],
-      "en": ["End of overtaking ban for trucks (sign C39)", "Trucks not welcome", "Parking reserved for cars"],
-      "fr": ["Fin d'interdiction de dépasser pour camions (C39)", "Camions non bienvenus", "Parking voitures"],
-      "de": ["Ende Überholverbot für Lkw (C39)", "Lkw unerwünscht", "Pkw-Parkplatz"]
+      "nl": [
+        "Einde inhaalverbod voor vrachtwagens (bord C39)",
+        "Vrachtwagens niet welkom",
+        "Parking voorbehouden voor auto's"
+      ],
+      "en": [
+        "End of overtaking ban for trucks (sign C39)",
+        "Trucks not welcome",
+        "Parking reserved for cars"
+      ],
+      "fr": [
+        "Fin d'interdiction de dépasser pour camions (C39)",
+        "Camions non bienvenus",
+        "Parking voitures"
+      ],
+      "de": [
+        "Ende Überholverbot für Lkw (C39)",
+        "Lkw unerwünscht",
+        "Pkw-Parkplatz"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -625,10 +1024,26 @@
       "de": "Achteckiges rotes Schild mit weißem 'STOP'. Was tun?"
     },
     "options": {
-      "nl": ["Vaart minderen en voorrang verlenen", "Volledig stilstaan en voorrang verlenen", "Stoppen alleen indien verkeer aanwezig"],
-      "en": ["Slow down and yield", "Full stop and yield", "Stop only if traffic present"],
-      "fr": ["Ralentir et céder le passage", "Arrêt complet et céder le passage", "S'arrêter uniquement si trafic"],
-      "de": ["Verlangsamen und Vorfahrt gewähren", "Vollständig anhalten und Vorfahrt gewähren", "Nur halten bei Verkehr"]
+      "nl": [
+        "Vaart minderen en voorrang verlenen",
+        "Volledig stilstaan en voorrang verlenen",
+        "Stoppen alleen indien verkeer aanwezig"
+      ],
+      "en": [
+        "Slow down and yield",
+        "Full stop and yield",
+        "Stop only if traffic present"
+      ],
+      "fr": [
+        "Ralentir et céder le passage",
+        "Arrêt complet et céder le passage",
+        "S'arrêter uniquement si trafic"
+      ],
+      "de": [
+        "Verlangsamen und Vorfahrt gewähren",
+        "Vollständig anhalten und Vorfahrt gewähren",
+        "Nur halten bei Verkehr"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -638,6 +1053,6 @@
       "de": "Zeichen B5 (Achteck, rot, 'STOP') verlangt vollständigen Halt an der Linie, auch wenn frei. Dann Vorfahrt gewähren (StVO Art. 6 + B5)."
     },
     "legal_ref": "Wegcode art. 6 (B5)",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_B5.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Belgian_road_sign_B5.svg"
   }
 ]
