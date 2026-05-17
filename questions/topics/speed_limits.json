@@ -73,5 +73,305 @@
       "de": "Außerorts auf normalen Straßen gilt Tempo 90, sofern nicht anders beschildert (StVO Art. 11.2)."
     },
     "legal_ref": "Wegcode art. 11.2"
+  },
+  {
+    "id": "SPD-004",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "Wat is de standaard maximumsnelheid binnen de bebouwde kom?",
+      "en": "What is the default maximum speed inside a built-up area?",
+      "fr": "Quelle est la vitesse maximale par défaut en agglomération ?",
+      "de": "Was ist die Standardhöchstgeschwindigkeit innerorts?"
+    },
+    "options": {
+      "nl": ["30 km/u", "50 km/u", "70 km/u"],
+      "en": ["30 km/h", "50 km/h", "70 km/h"],
+      "fr": ["30 km/h", "50 km/h", "70 km/h"],
+      "de": ["30 km/h", "50 km/h", "70 km/h"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Binnen de bebouwde kom (vanaf bord F1) bedraagt de algemene maximumsnelheid 50 km/u, tenzij anders aangeduid (Wegcode art. 11.2.1).",
+      "en": "Inside a built-up area (from sign F1) the general speed limit is 50 km/h unless otherwise indicated (Wegcode art. 11.2.1).",
+      "fr": "En agglomération (depuis le panneau F1) la vitesse générale est de 50 km/h sauf indication contraire (Code de la route art. 11.2.1).",
+      "de": "Innerorts (ab Zeichen F1) gilt 50 km/h, sofern nicht anders ausgeschildert (StVO Art. 11.2.1)."
+    },
+    "legal_ref": "Wegcode art. 11.2.1"
+  },
+  {
+    "id": "SPD-005",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "Buiten de bebouwde kom op een gewone weg (geen autosnelweg/autoweg) in Vlaanderen. Wat is de standaard maximumsnelheid?",
+      "en": "Outside a built-up area on an ordinary road (not motorway/expressway) in Flanders. What is the default speed limit?",
+      "fr": "Hors agglomération sur route ordinaire (hors autoroute/voie rapide) en Flandre. Quelle est la vitesse maximale par défaut ?",
+      "de": "Außerorts auf einer normalen Straße (keine Autobahn/Schnellstraße) in Flandern. Standard-Höchstgeschwindigkeit?"
+    },
+    "options": {
+      "nl": ["50 km/u", "70 km/u", "90 km/u"],
+      "en": ["50 km/h", "70 km/h", "90 km/h"],
+      "fr": ["50 km/h", "70 km/h", "90 km/h"],
+      "de": ["50 km/h", "70 km/h", "90 km/h"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "In Vlaanderen geldt buiten de bebouwde kom standaard 70 km/u op gewone wegen. In Wallonië en Brussel blijft de standaard 90 km/u (Wegcode art. 11.2.2; Vlaams regeling).",
+      "en": "In Flanders the default outside built-up area on ordinary roads is 70 km/h. In Wallonia and Brussels the default remains 90 km/h (Wegcode art. 11.2.2; Flemish rule).",
+      "fr": "En Flandre, hors agglomération sur routes ordinaires, la vitesse par défaut est 70 km/h. En Wallonie et Bruxelles, elle reste à 90 km/h (Code de la route art. 11.2.2; règle flamande).",
+      "de": "In Flandern gilt außerorts auf normalen Straßen standardmäßig 70 km/h. In Wallonien und Brüssel bleibt es 90 km/h (StVO Art. 11.2.2; flämische Regelung)."
+    },
+    "legal_ref": "Wegcode art. 11.2"
+  },
+  {
+    "id": "SPD-006",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "Op de autosnelweg geldt een minimumsnelheid. Welke?",
+      "en": "On the motorway a minimum speed applies. Which one?",
+      "fr": "Sur l'autoroute une vitesse minimale s'applique. Laquelle ?",
+      "de": "Auf der Autobahn gilt eine Mindestgeschwindigkeit. Welche?"
+    },
+    "options": {
+      "nl": ["50 km/u", "70 km/u", "Er is geen minimumsnelheid"],
+      "en": ["50 km/h", "70 km/h", "There is no minimum speed"],
+      "fr": ["50 km/h", "70 km/h", "Il n'y a pas de vitesse minimale"],
+      "de": ["50 km/h", "70 km/h", "Es gibt keine Mindestgeschwindigkeit"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Op autosnelwegen mag een voertuig in normale omstandigheden niet trager rijden dan 70 km/u (Wegcode art. 21.4).",
+      "en": "On motorways a vehicle must not, in normal conditions, drive slower than 70 km/h (Wegcode art. 21.4).",
+      "fr": "Sur autoroute, un véhicule ne peut, en conditions normales, rouler à moins de 70 km/h (Code de la route art. 21.4).",
+      "de": "Auf Autobahnen darf ein Fahrzeug unter normalen Bedingungen nicht langsamer als 70 km/h fahren (StVO Art. 21.4)."
+    },
+    "legal_ref": "Wegcode art. 21.4"
+  },
+  {
+    "id": "SPD-007",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "U rijdt door een schoolomgeving aangeduid met bord A23 + zonebord 'schoolomgeving'. Wat is de maximumsnelheid?",
+      "en": "You drive through a school zone marked with sign A23 + zone sign 'schoolomgeving'. What is the speed limit?",
+      "fr": "Vous traversez une zone d'école avec panneau A23 + panneau de zone 'école'. Quelle est la vitesse maximale ?",
+      "de": "Sie fahren durch eine mit A23 + Zonenzeichen 'Schulumgebung' beschilderte Schulzone. Höchstgeschwindigkeit?"
+    },
+    "options": {
+      "nl": ["20 km/u", "30 km/u", "50 km/u"],
+      "en": ["20 km/h", "30 km/h", "50 km/h"],
+      "fr": ["20 km/h", "30 km/h", "50 km/h"],
+      "de": ["20 km/h", "30 km/h", "50 km/h"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "In een schoolomgeving aangeduid met het officiële zonebord geldt 30 km/u tijdens de werking. Dit beschermt kinderen die plots de weg kunnen opstappen (Wegcode art. 22ter).",
+      "en": "In a school zone marked by the official zone sign, 30 km/h applies during operation. This protects children who may step into the road (Wegcode art. 22ter).",
+      "fr": "Dans une zone scolaire avec panneau de zone officiel, la limite est de 30 km/h pendant l'activité. Cela protège les enfants (Code de la route art. 22ter).",
+      "de": "In einer mit dem offiziellen Zonenschild ausgewiesenen Schulzone gilt während der Öffnung 30 km/h. Schützt Kinder, die plötzlich auf die Straße treten (StVO Art. 22ter)."
+    },
+    "legal_ref": "Wegcode art. 22ter"
+  },
+  {
+    "id": "SPD-008",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "U rijdt een woonerf binnen (bord F12a). Wat is de maximumsnelheid?",
+      "en": "You enter a residential area / woonerf (sign F12a). What is the speed limit?",
+      "fr": "Vous entrez dans une zone résidentielle / woonerf (panneau F12a). Quelle est la vitesse maximale ?",
+      "de": "Sie fahren in eine Wohnerf-Zone (Zeichen F12a). Höchstgeschwindigkeit?"
+    },
+    "options": {
+      "nl": ["20 km/u (stapvoets)", "30 km/u", "50 km/u"],
+      "en": ["20 km/h (walking pace)", "30 km/h", "50 km/h"],
+      "fr": ["20 km/h (au pas)", "30 km/h", "50 km/h"],
+      "de": ["20 km/h (Schrittgeschwindigkeit)", "30 km/h", "50 km/h"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "In een woonerf of erf is de maximumsnelheid 20 km/u. Voetgangers mogen er de hele breedte gebruiken en kinderen mogen er spelen (Wegcode art. 22bis).",
+      "en": "In a residential area (woonerf) the speed limit is 20 km/h. Pedestrians may use the full width and children may play (Wegcode art. 22bis).",
+      "fr": "Dans une zone résidentielle, la vitesse est limitée à 20 km/h. Les piétons peuvent occuper toute la largeur et les enfants peuvent y jouer (Code de la route art. 22bis).",
+      "de": "Im Wohnerf gilt Tempo 20. Fußgänger dürfen die ganze Breite nutzen, Kinder dürfen dort spielen (StVO Art. 22bis)."
+    },
+    "legal_ref": "Wegcode art. 22bis"
+  },
+  {
+    "id": "SPD-009",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "U rijdt een zone 30 binnen. Tot wanneer geldt deze beperking?",
+      "en": "You enter a 30 zone. Until when does this limit apply?",
+      "fr": "Vous entrez dans une zone 30. Jusqu'à quand cette limite s'applique-t-elle ?",
+      "de": "Sie fahren in eine Tempo-30-Zone. Bis wann gilt die Begrenzung?"
+    },
+    "options": {
+      "nl": ["Tot het volgende kruispunt", "Tot u het zonebord 'einde zone 30' passeert", "Tot 500 meter na het bord"],
+      "en": ["Until the next intersection", "Until you pass the 'end of 30 zone' sign", "Until 500 metres past the sign"],
+      "fr": ["Jusqu'au prochain carrefour", "Jusqu'au panneau 'fin de zone 30'", "Jusqu'à 500 m après le panneau"],
+      "de": ["Bis zur nächsten Kreuzung", "Bis zum Schild 'Ende Tempo-30-Zone'", "Bis 500 m hinter dem Schild"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een zoneverbod geldt tot het einde-zonebord. In tegenstelling tot een gewoon bord blijft de beperking dus geldig na elk kruispunt binnen de zone (Wegcode art. 65.5).",
+      "en": "A zone restriction applies until the end-of-zone sign. Unlike a regular sign, it remains valid past intersections inside the zone (Wegcode art. 65.5).",
+      "fr": "Une interdiction de zone reste valable jusqu'au panneau de fin de zone, contrairement à un panneau classique qui s'arrête au premier carrefour (Code de la route art. 65.5).",
+      "de": "Eine Zonenbeschränkung gilt bis zum Ende-Zonenschild und bleibt im Gegensatz zu einem normalen Schild auch nach Kreuzungen bestehen (StVO Art. 65.5)."
+    },
+    "legal_ref": "Wegcode art. 65.5"
+  },
+  {
+    "id": "SPD-010",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "U trekt een aanhangwagen op de autosnelweg. Wat is uw maximumsnelheid?",
+      "en": "You tow a trailer on the motorway. What is your maximum speed?",
+      "fr": "Vous tractez une remorque sur l'autoroute. Quelle est votre vitesse maximale ?",
+      "de": "Sie ziehen einen Anhänger auf der Autobahn. Höchstgeschwindigkeit?"
+    },
+    "options": {
+      "nl": ["90 km/u", "120 km/u", "Dezelfde als zonder aanhangwagen"],
+      "en": ["90 km/h", "120 km/h", "Same as without trailer"],
+      "fr": ["90 km/h", "120 km/h", "La même que sans remorque"],
+      "de": ["90 km/h", "120 km/h", "Gleich wie ohne Anhänger"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Personenauto's met aanhangwagen tot 750 kg of caravan mogen 120 km/u op de autosnelweg, indien de aanhangwagen geschikt is. Anders maximaal 90 km/u of de specifieke aanhangwagen-snelheid (Wegcode art. 11.3 + 21.2).",
+      "en": "Cars with a trailer up to 750 kg or caravan may drive 120 km/h on the motorway if the trailer is suited. Otherwise max 90 km/h or the trailer's plated speed (Wegcode art. 11.3 + 21.2).",
+      "fr": "Les voitures avec remorque jusqu'à 750 kg ou caravane peuvent rouler à 120 km/h sur autoroute si adaptées. Sinon max 90 km/h ou la vitesse de la remorque (Code de la route art. 11.3 + 21.2).",
+      "de": "Pkw mit Anhänger bis 750 kg oder Wohnwagen dürfen mit 120 km/h auf der Autobahn fahren, wenn geeignet. Sonst max 90 km/h oder Anhängergeschwindigkeit (StVO Art. 11.3 + 21.2)."
+    },
+    "legal_ref": "Wegcode art. 11.3"
+  },
+  {
+    "id": "SPD-011",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "U passeert een stilstaande tram op een halte zonder verhoogd perron. Wat geldt?",
+      "en": "You pass a stationary tram at a stop without a raised platform. What applies?",
+      "fr": "Vous passez devant un tram à l'arrêt sans quai surélevé. Que faut-il faire ?",
+      "de": "Sie passieren eine haltende Tram an einer Haltestelle ohne erhöhten Bahnsteig. Was gilt?"
+    },
+    "options": {
+      "nl": ["Snelheid behouden, voldoende afstand", "Maximaal 30 km/u en zo nodig stoppen voor in- en uitstappende reizigers", "Volledig stoppen tot de tram vertrekt"],
+      "en": ["Keep speed, leave room", "Maximum 30 km/h and stop if needed for boarding passengers", "Stop completely until the tram leaves"],
+      "fr": ["Maintenir la vitesse, laisser de la place", "Maximum 30 km/h, s'arrêter si nécessaire pour les voyageurs", "Arrêt complet jusqu'au départ du tram"],
+      "de": ["Geschwindigkeit halten, Platz lassen", "Höchstens 30 km/h und ggf. anhalten für ein-/aussteigende Fahrgäste", "Komplett halten, bis die Tram fährt"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bij een halte zonder vluchtheuvel mag u langs een stilstaande tram rijden aan maximaal 30 km/u en moet u stoppen zolang reizigers in- of uitstappen (Wegcode art. 18.2).",
+      "en": "At a stop without refuge island, you may pass a stationary tram at max 30 km/h and must stop while passengers are boarding/alighting (Wegcode art. 18.2).",
+      "fr": "À un arrêt sans refuge, on peut dépasser un tram à l'arrêt à 30 km/h max et s'arrêter tant que des voyageurs montent/descendent (Code de la route art. 18.2).",
+      "de": "An einer Haltestelle ohne Insel darf man eine stehende Tram mit max 30 km/h passieren und muss halten, solange Fahrgäste ein- oder aussteigen (StVO Art. 18.2)."
+    },
+    "legal_ref": "Wegcode art. 18.2"
+  },
+  {
+    "id": "SPD-012",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "Mag u op de autosnelweg ver onder de toegelaten snelheid rijden, bijvoorbeeld 60 km/u in goede omstandigheden?",
+      "en": "May you drive far below the speed limit on the motorway, e.g. 60 km/h in good conditions?",
+      "fr": "Peut-on rouler bien en dessous de la limite sur autoroute, p.ex. 60 km/h par beau temps ?",
+      "de": "Darf man auf der Autobahn weit unter der Höchstgeschwindigkeit fahren, z.B. 60 km/h bei gutem Wetter?"
+    },
+    "options": {
+      "nl": ["Ja, voorzichtig is altijd toegestaan", "Nee, dat is verboden en hindert het verkeer", "Alleen op de rechterrijstrook"],
+      "en": ["Yes, caution is always allowed", "No, that is forbidden and obstructs traffic", "Only in the right-hand lane"],
+      "fr": ["Oui, la prudence est toujours autorisée", "Non, c'est interdit et entrave la circulation", "Seulement sur la voie de droite"],
+      "de": ["Ja, Vorsicht ist immer erlaubt", "Nein, das ist verboten und behindert den Verkehr", "Nur auf der rechten Spur"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Te traag rijden zonder geldige reden is verboden: het hindert het verkeer en kan gevaarlijk zijn. Op de autosnelweg geldt 70 km/u als minimum (Wegcode art. 10.3 + 21.4).",
+      "en": "Driving too slowly without valid reason is forbidden: it obstructs traffic and is dangerous. On the motorway 70 km/h is the minimum (Wegcode art. 10.3 + 21.4).",
+      "fr": "Rouler trop lentement sans raison valable est interdit: cela entrave la circulation. Sur autoroute, 70 km/h est le minimum (Code de la route art. 10.3 + 21.4).",
+      "de": "Unbegründet langsam zu fahren ist verboten: behindert und gefährdet. Auf der Autobahn sind 70 km/h Minimum (StVO Art. 10.3 + 21.4)."
+    },
+    "legal_ref": "Wegcode art. 10.3"
+  },
+  {
+    "id": "SPD-013",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "Bij hevige regen of mist met zicht onder 100 meter, hoe past u uw snelheid aan?",
+      "en": "In heavy rain or fog with visibility under 100 metres, how do you adjust speed?",
+      "fr": "Sous pluie battante ou brouillard, visibilité inférieure à 100 m, comment adapter sa vitesse ?",
+      "de": "Bei starkem Regen oder Nebel mit Sicht unter 100 m: wie passt man die Geschwindigkeit an?"
+    },
+    "options": {
+      "nl": ["U mag de maximumsnelheid behouden", "U moet zodanig vertragen dat u kunt stoppen binnen de zichtbare afstand", "U mag stoppen op de pechstrook"],
+      "en": ["You may keep the maximum speed", "You must slow enough to stop within visible distance", "You may stop on the hard shoulder"],
+      "fr": ["On peut conserver la vitesse maximale", "On doit ralentir pour pouvoir s'arrêter dans la distance visible", "On peut s'arrêter sur la bande d'arrêt d'urgence"],
+      "de": ["Höchstgeschwindigkeit darf gehalten werden", "Soweit verlangsamen, dass man innerhalb der Sichtweite anhalten kann", "Auf dem Standstreifen halten"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "De bestuurder moet altijd zijn snelheid aanpassen aan de omstandigheden, zodat hij kan stoppen voor een voorzienbaar obstakel binnen de zichtbare afstand (Wegcode art. 10.1.1).",
+      "en": "A driver must always adjust speed to conditions, so as to stop for a foreseeable obstacle within visible distance (Wegcode art. 10.1.1).",
+      "fr": "Le conducteur doit toujours adapter sa vitesse aux circonstances afin de pouvoir s'arrêter dans la distance visible (Code de la route art. 10.1.1).",
+      "de": "Geschwindigkeit immer den Bedingungen anpassen, sodass innerhalb der Sichtweite gehalten werden kann (StVO Art. 10.1.1)."
+    },
+    "legal_ref": "Wegcode art. 10.1.1"
+  },
+  {
+    "id": "SPD-014",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "U rijdt voorbij bord F1 (begin bebouwde kom). Welke snelheid geldt onmiddellijk?",
+      "en": "You pass sign F1 (start of built-up area). What speed applies immediately?",
+      "fr": "Vous passez le panneau F1 (entrée d'agglomération). Quelle vitesse s'applique immédiatement ?",
+      "de": "Sie passieren Zeichen F1 (Beginn Innerorts). Welche Geschwindigkeit gilt sofort?"
+    },
+    "options": {
+      "nl": ["50 km/u, ook zonder ander bord", "70 km/u tot het volgende bord", "Snelheid blijft 90 km/u"],
+      "en": ["50 km/h, even without another sign", "70 km/h until the next sign", "Speed remains 90 km/h"],
+      "fr": ["50 km/h, même sans autre panneau", "70 km/h jusqu'au prochain panneau", "La vitesse reste 90 km/h"],
+      "de": ["50 km/h, auch ohne weiteres Schild", "70 km/h bis zum nächsten Schild", "Bleibt 90 km/h"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Bord F1 markeert het begin van de bebouwde kom. Vanaf dat punt geldt automatisch 50 km/u, zonder dat een aanvullend snelheidsbord nodig is (Wegcode art. 11.2.1 + bord F1).",
+      "en": "Sign F1 marks the start of the built-up area. From there 50 km/h applies automatically, no extra speed sign needed (Wegcode art. 11.2.1 + sign F1).",
+      "fr": "Le panneau F1 marque l'entrée de l'agglomération. À partir de là, 50 km/h s'applique automatiquement, sans panneau de vitesse supplémentaire (Code de la route art. 11.2.1 + panneau F1).",
+      "de": "Zeichen F1 markiert den Ortseingang. Ab dort gilt automatisch 50 km/h ohne zusätzliches Geschwindigkeitsschild (StVO Art. 11.2.1 + Zeichen F1)."
+    },
+    "legal_ref": "Wegcode art. 11.2.1 (F1)"
+  },
+  {
+    "id": "SPD-015",
+    "topic": "speed_limits",
+    "verified": false,
+    "question": {
+      "nl": "Vrachtwagen >3,5 ton op een autosnelweg in België. Wat is de maximumsnelheid?",
+      "en": "Truck >3.5 t on a Belgian motorway. What is the maximum speed?",
+      "fr": "Camion >3,5 t sur autoroute belge. Vitesse maximale ?",
+      "de": "Lkw >3,5 t auf belgischer Autobahn. Höchstgeschwindigkeit?"
+    },
+    "options": {
+      "nl": ["120 km/u", "90 km/u", "70 km/u"],
+      "en": ["120 km/h", "90 km/h", "70 km/h"],
+      "fr": ["120 km/h", "90 km/h", "70 km/h"],
+      "de": ["120 km/h", "90 km/h", "70 km/h"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Vrachtwagens met een MTM van meer dan 3,5 ton zijn op autosnelwegen beperkt tot 90 km/u (Wegcode art. 11.3 + 21.2).",
+      "en": "Trucks with a GVM over 3.5 t are limited to 90 km/h on motorways (Wegcode art. 11.3 + 21.2).",
+      "fr": "Les camions de plus de 3,5 t sont limités à 90 km/h sur autoroute (Code de la route art. 11.3 + 21.2).",
+      "de": "Lkw über 3,5 t sind auf Autobahnen auf 90 km/h begrenzt (StVO Art. 11.3 + 21.2)."
+    },
+    "legal_ref": "Wegcode art. 11.3"
   }
 ]

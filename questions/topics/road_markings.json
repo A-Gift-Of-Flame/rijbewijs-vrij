@@ -48,5 +48,255 @@
       "de": "Gelbe Zickzacklinien bedeuten, dass sowohl Parken als auch Halten auf diesem Straßenabschnitt verboten ist (StVO Art. 77)."
     },
     "legal_ref": "Wegcode art. 77"
+  },
+  {
+    "id": "MRK-003",
+    "topic": "road_markings",
+    "verified": false,
+    "question": {
+      "nl": "Een witte doorlopende lengtestreep tussen rijstroken. Mag u die overschrijden?",
+      "en": "A continuous white longitudinal line between lanes. May you cross it?",
+      "fr": "Une ligne blanche continue longitudinale entre les bandes. Peut-on la franchir ?",
+      "de": "Eine durchgezogene weiße Längslinie zwischen Fahrstreifen. Darf man sie überfahren?"
+    },
+    "options": {
+      "nl": ["Ja, om in te halen indien veilig", "Nee, behalve om een hindernis te omzeilen of bij richting wijzigen naar een uitrit", "Alleen om links af te slaan"],
+      "en": ["Yes, to overtake if safe", "No, except to avoid an obstacle or turn off into a property", "Only to turn left"],
+      "fr": ["Oui, pour dépasser si sûr", "Non, sauf pour éviter un obstacle ou tourner dans une propriété", "Seulement pour tourner à gauche"],
+      "de": ["Ja, zum Überholen wenn sicher", "Nein, außer zum Umfahren eines Hindernisses oder Einbiegen in ein Grundstück", "Nur zum Linksabbiegen"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een witte doorlopende streep mag in principe niet overschreden noch overreden worden. Uitzondering: een vast obstakel omzeilen of toegang nemen tot een eigendom (Wegcode art. 72.5).",
+      "en": "A continuous white line must not be crossed or driven over. Exception: to avoid a fixed obstacle or to access a property (Wegcode art. 72.5).",
+      "fr": "Une ligne blanche continue ne peut être franchie ni chevauchée. Exceptions: contourner un obstacle fixe ou accéder à une propriété (Code de la route art. 72.5).",
+      "de": "Eine durchgezogene weiße Linie darf nicht überfahren werden. Ausnahmen: festes Hindernis umfahren oder Grundstückszufahrt (StVO Art. 72.5)."
+    },
+    "legal_ref": "Wegcode art. 72.5"
+  },
+  {
+    "id": "MRK-004",
+    "topic": "road_markings",
+    "verified": false,
+    "question": {
+      "nl": "Een gele onderbroken streep op de boord van de rijbaan (op de stoeprand of langs het wegdek). Wat betekent dit?",
+      "en": "A broken yellow line on the edge of the roadway (on the curb or along the surface). Meaning?",
+      "fr": "Une ligne jaune discontinue au bord de la chaussée (sur la bordure ou le revêtement). Signification ?",
+      "de": "Eine unterbrochene gelbe Linie am Fahrbahnrand (am Bordstein oder am Belag). Bedeutung?"
+    },
+    "options": {
+      "nl": ["Parkeren verboden, stilstaan toegestaan", "Stilstaan en parkeren verboden", "Bushalte"],
+      "en": ["No parking, stopping allowed", "No stopping and no parking", "Bus stop"],
+      "fr": ["Stationnement interdit, arrêt autorisé", "Arrêt et stationnement interdits", "Arrêt de bus"],
+      "de": ["Parken verboten, Halten erlaubt", "Halten und Parken verboten", "Bushaltestelle"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Een gele onderbroken streep op de boord betekent parkeerverbod; stilstaan om in- of uit te laden of om iemand in/uit te laten stappen blijft toegestaan (Wegcode art. 75.1.2).",
+      "en": "A broken yellow line on the edge means no parking; stopping to load/unload or let someone in/out is still allowed (Wegcode art. 75.1.2).",
+      "fr": "Une ligne jaune discontinue au bord interdit le stationnement mais autorise l'arrêt momentané (Code de la route art. 75.1.2).",
+      "de": "Eine unterbrochene gelbe Randlinie verbietet Parken, erlaubt aber kurzes Halten (StVO Art. 75.1.2)."
+    },
+    "legal_ref": "Wegcode art. 75.1.2"
+  },
+  {
+    "id": "MRK-005",
+    "topic": "road_markings",
+    "verified": false,
+    "question": {
+      "nl": "Een gele doorlopende streep op de boord van de rijbaan. Wat betekent dit?",
+      "en": "A continuous yellow line on the edge of the roadway. Meaning?",
+      "fr": "Une ligne jaune continue au bord de la chaussée. Signification ?",
+      "de": "Eine durchgezogene gelbe Linie am Fahrbahnrand. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Parkeren verboden, stilstaan toegestaan", "Stilstaan en parkeren verboden", "Voorbehouden voor taxi's"],
+      "en": ["No parking, stopping allowed", "No stopping and no parking", "Reserved for taxis"],
+      "fr": ["Stationnement interdit, arrêt autorisé", "Arrêt et stationnement interdits", "Réservé aux taxis"],
+      "de": ["Parken verboten, Halten erlaubt", "Halten und Parken verboten", "Taxistände"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een gele doorlopende streep op de boord verbiedt zowel stilstaan als parkeren. Strenger dan de onderbroken variant (Wegcode art. 75.1.1).",
+      "en": "A continuous yellow edge line forbids both stopping and parking. Stricter than the broken variant (Wegcode art. 75.1.1).",
+      "fr": "La ligne jaune continue au bord interdit l'arrêt et le stationnement. Plus stricte que la discontinue (Code de la route art. 75.1.1).",
+      "de": "Die durchgezogene gelbe Randlinie verbietet Halten und Parken. Strenger als unterbrochen (StVO Art. 75.1.1)."
+    },
+    "legal_ref": "Wegcode art. 75.1.1"
+  },
+  {
+    "id": "MRK-006",
+    "topic": "road_markings",
+    "verified": false,
+    "question": {
+      "nl": "Witte driehoeken (haaietanden) op het wegdek voor een kruispunt. Wat betekent dit?",
+      "en": "White triangles (shark teeth) painted on the road before an intersection. Meaning?",
+      "fr": "Triangles blancs (dents de requin) peints avant un carrefour. Signification ?",
+      "de": "Weiße Dreiecke (Haifischzähne) auf der Fahrbahn vor einer Kreuzung. Bedeutung?"
+    },
+    "options": {
+      "nl": ["U heeft voorrang", "Voorrang verlenen aan het kruisende verkeer", "Volledig stoppen, ook als de weg vrij is"],
+      "en": ["You have priority", "Yield to crossing traffic", "Stop completely, even if clear"],
+      "fr": ["Vous avez la priorité", "Cédez le passage au trafic croisant", "Arrêt complet, même voie libre"],
+      "de": ["Sie haben Vorfahrt", "Vorfahrt gewähren dem Querverkehr", "Vollständig anhalten, auch wenn frei"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Haaientanden (driehoeken met de punt naar u toe) bevestigen op het wegdek dat u voorrang moet verlenen. Vaak samen met bord B1 (Wegcode art. 76.2).",
+      "en": "Shark teeth (triangles pointing at you) confirm on the road surface that you must yield. Often combined with sign B1 (Wegcode art. 76.2).",
+      "fr": "Les dents de requin (triangles pointant vers vous) confirment au sol l'obligation de céder le passage. Souvent avec le panneau B1 (Code de la route art. 76.2).",
+      "de": "Haifischzähne (Dreiecke, Spitze zu Ihnen) bestätigen am Boden die Vorfahrt-gewähren-Pflicht. Oft mit B1 (StVO Art. 76.2)."
+    },
+    "legal_ref": "Wegcode art. 76.2"
+  },
+  {
+    "id": "MRK-007",
+    "topic": "road_markings",
+    "verified": false,
+    "question": {
+      "nl": "Een doorlopende dwarse witte streep over de hele rijbaan. Wat betekent dit?",
+      "en": "A continuous white transverse line across the full roadway. Meaning?",
+      "fr": "Une ligne blanche transversale continue sur toute la chaussée. Signification ?",
+      "de": "Eine durchgezogene weiße Querlinie über die gesamte Fahrbahn. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Punt waar u moet stoppen voor een stopbord of rood verkeerslicht", "Voetgangersoversteekplaats", "Voorrangsstreep"],
+      "en": ["Point where you must stop at a stop sign or red light", "Pedestrian crossing", "Priority line"],
+      "fr": ["Point d'arrêt pour stop ou feu rouge", "Passage piéton", "Ligne de priorité"],
+      "de": ["Halt-Linie für Stoppschild oder Rot", "Fußgängerüberweg", "Vorrangslinie"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Een witte doorlopende dwarsstreep (stopstreep) duidt het punt aan waar u uw voertuig moet stilstoppen voor een stopbord, rood licht of verkeersagent (Wegcode art. 76.1).",
+      "en": "A continuous white transverse line (stop line) marks where you must stop for a stop sign, red light or traffic officer (Wegcode art. 76.1).",
+      "fr": "La ligne blanche transversale continue (ligne d'arrêt) indique où s'arrêter pour stop, feu rouge ou agent (Code de la route art. 76.1).",
+      "de": "Eine durchgezogene weiße Querlinie (Haltlinie) zeigt, wo Sie für Stopp, Rotlicht oder Beamten halten müssen (StVO Art. 76.1)."
+    },
+    "legal_ref": "Wegcode art. 76.1"
+  },
+  {
+    "id": "MRK-008",
+    "topic": "road_markings",
+    "verified": false,
+    "question": {
+      "nl": "Brede witte evenwijdige strepen dwars op de rijrichting. Wat is dit en wat geldt er?",
+      "en": "Wide white parallel stripes across the direction of travel. What is this and what applies?",
+      "fr": "Larges bandes blanches parallèles en travers de la chaussée. Quoi et que faut-il faire ?",
+      "de": "Breite weiße Parallelstreifen quer zur Fahrtrichtung. Was ist das und was gilt?"
+    },
+    "options": {
+      "nl": ["Zebrapad — voorrang verlenen aan voetgangers", "Stopstreep — volledig stoppen", "Fietsoversteekplaats"],
+      "en": ["Zebra crossing — yield to pedestrians", "Stop line — full stop", "Cycle crossing"],
+      "fr": ["Passage piéton — céder aux piétons", "Ligne d'arrêt — arrêt complet", "Traversée cycliste"],
+      "de": ["Zebrastreifen — Fußgängern Vorfahrt", "Haltlinie — vollständig halten", "Radfahrerquerung"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Brede evenwijdige witte strepen vormen een oversteekplaats voor voetgangers. U moet voorrang verlenen aan voetgangers op of die op het punt staan zich erop te begeven (Wegcode art. 76.3 + 40.4.2).",
+      "en": "Wide parallel white stripes form a pedestrian crossing. Yield to pedestrians on it or about to step on (Wegcode art. 76.3 + 40.4.2).",
+      "fr": "Des bandes blanches parallèles forment un passage piéton. Cédez aux piétons engagés ou sur le point de s'engager (Code de la route art. 76.3 + 40.4.2).",
+      "de": "Breite parallele weiße Streifen bilden einen Fußgängerüberweg. Vorfahrt gewähren für Fußgänger auf/an dem Überweg (StVO Art. 76.3 + 40.4.2)."
+    },
+    "legal_ref": "Wegcode art. 76.3"
+  },
+  {
+    "id": "MRK-009",
+    "topic": "road_markings",
+    "verified": false,
+    "question": {
+      "nl": "Wat is een fietsoversteekplaats op het wegdek?",
+      "en": "What marks a cycle crossing on the roadway?",
+      "fr": "Comment est marquée une traversée cycliste ?",
+      "de": "Wie ist eine Radquerung markiert?"
+    },
+    "options": {
+      "nl": ["Dezelfde witte strepen als een zebrapad", "Twee evenwijdige onderbroken lijnen met witte vierkanten of fietssymbool", "Een gele zigzaglijn"],
+      "en": ["Same white stripes as a zebra crossing", "Two parallel broken lines with white squares or a bicycle symbol", "A yellow zigzag line"],
+      "fr": ["Les mêmes bandes blanches qu'un passage piéton", "Deux lignes discontinues parallèles avec carrés blancs ou symbole vélo", "Une ligne jaune en zigzag"],
+      "de": ["Wie ein Zebrastreifen", "Zwei parallele unterbrochene Linien mit weißen Quadraten oder Fahrradsymbol", "Eine gelbe Zickzacklinie"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een fietsoversteekplaats bestaat uit twee evenwijdige onderbroken streep-rijen (witte blokjes). Bestuurders moeten voorrang verlenen aan fietsers en bromfietsers klasse A die de oversteekplaats gebruiken (Wegcode art. 76.4).",
+      "en": "A cycle crossing consists of two parallel rows of broken lines (white squares). Drivers must yield to cyclists and class-A mopeds using it (Wegcode art. 76.4).",
+      "fr": "Une traversée cycliste est délimitée par deux rangées discontinues parallèles (carrés blancs). Cédez aux cyclistes et cyclomoteurs A (Code de la route art. 76.4).",
+      "de": "Eine Radquerung besteht aus zwei parallelen unterbrochenen Reihen (weiße Quadrate). Radfahrern und Mofas Klasse A Vorfahrt gewähren (StVO Art. 76.4)."
+    },
+    "legal_ref": "Wegcode art. 76.4"
+  },
+  {
+    "id": "MRK-010",
+    "topic": "road_markings",
+    "verified": false,
+    "question": {
+      "nl": "Een witte onderbroken streep tussen rijstroken. Mag u die overschrijden?",
+      "en": "A broken white line between lanes. May you cross it?",
+      "fr": "Une ligne blanche discontinue entre les bandes. Peut-on la franchir ?",
+      "de": "Eine unterbrochene weiße Linie zwischen Fahrstreifen. Darf man sie überqueren?"
+    },
+    "options": {
+      "nl": ["Nee, alleen bij obstakel", "Ja, mits dat veilig kan", "Alleen bij dag"],
+      "en": ["No, only for obstacles", "Yes, provided it is safe", "Only during daytime"],
+      "fr": ["Non, sauf obstacle", "Oui, à condition d'être sûr", "De jour uniquement"],
+      "de": ["Nein, nur bei Hindernissen", "Ja, sofern es sicher ist", "Nur tagsüber"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een witte onderbroken lengtestreep mag worden overschreden om van rijstrook te veranderen, in te halen of af te slaan, mits dit veilig gebeurt (Wegcode art. 72.3).",
+      "en": "A broken white longitudinal line may be crossed to change lanes, overtake or turn, provided it is safe (Wegcode art. 72.3).",
+      "fr": "Une ligne blanche discontinue peut être franchie pour changer de bande, dépasser ou tourner, si c'est sûr (Code de la route art. 72.3).",
+      "de": "Eine unterbrochene weiße Längslinie darf zum Spurwechsel, Überholen oder Abbiegen überfahren werden, wenn sicher (StVO Art. 72.3)."
+    },
+    "legal_ref": "Wegcode art. 72.3"
+  },
+  {
+    "id": "MRK-011",
+    "topic": "road_markings",
+    "verified": false,
+    "question": {
+      "nl": "Een fietssuggestiestrook (gekleurd vlak met een fietssymbool, geen markeringslijnen). Wat geldt?",
+      "en": "A 'cycle suggestion' lane (coloured surface with a bike symbol, no marking lines). What applies?",
+      "fr": "Une bande de suggestion cycliste (zone colorée avec symbole vélo, sans ligne). Que faut-il savoir ?",
+      "de": "Ein Radfahrer-Empfehlungsstreifen (farbige Fläche mit Fahrradsymbol, ohne Linien). Was gilt?"
+    },
+    "options": {
+      "nl": ["Een verplicht fietspad — auto's verboden", "Géén officieel fietspad — auto's mogen erop rijden, maar fietsers hebben prioriteit aan de aandacht", "Een parkeervak voor fietsen"],
+      "en": ["A mandatory cycle path — cars forbidden", "Not an official cycle path — cars may drive on it, but cyclists should be given attention", "A bike parking bay"],
+      "fr": ["Piste cyclable obligatoire — voitures interdites", "Pas une piste officielle — les voitures peuvent rouler dessus, mais soyez attentif aux cyclistes", "Un emplacement vélo"],
+      "de": ["Vorgeschriebener Radweg — Autos verboten", "Kein offizieller Radweg — Autos dürfen darauf fahren, aber Radfahrer beachten", "Fahrradparkfläche"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een fietssuggestiestrook is geen fietspad in juridische zin (geen witte onderbroken evenwijdige lijnen). Auto's mogen er rijden, maar de markering signaleert dat fietsers er vaak komen — wees extra voorzichtig (Wegcode art. 2.7).",
+      "en": "A 'cycle suggestion' strip is not a legal cycle path (lacks the parallel broken white lines). Cars may drive on it, but the marking signals cyclist presence — be extra careful (Wegcode art. 2.7).",
+      "fr": "Une bande de suggestion cycliste n'est pas une piste cyclable au sens légal (pas de lignes discontinues parallèles). Les voitures peuvent y rouler, mais soyez vigilants (Code de la route art. 2.7).",
+      "de": "Ein Empfehlungsstreifen ist kein rechtlicher Radweg (keine parallelen unterbrochenen Linien). Autos dürfen darauf fahren, aber besonders vorsichtig (StVO Art. 2.7)."
+    },
+    "legal_ref": "Wegcode art. 2.7"
+  },
+  {
+    "id": "MRK-012",
+    "topic": "road_markings",
+    "verified": false,
+    "question": {
+      "nl": "Een witte onderbroken streep parallel aan de rijbaan, vlak naast de stoeprand, met een fietssymbool. Wat is dit?",
+      "en": "A broken white line parallel to the road, next to the curb, with bike symbols. What is this?",
+      "fr": "Ligne discontinue blanche parallèle, près du bord, avec symboles vélo. Qu'est-ce ?",
+      "de": "Unterbrochene weiße Linie parallel zum Bord, mit Fahrradsymbol. Was ist das?"
+    },
+    "options": {
+      "nl": ["Een fietsstrook — voorbehouden voor fietsers en bromfietsers klasse A", "Een fietssuggestiestrook", "Een parkeerstrook"],
+      "en": ["A cycle lane — reserved for cyclists and class-A mopeds", "A cycle suggestion strip", "A parking strip"],
+      "fr": ["Une bande cyclable — réservée aux cyclistes et cyclomoteurs A", "Une bande de suggestion", "Une bande de stationnement"],
+      "de": ["Eine Radspur — Radfahrer und Mofas Klasse A", "Empfehlungsstreifen", "Parkstreifen"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Een fietsstrook is afgebakend door twee evenwijdige witte onderbroken lijnen, met fietssymbool, deel van de rijbaan. Voorbehouden voor fietsers en bromfietsers klasse A; andere voertuigen mogen er niet op rijden noch parkeren (Wegcode art. 74 + 9.1.2).",
+      "en": "A cycle lane is bordered by two parallel broken white lines with a bicycle symbol, on the roadway. Reserved for cyclists and class-A mopeds; others may not drive or park there (Wegcode art. 74 + 9.1.2).",
+      "fr": "Une bande cyclable est délimitée par deux discontinues parallèles avec symbole vélo, sur la chaussée. Réservée aux cyclistes et cyclomoteurs A; interdit aux autres (Code de la route art. 74 + 9.1.2).",
+      "de": "Eine Radspur ist mit zwei parallelen unterbrochenen weißen Linien und Fahrradsymbol auf der Fahrbahn markiert. Nur Radfahrer und Mofas Klasse A; andere weder fahren noch parken (StVO Art. 74 + 9.1.2)."
+    },
+    "legal_ref": "Wegcode art. 74"
   }
 ]

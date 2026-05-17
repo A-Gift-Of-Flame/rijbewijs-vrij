@@ -6,7 +6,7 @@ import type { Question, TopicMeta, QuestionsIndex } from './types';
 export type { Lang, LocalizedText, LocalizedOptions, Question, TopicMeta, QuestionsIndex } from './types';
 export { LANGS, DEFAULT_LANG, isValidLang, parseLang } from './types';
 
-const QUESTIONS_DIR = path.join(process.cwd(), '..', 'questions');
+const QUESTIONS_DIR = path.join(process.cwd(), 'questions');
 
 export function getIndex(): QuestionsIndex {
   const raw = fs.readFileSync(path.join(QUESTIONS_DIR, 'index.json'), 'utf-8');

@@ -98,5 +98,530 @@
       "de": "Zeichen B1 ist das 'Vorfahrt gewähren'-Schild. Sie müssen dem gesamten Verkehr auf der kreuzenden Straße Vorfahrt gewähren (StVO Anlage 2)."
     },
     "legal_ref": "Wegcode bijlage 2 — bord B1"
+  },
+  {
+    "id": "SGN-005",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "U ziet een rond bord met witte achtergrond, rode rand en een zwart cijfer '50'. Wat betekent dit?",
+      "en": "You see a round sign, white background, red border, with black '50'. What does it mean?",
+      "fr": "Vous voyez un panneau rond, fond blanc, bordure rouge, avec '50' en noir. Que signifie-t-il ?",
+      "de": "Sie sehen ein rundes Schild, weißer Grund, roter Rand, schwarze '50'. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Aanbevolen snelheid 50 km/u", "Maximumsnelheid 50 km/u", "Einde 50 km/u zone"],
+      "en": ["Recommended speed 50 km/h", "Maximum speed 50 km/h", "End of 50 km/h zone"],
+      "fr": ["Vitesse conseillée 50 km/h", "Vitesse maximale 50 km/h", "Fin de zone 50 km/h"],
+      "de": ["Empfohlene Geschwindigkeit 50 km/h", "Höchstgeschwindigkeit 50 km/h", "Ende der 50-km/h-Zone"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bord C43 (rond, witte achtergrond, rode rand, zwart cijfer) legt een maximumsnelheid op. Hier 50 km/u (Wegcode art. 68.3).",
+      "en": "Sign C43 (round, white, red border, black number) imposes a maximum speed. Here 50 km/h (Wegcode art. 68.3).",
+      "fr": "Le panneau C43 (rond, blanc, bordure rouge, chiffre noir) impose une vitesse maximale. Ici 50 km/h (Code de la route art. 68.3).",
+      "de": "Zeichen C43 (rund, weiß, roter Rand, schwarze Zahl) ordnet eine Höchstgeschwindigkeit an. Hier 50 km/h (StVO Art. 68.3)."
+    },
+    "legal_ref": "Wegcode art. 68.3 (C43)"
+  },
+  {
+    "id": "SGN-006",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "U ziet een rond blauw bord met een witte pijl naar rechts. Wat betekent dit?",
+      "en": "You see a round blue sign with a white arrow pointing right. What does it mean?",
+      "fr": "Vous voyez un panneau rond bleu avec une flèche blanche vers la droite. Que signifie-t-il ?",
+      "de": "Rundes blaues Schild mit weißem Pfeil nach rechts. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Verboden rechts af te slaan", "Verplichte rijrichting: naar rechts", "Voorrang aan rechts"],
+      "en": ["No right turn", "Mandatory direction: right", "Yield to the right"],
+      "fr": ["Interdiction de tourner à droite", "Direction obligatoire: à droite", "Priorité à droite"],
+      "de": ["Rechtsabbiegen verboten", "Vorgeschriebene Fahrtrichtung: rechts", "Vorfahrt rechts"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een rond blauw bord met witte pijl is een verplicht aanwijzingsbord (D-reeks). De pijl geeft de verplichte rijrichting aan (Wegcode art. 69).",
+      "en": "A round blue sign with a white arrow is a mandatory direction sign (D-series). The arrow indicates the required direction (Wegcode art. 69).",
+      "fr": "Un panneau bleu rond avec flèche blanche est un panneau d'obligation (série D). La flèche indique la direction obligatoire (Code de la route art. 69).",
+      "de": "Ein rundes blaues Schild mit weißem Pfeil ist ein Vorschriftszeichen (D-Reihe). Pfeil = vorgeschriebene Richtung (StVO Art. 69)."
+    },
+    "legal_ref": "Wegcode art. 69 (D1)"
+  },
+  {
+    "id": "SGN-007",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Wat betekent bord F1 (rechthoekig, met de naam van een gemeente in zwart op witte achtergrond)?",
+      "en": "What does sign F1 mean (rectangular, town name in black on white)?",
+      "fr": "Que signifie le panneau F1 (rectangulaire, nom de commune en noir sur fond blanc) ?",
+      "de": "Was bedeutet Zeichen F1 (rechteckig, Ortsname schwarz auf weiß)?"
+    },
+    "options": {
+      "nl": ["Een toeristische bezienswaardigheid", "Begin bebouwde kom — automatisch 50 km/u", "Wegwijzer naar een dorp"],
+      "en": ["A tourist attraction", "Start of built-up area — automatically 50 km/h", "Direction sign to a village"],
+      "fr": ["Site touristique", "Entrée d'agglomération — automatiquement 50 km/h", "Direction vers un village"],
+      "de": ["Touristische Sehenswürdigkeit", "Ortseingang — automatisch 50 km/h", "Wegweiser zu einem Dorf"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bord F1 duidt het begin van de bebouwde kom aan. Vanaf hier geldt automatisch een maximumsnelheid van 50 km/u (Wegcode art. 71).",
+      "en": "Sign F1 marks the start of a built-up area. From here, 50 km/h applies automatically (Wegcode art. 71).",
+      "fr": "Le panneau F1 indique l'entrée d'une agglomération. À partir de là, 50 km/h s'applique automatiquement (Code de la route art. 71).",
+      "de": "Zeichen F1 zeigt den Ortseingang. Ab hier gilt automatisch 50 km/h (StVO Art. 71)."
+    },
+    "legal_ref": "Wegcode art. 71 (F1)"
+  },
+  {
+    "id": "SGN-008",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Wat betekent bord F3 (gemeentenaam met een rode diagonale streep)?",
+      "en": "What does sign F3 mean (town name with red diagonal line)?",
+      "fr": "Que signifie le panneau F3 (nom de commune barré d'une ligne rouge) ?",
+      "de": "Was bedeutet Zeichen F3 (Ortsname mit rotem Diagonalstrich)?"
+    },
+    "options": {
+      "nl": ["Einde van de bebouwde kom — de standaardlimiet buiten de kom geldt weer", "Doodlopende weg", "Verboden in te rijden in deze gemeente"],
+      "en": ["End of built-up area — default outside-town limit applies again", "Dead-end road", "Entry forbidden in this town"],
+      "fr": ["Fin d'agglomération — la vitesse hors agglomération s'applique à nouveau", "Voie sans issue", "Accès interdit à cette commune"],
+      "de": ["Ortsende — Außerorts-Tempo gilt wieder", "Sackgasse", "Einfahrt in den Ort verboten"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Bord F3 markeert het einde van de bebouwde kom. De algemene snelheidslimiet buiten de kom (70 km/u in Vlaanderen, 90 km/u in Wallonië/Brussel) geldt opnieuw (Wegcode art. 71 + 11.2.2).",
+      "en": "Sign F3 marks the end of the built-up area. The general outside-town limit (70 km/h in Flanders, 90 km/h in Wallonia/Brussels) resumes (Wegcode art. 71 + 11.2.2).",
+      "fr": "Le panneau F3 marque la fin d'agglomération. La vitesse hors agglomération (70 km/h en Flandre, 90 km/h en Wallonie/Bruxelles) reprend (Code de la route art. 71 + 11.2.2).",
+      "de": "Zeichen F3 markiert das Ortsende. Außerorts-Tempo (70 km/h in Flandern, 90 km/h in Wallonien/Brüssel) gilt wieder (StVO Art. 71 + 11.2.2)."
+    },
+    "legal_ref": "Wegcode art. 71 (F3)"
+  },
+  {
+    "id": "SGN-009",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "U ziet een rond rood bord met een witte horizontale balk. Wat betekent dit?",
+      "en": "You see a round red sign with a white horizontal bar. What does it mean?",
+      "fr": "Vous voyez un panneau rond rouge avec une barre blanche horizontale. Que signifie-t-il ?",
+      "de": "Rundes rotes Schild mit weißem Querbalken. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Stop, controle", "Verboden richting voor iedere bestuurder", "Voorrang aan tegenliggers"],
+      "en": ["Stop, control", "No entry for all drivers", "Yield to oncoming traffic"],
+      "fr": ["Stop, contrôle", "Sens interdit à tout conducteur", "Cédez aux véhicules en sens inverse"],
+      "de": ["Halt, Kontrolle", "Verbot der Einfahrt für alle Fahrzeuge", "Vorfahrt gewähren dem Gegenverkehr"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bord C1 (rond, rood, witte horizontale streep) verbiedt het inrijden voor elke bestuurder. Vaak gebruikt voor eenrichtingsstraten (Wegcode art. 68).",
+      "en": "Sign C1 (round, red, white horizontal bar) forbids entry to all drivers. Common for one-way streets (Wegcode art. 68).",
+      "fr": "Le panneau C1 (rond, rouge, barre blanche horizontale) interdit l'accès à tout conducteur. Fréquent sur les sens uniques (Code de la route art. 68).",
+      "de": "Zeichen C1 (rund, rot, weißer Querbalken) verbietet die Einfahrt für alle. Häufig bei Einbahnstraßen (StVO Art. 68)."
+    },
+    "legal_ref": "Wegcode art. 68 (C1)"
+  },
+  {
+    "id": "SGN-010",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Wat betekent een driehoekig bord met rode rand, witte achtergrond, met een afbeelding van een fietser?",
+      "en": "What does a triangular sign with red border, white background, showing a cyclist mean?",
+      "fr": "Que signifie un panneau triangulaire à bordure rouge, fond blanc, avec un cycliste ?",
+      "de": "Dreieckiges Schild mit rotem Rand, weißem Grund, mit Radfahrer. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Verplicht fietspad", "Gevaar: oversteekplaats voor fietsers of veel fietsers", "Verboden voor fietsen"],
+      "en": ["Mandatory cycle path", "Danger: cyclist crossing or many cyclists", "No cycling"],
+      "fr": ["Piste cyclable obligatoire", "Danger: traversée cyclistes ou nombreux cyclistes", "Cyclistes interdits"],
+      "de": ["Vorgeschriebener Radweg", "Gefahr: Radfahrer queren oder viele Radfahrer", "Radfahrverbot"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een rood-witte driehoek is een gevaarsbord (A-reeks). Het fietser-symbool waarschuwt voor een oversteekplaats of veel fietsverkeer (Wegcode art. 67, bord A25).",
+      "en": "A red-white triangle is a warning sign (A-series). The cyclist symbol warns of a cycle crossing or heavy cycle traffic (Wegcode art. 67, sign A25).",
+      "fr": "Un triangle rouge-blanc est un panneau de danger (série A). Le cycliste prévient d'une traversée ou d'un trafic cycliste dense (Code de la route art. 67, panneau A25).",
+      "de": "Rot-weißes Dreieck ist Gefahrenzeichen (A-Reihe). Radfahrer-Symbol warnt vor Querungsstelle oder vielen Radfahrern (StVO Art. 67, Zeichen A25)."
+    },
+    "legal_ref": "Wegcode art. 67 (A25)"
+  },
+  {
+    "id": "SGN-011",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Een driehoekig bord met rode rand, witte achtergrond en spelende kinderen. Wat betekent dit?",
+      "en": "Triangular sign, red border, white background, with playing children. Meaning?",
+      "fr": "Panneau triangulaire à bord rouge, fond blanc, avec des enfants. Que signifie-t-il ?",
+      "de": "Dreieckiges Schild, roter Rand, weißer Grund, mit spielenden Kindern. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Speelstraat — niet binnenrijden", "Gevaar: kinderen kunnen plots oversteken", "School op deze plaats verboden"],
+      "en": ["Play street — do not enter", "Danger: children may cross unexpectedly", "School forbidden here"],
+      "fr": ["Rue réservée au jeu — interdit", "Danger: enfants pouvant traverser", "École interdite ici"],
+      "de": ["Spielstraße — Einfahrt verboten", "Gefahr: Kinder können plötzlich queren", "Schule hier verboten"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bord A23 waarschuwt voor een plaats waar veel kinderen aanwezig zijn (school, speelplaats). U moet uw snelheid matigen (Wegcode art. 67, bord A23).",
+      "en": "Sign A23 warns of a place where many children are present (school, playground). You must reduce speed (Wegcode art. 67, sign A23).",
+      "fr": "Le panneau A23 signale un lieu fréquenté par les enfants (école, plaine de jeux). Il faut ralentir (Code de la route art. 67, panneau A23).",
+      "de": "Zeichen A23 warnt vor Orten mit vielen Kindern (Schule, Spielplatz). Geschwindigkeit verringern (StVO Art. 67, Zeichen A23)."
+    },
+    "legal_ref": "Wegcode art. 67 (A23)"
+  },
+  {
+    "id": "SGN-012",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Een rond bord met blauwe achtergrond, witte 'P'. Wat betekent dit?",
+      "en": "Round sign with blue background, white 'P'. Meaning?",
+      "fr": "Panneau rond, fond bleu, 'P' blanc. Signification ?",
+      "de": "Rundes Schild, blauer Grund, weißes 'P'. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Parkeren verboden", "Toegelaten parkeerplaats", "Politiepost"],
+      "en": ["No parking", "Permitted parking", "Police station"],
+      "fr": ["Stationnement interdit", "Parking autorisé", "Poste de police"],
+      "de": ["Parken verboten", "Erlaubter Parkplatz", "Polizeiwache"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een vierkant/rechthoekig blauw bord met witte 'P' (E9-reeks) duidt een toegelaten parkeerplaats aan. Verbod heeft rode rand of doorhaling (Wegcode art. 70).",
+      "en": "A square/rectangular blue sign with white 'P' (E9 series) indicates permitted parking. Prohibition has a red border or slash (Wegcode art. 70).",
+      "fr": "Un panneau carré/rectangulaire bleu avec 'P' blanc (série E9) signale un parking autorisé. L'interdiction utilise un bord rouge ou une barre (Code de la route art. 70).",
+      "de": "Ein quadratisches/rechteckiges blaues Schild mit weißem 'P' (E9-Reihe) zeigt einen erlaubten Parkplatz an. Verbot mit rotem Rand oder Strich (StVO Art. 70)."
+    },
+    "legal_ref": "Wegcode art. 70 (E9)"
+  },
+  {
+    "id": "SGN-013",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "U ziet bord E1 (rond, blauw, rode rand met één diagonaal). Wat is verboden?",
+      "en": "You see sign E1 (round, blue, red border with one diagonal). What is forbidden?",
+      "fr": "Panneau E1 (rond, bleu, bord rouge avec une diagonale). Que est interdit ?",
+      "de": "Zeichen E1 (rund, blau, roter Rand mit einer Diagonale). Was verboten?"
+    },
+    "options": {
+      "nl": ["Stilstaan én parkeren", "Alleen parkeren, stilstaan blijft toegestaan", "Alleen stilstaan, parkeren blijft toegestaan"],
+      "en": ["Standing and parking", "Only parking; standing still allowed", "Only standing; parking still allowed"],
+      "fr": ["Arrêt et stationnement interdits", "Stationnement uniquement; arrêt autorisé", "Arrêt uniquement; stationnement autorisé"],
+      "de": ["Halten und Parken verboten", "Nur Parken; Halten erlaubt", "Nur Halten; Parken erlaubt"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bord E1 (één diagonaal) verbiedt parkeren maar staat stilstaan toe. Bord E3 (twee diagonalen, kruis) verbiedt zowel stilstaan als parkeren (Wegcode art. 70).",
+      "en": "Sign E1 (one diagonal) forbids parking but allows stopping. Sign E3 (cross) forbids both stopping and parking (Wegcode art. 70).",
+      "fr": "Le panneau E1 (une diagonale) interdit le stationnement mais autorise l'arrêt. Le E3 (croix) interdit les deux (Code de la route art. 70).",
+      "de": "Zeichen E1 (eine Diagonale) verbietet Parken, Halten erlaubt. Zeichen E3 (Kreuz) verbietet beides (StVO Art. 70)."
+    },
+    "legal_ref": "Wegcode art. 70 (E1/E3)"
+  },
+  {
+    "id": "SGN-014",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Wat betekent bord D7 (rond, blauw, witte fiets)?",
+      "en": "What does sign D7 mean (round, blue, white bicycle)?",
+      "fr": "Que signifie le panneau D7 (rond, bleu, vélo blanc) ?",
+      "de": "Was bedeutet Zeichen D7 (rund, blau, weißes Fahrrad)?"
+    },
+    "options": {
+      "nl": ["Fietsen toegelaten", "Verplicht fietspad: fietsers en bromfietsers klasse A moeten het gebruiken", "Verboden voor fietsen"],
+      "en": ["Bicycles allowed", "Mandatory cycle path: cyclists and class-A mopeds must use it", "No cycling"],
+      "fr": ["Vélos autorisés", "Piste cyclable obligatoire: cyclistes et cyclomoteurs A doivent l'emprunter", "Vélos interdits"],
+      "de": ["Radfahren erlaubt", "Vorgeschriebener Radweg: Radfahrer und Mofas Klasse A müssen ihn benutzen", "Radfahrverbot"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bord D7 duidt een verplicht fietspad aan. Fietsers en bromfietsers klasse A moeten dit pad gebruiken, anderen mogen er niet rijden (Wegcode art. 69 + art. 9).",
+      "en": "Sign D7 indicates a mandatory cycle path. Cyclists and class-A mopeds must use it; other vehicles may not (Wegcode art. 69 + art. 9).",
+      "fr": "Le panneau D7 désigne une piste cyclable obligatoire. Les cyclistes et cyclomoteurs A doivent l'emprunter; les autres ne peuvent pas (Code de la route art. 69 + art. 9).",
+      "de": "Zeichen D7 zeigt einen vorgeschriebenen Radweg. Radfahrer und Mofas Klasse A müssen ihn nutzen; andere nicht (StVO Art. 69 + Art. 9)."
+    },
+    "legal_ref": "Wegcode art. 69 (D7)"
+  },
+  {
+    "id": "SGN-015",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Wat betekent bord F19 (vierkant, blauw, witte pijl met daaronder een rode pijl)?",
+      "en": "What does sign F19 mean (square, blue, white arrow and below a red arrow)?",
+      "fr": "Que signifie F19 (carré, bleu, flèche blanche et flèche rouge en-dessous) ?",
+      "de": "Bedeutung von F19 (quadratisch, blau, weißer Pfeil und darunter roter Pfeil)?"
+    },
+    "options": {
+      "nl": ["Eenrichtingsverkeer; verkeer in tegenovergestelde richting verboden", "Begin autoweg", "Tweerichtingsweg, oppassen voor tegenverkeer"],
+      "en": ["One-way street; opposite direction forbidden", "Start of expressway", "Two-way road, watch oncoming"],
+      "fr": ["Sens unique; sens opposé interdit", "Début de voie rapide", "Voie à double sens"],
+      "de": ["Einbahnstraße; Gegenrichtung verboten", "Beginn Schnellstraße", "Zweirichtungsverkehr"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Bord F19 duidt op eenrichtingsverkeer: u rijdt in de richting van de witte pijl, verkeer in tegengestelde richting is verboden (Wegcode art. 71).",
+      "en": "Sign F19 indicates one-way traffic: you drive in the white arrow's direction; opposite direction is forbidden (Wegcode art. 71).",
+      "fr": "Le panneau F19 indique un sens unique: vous roulez dans la direction de la flèche blanche (Code de la route art. 71).",
+      "de": "Zeichen F19 zeigt eine Einbahnstraße in Richtung des weißen Pfeils (StVO Art. 71)."
+    },
+    "legal_ref": "Wegcode art. 71 (F19)"
+  },
+  {
+    "id": "SGN-016",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Driehoek met rode rand, twee tegen elkaar gerichte pijlen (rood en zwart). Wat betekent dit?",
+      "en": "Triangle with red border, two opposing arrows (red and black). Meaning?",
+      "fr": "Triangle à bord rouge, deux flèches opposées (rouge et noire). Signification ?",
+      "de": "Dreieck mit rotem Rand, zwei gegenläufigen Pfeilen (rot und schwarz). Bedeutung?"
+    },
+    "options": {
+      "nl": ["Eenrichtingsverkeer eindigt", "Tweerichtingsverkeer (gevaar)", "Verboden in te halen"],
+      "en": ["End of one-way street", "Two-way traffic warning", "No overtaking"],
+      "fr": ["Fin de sens unique", "Circulation à double sens (danger)", "Interdiction de dépasser"],
+      "de": ["Ende der Einbahn", "Gegenverkehr (Gefahr)", "Überholverbot"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bord A39 waarschuwt voor tweerichtingsverkeer, vaak na een eenrichtingsweg of bij wegversmalling. Wees alert op tegenliggers (Wegcode art. 67).",
+      "en": "Sign A39 warns of two-way traffic, often after a one-way section or narrowing. Watch for oncoming vehicles (Wegcode art. 67).",
+      "fr": "Le panneau A39 signale une circulation à double sens, souvent après un sens unique ou un rétrécissement (Code de la route art. 67).",
+      "de": "Zeichen A39 warnt vor Gegenverkehr, oft nach Einbahn oder Engstelle (StVO Art. 67)."
+    },
+    "legal_ref": "Wegcode art. 67 (A39)"
+  },
+  {
+    "id": "SGN-017",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Wat betekent een rond rood bord met een witte fiets?",
+      "en": "What does a round red sign with a white bicycle mean?",
+      "fr": "Que signifie un panneau rond rouge avec un vélo blanc ?",
+      "de": "Was bedeutet rundes rotes Schild mit weißem Fahrrad?"
+    },
+    "options": {
+      "nl": ["Verplicht fietspad", "Verboden toegang voor fietsers", "Einde fietspad"],
+      "en": ["Mandatory cycle path", "No entry for cyclists", "End of cycle path"],
+      "fr": ["Piste cyclable obligatoire", "Accès interdit aux cyclistes", "Fin de piste cyclable"],
+      "de": ["Vorgeschriebener Radweg", "Einfahrt für Radfahrer verboten", "Ende Radweg"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bord C11 (rond, witte achtergrond, rode rand met witte fiets) verbiedt de toegang voor fietsers. Niet te verwarren met het blauwe verplichte fietspad-bord D7 (Wegcode art. 68).",
+      "en": "Sign C11 (round, white, red border, bicycle) forbids cyclists. Not to be confused with blue D7 mandatory cycle path (Wegcode art. 68).",
+      "fr": "Le panneau C11 (rond, blanc, bord rouge, vélo) interdit l'accès aux cyclistes. À ne pas confondre avec D7 piste obligatoire (Code de la route art. 68).",
+      "de": "Zeichen C11 (rund, weiß, roter Rand, Fahrrad) verbietet Radfahrer. Nicht mit D7 (blau, vorgeschriebener Radweg) verwechseln (StVO Art. 68)."
+    },
+    "legal_ref": "Wegcode art. 68 (C11)"
+  },
+  {
+    "id": "SGN-018",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "U ziet een vierkant blauw bord met een witte auto van bovenaf gezien. Wat betekent dit?",
+      "en": "You see a square blue sign with a white car seen from above. Meaning?",
+      "fr": "Panneau carré bleu avec voiture blanche vue du dessus. Signification ?",
+      "de": "Quadratisches blaues Schild mit weißem Auto von oben. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Garageplaats", "Begin van een autosnelweg", "Begin van een autoweg (voorbehouden aan motorvoertuigen)"],
+      "en": ["Garage location", "Start of motorway", "Start of an expressway (reserved for motor vehicles)"],
+      "fr": ["Garage", "Début d'autoroute", "Début de voie réservée aux véhicules à moteur"],
+      "de": ["Garage", "Beginn Autobahn", "Beginn Kraftfahrstraße (nur Kfz)"]
+    },
+    "correct": 2,
+    "explanation": {
+      "nl": "Bord F9 duidt het begin van een autoweg aan: voorbehouden voor motorvoertuigen die minstens 70 km/u kunnen halen. Fietsers, voetgangers en bromfietsers zijn verboden (Wegcode art. 22 + bord F9).",
+      "en": "Sign F9 marks the start of an expressway: reserved for motor vehicles capable of at least 70 km/h. Cyclists, pedestrians and mopeds forbidden (Wegcode art. 22 + sign F9).",
+      "fr": "Le panneau F9 indique le début d'une voie réservée aux véhicules à moteur (au moins 70 km/h). Interdit aux cyclistes, piétons et cyclomoteurs (Code de la route art. 22 + panneau F9).",
+      "de": "Zeichen F9 zeigt den Beginn einer Kraftfahrstraße: nur Kfz, die mindestens 70 km/h erreichen. Radfahrer, Fußgänger, Mofas verboten (StVO Art. 22 + Zeichen F9)."
+    },
+    "legal_ref": "Wegcode art. 22 (F9)"
+  },
+  {
+    "id": "SGN-019",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Driehoek met rode rand, een uitroepteken in het midden. Wat betekent dit?",
+      "en": "Triangle with red border, exclamation mark in the centre. Meaning?",
+      "fr": "Triangle à bord rouge, point d'exclamation au centre. Signification ?",
+      "de": "Dreieck mit rotem Rand, Ausrufezeichen in der Mitte. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Gevaar: aard wordt op een onderbord vermeld", "Verboden te stoppen", "Voorrang aan tegenliggers"],
+      "en": ["Danger: nature shown on a sub-sign", "No stopping", "Yield to oncoming traffic"],
+      "fr": ["Danger: nature indiquée sur un panneau additionnel", "Arrêt interdit", "Cédez aux véhicules en sens inverse"],
+      "de": ["Gefahr: Art steht auf Zusatzschild", "Halteverbot", "Vorfahrt für Gegenverkehr"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Bord A51 is een algemeen gevaarsbord. De specifieke aard van het gevaar wordt aangeduid op een onderbord. Verminder snelheid en wees alert (Wegcode art. 67).",
+      "en": "Sign A51 is a generic warning. The specific hazard is shown on a sub-sign. Slow down and be alert (Wegcode art. 67).",
+      "fr": "Le panneau A51 est un avertissement générique. La nature du danger est indiquée par un panneau additionnel (Code de la route art. 67).",
+      "de": "Zeichen A51 ist eine allgemeine Warnung. Die genaue Gefahr steht auf einem Zusatzschild (StVO Art. 67)."
+    },
+    "legal_ref": "Wegcode art. 67 (A51)"
+  },
+  {
+    "id": "SGN-020",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Wat betekent bord C23 (rond, witte achtergrond, rode rand, vrachtwagen)?",
+      "en": "What does sign C23 mean (round, white, red border, truck)?",
+      "fr": "Que signifie C23 (rond, blanc, bord rouge, camion) ?",
+      "de": "Was bedeutet C23 (rund, weiß, roter Rand, Lkw)?"
+    },
+    "options": {
+      "nl": ["Toegang verboden voor bestuurders van vrachtwagens", "Inhalen verboden voor vrachtwagens", "Parkeerplaats vrachtwagens"],
+      "en": ["Entry forbidden for trucks", "No overtaking for trucks", "Truck parking"],
+      "fr": ["Accès interdit aux camions", "Interdiction de dépasser pour camions", "Parking poids lourds"],
+      "de": ["Einfahrt für Lkw verboten", "Überholverbot für Lkw", "Lkw-Parkplatz"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Bord C23 verbiedt de toegang voor bestuurders van voertuigen die uitsluitend voor het vervoer van goederen bestemd zijn en waarvan de MTM 3,5 ton overschrijdt, tenzij anders aangegeven op een onderbord (Wegcode art. 68).",
+      "en": "Sign C23 forbids access to drivers of vehicles solely for goods transport over 3.5 t GVM, unless a sub-sign specifies otherwise (Wegcode art. 68).",
+      "fr": "Le panneau C23 interdit l'accès aux camions de transport de marchandises dont la MMA dépasse 3,5 t, sauf indication contraire sur panneau additionnel (Code de la route art. 68).",
+      "de": "Zeichen C23 verbietet die Einfahrt für Güterfahrzeuge über 3,5 t zGM, sofern Zusatzschild nichts anderes regelt (StVO Art. 68)."
+    },
+    "legal_ref": "Wegcode art. 68 (C23)"
+  },
+  {
+    "id": "SGN-021",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Een driehoek met een afdaling (witte pijl naar beneden) en percentage '10%'. Wat betekent dit?",
+      "en": "Triangle with a descending white arrow and '10%'. Meaning?",
+      "fr": "Triangle avec flèche descendante et '10%'. Signification ?",
+      "de": "Dreieck mit abfallendem weißem Pfeil und '10%'. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Gevaarlijke afdaling van 10%", "Wegversmalling 10 m", "Stijging 10%"],
+      "en": ["Dangerous descent of 10%", "Road narrowing 10 m", "Climb of 10%"],
+      "fr": ["Descente dangereuse 10%", "Rétrécissement 10 m", "Montée 10%"],
+      "de": ["Gefährliches Gefälle 10%", "Engstelle 10 m", "Steigung 10%"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Bord A7 waarschuwt voor een gevaarlijke afdaling. Het percentage geeft de hellingsgraad aan. Schakel naar een lagere versnelling, vermijd langdurig remmen (Wegcode art. 67).",
+      "en": "Sign A7 warns of a dangerous descent. Percentage shows gradient. Shift to lower gear, avoid prolonged braking (Wegcode art. 67).",
+      "fr": "Le panneau A7 signale une descente dangereuse. Le pourcentage indique la pente. Rétrograder, éviter le freinage prolongé (Code de la route art. 67).",
+      "de": "Zeichen A7 warnt vor gefährlichem Gefälle. Prozent = Neigung. Niedrigeren Gang einlegen, Dauerbremsen vermeiden (StVO Art. 67)."
+    },
+    "legal_ref": "Wegcode art. 67 (A7)"
+  },
+  {
+    "id": "SGN-022",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "U ziet bord C35 (rond, witte achtergrond, rode rand, twee auto's naast elkaar, één rood). Wat is verboden?",
+      "en": "Sign C35 (round, white, red border, two cars side by side, one red). What is forbidden?",
+      "fr": "Panneau C35 (rond, blanc, bord rouge, deux voitures côte à côte, l'une rouge). Que est interdit ?",
+      "de": "Zeichen C35 (rund, weiß, roter Rand, zwei Autos nebeneinander, eines rot). Was verboten?"
+    },
+    "options": {
+      "nl": ["Parkeren naast elkaar", "Inhalen door motorvoertuigen, behalve motorfietsen zonder zijspan", "Tweerichtingsverkeer"],
+      "en": ["Parking side by side", "Overtaking by motor vehicles, except motorcycles without sidecar", "Two-way traffic"],
+      "fr": ["Stationnement côte à côte", "Dépassement par véhicules à moteur (sauf motos sans side-car)", "Double sens"],
+      "de": ["Parken nebeneinander", "Überholen durch Kfz, außer Motorräder ohne Beiwagen", "Gegenverkehr"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bord C35 verbiedt inhalen door motorvoertuigen, met uitzondering van tweewielige motorfietsen zonder zijspan. Geldt tot bord C37 (einde verbod) of het volgende kruispunt (Wegcode art. 68).",
+      "en": "Sign C35 forbids overtaking by motor vehicles, except two-wheeled motorcycles without sidecar. Valid until sign C37 or the next intersection (Wegcode art. 68).",
+      "fr": "Le panneau C35 interdit le dépassement par véhicules à moteur, sauf motos sans side-car. Valable jusqu'au C37 ou au prochain carrefour (Code de la route art. 68).",
+      "de": "Zeichen C35 verbietet das Überholen durch Kfz, ausgenommen Motorräder ohne Beiwagen. Gilt bis C37 oder zur nächsten Kreuzung (StVO Art. 68)."
+    },
+    "legal_ref": "Wegcode art. 68 (C35)"
+  },
+  {
+    "id": "SGN-023",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Wat betekent een vierkant blauw bord met witte 'P' en eronder de letter 'M'?",
+      "en": "Square blue sign, white 'P' with 'M' below. Meaning?",
+      "fr": "Panneau carré bleu, 'P' blanc avec 'M' en-dessous. Signification ?",
+      "de": "Quadratisches blaues Schild, weißes 'P' mit 'M' darunter. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Parkeerplaats voor motorfietsen", "Parking + winkelcentrum", "Parking voor mindervaliden"],
+      "en": ["Parking for motorcycles", "Parking + shopping centre", "Parking for disabled"],
+      "fr": ["Stationnement motos", "Parking + centre commercial", "Stationnement handicapés"],
+      "de": ["Parkplatz für Motorräder", "Parkplatz + Einkaufszentrum", "Behindertenparkplatz"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "De letter 'M' onder een 'P'-bord duidt aan dat de parkeerplaats voorbehouden is voor motorfietsen. Andere voertuigen mogen er niet parkeren (Wegcode art. 70 + onderbord).",
+      "en": "The 'M' under a 'P' sign reserves the parking for motorcycles. Other vehicles may not park there (Wegcode art. 70 + sub-sign).",
+      "fr": "La lettre 'M' sous 'P' réserve le stationnement aux motos. Les autres véhicules ne peuvent y stationner (Code de la route art. 70 + panneau additionnel).",
+      "de": "Das 'M' unter 'P' reserviert den Parkplatz für Motorräder. Andere Fahrzeuge dürfen dort nicht parken (StVO Art. 70 + Zusatzschild)."
+    },
+    "legal_ref": "Wegcode art. 70"
+  },
+  {
+    "id": "SGN-024",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Een rechthoekig blauw bord met witte streep over een vrachtwagen. Wat betekent dit?",
+      "en": "Rectangular blue sign with a white slash through a truck. Meaning?",
+      "fr": "Panneau bleu rectangulaire avec un camion barré. Signification ?",
+      "de": "Rechteckiges blaues Schild mit weißem Strich durch Lkw. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Einde inhaalverbod voor vrachtwagens (bord C39)", "Vrachtwagens niet welkom", "Parking voorbehouden voor auto's"],
+      "en": ["End of overtaking ban for trucks (sign C39)", "Trucks not welcome", "Parking reserved for cars"],
+      "fr": ["Fin d'interdiction de dépasser pour camions (C39)", "Camions non bienvenus", "Parking voitures"],
+      "de": ["Ende Überholverbot für Lkw (C39)", "Lkw unerwünscht", "Pkw-Parkplatz"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Bord C39 markeert het einde van het inhaalverbod opgelegd door bord C37 (vrachtwagens mogen niet inhalen). Het verbod vervalt vanaf dit bord (Wegcode art. 68).",
+      "en": "Sign C39 marks the end of the overtaking ban imposed by sign C37 (trucks forbidden to overtake). The ban ceases from this sign (Wegcode art. 68).",
+      "fr": "Le panneau C39 met fin à l'interdiction de dépasser imposée par C37 aux camions (Code de la route art. 68).",
+      "de": "Zeichen C39 hebt das durch C37 verhängte Lkw-Überholverbot auf (StVO Art. 68)."
+    },
+    "legal_ref": "Wegcode art. 68 (C39)"
+  },
+  {
+    "id": "SGN-025",
+    "topic": "traffic_signs",
+    "verified": false,
+    "question": {
+      "nl": "Zeshoekig rood bord met witte tekst 'STOP'. Wat moet u doen?",
+      "en": "Octagonal red sign with white 'STOP'. What must you do?",
+      "fr": "Panneau octogonal rouge 'STOP' blanc. Que devez-vous faire ?",
+      "de": "Achteckiges rotes Schild mit weißem 'STOP'. Was tun?"
+    },
+    "options": {
+      "nl": ["Vaart minderen en voorrang verlenen", "Volledig stilstaan en voorrang verlenen", "Stoppen alleen indien verkeer aanwezig"],
+      "en": ["Slow down and yield", "Full stop and yield", "Stop only if traffic present"],
+      "fr": ["Ralentir et céder le passage", "Arrêt complet et céder le passage", "S'arrêter uniquement si trafic"],
+      "de": ["Verlangsamen und Vorfahrt gewähren", "Vollständig anhalten und Vorfahrt gewähren", "Nur halten bei Verkehr"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bord B5 (achthoekig, rood, 'STOP') verplicht u tot volledige stilstand aan de stopstreep, zelfs wanneer de weg vrij is. Daarna voorrang verlenen aan al het kruisende verkeer (Wegcode art. 6 + B5).",
+      "en": "Sign B5 (octagonal, red, 'STOP') requires a full stop at the line, even if clear. Then yield to all crossing traffic (Wegcode art. 6 + B5).",
+      "fr": "Le panneau B5 (octogone rouge, 'STOP') impose un arrêt complet à la ligne, même voie libre. Céder ensuite le passage (Code de la route art. 6 + B5).",
+      "de": "Zeichen B5 (Achteck, rot, 'STOP') verlangt vollständigen Halt an der Linie, auch wenn frei. Dann Vorfahrt gewähren (StVO Art. 6 + B5)."
+    },
+    "legal_ref": "Wegcode art. 6 (B5)"
   }
 ]

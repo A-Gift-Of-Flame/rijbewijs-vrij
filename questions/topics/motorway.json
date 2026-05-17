@@ -48,5 +48,330 @@
       "de": "Rückwärtsfahren auf Autobahnen ist immer verboten, auch auf dem Standstreifen. Fahren Sie zur nächsten Ausfahrt (StVO Art. 23)."
     },
     "legal_ref": "Wegcode art. 23"
+  },
+  {
+    "id": "MOT-003",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "U rijdt een autosnelweg op via een invoegstrook. Wie heeft voorrang?",
+      "en": "You enter a motorway via an acceleration lane. Who has right of way?",
+      "fr": "Vous vous engagez sur autoroute par une bande d'accélération. Qui a la priorité ?",
+      "de": "Sie fahren über einen Beschleunigungsstreifen auf die Autobahn. Wer hat Vorfahrt?"
+    },
+    "options": {
+      "nl": ["U, want u moet versnellen", "Het verkeer dat al op de autosnelweg rijdt", "Wie het kleinste voertuig heeft"],
+      "en": ["You, because you must accelerate", "Traffic already on the motorway", "Whoever has the smaller vehicle"],
+      "fr": ["Vous, car vous devez accélérer", "Le trafic déjà sur l'autoroute", "Le véhicule le plus petit"],
+      "de": ["Sie, weil Sie beschleunigen müssen", "Verkehr, der bereits auf der Autobahn fährt", "Wer das kleinere Fahrzeug hat"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bij het invoegen op een autosnelweg moet u voorrang verlenen aan het verkeer dat zich al op de autosnelweg bevindt. U past uw snelheid aan en voegt veilig in (Wegcode art. 21.6).",
+      "en": "When merging onto a motorway, you must yield to traffic already on the motorway. Match your speed and merge safely (Wegcode art. 21.6).",
+      "fr": "En vous insérant sur l'autoroute, vous devez céder le passage au trafic déjà en place. Adaptez votre vitesse (Code de la route art. 21.6).",
+      "de": "Beim Auffahren auf die Autobahn müssen Sie dem Verkehr darauf Vorfahrt gewähren. Geschwindigkeit anpassen (StVO Art. 21.6)."
+    },
+    "legal_ref": "Wegcode art. 21.6"
+  },
+  {
+    "id": "MOT-004",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "Mag u stoppen op de pechstrook van een autosnelweg om iemand op te halen?",
+      "en": "May you stop on the hard shoulder of a motorway to pick someone up?",
+      "fr": "Peut-on s'arrêter sur la bande d'arrêt d'urgence pour prendre quelqu'un ?",
+      "de": "Darf man auf dem Standstreifen halten, um jemanden mitzunehmen?"
+    },
+    "options": {
+      "nl": ["Ja, kort stoppen is toegestaan", "Nee, alleen bij echte noodzaak (defect, ongeval, gevaar)", "Alleen tijdens de daluren"],
+      "en": ["Yes, brief stops are allowed", "No, only in genuine emergency (breakdown, accident, danger)", "Only off-peak"],
+      "fr": ["Oui, arrêt bref autorisé", "Non, uniquement en cas de réelle urgence (panne, accident, danger)", "Hors heures de pointe uniquement"],
+      "de": ["Ja, kurz halten erlaubt", "Nein, nur in echtem Notfall (Panne, Unfall, Gefahr)", "Nur außerhalb der Stoßzeit"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "De pechstrook is uitsluitend bestemd voor noodgevallen: defect, ongeval, ziekte van de bestuurder. Stoppen om andere redenen is verboden en gevaarlijk (Wegcode art. 21.5).",
+      "en": "The hard shoulder is for emergencies only: breakdown, accident, driver illness. Stopping for other reasons is forbidden and dangerous (Wegcode art. 21.5).",
+      "fr": "La bande d'arrêt d'urgence est réservée aux urgences: panne, accident, malaise. S'arrêter pour autre motif est interdit (Code de la route art. 21.5).",
+      "de": "Der Standstreifen ist nur für Notfälle: Panne, Unfall, Krankheit. Sonst halten ist verboten und gefährlich (StVO Art. 21.5)."
+    },
+    "legal_ref": "Wegcode art. 21.5"
+  },
+  {
+    "id": "MOT-005",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "Op een autosnelweg met drie rijstroken: welke rijstrook gebruikt u in normale omstandigheden?",
+      "en": "On a three-lane motorway: which lane do you use in normal conditions?",
+      "fr": "Autoroute à trois voies: quelle voie utiliser en circulation normale ?",
+      "de": "Dreispurige Autobahn: welche Spur normalerweise?"
+    },
+    "options": {
+      "nl": ["De middelste rijstrook", "De rechterrijstrook, behalve om in te halen", "Vrij te kiezen"],
+      "en": ["The middle lane", "The right lane, except to overtake", "Your choice"],
+      "fr": ["La voie centrale", "La voie de droite, sauf pour dépasser", "Au choix"],
+      "de": ["Mittlere Spur", "Rechte Spur, außer beim Überholen", "Beliebig"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "U moet zoveel mogelijk rechts rijden. De linker rijstroken zijn bedoeld om in te halen. Onnodig links blijven rijden is een overtreding (Wegcode art. 9.3).",
+      "en": "Keep right as much as possible. Left lanes are for overtaking. Lingering left without overtaking is an offence (Wegcode art. 9.3).",
+      "fr": "Roulez à droite. Les voies de gauche servent au dépassement. Y rester sans raison est une infraction (Code de la route art. 9.3).",
+      "de": "Rechts halten. Linke Spuren sind zum Überholen. Unnötig links bleiben ist ein Verstoß (StVO Art. 9.3)."
+    },
+    "legal_ref": "Wegcode art. 9.3"
+  },
+  {
+    "id": "MOT-006",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "Uw voertuig krijgt op de autosnelweg een defect. Wat doet u als eerste?",
+      "en": "Your car breaks down on the motorway. First action?",
+      "fr": "Votre voiture tombe en panne sur autoroute. Première action ?",
+      "de": "Auto bekommt auf der Autobahn eine Panne. Erste Handlung?"
+    },
+    "options": {
+      "nl": ["Direct uitstappen en hulp zoeken", "Pechstrook bereiken, waarschuwingsknipperlichten aanzetten, voertuig verlaten via rechterportier en achter de vangrail wachten", "Op de rijstrook stoppen om te bellen"],
+      "en": ["Get out immediately and seek help", "Reach the hard shoulder, hazard lights on, exit via right doors, wait behind barrier", "Stop in the lane to call"],
+      "fr": ["Sortir immédiatement", "Atteindre la bande d'arrêt, feux de détresse, sortir par la droite, attendre derrière la glissière", "S'arrêter sur la voie pour appeler"],
+      "de": ["Sofort aussteigen", "Standstreifen erreichen, Warnblinker, rechts aussteigen, hinter der Leitplanke warten", "In der Spur halten zum Telefonieren"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Sleep het voertuig naar de pechstrook, schakel waarschuwingsknipperlichten in, draag de fluovest, stap uit via de rechterzijde en blijf achter de vangrail. Plaats de gevarendriehoek op ongeveer 100 m. Bel 112 of de wegenwacht (Wegcode art. 51).",
+      "en": "Coast to the hard shoulder, hazard lights on, put on the hi-vis vest, exit via the right and stay behind the barrier. Place the warning triangle ~100 m back. Call 112 or breakdown service (Wegcode art. 51).",
+      "fr": "Atteindre la bande d'arrêt, feux de détresse, gilet fluo, sortir à droite, rester derrière la glissière. Triangle à ~100 m. Appeler 112 ou dépannage (Code de la route art. 51).",
+      "de": "Auf den Standstreifen rollen, Warnblinker, Warnweste, rechts aussteigen, hinter Leitplanke. Warndreieck ~100 m. 112 oder Pannendienst rufen (StVO Art. 51)."
+    },
+    "legal_ref": "Wegcode art. 51"
+  },
+  {
+    "id": "MOT-007",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "Welke voertuigen zijn verboden op de autosnelweg?",
+      "en": "Which vehicles are forbidden on the motorway?",
+      "fr": "Quels véhicules sont interdits sur autoroute ?",
+      "de": "Welche Fahrzeuge sind auf Autobahnen verboten?"
+    },
+    "options": {
+      "nl": ["Alleen vrachtwagens", "Voertuigen die structureel niet 70 km/u kunnen halen, fietsen, voetgangers, bromfietsen, landbouwvoertuigen", "Alle voertuigen met aanhangwagen"],
+      "en": ["Trucks only", "Vehicles unable to do 70 km/h, bicycles, pedestrians, mopeds, agricultural vehicles", "Anything with a trailer"],
+      "fr": ["Camions uniquement", "Véhicules ne pouvant rouler à 70 km/h, vélos, piétons, cyclomoteurs, engins agricoles", "Tout véhicule avec remorque"],
+      "de": ["Nur Lkw", "Fahrzeuge die nicht 70 km/h schaffen, Räder, Fußgänger, Mofas, Landmaschinen", "Alle mit Anhänger"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Verboden op de autosnelweg: voertuigen die in normale omstandigheden geen 70 km/u kunnen halen, fietsers, voetgangers, ruiters, bromfietsen, landbouwvoertuigen en handkarren (Wegcode art. 21.1).",
+      "en": "Forbidden on motorways: vehicles unable to reach 70 km/h, cyclists, pedestrians, riders, mopeds, agricultural vehicles, hand carts (Wegcode art. 21.1).",
+      "fr": "Interdits sur autoroute: véhicules incapables de 70 km/h, cyclistes, piétons, cavaliers, cyclomoteurs, engins agricoles (Code de la route art. 21.1).",
+      "de": "Auf Autobahnen verboten: Fahrzeuge unter 70 km/h, Radfahrer, Fußgänger, Reiter, Mofas, Landmaschinen (StVO Art. 21.1)."
+    },
+    "legal_ref": "Wegcode art. 21.1"
+  },
+  {
+    "id": "MOT-008",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "U wilt de autosnelweg verlaten. Waar vertraagt u?",
+      "en": "You want to leave the motorway. Where do you slow down?",
+      "fr": "Vous voulez quitter l'autoroute. Où ralentissez-vous ?",
+      "de": "Sie wollen die Autobahn verlassen. Wo bremsen Sie?"
+    },
+    "options": {
+      "nl": ["Op de rechterrijstrook al ver vóór de afrit", "Pas op de uitvoegstrook zelf", "Op de pechstrook"],
+      "en": ["On the right lane well before the exit", "Only on the exit lane itself", "On the hard shoulder"],
+      "fr": ["Sur la voie de droite bien avant la sortie", "Uniquement sur la bande de sortie", "Sur la bande d'arrêt"],
+      "de": ["Auf der rechten Spur weit vor der Abfahrt", "Erst auf dem Ausfädelstreifen", "Auf dem Standstreifen"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Vertraag pas op de uitvoegstrook (afritspoor), niet op de hoofdrijbaan. Vertragen op de rijstrook stoort het snelverkeer en is gevaarlijk (Wegcode art. 21.7).",
+      "en": "Decelerate only on the exit lane, not on the main carriageway. Slowing on the main lane disrupts fast traffic and is dangerous (Wegcode art. 21.7).",
+      "fr": "Ne ralentissez que sur la bande de sortie. Freiner sur la voie principale perturbe et est dangereux (Code de la route art. 21.7).",
+      "de": "Erst auf dem Ausfädelstreifen verlangsamen, nicht auf der Hauptfahrbahn. Bremsen auf der Spur ist gefährlich (StVO Art. 21.7)."
+    },
+    "legal_ref": "Wegcode art. 21.7"
+  },
+  {
+    "id": "MOT-009",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "Mag u op een autosnelweg achteruitrijden of keren als u uw afrit voorbij bent?",
+      "en": "May you reverse or turn around on a motorway if you missed your exit?",
+      "fr": "Peut-on faire marche arrière ou demi-tour sur autoroute si on a raté sa sortie ?",
+      "de": "Darf man auf der Autobahn zurücksetzen oder wenden, wenn man die Ausfahrt verpasst hat?"
+    },
+    "options": {
+      "nl": ["Ja, indien geen ander verkeer", "Nee, nooit; u rijdt door tot de volgende afrit", "Alleen op de pechstrook"],
+      "en": ["Yes, if no traffic", "No, never; drive to the next exit", "Only on the hard shoulder"],
+      "fr": ["Oui, si pas de trafic", "Non, jamais; continuer à la sortie suivante", "Uniquement sur la bande d'arrêt"],
+      "de": ["Ja, wenn niemand kommt", "Nein, nie; bis zur nächsten Abfahrt fahren", "Nur auf dem Standstreifen"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Op autosnelweg en autoweg zijn keren, achteruitrijden en gebruik van middendoorgang verboden, zonder uitzondering. Rij door tot de volgende afrit (Wegcode art. 21.3).",
+      "en": "On motorways and expressways, turning, reversing and using crossover gaps are forbidden, no exceptions. Drive to the next exit (Wegcode art. 21.3).",
+      "fr": "Sur autoroute/voie rapide, demi-tour, marche arrière et passage par le milieu sont interdits sans exception (Code de la route art. 21.3).",
+      "de": "Auf Autobahn/Schnellstraße: Wenden, Rückwärtsfahren, Mittelstreifenquerung verboten — ohne Ausnahme (StVO Art. 21.3)."
+    },
+    "legal_ref": "Wegcode art. 21.3"
+  },
+  {
+    "id": "MOT-010",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "Verkeerslichten boven de autosnelweg tonen een groene pijl naar beneden voor uw rijstrook. Wat betekent dit?",
+      "en": "Overhead lights show a green down-arrow over your lane. Meaning?",
+      "fr": "Les panneaux à messages variables affichent une flèche verte vers le bas sur votre voie. Signification ?",
+      "de": "Über Ihrer Spur zeigt eine grüne Abwärtspfeile. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Rijstrook open: u mag erop rijden", "U moet onmiddellijk stoppen", "Rijstrook gereserveerd voor hulpdiensten"],
+      "en": ["Lane open: you may use it", "Stop immediately", "Lane reserved for emergency vehicles"],
+      "fr": ["Voie ouverte: vous pouvez l'utiliser", "Arrêt immédiat", "Voie réservée aux secours"],
+      "de": ["Spur frei: dürfen befahren", "Sofort halten", "Nur Einsatzfahrzeuge"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Een groene neerwaartse pijl boven een rijstrook betekent dat de rijstrook open is voor verkeer in die richting. Een rood kruis betekent rijstrook gesloten — verboden te gebruiken (Wegcode art. 62ter).",
+      "en": "A green down-arrow over a lane means the lane is open. A red X means lane closed — forbidden to use (Wegcode art. 62ter).",
+      "fr": "Flèche verte descendante = voie ouverte. Croix rouge = voie fermée, interdiction (Code de la route art. 62ter).",
+      "de": "Grüner Abwärtspfeil = Spur frei. Rotes Kreuz = Spur gesperrt — Verbot (StVG Art. 62ter)."
+    },
+    "legal_ref": "Wegcode art. 62ter"
+  },
+  {
+    "id": "MOT-011",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "Bord F5 (autosnelweg) versus bord F9 (autoweg). Wat is een belangrijk verschil voor de bestuurder?",
+      "en": "Sign F5 (motorway) vs F9 (expressway). Key difference for the driver?",
+      "fr": "Panneau F5 (autoroute) vs F9 (voie rapide). Différence clé pour le conducteur ?",
+      "de": "Zeichen F5 (Autobahn) gegen F9 (Schnellstraße). Wichtiger Unterschied?"
+    },
+    "options": {
+      "nl": ["Geen, ze betekenen hetzelfde", "Autosnelweg: 120 km/u en gescheiden rijbanen; autoweg: 120 km/u maar niet altijd gescheiden, andere regels", "Autoweg is voor fietsen"],
+      "en": ["None, same thing", "Motorway: 120 km/h with separated carriageways; expressway: 120 km/h but not always separated, different rules", "Expressway is for cyclists"],
+      "fr": ["Aucune, identique", "Autoroute: 120 km/h, chaussées séparées; voie rapide: 120 km/h mais pas toujours séparée", "Voie rapide pour vélos"],
+      "de": ["Keiner, gleich", "Autobahn: 120 km/h, getrennte Fahrbahnen; Kraftfahrstraße: 120 km/h aber nicht immer getrennt", "Kraftfahrstraße für Radfahrer"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Beide hebben dezelfde maximumsnelheid 120 km/u en zijn voorbehouden aan motorvoertuigen die minstens 70 km/u halen. Verschillen: autosnelweg heeft strikt gescheiden rijbanen en specifieke regels (geen oversteekplaatsen, geen kruispunten). Autoweg kan kruispunten hebben (Wegcode art. 21 + 22).",
+      "en": "Same 120 km/h limit and same minimum-70 requirement. Motorway: strictly separated carriageways, no crossings. Expressway may have intersections (Wegcode art. 21 + 22).",
+      "fr": "Même limite 120 et minimum 70 km/h. Autoroute: chaussées séparées strictement, sans carrefours. Voie rapide peut avoir des carrefours (Code de la route art. 21 + 22).",
+      "de": "Beide 120 km/h, Mindest 70. Autobahn: getrennt, keine Kreuzungen. Kraftfahrstraße kann Kreuzungen haben (StVO Art. 21 + 22)."
+    },
+    "legal_ref": "Wegcode art. 21/22"
+  },
+  {
+    "id": "MOT-012",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "U rijdt 120 km/u op de autosnelweg. Welke volgafstand minimum?",
+      "en": "You drive 120 km/h on the motorway. What minimum following distance?",
+      "fr": "Vous roulez à 120 km/h sur autoroute. Distance de suivi minimale ?",
+      "de": "Sie fahren 120 km/h auf der Autobahn. Mindestabstand?"
+    },
+    "options": {
+      "nl": ["Ongeveer 30 meter", "Ongeveer 65–70 meter (2 seconden)", "Tegen de bumper aan"],
+      "en": ["About 30 metres", "About 65–70 metres (2 seconds)", "Bumper to bumper"],
+      "fr": ["Environ 30 m", "Environ 65–70 m (2 s)", "Pare-chocs contre pare-chocs"],
+      "de": ["Etwa 30 m", "Etwa 65–70 m (2 s)", "Stoßstange an Stoßstange"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bij 120 km/u (33 m/s) en de 2-secondenregel komt u op ongeveer 66 meter. Bij nat wegdek verdubbel naar 4 seconden, ongeveer 130 meter (Wegcode art. 10.1.3).",
+      "en": "At 120 km/h (33 m/s) the 2-second rule gives about 66 m. Wet road: double to 4 s, ~130 m (Wegcode art. 10.1.3).",
+      "fr": "À 120 km/h (33 m/s) la règle des 2 s donne ~66 m. Sur sol mouillé: 4 s, soit ~130 m (Code de la route art. 10.1.3).",
+      "de": "Bei 120 km/h (33 m/s) ergeben 2 s etwa 66 m. Nass: 4 s, etwa 130 m (StVO Art. 10.1.3)."
+    },
+    "legal_ref": "Wegcode art. 10.1.3"
+  },
+  {
+    "id": "MOT-013",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "Op de autosnelweg verschijnt boven uw rijstrook een variabele snelheidsbord '90'. Wat geldt?",
+      "en": "Above your lane on the motorway a variable speed sign shows '90'. What applies?",
+      "fr": "Au-dessus de votre voie, un panneau à message variable affiche '90'. Que faut-il faire ?",
+      "de": "Über Ihrer Spur zeigt ein variables Schild '90'. Was gilt?"
+    },
+    "options": {
+      "nl": ["Aanbeveling, mag genegeerd worden", "Bindende maximumsnelheid op die rijstrook", "Minimumsnelheid 90 km/u"],
+      "en": ["Recommendation, may be ignored", "Binding maximum on that lane", "Minimum speed 90 km/h"],
+      "fr": ["Recommandation", "Vitesse maximale obligatoire sur cette voie", "Minimum 90 km/h"],
+      "de": ["Empfehlung", "Verbindliche Höchstgeschwindigkeit auf dieser Spur", "Mindestgeschwindigkeit 90"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Variabele snelheidsborden boven de rijbaan zijn bindend en kunnen de algemene 120 km/u verlagen wegens werken, file, weersomstandigheden of incidenten. Overtreding is strafbaar (Wegcode art. 62ter + 11).",
+      "en": "Variable overhead speed signs are binding and can lower the 120 km/h default for works, queues, weather or incidents. Violations are punishable (Wegcode art. 62ter + 11).",
+      "fr": "Les panneaux à messages variables sont obligatoires et peuvent abaisser la vitesse pour travaux, bouchon, météo ou incidents (Code de la route art. 62ter + 11).",
+      "de": "Variable Anzeigen sind verbindlich und können die 120 km/h aus Bau, Stau, Wetter oder Vorfall senken (StVO Art. 62ter + 11)."
+    },
+    "legal_ref": "Wegcode art. 62ter"
+  },
+  {
+    "id": "MOT-014",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "U rijdt een tunnel op de autosnelweg binnen. Welke verlichting moet u gebruiken?",
+      "en": "You enter a motorway tunnel. Which lights must you use?",
+      "fr": "Vous entrez dans un tunnel sur autoroute. Quels feux utilisez-vous ?",
+      "de": "Sie fahren in einen Tunnel auf der Autobahn. Welche Beleuchtung?"
+    },
+    "options": {
+      "nl": ["Geen, de tunnel is verlicht", "Dimlichten, ook in een verlichte tunnel", "Grootlicht en mistlichten"],
+      "en": ["None, the tunnel is lit", "Dipped headlights, even in a lit tunnel", "High beam and fog lights"],
+      "fr": ["Aucun, le tunnel est éclairé", "Feux de croisement, même dans un tunnel éclairé", "Phares de route et antibrouillards"],
+      "de": ["Keine, der Tunnel ist beleuchtet", "Abblendlicht, auch im beleuchteten Tunnel", "Fernlicht und Nebellampen"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "In elke tunnel, ook indien deze verlicht is, moet u uw dimlichten aanzetten. Dit verbetert uw zichtbaarheid voor andere bestuurders (Wegcode art. 30.1).",
+      "en": "In any tunnel, even if lit, you must switch on dipped headlights. Improves visibility for others (Wegcode art. 30.1).",
+      "fr": "Dans tout tunnel, même éclairé, allumez les feux de croisement. Visibilité pour les autres (Code de la route art. 30.1).",
+      "de": "In jedem Tunnel, auch beleuchtet, Abblendlicht einschalten. Sichtbarkeit für andere (StVO Art. 30.1)."
+    },
+    "legal_ref": "Wegcode art. 30.1"
+  },
+  {
+    "id": "MOT-015",
+    "topic": "motorway",
+    "verified": false,
+    "question": {
+      "nl": "U ziet een file vóór u op de autosnelweg. Wat is een goede praktijk om kop-staartongevallen te vermijden?",
+      "en": "You see a queue ahead on the motorway. Good practice to avoid rear-end crashes?",
+      "fr": "Vous voyez un embouteillage devant. Bonne pratique pour éviter les collisions arrière ?",
+      "de": "Sie sehen einen Stau auf der Autobahn. Was tun, um Auffahrunfälle zu vermeiden?"
+    },
+    "options": {
+      "nl": ["Sterk remmen en hopen dat anderen reageren", "Tijdig de waarschuwingsknipperlichten kort aanzetten om bestuurders achter u te waarschuwen", "Op de pechstrook gaan staan"],
+      "en": ["Brake hard and hope others react", "Briefly switch on hazard lights to warn drivers behind", "Stop on the hard shoulder"],
+      "fr": ["Freiner fort et espérer", "Activer brièvement les feux de détresse pour avertir derrière", "Se garer sur la bande d'arrêt"],
+      "de": ["Stark bremsen und hoffen", "Kurz Warnblinker einschalten, um Nachfolger zu warnen", "Auf den Standstreifen"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bij plots opdoemende file mag u de waarschuwingsknipperlichten kort gebruiken om achterliggers te attenderen, zelfs op de autosnelweg. Schakel ze uit zodra het verkeer weer doorstroomt (Wegcode art. 30.4).",
+      "en": "When a queue suddenly appears, briefly use hazard lights to alert drivers behind, even on motorways. Switch off once flowing again (Wegcode art. 30.4).",
+      "fr": "Devant un bouchon soudain, activez brièvement les feux de détresse pour prévenir derrière, même sur autoroute. Éteindre quand le trafic reprend (Code de la route art. 30.4).",
+      "de": "Bei plötzlichem Stau kurz Warnblinker, auch auf der Autobahn. Ausschalten, wenn es wieder fließt (StVO Art. 30.4)."
+    },
+    "legal_ref": "Wegcode art. 30.4"
   }
 ]

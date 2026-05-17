@@ -48,5 +48,205 @@
       "de": "Auf nasser Fahrbahn verdoppelt sich der Bremsweg. Der empfohlene Abstand beträgt mindestens 4 Sekunden (StVO Art. 10)."
     },
     "legal_ref": "Wegcode art. 10"
+  },
+  {
+    "id": "DST-003",
+    "topic": "safe_distances",
+    "verified": false,
+    "question": {
+      "nl": "Hoe schat u in goede omstandigheden de minimumafstand tot uw voorligger in?",
+      "en": "How do you estimate the minimum distance to the vehicle in front in good conditions?",
+      "fr": "Comment estimer la distance minimale au véhicule devant en bonnes conditions ?",
+      "de": "Wie schätzt man bei guten Bedingungen den Mindestabstand zum Vordermann?"
+    },
+    "options": {
+      "nl": ["De 1-secondenregel", "De 2-secondenregel", "Een vaste afstand van 10 meter"],
+      "en": ["The 1-second rule", "The 2-second rule", "A fixed 10 m distance"],
+      "fr": ["Règle de la seconde", "Règle des deux secondes", "Distance fixe de 10 m"],
+      "de": ["1-Sekunden-Regel", "2-Sekunden-Regel", "Feste 10 m"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "De 2-secondenregel: bepaal een vast punt op de weg; wanneer uw voorligger het passeert, moeten er ten minste twee seconden verstrijken voordat u dat punt zelf bereikt (Wegcode art. 10.1.3).",
+      "en": "The 2-second rule: pick a fixed point; once the vehicle ahead passes it, at least two seconds must pass before you reach the same point (Wegcode art. 10.1.3).",
+      "fr": "La règle des 2 secondes: choisissez un point fixe; il doit s'écouler au moins 2 s entre le passage du véhicule devant et le vôtre (Code de la route art. 10.1.3).",
+      "de": "Die 2-Sekunden-Regel: fester Punkt auf der Straße; zwischen Vordermann und Ihnen mindestens 2 s (StVO Art. 10.1.3)."
+    },
+    "legal_ref": "Wegcode art. 10.1.3"
+  },
+  {
+    "id": "DST-004",
+    "topic": "safe_distances",
+    "verified": false,
+    "question": {
+      "nl": "Bij regen of nat wegdek: welke volgafstand is geschikt?",
+      "en": "In rain or wet road: which following distance is appropriate?",
+      "fr": "Sous la pluie ou route mouillée: quelle distance ?",
+      "de": "Bei Regen oder nasser Fahrbahn: welcher Folgeabstand?"
+    },
+    "options": {
+      "nl": ["Dezelfde 2 seconden", "Minstens 4 seconden — dubbel zo lang", "1 seconde, want vertraging is minder belangrijk"],
+      "en": ["The same 2 seconds", "At least 4 seconds — twice as long", "1 second, deceleration matters less"],
+      "fr": ["Les mêmes 2 secondes", "Au moins 4 secondes — le double", "1 seconde"],
+      "de": ["Dieselben 2 s", "Mindestens 4 s — doppelt so lang", "1 s"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Op nat wegdek verdubbelt de remafstand omdat de wrijving van de banden lager is. Houd minstens 4 seconden afstand om veilig te kunnen stoppen (Wegcode art. 10.1.1 + 10.1.3).",
+      "en": "On wet roads, braking distance doubles due to lower tyre grip. Keep at least 4 seconds to stop safely (Wegcode art. 10.1.1 + 10.1.3).",
+      "fr": "Sur route mouillée, la distance de freinage double. Gardez au moins 4 secondes (Code de la route art. 10.1.1 + 10.1.3).",
+      "de": "Auf nasser Fahrbahn verdoppelt sich der Bremsweg. Mindestens 4 s Abstand (StVO Art. 10.1.1 + 10.1.3)."
+    },
+    "legal_ref": "Wegcode art. 10.1.3"
+  },
+  {
+    "id": "DST-005",
+    "topic": "safe_distances",
+    "verified": false,
+    "question": {
+      "nl": "Op een autosnelweg of autoweg moeten vrachtwagens en autobussen die meer dan 7,5 ton wegen een wettelijke minimale volgafstand respecteren. Welke?",
+      "en": "On a motorway/expressway, trucks and buses over 7.5 t must keep a legal minimum following distance. Which?",
+      "fr": "Sur autoroute/voie rapide, les camions et bus de plus de 7,5 t doivent respecter une distance minimale. Laquelle ?",
+      "de": "Auf Autobahn/Schnellstraße müssen Lkw und Busse über 7,5 t einen gesetzlichen Mindestabstand halten. Welchen?"
+    },
+    "options": {
+      "nl": ["25 meter", "50 meter", "100 meter"],
+      "en": ["25 metres", "50 metres", "100 metres"],
+      "fr": ["25 m", "50 m", "100 m"],
+      "de": ["25 m", "50 m", "100 m"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Vrachtwagens en autobussen van meer dan 7,5 ton MTM moeten op autosnelwegen en autowegen minstens 50 meter afstand bewaren tot de voorligger (Wegcode art. 18.1).",
+      "en": "Trucks and buses over 7.5 t GVM must keep at least 50 metres from the vehicle ahead on motorways/expressways (Wegcode art. 18.1).",
+      "fr": "Les camions et bus de plus de 7,5 t MMA doivent garder au moins 50 m sur autoroute/voie rapide (Code de la route art. 18.1).",
+      "de": "Lkw und Busse über 7,5 t zGM müssen auf Autobahnen/Schnellstraßen mindestens 50 m Abstand halten (StVO Art. 18.1)."
+    },
+    "legal_ref": "Wegcode art. 18.1"
+  },
+  {
+    "id": "DST-006",
+    "topic": "safe_distances",
+    "verified": false,
+    "question": {
+      "nl": "Bij het inhalen van een fietser buiten de bebouwde kom moet u een minimale zijdelingse afstand bewaren. Welke?",
+      "en": "When overtaking a cyclist outside a built-up area, what minimum lateral distance must you keep?",
+      "fr": "En dépassant un cycliste hors agglomération, quelle distance latérale minimale ?",
+      "de": "Beim Überholen eines Radfahrers außerorts: welcher Mindestseitenabstand?"
+    },
+    "options": {
+      "nl": ["50 cm", "1 meter", "1,5 meter"],
+      "en": ["50 cm", "1 metre", "1.5 metres"],
+      "fr": ["50 cm", "1 m", "1,5 m"],
+      "de": ["50 cm", "1 m", "1,5 m"]
+    },
+    "correct": 2,
+    "explanation": {
+      "nl": "Buiten de bebouwde kom moet u bij het inhalen van fietsers, voetgangers, ruiters en bromfietsers ten minste 1,5 meter zijdelingse afstand laten. Binnen de bebouwde kom is dat 1 meter (Wegcode art. 16.4).",
+      "en": "Outside built-up areas you must leave at least 1.5 metres when overtaking cyclists, pedestrians, riders or mopeds. Inside built-up areas it is 1 metre (Wegcode art. 16.4).",
+      "fr": "Hors agglomération, 1,5 m latéral minimum en dépassant cyclistes, piétons, cavaliers, cyclos. En agglomération: 1 m (Code de la route art. 16.4).",
+      "de": "Außerorts mindestens 1,5 m beim Überholen von Radfahrern, Fußgängern, Reitern, Mopeds. Innerorts 1 m (StVO Art. 16.4)."
+    },
+    "legal_ref": "Wegcode art. 16.4"
+  },
+  {
+    "id": "DST-007",
+    "topic": "safe_distances",
+    "verified": false,
+    "question": {
+      "nl": "Bij het inhalen van een fietser binnen de bebouwde kom moet u een minimale zijdelingse afstand bewaren. Welke?",
+      "en": "When overtaking a cyclist inside a built-up area, what minimum lateral distance must you keep?",
+      "fr": "En dépassant un cycliste en agglomération, quelle distance latérale minimale ?",
+      "de": "Beim Überholen eines Radfahrers innerorts: welcher Mindestseitenabstand?"
+    },
+    "options": {
+      "nl": ["50 cm", "1 meter", "1,5 meter"],
+      "en": ["50 cm", "1 metre", "1.5 metres"],
+      "fr": ["50 cm", "1 m", "1,5 m"],
+      "de": ["50 cm", "1 m", "1,5 m"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Binnen de bebouwde kom bedraagt de minimale zijdelingse afstand bij het inhalen van fietsers en andere kwetsbare gebruikers 1 meter (Wegcode art. 16.4).",
+      "en": "Inside a built-up area the minimum lateral overtaking distance for cyclists and other vulnerable users is 1 metre (Wegcode art. 16.4).",
+      "fr": "En agglomération, la distance minimale latérale pour dépasser un cycliste est de 1 m (Code de la route art. 16.4).",
+      "de": "Innerorts beträgt der seitliche Mindestabstand beim Überholen von Radfahrern 1 m (StVO Art. 16.4)."
+    },
+    "legal_ref": "Wegcode art. 16.4"
+  },
+  {
+    "id": "DST-008",
+    "topic": "safe_distances",
+    "verified": false,
+    "question": {
+      "nl": "Welke factoren bepalen de totale stopafstand van een voertuig?",
+      "en": "Which factors determine total stopping distance of a vehicle?",
+      "fr": "Quels facteurs déterminent la distance d'arrêt totale ?",
+      "de": "Welche Faktoren bestimmen den gesamten Anhalteweg?"
+    },
+    "options": {
+      "nl": ["Alleen de remafstand", "Reactieafstand + remafstand", "Snelheid en gewicht alleen"],
+      "en": ["Braking distance only", "Reaction distance + braking distance", "Speed and weight only"],
+      "fr": ["Distance de freinage uniquement", "Distance de réaction + distance de freinage", "Vitesse et poids seulement"],
+      "de": ["Nur Bremsweg", "Reaktionsweg + Bremsweg", "Nur Geschwindigkeit und Gewicht"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Stopafstand = reactieafstand (afstand afgelegd tijdens de reactietijd, gemiddeld 1 s) + remafstand. Reactieafstand groeit lineair met snelheid; remafstand kwadratisch (Wegcode art. 10.1.1).",
+      "en": "Stopping distance = reaction distance (covered during reaction time, ~1 s) + braking distance. Reaction grows linearly with speed; braking grows quadratically (Wegcode art. 10.1.1).",
+      "fr": "Distance d'arrêt = distance de réaction (~1 s) + distance de freinage. La réaction est linéaire, le freinage quadratique (Code de la route art. 10.1.1).",
+      "de": "Anhalteweg = Reaktionsweg (~1 s) + Bremsweg. Reaktion linear, Bremsweg quadratisch zur Geschwindigkeit (StVO Art. 10.1.1)."
+    },
+    "legal_ref": "Wegcode art. 10.1.1"
+  },
+  {
+    "id": "DST-009",
+    "topic": "safe_distances",
+    "verified": false,
+    "question": {
+      "nl": "Wat is de remafstand bij verdubbeling van de snelheid (bv. van 50 naar 100 km/u)?",
+      "en": "What happens to braking distance when speed doubles (e.g. 50 to 100 km/h)?",
+      "fr": "Qu'arrive-t-il à la distance de freinage quand la vitesse double (50 à 100 km/h) ?",
+      "de": "Was passiert mit dem Bremsweg, wenn die Geschwindigkeit verdoppelt wird (50 auf 100 km/h)?"
+    },
+    "options": {
+      "nl": ["Verdubbelt (2 keer)", "Verviervoudigt (4 keer)", "Blijft gelijk"],
+      "en": ["Doubles (×2)", "Quadruples (×4)", "Stays the same"],
+      "fr": ["Double (×2)", "Quadruple (×4)", "Reste identique"],
+      "de": ["Verdoppelt (×2)", "Vervierfacht (×4)", "Bleibt gleich"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "De remafstand is evenredig met het kwadraat van de snelheid: bij dubbele snelheid wordt de remafstand vier keer langer. Dit verklaart waarom snelheid de zwaarste factor is bij ongevallen.",
+      "en": "Braking distance is proportional to the square of speed: double the speed = four times the braking distance. That is why speed is the heaviest factor in crashes.",
+      "fr": "La distance de freinage est proportionnelle au carré de la vitesse: vitesse doublée = freinage ×4. La vitesse pèse lourd dans les accidents.",
+      "de": "Bremsweg ist proportional zum Quadrat der Geschwindigkeit: doppelt schnell = vierfacher Bremsweg. Daher ist Geschwindigkeit der größte Unfallfaktor."
+    },
+    "legal_ref": "Wegcode art. 10.1.1"
+  },
+  {
+    "id": "DST-010",
+    "topic": "safe_distances",
+    "verified": false,
+    "question": {
+      "nl": "U nadert een onbewaakte overweg met andreaskruis. Op welke afstand moet u stoppen indien de lichten branden?",
+      "en": "You approach an unguarded level crossing with St Andrew's cross. The lights are flashing — where do you stop?",
+      "fr": "Vous approchez d'un passage à niveau non gardé avec croix de Saint-André. Les feux clignotent — où s'arrêter ?",
+      "de": "Sie nähern sich einem unbeschrankten Bahnübergang mit Andreaskreuz. Lichter blinken — wo halten?"
+    },
+    "options": {
+      "nl": ["Direct op het andreaskruis", "Voor het andreaskruis of stopstreep, op voldoende afstand van de sporen", "Tussen de sporen"],
+      "en": ["Right at the cross", "Before the cross or stop line, at safe distance from the rails", "Between the rails"],
+      "fr": ["Sur la croix", "Avant la croix ou la ligne d'arrêt, à distance des voies", "Entre les rails"],
+      "de": ["Auf dem Kreuz", "Vor dem Kreuz oder der Haltlinie, sicherer Abstand zu den Schienen", "Zwischen den Schienen"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bij rode knipperlichten of het horen van de bel moet u stoppen vóór het andreaskruis (bord A45/A47) of de stopstreep, op voldoende afstand. Nooit op het kruis of tussen de sporen blijven (Wegcode art. 20).",
+      "en": "On red flashing lights or warning bell, stop before the St Andrew's cross (sign A45/A47) or stop line, well clear of rails. Never on the cross or between rails (Wegcode art. 20).",
+      "fr": "Sur feux rouges clignotants ou sonnerie, arrêt avant la croix (A45/A47) ou ligne d'arrêt, à distance des rails. Jamais sur la croix ou entre les rails (Code de la route art. 20).",
+      "de": "Bei roten Blinklichtern oder Glocke vor dem Andreaskreuz (A45/A47) oder der Haltlinie anhalten, fern der Schienen. Nie auf dem Kreuz oder zwischen den Schienen (StVO Art. 20)."
+    },
+    "legal_ref": "Wegcode art. 20"
   }
 ]

@@ -48,5 +48,255 @@
       "de": "Die Mindestprofiltiefe für Personenkraftwagen beträgt 1,6 mm über die gesamte Breite der Lauffläche. Mit abgenutzten Reifen zu fahren ist gefährlich und verboten."
     },
     "legal_ref": "KB 15 maart 1968 — technische eisen voertuigen"
+  },
+  {
+    "id": "VEH-003",
+    "topic": "vehicle_safety",
+    "verified": false,
+    "question": {
+      "nl": "Wat is de wettelijke minimum profieldiepte voor banden van personenwagens in België?",
+      "en": "What is the legal minimum tread depth for passenger car tyres in Belgium?",
+      "fr": "Quelle est la profondeur minimale légale des pneus en Belgique ?",
+      "de": "Was ist die gesetzliche Mindestprofiltiefe für Pkw-Reifen in Belgien?"
+    },
+    "options": {
+      "nl": ["1,0 mm", "1,6 mm", "3,0 mm"],
+      "en": ["1.0 mm", "1.6 mm", "3.0 mm"],
+      "fr": ["1,0 mm", "1,6 mm", "3,0 mm"],
+      "de": ["1,0 mm", "1,6 mm", "3,0 mm"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "De wettelijke minimum profieldiepte voor personenwagens is 1,6 mm over de hele omtrek en breedte van het loopvlak. Bij minder is de band niet meer toegelaten op de openbare weg (KB Technisch Reglement art. 30).",
+      "en": "Minimum legal tread depth for cars is 1.6 mm across the whole tread surface. Below that, the tyre is no longer roadworthy (Technical Regulation Royal Decree art. 30).",
+      "fr": "Profondeur minimale légale: 1,6 mm sur toute la surface du pneu. En-dessous, le pneu n'est plus autorisé (AR Règlement technique art. 30).",
+      "de": "Mindestprofiltiefe für Pkw: 1,6 mm über die gesamte Lauffläche. Darunter nicht mehr zulässig (Technische Verordnung Art. 30)."
+    },
+    "legal_ref": "KB Technisch Reglement art. 30"
+  },
+  {
+    "id": "VEH-004",
+    "topic": "vehicle_safety",
+    "verified": false,
+    "question": {
+      "nl": "Zijn winterbanden in België verplicht?",
+      "en": "Are winter tyres mandatory in Belgium?",
+      "fr": "Les pneus hiver sont-ils obligatoires en Belgique ?",
+      "de": "Sind Winterreifen in Belgien Pflicht?"
+    },
+    "options": {
+      "nl": ["Ja, van december tot maart", "Nee, niet verplicht, maar aanbevolen onder 7°C en bij sneeuw", "Alleen voor vrachtwagens"],
+      "en": ["Yes, December to March", "No, not mandatory, but advised below 7°C and on snow", "Only for trucks"],
+      "fr": ["Oui, de décembre à mars", "Non, pas obligatoires mais conseillés sous 7°C et sur neige", "Seulement pour les camions"],
+      "de": ["Ja, Dezember bis März", "Nein, nicht Pflicht, aber unter 7°C und auf Schnee empfohlen", "Nur für Lkw"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "In België zijn winterbanden niet wettelijk verplicht (in tegenstelling tot Duitsland of Oostenrijk). Ze worden wel aanbevolen onder 7°C en op besneeuwd of bevroren wegdek, voor een betere grip.",
+      "en": "In Belgium, winter tyres are not legally required (unlike Germany or Austria). They are recommended below 7°C and on snowy/icy roads for better grip.",
+      "fr": "En Belgique, pas d'obligation légale (contrairement à l'Allemagne ou l'Autriche). Recommandés sous 7°C et sur neige/verglas.",
+      "de": "In Belgien sind Winterreifen nicht Pflicht (anders als in Deutschland oder Österreich). Empfehlung: unter 7°C und auf Schnee/Eis."
+    },
+    "legal_ref": "Belgische wetgeving (geen verplichting)"
+  },
+  {
+    "id": "VEH-005",
+    "topic": "vehicle_safety",
+    "verified": false,
+    "question": {
+      "nl": "Wanneer moet u uw dimlichten gebruiken?",
+      "en": "When must you use your dipped headlights?",
+      "fr": "Quand utiliser les feux de croisement ?",
+      "de": "Wann Abblendlicht benutzen?"
+    },
+    "options": {
+      "nl": ["Alleen 's nachts", "Bij duisternis, slecht zicht (regen, mist, sneeuw) en in tunnels", "Alleen bij stilstand"],
+      "en": ["Only at night", "In darkness, poor visibility (rain, fog, snow) and in tunnels", "Only when stationary"],
+      "fr": ["La nuit uniquement", "À l'obscurité, par mauvaise visibilité (pluie, brouillard, neige) et dans les tunnels", "Uniquement à l'arrêt"],
+      "de": ["Nur nachts", "Bei Dunkelheit, schlechter Sicht (Regen, Nebel, Schnee) und in Tunneln", "Nur im Stand"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Dimlichten zijn verplicht bij duisternis, bij verminderd zicht door regen, mist of sneeuw, en in elke tunnel (ook bij daglicht). Het grootlicht gebruikt u alleen waar het geen tegenliggers verblindt (Wegcode art. 30).",
+      "en": "Dipped headlights are required in darkness, in reduced visibility (rain, fog, snow), and in every tunnel (even daytime). High beam only where it won't dazzle oncoming traffic (Wegcode art. 30).",
+      "fr": "Feux de croisement obligatoires de nuit, par mauvaise visibilité (pluie, brouillard, neige) et dans tout tunnel. Feux de route seulement sans éblouir (Code de la route art. 30).",
+      "de": "Abblendlicht bei Dunkelheit, schlechter Sicht (Regen, Nebel, Schnee) und in jedem Tunnel Pflicht. Fernlicht nur ohne Blendung (StVO Art. 30)."
+    },
+    "legal_ref": "Wegcode art. 30"
+  },
+  {
+    "id": "VEH-006",
+    "topic": "vehicle_safety",
+    "verified": false,
+    "question": {
+      "nl": "Wat zijn dagrijlichten?",
+      "en": "What are daytime running lights?",
+      "fr": "Que sont les feux de jour ?",
+      "de": "Was sind Tagfahrleuchten?"
+    },
+    "options": {
+      "nl": ["Lichten die alleen 's nachts werken", "Permanent ingeschakelde lichten vooraan, voor betere zichtbaarheid bij dag", "Mistlampen achteraan"],
+      "en": ["Lights only at night", "Always-on front lights for better daytime visibility", "Rear fog lights"],
+      "fr": ["Feux nocturnes", "Feux avant toujours allumés pour la visibilité de jour", "Antibrouillards arrière"],
+      "de": ["Nur Nachtlicht", "Vorne dauerhaft an für bessere Tagessichtbarkeit", "Hintere Nebelschlussleuchten"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Dagrijlichten zijn aparte witte lampen vooraan die automatisch branden zodra de motor start. Ze maken het voertuig overdag zichtbaarder. Ze vervangen dimlichten niet bij duisternis of slecht zicht (Verordening EU 661/2009).",
+      "en": "Daytime running lights are separate white lamps at the front that switch on automatically with the engine. They improve daytime visibility. They do not replace dipped headlights in darkness or poor visibility (EU Regulation 661/2009).",
+      "fr": "Les feux de jour sont des feux blancs avant qui s'allument automatiquement. Ils améliorent la visibilité diurne mais ne remplacent pas les feux de croisement la nuit (Règlement UE 661/2009).",
+      "de": "Tagfahrleuchten sind separate weiße Front-Leuchten, die automatisch mit dem Motor angehen. Tagessichtbarkeit. Ersetzen kein Abblendlicht bei Dunkelheit (EU 661/2009)."
+    },
+    "legal_ref": "EU 661/2009"
+  },
+  {
+    "id": "VEH-007",
+    "topic": "vehicle_safety",
+    "verified": false,
+    "question": {
+      "nl": "Wanneer mag u uw mistachterlicht gebruiken?",
+      "en": "When may you use the rear fog light?",
+      "fr": "Quand utiliser le feu antibrouillard arrière ?",
+      "de": "Wann darf man die Nebelschlussleuchte benutzen?"
+    },
+    "options": {
+      "nl": ["Altijd bij regen", "Alleen wanneer het zicht door mist, sneeuw of hevige regen minder is dan 100 m", "Alleen bij stilstand"],
+      "en": ["Always in rain", "Only when fog, snow or heavy rain reduces visibility below 100 m", "Only when parked"],
+      "fr": ["Sous toute pluie", "Uniquement quand brouillard/neige/pluie réduit la visibilité à moins de 100 m", "À l'arrêt"],
+      "de": ["Immer bei Regen", "Nur wenn Nebel/Schnee/starker Regen Sicht unter 100 m bringt", "Nur im Stand"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Het mistachterlicht is fel en mag enkel aan zijn bij zicht onder 100 m door mist, sneeuw of zware regen. Bij beter zicht moet u het uitschakelen, anders verblindt u achterliggers (Wegcode art. 30.2).",
+      "en": "The rear fog light is intense and may only be on when visibility is under 100 m due to fog, snow or heavy rain. Switch it off otherwise to avoid dazzling drivers behind (Wegcode art. 30.2).",
+      "fr": "L'antibrouillard arrière n'est autorisé que sous 100 m de visibilité (brouillard, neige, forte pluie). À éteindre dès que la visibilité revient (Code de la route art. 30.2).",
+      "de": "Nebelschlussleuchte nur unter 100 m Sicht durch Nebel/Schnee/Starkregen. Sonst ausschalten, sonst Blendung (StVO Art. 30.2)."
+    },
+    "legal_ref": "Wegcode art. 30.2"
+  },
+  {
+    "id": "VEH-008",
+    "topic": "vehicle_safety",
+    "verified": false,
+    "question": {
+      "nl": "Welke veiligheidsuitrusting moet altijd in uw auto aanwezig zijn?",
+      "en": "Which safety equipment must always be in your car?",
+      "fr": "Quel équipement de sécurité doit toujours être dans votre voiture ?",
+      "de": "Welche Sicherheitsausrüstung muss immer im Auto sein?"
+    },
+    "options": {
+      "nl": ["Brandblusser, EHBO-koffer, sleepkabel", "Gevarendriehoek, fluovest en brandblusser (en EHBO aanbevolen)", "Niets specifiek"],
+      "en": ["Fire extinguisher, first-aid kit, tow rope", "Warning triangle, hi-vis vest and fire extinguisher (first-aid kit recommended)", "Nothing specific"],
+      "fr": ["Extincteur, trousse secours, câble de remorquage", "Triangle, gilet fluo et extincteur (trousse secours conseillée)", "Rien de spécifique"],
+      "de": ["Feuerlöscher, Erste-Hilfe-Set, Abschleppseil", "Warndreieck, Warnweste und Feuerlöscher (Erste-Hilfe-Set empfohlen)", "Nichts Bestimmtes"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Verplicht aan boord van elke personenwagen in België: een gevarendriehoek, een retroreflecterend hesje (fluovest) en een brandblusser. Een EHBO-koffer is sterk aanbevolen maar niet wettelijk verplicht (KB Technisch Reglement).",
+      "en": "Mandatory equipment in every Belgian car: warning triangle, hi-vis vest and fire extinguisher. First-aid kit is strongly recommended but not legally required (Technical Regulation Royal Decree).",
+      "fr": "Obligatoires: triangle, gilet rétroréfléchissant et extincteur. Trousse de secours fortement conseillée mais pas obligatoire (AR Règlement technique).",
+      "de": "Pflicht im Pkw: Warndreieck, Warnweste, Feuerlöscher. Erste-Hilfe-Set empfohlen, nicht Pflicht (Technische Verordnung)."
+    },
+    "legal_ref": "KB Technisch Reglement"
+  },
+  {
+    "id": "VEH-009",
+    "topic": "vehicle_safety",
+    "verified": false,
+    "question": {
+      "nl": "Een kind van 7 jaar reist mee. Welke regel geldt?",
+      "en": "A 7-year-old child travels with you. Which rule applies?",
+      "fr": "Un enfant de 7 ans voyage avec vous. Quelle règle ?",
+      "de": "Ein 7-jähriges Kind fährt mit. Welche Regel?"
+    },
+    "options": {
+      "nl": ["Mag op de voorbank zonder voorzieningen", "Kinderzitje of -kussen aangepast aan grootte en gewicht, tot 135 cm of 12 jaar", "Gewone gordel volstaat altijd"],
+      "en": ["Allowed in the front seat without restraints", "Suitable child seat/booster until 135 cm or age 12", "Regular belt is always enough"],
+      "fr": ["Place avant sans dispositif", "Siège ou rehausseur adapté jusqu'à 135 cm ou 12 ans", "Ceinture normale suffit"],
+      "de": ["Vorn ohne Sitz erlaubt", "Passender Kindersitz/-erhöhung bis 135 cm oder 12 Jahre", "Normaler Gurt reicht"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Kinderen kleiner dan 135 cm moeten in een aangepast kinderzitje of -kussen vervoerd worden. Vanaf 135 cm of 12 jaar volstaat de gewone gordel. Op de voorbank is een kinderzitje toegelaten mits de airbag uitgeschakeld is bij een achterwaarts gericht zitje (Wegcode art. 35.1.2).",
+      "en": "Children under 135 cm must use a suitable child seat/booster. From 135 cm or age 12 the regular belt suffices. In the front seat a child seat is allowed provided the airbag is disabled for rear-facing seats (Wegcode art. 35.1.2).",
+      "fr": "Moins de 135 cm: siège ou rehausseur adapté. Au-delà de 135 cm ou 12 ans: ceinture normale. À l'avant, siège enfant autorisé si airbag désactivé pour siège dos à la route (Code de la route art. 35.1.2).",
+      "de": "Unter 135 cm: passender Kindersitz/-erhöhung. Ab 135 cm oder 12 Jahre: normaler Gurt. Vorn: Kindersitz erlaubt, bei rückwärtsgerichtetem Sitz Airbag deaktiviert (StVO Art. 35.1.2)."
+    },
+    "legal_ref": "Wegcode art. 35.1.2"
+  },
+  {
+    "id": "VEH-010",
+    "topic": "vehicle_safety",
+    "verified": false,
+    "question": {
+      "nl": "Wie is verantwoordelijk dat alle inzittenden hun gordel dragen?",
+      "en": "Who is responsible for ensuring all occupants wear seat belts?",
+      "fr": "Qui est responsable du port de la ceinture par les passagers ?",
+      "de": "Wer ist verantwortlich, dass alle Insassen den Gurt anlegen?"
+    },
+    "options": {
+      "nl": ["Elke passagier voor zichzelf", "De bestuurder voor minderjarige passagiers; volwassen passagiers zijn zelf verantwoordelijk", "De bestuurder voor iedereen"],
+      "en": ["Each passenger themselves", "The driver for minor passengers; adult passengers are responsible for themselves", "The driver for everyone"],
+      "fr": ["Chaque passager pour lui-même", "Le conducteur pour les passagers mineurs; les adultes pour eux-mêmes", "Le conducteur pour tous"],
+      "de": ["Jeder selbst", "Fahrer für minderjährige Mitfahrer; Erwachsene selbst", "Fahrer für alle"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Volwassen passagiers zijn zelf verantwoordelijk voor het dragen van de gordel. De bestuurder is wettelijk verantwoordelijk voor passagiers jonger dan 18 jaar (Wegcode art. 35).",
+      "en": "Adult passengers are responsible for their own belts. The driver is legally responsible for passengers under 18 (Wegcode art. 35).",
+      "fr": "Les passagers adultes sont responsables de leur ceinture. Le conducteur est responsable des passagers de moins de 18 ans (Code de la route art. 35).",
+      "de": "Erwachsene Mitfahrer sind selbst verantwortlich. Der Fahrer haftet für Mitfahrer unter 18 (StVO Art. 35)."
+    },
+    "legal_ref": "Wegcode art. 35"
+  },
+  {
+    "id": "VEH-011",
+    "topic": "vehicle_safety",
+    "verified": false,
+    "question": {
+      "nl": "U vervoert een lange lading die meer dan 1 meter achter het voertuig uitsteekt. Wat is verplicht?",
+      "en": "You carry a long load extending more than 1 m beyond the vehicle's rear. What is mandatory?",
+      "fr": "Vous transportez un chargement dépassant de plus d'1 m à l'arrière. Que faut-il ?",
+      "de": "Sie führen eine Ladung, die mehr als 1 m hinten herausragt. Was ist Pflicht?"
+    },
+    "options": {
+      "nl": ["Niets, zolang het zichtbaar is", "Een rood paneel of rode lap (vlag), goed zichtbaar, bevestigd aan het uiteinde", "Een witte vlag"],
+      "en": ["Nothing, as long as visible", "A red panel or red cloth (flag), clearly visible, fixed to the end", "A white flag"],
+      "fr": ["Rien si visible", "Un panneau rouge ou drapeau rouge bien visible à l'extrémité", "Un drapeau blanc"],
+      "de": ["Nichts, solange sichtbar", "Rote Tafel oder rote Fahne, gut sichtbar, am Ende befestigt", "Weiße Fahne"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een lading die meer dan 1 m uitsteekt aan de achterzijde moet gesignaleerd worden met een rood paneel of rode vlag. 's Nachts of bij slecht zicht is een rood licht en een rode reflector verplicht (Wegcode art. 47).",
+      "en": "A load extending more than 1 m beyond the rear must be marked with a red panel or red flag. At night or in poor visibility, a red light and red reflector are required (Wegcode art. 47).",
+      "fr": "Charge dépassant de plus d'1 m à l'arrière: panneau ou drapeau rouge obligatoire. La nuit ou par mauvaise visibilité: feu et catadioptre rouges (Code de la route art. 47).",
+      "de": "Ladung mit mehr als 1 m Überstand hinten: rote Tafel oder Fahne. Nachts oder bei schlechter Sicht: rotes Licht und Rückstrahler (StVO Art. 47)."
+    },
+    "legal_ref": "Wegcode art. 47"
+  },
+  {
+    "id": "VEH-012",
+    "topic": "vehicle_safety",
+    "verified": false,
+    "question": {
+      "nl": "Mag u uw gsm in de hand vasthouden tijdens het rijden?",
+      "en": "May you hold your phone while driving?",
+      "fr": "Peut-on tenir son téléphone en conduisant ?",
+      "de": "Darf man das Handy beim Fahren in der Hand halten?"
+    },
+    "options": {
+      "nl": ["Ja, kort om te bellen", "Nee, het is verboden, zelfs bij stilstaan in een file met motor aan", "Alleen aan een rood verkeerslicht"],
+      "en": ["Yes, briefly to call", "No, forbidden — even when stopped in traffic with engine running", "Only at a red light"],
+      "fr": ["Oui, brièvement", "Non, interdit — même à l'arrêt en file avec moteur tournant", "Uniquement au feu rouge"],
+      "de": ["Ja, kurz zum Telefonieren", "Nein, verboten — auch im Stau bei laufendem Motor", "Nur an roter Ampel"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Het is verboden een telefoon, tablet of ander mobiel toestel in de hand te houden tijdens het rijden, ook bij stilstaan in een file of voor een rood licht zolang de motor draait. Handsfree is wel toegelaten (Wegcode art. 8.4).",
+      "en": "It is forbidden to hold a phone, tablet or other mobile device while driving, including stopped in traffic or at a red light with the engine running. Hands-free is allowed (Wegcode art. 8.4).",
+      "fr": "Interdit de tenir téléphone, tablette ou autre appareil en conduisant, y compris à l'arrêt en file ou au feu rouge si le moteur tourne. Mains libres autorisé (Code de la route art. 8.4).",
+      "de": "Verboten, Handy, Tablet o.Ä. beim Fahren in der Hand zu halten, auch im Stau oder an roter Ampel mit laufendem Motor. Freisprechen erlaubt (StVO Art. 8.4)."
+    },
+    "legal_ref": "Wegcode art. 8.4"
   }
 ]

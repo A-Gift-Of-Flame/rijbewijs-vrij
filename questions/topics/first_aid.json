@@ -43,5 +43,230 @@
       "de": "Die richtige Reihenfolge ist: 1) Absichern (Warndreieck, Warnblinkanlage), 2) Alarmieren (112 anrufen), 3) Helfen (Erste Hilfe leisten). Ihre Sicherheit und die der anderen hat Vorrang."
     },
     "legal_ref": "Wegcode art. 32 — hulpverlening bij ongevallen"
+  },
+  {
+    "id": "AID-002",
+    "topic": "first_aid",
+    "verified": false,
+    "question": {
+      "nl": "Bij een verkeersongeval met gewonden, welk noodnummer belt u in België?",
+      "en": "At a crash with injured people, which emergency number do you call in Belgium?",
+      "fr": "Lors d'un accident avec blessés, quel numéro d'urgence en Belgique ?",
+      "de": "Bei einem Unfall mit Verletzten, welche Notrufnummer in Belgien?"
+    },
+    "options": {
+      "nl": ["100 (ambulance/brandweer)", "112 (Europees noodnummer, werkt overal in de EU)", "101 (politie)"],
+      "en": ["100 (ambulance/fire)", "112 (European number, works EU-wide)", "101 (police)"],
+      "fr": ["100 (ambulance/pompiers)", "112 (numéro européen, partout dans l'UE)", "101 (police)"],
+      "de": ["100 (Rettung/Feuerwehr)", "112 (europäische Notrufnummer, EU-weit)", "101 (Polizei)"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "112 is het Europese noodnummer voor alle hulpdiensten en werkt in heel de EU, ook zonder simkaart of saldo. In België routeren 100 (medisch/brandweer) en 101 (politie) ook naar de juiste dienst.",
+      "en": "112 is the European emergency number for all services and works EU-wide, even without a SIM card or credit. In Belgium 100 (medical/fire) and 101 (police) route to the right service too.",
+      "fr": "112 est le numéro d'urgence européen et fonctionne dans toute l'UE, même sans carte SIM. En Belgique, 100 (médical/pompiers) et 101 (police) sont aussi valables.",
+      "de": "112 ist die europäische Notrufnummer, EU-weit nutzbar, auch ohne SIM. In Belgien funktionieren auch 100 (Rettung) und 101 (Polizei)."
+    },
+    "legal_ref": "Wegcode art. 51"
+  },
+  {
+    "id": "AID-003",
+    "topic": "first_aid",
+    "verified": false,
+    "question": {
+      "nl": "U komt als eerste aan bij een ongeval. Wat is de eerste prioriteit?",
+      "en": "You arrive first at a crash. What is the first priority?",
+      "fr": "Vous arrivez en premier sur un accident. Quelle priorité ?",
+      "de": "Sie kommen als Erster zu einem Unfall. Erste Priorität?"
+    },
+    "options": {
+      "nl": ["Onmiddellijk de slachtoffers verplaatsen", "Eigen veiligheid + plaats van het ongeval beveiligen (waarschuwingsdriehoek, fluovest, motoren uit)", "Foto's nemen voor verzekering"],
+      "en": ["Move victims immediately", "Own safety + secure the scene (warning triangle, hi-vis vest, engines off)", "Take photos for insurance"],
+      "fr": ["Déplacer les victimes", "Sécurité personnelle + sécuriser la scène (triangle, gilet, moteurs coupés)", "Prendre des photos"],
+      "de": ["Opfer sofort verlagern", "Eigene Sicherheit + Unfallstelle sichern (Warndreieck, Weste, Motoren aus)", "Fotos für die Versicherung"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "De volgorde bij een ongeval is altijd: beveiligen — alarmeren — helpen. Eerst eigen veiligheid garanderen, dan de plaats markeren (driehoek op ongeveer 30 m of 100 m op autosnelweg, hesje aan), pas daarna hulp bieden (Wegcode art. 51).",
+      "en": "Order at a crash: secure — alert — assist. First own safety, then mark the scene (triangle ~30 m, 100 m on motorways, hi-vis on), then aid (Wegcode art. 51).",
+      "fr": "Ordre: sécuriser — alerter — secourir. D'abord sa propre sécurité, baliser (triangle à ~30 m, 100 m sur autoroute, gilet), puis aider (Code de la route art. 51).",
+      "de": "Reihenfolge: sichern — alarmieren — helfen. Erst eigene Sicherheit, dann Stelle markieren (Dreieck ~30 m, 100 m auf der Autobahn, Weste), dann helfen (StVO Art. 51)."
+    },
+    "legal_ref": "Wegcode art. 51"
+  },
+  {
+    "id": "AID-004",
+    "topic": "first_aid",
+    "verified": false,
+    "question": {
+      "nl": "Een slachtoffer is bewusteloos maar ademt normaal. Wat doet u?",
+      "en": "A victim is unconscious but breathing normally. What do you do?",
+      "fr": "Une victime est inconsciente mais respire normalement. Que faites-vous ?",
+      "de": "Ein Opfer ist bewusstlos, atmet normal. Was tun?"
+    },
+    "options": {
+      "nl": ["Begin onmiddellijk hartmassage", "Plaats in stabiele zijligging en bel 112, blijf observeren", "Geef water te drinken"],
+      "en": ["Start chest compressions", "Place in recovery position and call 112, keep watching", "Give water to drink"],
+      "fr": ["Commencer le massage cardiaque", "Position latérale de sécurité, appeler 112, surveiller", "Faire boire"],
+      "de": ["Sofort Herzdruckmassage", "Stabile Seitenlage, 112 anrufen, beobachten", "Wasser geben"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een bewusteloos slachtoffer dat normaal ademt, leg je in de stabiele zijligging. Dit houdt de luchtweg vrij en voorkomt verstikking door braaksel. Bel 112 en blijf de ademhaling controleren.",
+      "en": "An unconscious victim who breathes normally is placed in the recovery position. This keeps the airway clear and prevents choking on vomit. Call 112 and keep monitoring breathing.",
+      "fr": "Inconscient mais respirant: position latérale de sécurité. Cela maintient les voies respiratoires libres. Appeler 112, surveiller la respiration.",
+      "de": "Bewusstlos mit normaler Atmung: stabile Seitenlage. Hält Atemwege frei. 112 anrufen, Atmung beobachten."
+    },
+    "legal_ref": "Eerste hulp protocol"
+  },
+  {
+    "id": "AID-005",
+    "topic": "first_aid",
+    "verified": false,
+    "question": {
+      "nl": "Een motorrijder ligt bewusteloos op de weg met zijn helm op. Mag u de helm afnemen?",
+      "en": "A motorcyclist lies unconscious with helmet on. May you remove the helmet?",
+      "fr": "Un motard inconscient porte son casque. Peut-on l'enlever ?",
+      "de": "Ein Motorradfahrer liegt bewusstlos mit Helm. Helm abnehmen?"
+    },
+    "options": {
+      "nl": ["Altijd zo snel mogelijk afnemen", "Alleen indien hij niet ademt of u de luchtweg moet vrijmaken; bij voorkeur door twee personen", "Nooit, dat doet alleen een arts"],
+      "en": ["Always remove ASAP", "Only if not breathing or you must clear the airway; preferably with two people", "Never, only a doctor"],
+      "fr": ["Toujours retirer", "Uniquement s'il ne respire pas ou pour dégager les voies; idéalement à deux", "Jamais, seulement un médecin"],
+      "de": ["Immer schnell abnehmen", "Nur wenn er nicht atmet oder zur Atemwegssicherung; möglichst zu zweit", "Niemals, nur Arzt"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een helm afnemen kan een nekletsel verergeren. Doe dit alleen als het noodzakelijk is om de luchtweg vrij te maken of reanimatie te starten, bij voorkeur met twee personen — één houdt het hoofd in lijn, de andere haalt voorzichtig de helm af.",
+      "en": "Removing a helmet can worsen neck injury. Only do it if necessary to clear the airway or start CPR, ideally with two people — one stabilises the head while the other slides the helmet off.",
+      "fr": "Retirer un casque peut aggraver une lésion cervicale. Le faire seulement pour dégager les voies ou réanimer, idéalement à deux (un maintient la tête).",
+      "de": "Helm abnehmen kann Halsverletzungen verschlimmern. Nur zur Atemwegssicherung oder Reanimation, möglichst zu zweit (einer stabilisiert den Kopf)."
+    },
+    "legal_ref": "Eerste hulp protocol"
+  },
+  {
+    "id": "AID-006",
+    "topic": "first_aid",
+    "verified": false,
+    "question": {
+      "nl": "Een slachtoffer ademt niet meer. Welke reanimatieverhouding hanteert u?",
+      "en": "A victim has stopped breathing. What CPR ratio do you use?",
+      "fr": "Une victime ne respire plus. Quel rapport de réanimation ?",
+      "de": "Ein Opfer atmet nicht mehr. Welches Reanimationsverhältnis?"
+    },
+    "options": {
+      "nl": ["15 borstcompressies + 2 beademingen", "30 borstcompressies + 2 beademingen, tempo ongeveer 100–120 per minuut", "5 compressies + 1 beademing"],
+      "en": ["15 compressions + 2 breaths", "30 compressions + 2 breaths, rate ~100–120 per minute", "5 compressions + 1 breath"],
+      "fr": ["15 compressions + 2 insufflations", "30 compressions + 2 insufflations, rythme ~100–120/min", "5 + 1"],
+      "de": ["15 Kompressionen + 2 Beatmungen", "30 Kompressionen + 2 Beatmungen, ~100–120/min", "5 + 1"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bij volwassenen: 30 borstcompressies, dan 2 beademingen, in een tempo van 100 tot 120 compressies per minuut, ongeveer 5 cm diep. Blijf doen tot hulp arriveert of de persoon weer ademt. Een AED (automatische externe defibrillator) verhoogt de overlevingskans aanzienlijk.",
+      "en": "Adults: 30 compressions then 2 rescue breaths, at 100–120 compressions per minute, ~5 cm deep. Continue until help arrives or breathing returns. An AED greatly improves survival.",
+      "fr": "Adultes: 30 compressions + 2 insufflations, rythme 100–120/min, ~5 cm de profondeur. Continuer jusqu'à secours. Un DEA améliore fortement les chances.",
+      "de": "Erwachsene: 30 Kompressionen + 2 Beatmungen, 100–120/min, ~5 cm tief. Bis Rettung kommt. Ein AED verbessert die Überlebenschance stark."
+    },
+    "legal_ref": "ERC reanimatierichtlijnen"
+  },
+  {
+    "id": "AID-007",
+    "topic": "first_aid",
+    "verified": false,
+    "question": {
+      "nl": "Een slachtoffer bloedt zwaar uit een armwonde. Wat is de eerste maatregel?",
+      "en": "A victim is bleeding heavily from an arm wound. First measure?",
+      "fr": "Une victime saigne abondamment d'une plaie au bras. Premier geste ?",
+      "de": "Ein Opfer blutet stark am Arm. Erste Maßnahme?"
+    },
+    "options": {
+      "nl": ["Een tourniquet plaatsen", "Stevig en aanhoudend drukken op de wonde met een doek of de hand, arm omhoog", "Water op de wonde gieten"],
+      "en": ["Apply a tourniquet", "Press firmly and continuously on the wound with cloth or hand, raise the arm", "Pour water on the wound"],
+      "fr": ["Garrot", "Pression ferme et continue avec un linge ou la main, bras surélevé", "Verser de l'eau"],
+      "de": ["Tourniquet anlegen", "Wunde fest und kontinuierlich mit Tuch oder Hand drücken, Arm hoch", "Wasser drauf"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Directe druk op de wonde is de eerste, meest effectieve maatregel. Houd de arm omhoog. Een tourniquet is alleen aangewezen bij levensbedreigend bloeden dat niet stopt met drukken, omdat het weefselschade kan veroorzaken.",
+      "en": "Direct pressure on the wound is the first, most effective measure. Raise the arm. A tourniquet is only for life-threatening bleeding that pressure does not stop, since it risks tissue damage.",
+      "fr": "Pression directe d'abord, bras surélevé. Le garrot uniquement pour hémorragie vitale non maîtrisée, car risque tissulaire.",
+      "de": "Direkter Druck zuerst, Arm hoch. Tourniquet nur bei lebensbedrohlicher Blutung, die nicht stoppt — Gewebeschaden möglich."
+    },
+    "legal_ref": "Eerste hulp protocol"
+  },
+  {
+    "id": "AID-008",
+    "topic": "first_aid",
+    "verified": false,
+    "question": {
+      "nl": "Mag u een gewonde verplaatsen na een ongeval?",
+      "en": "May you move an injured person after a crash?",
+      "fr": "Peut-on déplacer une victime après un accident ?",
+      "de": "Darf man Verletzte nach einem Unfall bewegen?"
+    },
+    "options": {
+      "nl": ["Altijd, om hen comfortabeler te leggen", "Niet, tenzij er onmiddellijk gevaar dreigt (brand, verkeer, ontploffing); anders wachten op hulpdiensten", "Alleen voorzichtig op de zij draaien"],
+      "en": ["Always, for comfort", "Not unless immediate danger (fire, traffic, explosion); otherwise wait for help", "Only gently to the side"],
+      "fr": ["Toujours, pour le confort", "Pas, sauf danger immédiat (feu, trafic, explosion); sinon attendre les secours", "Doucement sur le côté"],
+      "de": ["Immer, für Komfort", "Nicht, außer bei akuter Gefahr (Brand, Verkehr, Explosion); sonst auf Rettung warten", "Sanft auf die Seite"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een gewonde verplaatsen kan inwendige letsels (rug, nek) verergeren. Doe dit alleen als de plaats waar het slachtoffer ligt onmiddellijk levensgevaarlijk is. Anders stabiliseren, geruststellen en wachten op de hulpdiensten.",
+      "en": "Moving a casualty can worsen internal (spine, neck) injuries. Only move if the location is immediately life-threatening. Otherwise stabilise, reassure and wait for paramedics.",
+      "fr": "Déplacer une victime peut aggraver des lésions internes. Ne le faire qu'en cas de danger immédiat. Sinon stabiliser, rassurer, attendre.",
+      "de": "Bewegen kann innere Verletzungen verschlimmern. Nur bei akuter Lebensgefahr. Sonst stabilisieren, beruhigen, warten."
+    },
+    "legal_ref": "Eerste hulp protocol"
+  },
+  {
+    "id": "AID-009",
+    "topic": "first_aid",
+    "verified": false,
+    "question": {
+      "nl": "U stopt op de pechstrook van de autosnelweg na een ongeval. Wat is verplicht voor u uitstapt?",
+      "en": "You stop on the motorway hard shoulder after a crash. What is mandatory before exiting?",
+      "fr": "Vous arrêt sur la bande d'arrêt après un accident. Que faut-il avant de sortir ?",
+      "de": "Sie halten auf dem Standstreifen nach einem Unfall. Was Pflicht vor dem Aussteigen?"
+    },
+    "options": {
+      "nl": ["Niets specifieks", "Fluovest aandoen, dan uitstappen via rechter portier", "Telefoneren met de verzekeraar"],
+      "en": ["Nothing specific", "Put on the hi-vis vest, exit via the right door", "Phone insurer"],
+      "fr": ["Rien", "Mettre le gilet fluo, sortir par la portière droite", "Appeler l'assureur"],
+      "de": ["Nichts Besonderes", "Warnweste anlegen, rechts aussteigen", "Versicherer anrufen"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Op de pechstrook van een autosnelweg is het dragen van een fluohesje verplicht zodra u uitstapt, dag of nacht. Stap uit langs de rechterkant en blijf achter de vangrail (Wegcode art. 51.2 + KB fluovest).",
+      "en": "On a motorway hard shoulder you must wear a hi-vis vest whenever you step out, day or night. Exit on the right and stay behind the barrier (Wegcode art. 51.2 + Royal Decree hi-vis).",
+      "fr": "Sur la bande d'arrêt d'urgence, gilet fluo obligatoire dès qu'on sort, jour et nuit. Sortir à droite, derrière la glissière (Code de la route art. 51.2 + AR gilet).",
+      "de": "Auf dem Standstreifen Warnweste Pflicht beim Aussteigen, Tag und Nacht. Rechts raus, hinter Leitplanke (StVO Art. 51.2 + KB Warnweste)."
+    },
+    "legal_ref": "Wegcode art. 51.2"
+  },
+  {
+    "id": "AID-010",
+    "topic": "first_aid",
+    "verified": false,
+    "question": {
+      "nl": "Bent u verplicht hulp te bieden aan een gewonde na een ongeval?",
+      "en": "Are you legally obliged to help an injured person after a crash?",
+      "fr": "Êtes-vous légalement obligé de porter secours à un blessé après un accident ?",
+      "de": "Sind Sie verpflichtet, einem Verletzten nach einem Unfall zu helfen?"
+    },
+    "options": {
+      "nl": ["Nee, helpen is altijd vrijwillig", "Ja, schuldig verzuim (niet helpen terwijl u kan) is strafbaar", "Alleen indien u arts of verpleegkundige bent"],
+      "en": ["No, helping is voluntary", "Yes, failure to assist (when able) is a criminal offence", "Only if you are a doctor or nurse"],
+      "fr": ["Non, libre choix", "Oui, la non-assistance à personne en danger est punissable", "Uniquement si médecin ou infirmier"],
+      "de": ["Nein, freiwillig", "Ja, unterlassene Hilfeleistung ist strafbar", "Nur als Arzt oder Pfleger"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Volgens artikel 422bis van het Strafwetboek is schuldig verzuim — niet helpen wanneer u dat zonder ernstig gevaar voor uzelf of anderen kan — strafbaar met gevangenisstraf en/of geldboete. Hulp kan eenvoudig 112 bellen zijn.",
+      "en": "Under article 422bis of the Belgian Penal Code, failure to assist a person in danger (when you can without serious risk) is punishable by prison and/or fine. Assistance can be as simple as calling 112.",
+      "fr": "Article 422bis du Code pénal: la non-assistance à personne en danger (lorsqu'on peut aider sans danger grave) est punie de prison et/ou amende. Aider, c'est aussi appeler 112.",
+      "de": "Art. 422bis belgisches Strafgesetzbuch: unterlassene Hilfeleistung (wenn ohne erhebliche Gefahr möglich) ist mit Haft und/oder Geldstrafe bedroht. Hilfe kann auch nur 112 sein."
+    },
+    "legal_ref": "Strafwetboek art. 422bis"
   }
 ]

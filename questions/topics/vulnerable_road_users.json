@@ -48,5 +48,330 @@
       "de": "Beim Überholen von Fahrradfahrern und anderen schwachen Verkehrsteilnehmern müssen Sie einen seitlichen Mindestabstand von 1,5 Meter einhalten (StVO Art. 40bis)."
     },
     "legal_ref": "Wegcode art. 40bis"
+  },
+  {
+    "id": "VRU-003",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "U opent uw bestuurdersportier langs een fietspad. Wat moet u doen?",
+      "en": "You are about to open your driver's door beside a cycle path. What do you do?",
+      "fr": "Vous allez ouvrir votre portière côté piste cyclable. Que faire ?",
+      "de": "Sie öffnen Ihre Fahrertür neben einem Radweg. Was tun?"
+    },
+    "options": {
+      "nl": ["Snel openen om de fietser te dwingen uit te wijken", "Eerst kijken in spiegel en over de schouder, dan voorzichtig openen — 'Dutch reach' helpt", "Het portier blokkeren en doortrekken"],
+      "en": ["Open quickly so the cyclist swerves", "Check mirror and over your shoulder, then open carefully — 'Dutch reach' helps", "Block the door and yank"],
+      "fr": ["Ouvrir vite pour forcer le cycliste à dévier", "Vérifier rétro et regard épaule, ouvrir doucement — méthode 'main opposée' utile", "Bloquer la portière"],
+      "de": ["Schnell öffnen, damit der Radfahrer ausweicht", "Spiegel und Schulterblick, dann vorsichtig — 'Holländischer Griff' hilft", "Tür blockieren"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Open uw portier nooit zonder eerst in de spiegel én over de schouder te kijken. De 'Dutch reach' (openen met de hand die het verst van de deur is) dwingt u tot draaien en kijken. Een geopend portier raken is zeer gevaarlijk voor fietsers (Wegcode art. 8.3).",
+      "en": "Never open the door without checking mirror and over the shoulder. The 'Dutch reach' (opening with the far hand) forces you to turn and look. An opened door is very dangerous for cyclists (Wegcode art. 8.3).",
+      "fr": "N'ouvrez jamais sans rétro + regard épaule. La 'main opposée' force à tourner et regarder. Une portière ouverte est très dangereuse pour les cyclistes (Code de la route art. 8.3).",
+      "de": "Tür nie öffnen ohne Spiegel + Schulterblick. Der 'Holländische Griff' (mit der weiter entfernten Hand öffnen) zwingt zum Hinsehen. Sehr gefährlich für Radfahrer (StVO Art. 8.3)."
+    },
+    "legal_ref": "Wegcode art. 8.3"
+  },
+  {
+    "id": "VRU-004",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "U rijdt door een schoolomgeving net na het einde van de schooldag. Wat is uw houding?",
+      "en": "You drive past a school just after the day ends. What attitude?",
+      "fr": "Vous traversez une zone d'école juste après la sortie. Quelle attitude ?",
+      "de": "Sie fahren bei Schulschluss durch eine Schulzone. Verhalten?"
+    },
+    "options": {
+      "nl": ["Normale snelheid behouden, kinderen kijken zelf wel uit", "Snelheid extra matigen, klaar zijn om te stoppen — kinderen kunnen plots oversteken", "Claxonneren om kinderen te waarschuwen"],
+      "en": ["Normal speed, kids watch out themselves", "Slow down extra, ready to stop — children may dart out", "Honk to warn children"],
+      "fr": ["Vitesse normale, les enfants font attention", "Ralentir davantage, prêt à freiner — un enfant peut surgir", "Klaxonner"],
+      "de": ["Normale Geschwindigkeit, Kinder passen auf", "Stark verlangsamen, bremsbereit — Kinder können plötzlich queren", "Hupen"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Kinderen kunnen het verkeer slecht inschatten. Bij scholen en speelterreinen moet u uw snelheid matigen en alert zijn (Wegcode art. 10.1.2 + 22ter).",
+      "en": "Children misjudge traffic. Near schools and playgrounds, reduce speed and stay alert (Wegcode art. 10.1.2 + 22ter).",
+      "fr": "Les enfants évaluent mal. Près d'écoles et plaines de jeux, ralentir et rester vigilant (Code de la route art. 10.1.2 + 22ter).",
+      "de": "Kinder schätzen Verkehr schlecht ein. Bei Schulen/Spielplätzen verlangsamen und aufmerksam (StVO Art. 10.1.2 + 22ter)."
+    },
+    "legal_ref": "Wegcode art. 10.1.2"
+  },
+  {
+    "id": "VRU-005",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "Een blinde voetganger met witte stok wil oversteken. Wat doet u?",
+      "en": "A blind pedestrian with a white cane wants to cross. What do you do?",
+      "fr": "Un piéton aveugle avec une canne blanche veut traverser. Que faites-vous ?",
+      "de": "Ein blinder Fußgänger mit Blindenstock will queren. Was tun?"
+    },
+    "options": {
+      "nl": ["Doorrijden, hij hoort u toch niet", "Stoppen en hem laten oversteken, ook buiten een zebrapad", "Claxonneren om hem te waarschuwen"],
+      "en": ["Continue, he won't hear you", "Stop and let him cross, even outside a zebra crossing", "Honk to warn him"],
+      "fr": ["Continuer, il n'entend pas", "S'arrêter, le laisser traverser même hors passage", "Klaxonner pour l'avertir"],
+      "de": ["Weiterfahren, hört eh nicht", "Halten und queren lassen, auch ohne Zebrastreifen", "Hupen zur Warnung"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Voor blinden met witte stok of geleidehond moet u steeds stoppen en hen laten oversteken, ook buiten een zebrapad. Claxonneren kan hen desoriënteren (Wegcode art. 42.4.5).",
+      "en": "For blind pedestrians with white cane or guide dog, you must always stop and let them cross, even outside a crossing. Honking may disorient them (Wegcode art. 42.4.5).",
+      "fr": "Pour les aveugles à canne blanche ou chien guide, toujours s'arrêter, même hors passage. Klaxonner peut les désorienter (Code de la route art. 42.4.5).",
+      "de": "Für Blinde mit Stock oder Blindenhund immer halten, auch ohne Übergang. Hupen kann verwirren (StVO Art. 42.4.5)."
+    },
+    "legal_ref": "Wegcode art. 42.4.5"
+  },
+  {
+    "id": "VRU-006",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "U slaat rechtsaf op een kruispunt. Welke kwetsbare weggebruikers loopt u risico te missen?",
+      "en": "You turn right at a junction. Which vulnerable users do you risk missing?",
+      "fr": "Vous tournez à droite à un carrefour. Quels usagers vulnérables risquez-vous d'oublier ?",
+      "de": "Sie biegen rechts ab. Welche schwächeren Verkehrsteilnehmer übersehen Sie leicht?"
+    },
+    "options": {
+      "nl": ["Voetgangers op het zebrapad recht voor u uit", "Fietsers en bromfietsers die rechtdoor gaan in uw dode hoek rechts", "Tegenliggers"],
+      "en": ["Pedestrians on the crossing ahead", "Cyclists and mopeds going straight in your right-side blind spot", "Oncoming traffic"],
+      "fr": ["Piétons sur le passage devant", "Cyclistes et cyclos allant tout droit dans l'angle mort droit", "Véhicules en face"],
+      "de": ["Fußgänger auf dem Zebrastreifen vorn", "Radfahrer und Mofas geradeaus im rechten toten Winkel", "Gegenverkehr"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "De gevaarlijke dode hoek bij rechts afslaan ligt rechts van het voertuig. Een fietser of bromfietser die naast u rechtdoor wil, ziet u niet altijd via spiegels. Kijk over uw schouder vóór het afslaan (Wegcode art. 12.4ter).",
+      "en": "The danger blind spot when turning right sits to your right. A cyclist or moped going straight beside you may not show in the mirrors. Glance over your shoulder before turning (Wegcode art. 12.4ter).",
+      "fr": "L'angle mort dangereux au tournant à droite est à droite. Un cycliste à côté peut ne pas être dans les rétros. Regardez par-dessus l'épaule avant de tourner (Code de la route art. 12.4ter).",
+      "de": "Der gefährliche tote Winkel beim Rechtsabbiegen liegt rechts. Radfahrer neben Ihnen sind nicht immer im Spiegel. Schulterblick vor dem Abbiegen (StVO Art. 12.4ter)."
+    },
+    "legal_ref": "Wegcode art. 12.4ter"
+  },
+  {
+    "id": "VRU-007",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "Wat is een 'fietsstraat' (bord F111)?",
+      "en": "What is a 'cycle street' (sign F111)?",
+      "fr": "Qu'est-ce qu'une 'rue cyclable' (panneau F111) ?",
+      "de": "Was ist eine 'Fahrradstraße' (Zeichen F111)?"
+    },
+    "options": {
+      "nl": ["Straat voorbehouden voor fietsers", "Straat waar auto's fietsers niet mogen inhalen en max. 30 km/u rijden", "Straat waar fietsen verboden zijn"],
+      "en": ["Street reserved for cyclists only", "Street where cars may not overtake cyclists and max 30 km/h applies", "Street forbidden for cyclists"],
+      "fr": ["Rue réservée aux cyclistes", "Rue où les voitures ne peuvent pas dépasser les cyclistes, max 30 km/h", "Rue interdite aux vélos"],
+      "de": ["Nur Radfahrer", "Straße ohne Überholen von Radfahrern, max 30 km/h", "Radfahrer verboten"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "In een fietsstraat (bord F111) zijn fietsers de hoofdgebruikers. Motorvoertuigen zijn toegelaten maar mogen fietsers niet inhalen en mogen niet sneller rijden dan 30 km/u (Wegcode art. 22novies + bord F111).",
+      "en": "On a cycle street (sign F111) cyclists are the main users. Motor vehicles are allowed but may not overtake cyclists and must stay at or below 30 km/h (Wegcode art. 22novies + sign F111).",
+      "fr": "En rue cyclable (F111), les cyclistes priment. Les véhicules motorisés peuvent y circuler mais ne peuvent pas dépasser les vélos et sont limités à 30 km/h (Code de la route art. 22novies).",
+      "de": "In einer Fahrradstraße (F111) sind Radfahrer Hauptnutzer. Kfz dürfen fahren, aber nicht überholen, max 30 km/h (StVO Art. 22novies)."
+    },
+    "legal_ref": "Wegcode art. 22novies"
+  },
+  {
+    "id": "VRU-008",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "Een autobus van een school stopt en kinderen stappen uit. Wat doet u?",
+      "en": "A school bus stops and children get out. What do you do?",
+      "fr": "Un bus scolaire s'arrête, des enfants descendent. Que faites-vous ?",
+      "de": "Ein Schulbus hält und Kinder steigen aus. Was tun?"
+    },
+    "options": {
+      "nl": ["Voorbij rijden aan normale snelheid", "Snelheid sterk matigen en bereid zijn te stoppen — kinderen kunnen plots oversteken", "Claxonneren om aandacht te trekken"],
+      "en": ["Pass at normal speed", "Slow down sharply and be ready to stop — children may dart out", "Honk to alert"],
+      "fr": ["Passer à vitesse normale", "Ralentir fortement, prêt à freiner — un enfant peut surgir", "Klaxonner"],
+      "de": ["Normal vorbeifahren", "Stark verlangsamen, bremsbereit — Kinder können plötzlich queren", "Hupen"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "U moet uw snelheid matigen wanneer u een groep kinderen of een schoolbus passeert. Kinderen reageren onvoorspelbaar en kunnen vóór of achter de bus oversteken (Wegcode art. 40bis).",
+      "en": "You must slow down when passing a group of children or a school bus. Children are unpredictable and may cross in front of or behind the bus (Wegcode art. 40bis).",
+      "fr": "Ralentir au passage d'un groupe d'enfants ou d'un bus scolaire. Les enfants peuvent traverser devant ou derrière (Code de la route art. 40bis).",
+      "de": "Bei Kindergruppe oder Schulbus stark verlangsamen. Kinder unberechenbar (StVO Art. 40bis)."
+    },
+    "legal_ref": "Wegcode art. 40bis"
+  },
+  {
+    "id": "VRU-009",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "Een ouderling steekt traag het zebrapad over. Wat doet u?",
+      "en": "An elderly person crosses a zebra slowly. What do you do?",
+      "fr": "Une personne âgée traverse lentement le passage. Que faites-vous ?",
+      "de": "Eine ältere Person quert langsam den Zebrastreifen. Was tun?"
+    },
+    "options": {
+      "nl": ["Voorzichtig naast hen rijden", "Volledig stoppen en wachten tot zij de overkant bereiken", "Claxonneren om hen te haasten"],
+      "en": ["Drive carefully past", "Stop completely and wait until they reach the other side", "Honk to hurry them"],
+      "fr": ["Passer prudemment", "S'arrêter complètement jusqu'à l'autre côté", "Klaxonner pour les presser"],
+      "de": ["Vorsichtig vorbei", "Vollständig halten, bis sie drüben sind", "Hupen, um Tempo zu machen"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "U moet voorrang verlenen aan voetgangers op het zebrapad tot zij veilig zijn. Druk of haast uitoefenen is verboden en kan vallen veroorzaken (Wegcode art. 40.4.2).",
+      "en": "You must yield to pedestrians on the crossing until they are safely across. Pressuring or rushing them is forbidden and may cause falls (Wegcode art. 40.4.2).",
+      "fr": "Cédez le passage aux piétons jusqu'à ce qu'ils soient en sécurité. Les presser est interdit (Code de la route art. 40.4.2).",
+      "de": "Fußgängern Vorfahrt gewähren bis sie sicher drüben sind. Drängen verboten (StVO Art. 40.4.2)."
+    },
+    "legal_ref": "Wegcode art. 40.4.2"
+  },
+  {
+    "id": "VRU-010",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "Op een rotonde nadert een fietser. Hij rijdt op de rotonde. Wie heeft voorrang?",
+      "en": "On a roundabout a cyclist is approaching while riding on it. Who has priority?",
+      "fr": "Un cycliste circule sur le rond-point. Qui a la priorité ?",
+      "de": "Auf einem Kreisverkehr fährt ein Radfahrer. Wer hat Vorfahrt?"
+    },
+    "options": {
+      "nl": ["U, omdat u in een auto zit", "De fietser, want hij bevindt zich al op de rotonde", "Wie de rotonde rechts oprijdt"],
+      "en": ["You, because you are in a car", "The cyclist, because they are already on the roundabout", "Whoever enters from the right"],
+      "fr": ["Vous, vous êtes en voiture", "Le cycliste, déjà sur le rond-point", "Celui qui entre par la droite"],
+      "de": ["Sie im Auto", "Der Radfahrer, weil schon im Kreisverkehr", "Wer von rechts einfährt"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bestuurders die de rotonde naderen moeten voorrang verlenen aan alle bestuurders die zich er al op bevinden, inclusief fietsers (Wegcode art. 12.4bis).",
+      "en": "Drivers approaching a roundabout must yield to all drivers already on it, including cyclists (Wegcode art. 12.4bis).",
+      "fr": "Les conducteurs entrant sur un rond-point cèdent à tous ceux qui y circulent, cyclistes inclus (Code de la route art. 12.4bis).",
+      "de": "Einfahrer müssen allen schon im Kreisverkehr Vorfahrt gewähren, auch Radfahrern (StVO Art. 12.4bis)."
+    },
+    "legal_ref": "Wegcode art. 12.4bis"
+  },
+  {
+    "id": "VRU-011",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "Bromfiets klasse A (max. 25 km/u). Waar moet die rijden?",
+      "en": "Class-A moped (max 25 km/h). Where must it ride?",
+      "fr": "Cyclomoteur classe A (max 25 km/h). Où circule-t-il ?",
+      "de": "Mofa Klasse A (max 25 km/h). Wo fährt es?"
+    },
+    "options": {
+      "nl": ["Altijd op de rijbaan", "Op het fietspad indien aanwezig (zoals fietsers)", "Op het voetpad"],
+      "en": ["Always on the carriageway", "On the cycle path if present (like cyclists)", "On the sidewalk"],
+      "fr": ["Toujours sur la chaussée", "Sur la piste cyclable si présente (comme les cyclistes)", "Sur le trottoir"],
+      "de": ["Immer auf der Fahrbahn", "Auf dem Radweg falls vorhanden (wie Radfahrer)", "Auf dem Gehweg"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bromfietsers klasse A moeten het fietspad gebruiken als dit bestaat en in dezelfde richting loopt. Klasse B (max. 45 km/u) moet binnen de bebouwde kom op de rijbaan rijden (Wegcode art. 9.1.2).",
+      "en": "Class-A mopeds must use the cycle path if one exists running in the same direction. Class-B (max 45 km/h) must use the carriageway inside built-up areas (Wegcode art. 9.1.2).",
+      "fr": "Les cyclomoteurs classe A utilisent la piste cyclable si elle existe dans la même direction. Classe B doit aller sur la chaussée en agglomération (Code de la route art. 9.1.2).",
+      "de": "Mofa Klasse A nutzt den Radweg, wenn vorhanden und in gleicher Richtung. Klasse B (max 45 km/h) gehört innerorts auf die Fahrbahn (StVO Art. 9.1.2)."
+    },
+    "legal_ref": "Wegcode art. 9.1.2"
+  },
+  {
+    "id": "VRU-012",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "Buiten de bebouwde kom op een weg zonder voetpad of berm, waar moet een voetganger lopen?",
+      "en": "Outside a built-up area on a road without sidewalk or shoulder, where must a pedestrian walk?",
+      "fr": "Hors agglomération sans trottoir ni accotement, où marche le piéton ?",
+      "de": "Außerorts ohne Gehweg oder Bankett, wo geht der Fußgänger?"
+    },
+    "options": {
+      "nl": ["Op de rijbaan, rechts in de rijrichting", "Op de rijbaan, links — tegen de rijrichting in, zodat hij tegenliggers ziet", "Midden op de weg"],
+      "en": ["On the road, right with traffic", "On the road, left — against traffic, so he sees oncoming cars", "In the middle"],
+      "fr": ["Sur la chaussée, à droite", "Sur la chaussée, à gauche — face au trafic", "Au milieu"],
+      "de": ["Auf der Fahrbahn rechts mit dem Verkehr", "Auf der Fahrbahn links — gegen den Verkehr, sieht entgegenkommende Autos", "Mitte"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bij gebrek aan trottoir of berm lopen voetgangers buiten de bebouwde kom links van de rijbaan, tegen de rijrichting in, om aankomend verkeer te zien (Wegcode art. 42.2.2).",
+      "en": "Without a sidewalk or shoulder, pedestrians outside built-up areas walk on the left, against traffic, to see oncoming vehicles (Wegcode art. 42.2.2).",
+      "fr": "Sans trottoir ni accotement, le piéton hors agglomération marche à gauche, face au trafic (Code de la route art. 42.2.2).",
+      "de": "Ohne Gehweg geht der Fußgänger außerorts links, gegen den Verkehr (StVO Art. 42.2.2)."
+    },
+    "legal_ref": "Wegcode art. 42.2.2"
+  },
+  {
+    "id": "VRU-013",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "Een tram staat stil aan een halte zonder vluchtheuvel. Passagiers stappen uit. Wat doet u?",
+      "en": "A tram is stopped at a stop without refuge island. Passengers are alighting. What do you do?",
+      "fr": "Un tram est à l'arrêt sans îlot refuge. Des voyageurs descendent. Que faites-vous ?",
+      "de": "Eine Tram steht an einer Haltestelle ohne Insel. Fahrgäste steigen aus. Was tun?"
+    },
+    "options": {
+      "nl": ["Voorzichtig voorbijrijden, niet sneller dan 30 km/u, of stoppen als passagiers in/uitstappen", "Snel inhalen voor de passagiers oversteken", "Wachten tot de tram volledig vertrekt"],
+      "en": ["Pass carefully under 30 km/h, or stop while passengers board/alight", "Overtake quickly before passengers cross", "Wait until the tram fully leaves"],
+      "fr": ["Passer prudemment à 30 km/h max, ou s'arrêter pendant la montée/descente", "Dépasser vite avant les passagers", "Attendre le départ du tram"],
+      "de": ["Vorsichtig unter 30 km/h, oder halten während Ein-/Aussteigen", "Schnell überholen vor Querung", "Warten bis die Tram weg ist"]
+    },
+    "correct": 0,
+    "explanation": {
+      "nl": "Bij een halte zonder vluchtheuvel mag u langs de stilstaande tram passeren aan maximaal 30 km/u, en u moet stoppen zolang er passagiers in- of uitstappen (Wegcode art. 18.2).",
+      "en": "At a stop without refuge island, you may pass the stationary tram at max 30 km/h, and must stop while passengers are boarding or alighting (Wegcode art. 18.2).",
+      "fr": "À un arrêt sans refuge, dépasser un tram à l'arrêt à 30 km/h max et s'arrêter tant que des voyageurs montent/descendent (Code de la route art. 18.2).",
+      "de": "Ohne Insel max 30 km/h vorbei und halten, solange ein-/ausgestiegen wird (StVO Art. 18.2)."
+    },
+    "legal_ref": "Wegcode art. 18.2"
+  },
+  {
+    "id": "VRU-014",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "U rijdt achter een groep fietsers van meer dan 15 personen. Wat moet u doen?",
+      "en": "You drive behind a group of more than 15 cyclists. What must you do?",
+      "fr": "Vous suivez un groupe de plus de 15 cyclistes. Que faire ?",
+      "de": "Sie folgen einer Gruppe von mehr als 15 Radfahrern. Was tun?"
+    },
+    "options": {
+      "nl": ["Hen inhalen voertuig per voertuig", "Hen behandelen als één geheel — niet door de groep heen rijden, voldoende afstand houden bij inhalen", "Hen splitsen door tussen hen door te rijden"],
+      "en": ["Overtake one cyclist at a time", "Treat them as one unit — do not split the group, leave enough room when overtaking", "Cut through them"],
+      "fr": ["Dépasser un par un", "Les traiter comme un seul ensemble — ne pas couper le groupe", "Passer au milieu"],
+      "de": ["Einzeln überholen", "Als Einheit behandeln — Gruppe nicht teilen, beim Überholen Abstand", "Durch die Mitte"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Groepen van 15 tot 50 fietsers worden als één geheel beschouwd; u mag niet door de groep rijden en moet voldoende afstand bewaren bij het inhalen (Wegcode art. 43bis).",
+      "en": "Groups of 15–50 cyclists count as one entity; you may not cut through and must keep enough lateral space when overtaking (Wegcode art. 43bis).",
+      "fr": "Un groupe de 15 à 50 cyclistes est considéré comme un tout; interdit de le couper, distance suffisante au dépassement (Code de la route art. 43bis).",
+      "de": "Gruppen von 15–50 Radfahrern gelten als Einheit; nicht zerschneiden, Seitenabstand beim Überholen (StVO Art. 43bis)."
+    },
+    "legal_ref": "Wegcode art. 43bis"
+  },
+  {
+    "id": "VRU-015",
+    "topic": "vulnerable_road_users",
+    "verified": false,
+    "question": {
+      "nl": "Wat is het 'beginsel van de vermoedelijke aansprakelijkheid' bij ongevallen met een zwakke weggebruiker?",
+      "en": "What is the 'presumed liability' principle in crashes with vulnerable users?",
+      "fr": "Qu'est-ce que la 'responsabilité présumée' en cas d'accident avec un usager faible ?",
+      "de": "Was ist die 'vermutete Haftung' bei Unfällen mit schwachen Verkehrsteilnehmern?"
+    },
+    "options": {
+      "nl": ["De zwakke weggebruiker is altijd schuldig", "De verzekeraar van het motorvoertuig vergoedt de schade van de zwakke weggebruiker, ongeacht schuld (behoudens grove fout)", "Iedereen draagt zelf zijn schade"],
+      "en": ["The vulnerable user is always at fault", "The motor vehicle's insurer compensates the vulnerable user regardless of fault (except gross fault)", "Each party bears its own damage"],
+      "fr": ["L'usager faible est toujours fautif", "L'assureur du véhicule motorisé indemnise l'usager faible, sauf faute grave", "Chacun assume ses dégâts"],
+      "de": ["Schwacher Teilnehmer immer schuld", "Versicherer des Kfz entschädigt schwachen Teilnehmer unabhängig von Schuld (außer grobem Verschulden)", "Jeder trägt seinen Schaden"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Volgens art. 29bis van de WAM-wet vergoedt de verzekeraar van het motorvoertuig altijd de lichamelijke schade van zwakke weggebruikers (voetgangers, fietsers, passagiers), behalve bij onverschoonbare fout. Bedoeld om snelle vergoeding te garanderen.",
+      "en": "Under art. 29bis of the Belgian compulsory insurance act, the motor vehicle's insurer always covers the bodily damage of vulnerable users (pedestrians, cyclists, passengers), except in cases of inexcusable fault. Designed to guarantee prompt compensation.",
+      "fr": "L'article 29bis de la loi RC auto fait indemniser systématiquement les usagers faibles (piétons, cyclistes, passagers) par l'assureur du véhicule, sauf faute inexcusable.",
+      "de": "Nach Art. 29bis des belgischen Kfz-Pflichtversicherungsgesetzes deckt der Versicherer Personenschäden schwacher Teilnehmer (Fußgänger, Radfahrer, Mitfahrer) immer, außer bei unentschuldbarem Verschulden."
+    },
+    "legal_ref": "Wet WAM art. 29bis"
   }
 ]

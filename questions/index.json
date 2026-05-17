@@ -3,17 +3,17 @@
   "license": "CC0-1.0",
   "note": "All questions are AI-drafted and community-verified. verified:false = not yet peer-reviewed. Do not trust unverified questions for exam prep.",
   "topics": [
-    { "id": "right_of_way",        "file": "topics/right_of_way.json",        "count": 3 },
-    { "id": "speed_limits",         "file": "topics/speed_limits.json",         "count": 3 },
-    { "id": "traffic_signs",        "file": "topics/traffic_signs.json",        "count": 4 },
-    { "id": "road_markings",        "file": "topics/road_markings.json",        "count": 2 },
-    { "id": "safe_distances",       "file": "topics/safe_distances.json",       "count": 2 },
-    { "id": "alcohol_drugs",        "file": "topics/alcohol_drugs.json",        "count": 2 },
-    { "id": "motorway",             "file": "topics/motorway.json",             "count": 2 },
-    { "id": "vulnerable_road_users","file": "topics/vulnerable_road_users.json","count": 2 },
-    { "id": "vehicle_safety",       "file": "topics/vehicle_safety.json",       "count": 2 },
-    { "id": "first_aid",            "file": "topics/first_aid.json",            "count": 1 },
-    { "id": "environmental",        "file": "topics/environmental.json",        "count": 1 }
+    { "id": "right_of_way",        "file": "topics/right_of_way.json",        "count": 20 },
+    { "id": "speed_limits",         "file": "topics/speed_limits.json",         "count": 15 },
+    { "id": "traffic_signs",        "file": "topics/traffic_signs.json",        "count": 25 },
+    { "id": "road_markings",        "file": "topics/road_markings.json",        "count": 12 },
+    { "id": "safe_distances",       "file": "topics/safe_distances.json",       "count": 10 },
+    { "id": "alcohol_drugs",        "file": "topics/alcohol_drugs.json",        "count": 12 },
+    { "id": "motorway",             "file": "topics/motorway.json",             "count": 15 },
+    { "id": "vulnerable_road_users","file": "topics/vulnerable_road_users.json","count": 15 },
+    { "id": "vehicle_safety",       "file": "topics/vehicle_safety.json",       "count": 12 },
+    { "id": "first_aid",            "file": "topics/first_aid.json",            "count": 10 },
+    { "id": "environmental",        "file": "topics/environmental.json",        "count": 8 }
   ],
-  "total": 24
+  "total": 154
 }

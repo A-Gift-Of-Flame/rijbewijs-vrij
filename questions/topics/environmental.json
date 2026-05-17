@@ -23,5 +23,180 @@
       "de": "Eine LEZ ist ein definiertes städtisches Gebiet, in dem Fahrzeuge mit hohem Schadstoffausstoß verboten sind. Antwerpen, Gent und Brüssel haben LEZ-Zonen. Die Regeln basieren auf der Euro-Abgasnorm Ihres Fahrzeugs."
     },
     "legal_ref": "Vlaamse LEZ-wetgeving / Brussels LEZ-ordonnantie"
+  },
+  {
+    "id": "ENV-002",
+    "topic": "environmental",
+    "verified": false,
+    "question": {
+      "nl": "U staat langer dan een minuut stil voor een spoorovergang of in een file. Wat is milieu- en wettelijk de beste keuze?",
+      "en": "You are stationary for more than a minute at a level crossing or in a queue. Best environmental and legal choice?",
+      "fr": "Arrêt prolongé (>1 min) à un passage à niveau ou bouchon. Meilleur choix environnemental et légal ?",
+      "de": "Stillstand >1 Min am Bahnübergang oder Stau. Beste Wahl für Umwelt und Recht?"
+    },
+    "options": {
+      "nl": ["Motor stationair laten draaien voor comfort", "Motor uitzetten — onnodig stationair draaien is verboden en vervuilend", "Versnelling aanhouden"],
+      "en": ["Keep engine idling for comfort", "Switch off — unnecessary idling is forbidden and polluting", "Keep gear engaged"],
+      "fr": ["Laisser tourner", "Couper le moteur — la marche au ralenti inutile est interdite et polluante", "Garder le rapport engagé"],
+      "de": ["Motor weiterlaufen lassen", "Motor abstellen — unnötiger Leerlauf verboten und schädlich", "Gang eingelegt halten"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Onnodig de motor laten draaien bij stilstand is in België verboden en draagt bij aan luchtvervuiling. Moderne auto's verbruiken minder bij herstarten dan bij langer dan ~10–20 seconden stationair draaien (Wegcode art. 8.4 + 36).",
+      "en": "Unnecessary idling is forbidden in Belgium and contributes to air pollution. Modern cars use less restarting than idling beyond ~10–20 seconds (Wegcode art. 8.4 + 36).",
+      "fr": "Marche au ralenti inutile interdite en Belgique et polluante. Les autos modernes consomment moins au redémarrage qu'au ralenti au-delà de ~10–20 s (Code de la route art. 8.4 + 36).",
+      "de": "Unnötiger Leerlauf in Belgien verboten und schädlich. Moderne Autos verbrauchen beim Neustart weniger als nach ~10–20 s Leerlauf (StVO Art. 8.4 + 36)."
+    },
+    "legal_ref": "Wegcode art. 8.4"
+  },
+  {
+    "id": "ENV-003",
+    "topic": "environmental",
+    "verified": false,
+    "question": {
+      "nl": "Welk rijgedrag bespaart het meest brandstof?",
+      "en": "Which driving style saves the most fuel?",
+      "fr": "Quelle conduite consomme le moins ?",
+      "de": "Welche Fahrweise spart am meisten Sprit?"
+    },
+    "options": {
+      "nl": ["Snel optrekken en hard remmen", "Vlot doorrijden, vroeg opschakelen, anticiperen op verkeer, voldoende afstand houden", "Zo veel mogelijk in lage versnelling rijden"],
+      "en": ["Hard acceleration and braking", "Smooth driving, shift up early, anticipate traffic, keep distance", "Stay in low gear"],
+      "fr": ["Accélérations et freinages brusques", "Conduite souple, monter les rapports tôt, anticiper, garder ses distances", "Rester en rapport bas"],
+      "de": ["Stark beschleunigen und bremsen", "Vorausschauend, früh hochschalten, Abstand halten", "Niedriger Gang"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Eco-driving: vlot optrekken, vroeg opschakelen (rond 2000 rpm benzine, 1500 rpm diesel), anticiperen op verkeer om abrupt remmen te vermijden, en cruisecontrol gebruiken op de autosnelweg. Dit kan tot 15% brandstof besparen.",
+      "en": "Eco-driving: smooth acceleration, shift up early (~2000 rpm petrol, ~1500 rpm diesel), anticipate to avoid harsh braking, use cruise control on motorways. Saves up to 15% fuel.",
+      "fr": "Éco-conduite: accélération douce, rapports tôt (~2000 rpm essence, ~1500 rpm diesel), anticiper, régulateur sur autoroute. Jusqu'à 15% d'économie.",
+      "de": "Eco-Fahren: sanft beschleunigen, früh hochschalten (~2000 U/min Benzin, ~1500 Diesel), vorausschauen, Tempomat auf der Autobahn. Bis 15% Ersparnis."
+    },
+    "legal_ref": "Eco-driving (geen Wegcode)"
+  },
+  {
+    "id": "ENV-004",
+    "topic": "environmental",
+    "verified": false,
+    "question": {
+      "nl": "Wat is een Lage-Emissiezone (LEZ) in Belgische steden?",
+      "en": "What is a Low Emission Zone (LEZ) in Belgian cities?",
+      "fr": "Qu'est-ce qu'une zone de basses émissions (LEZ) dans les villes belges ?",
+      "de": "Was ist eine Umweltzone (LEZ) in belgischen Städten?"
+    },
+    "options": {
+      "nl": ["Een zone waar elektrisch rijden verplicht is", "Een zone waar voertuigen met te hoge uitstoot (oude diesels, oude benzine) verboden zijn", "Een zone met gratis parkeren"],
+      "en": ["A zone where electric driving is mandatory", "A zone where high-emission vehicles (old diesel/petrol) are banned", "A zone with free parking"],
+      "fr": ["Zone où l'électrique est obligatoire", "Zone interdite aux véhicules à émissions élevées (anciens diesels/essence)", "Zone à stationnement gratuit"],
+      "de": ["Zone, in der nur Elektroautos fahren", "Zone, in der schadstoffreiche Fahrzeuge (alte Diesel/Benziner) verboten sind", "Zone mit Gratisparken"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een LEZ is een afgebakend gebied (Antwerpen, Brussel, Gent) waar voertuigen met een te lage Euro-norm niet binnen mogen. De toegelaten Euro-norm wordt jaarlijks verstrengd. Niet-conforme voertuigen krijgen een boete (regionale wetgeving).",
+      "en": "A LEZ is a defined area (Antwerp, Brussels, Ghent) where vehicles below a minimum Euro standard may not enter. Standards tighten yearly. Non-compliant vehicles are fined (regional law).",
+      "fr": "Une LEZ est un périmètre (Anvers, Bruxelles, Gand) interdit aux véhicules d'une norme Euro trop basse. La norme se durcit chaque année. Amende en cas d'infraction (législation régionale).",
+      "de": "Eine LEZ ist ein Gebiet (Antwerpen, Brüssel, Gent), in das Fahrzeuge unter einer Euro-Mindestnorm nicht einfahren dürfen. Die Norm wird jährlich verschärft. Verstoß = Strafe (Regionalgesetz)."
+    },
+    "legal_ref": "Decreet LEZ (Vlaanderen, Brussel)"
+  },
+  {
+    "id": "ENV-005",
+    "topic": "environmental",
+    "verified": false,
+    "question": {
+      "nl": "Te lage bandenspanning. Welke effecten heeft dat?",
+      "en": "Under-inflated tyres. What effects does that have?",
+      "fr": "Pression de pneus trop basse. Quels effets ?",
+      "de": "Zu niedriger Reifendruck. Welche Folgen?"
+    },
+    "options": {
+      "nl": ["Geen effect", "Hoger verbruik, snellere slijtage, langere remafstand en risico op klapband", "Lager verbruik"],
+      "en": ["No effect", "Higher fuel use, faster wear, longer braking distance, blow-out risk", "Lower fuel use"],
+      "fr": ["Aucun", "Surconsommation, usure accélérée, freinage allongé, risque d'éclatement", "Consommation réduite"],
+      "de": ["Keine", "Höherer Verbrauch, schnellerer Verschleiß, längerer Bremsweg, Reifenplatzer-Risiko", "Geringerer Verbrauch"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een te lage bandenspanning verhoogt de rolweerstand (tot 5% meer verbruik bij 0,5 bar te laag), versnelt de slijtage aan de zijkanten, verlengt de remafstand en kan tot een klapband leiden bij hoge snelheid. Controleer maandelijks.",
+      "en": "Under-inflated tyres raise rolling resistance (up to 5% more fuel at 0.5 bar low), wear shoulders faster, extend braking distance and may blow out at high speed. Check monthly.",
+      "fr": "Pneus sous-gonflés: résistance accrue (jusqu'à 5% de surconsommation à 0,5 bar de moins), usure des flancs, freinage allongé, éclatement possible. Contrôler chaque mois.",
+      "de": "Zu wenig Druck: höherer Rollwiderstand (bis 5% Mehrverbrauch bei 0,5 bar weniger), Flankenverschleiß, längerer Bremsweg, Platzergefahr. Monatlich prüfen."
+    },
+    "legal_ref": "KB Technisch Reglement"
+  },
+  {
+    "id": "ENV-006",
+    "topic": "environmental",
+    "verified": false,
+    "question": {
+      "nl": "Wat verbruikt op de autosnelweg meer brandstof: airco aan of ramen open?",
+      "en": "On the motorway, what uses more fuel: A/C on or windows open?",
+      "fr": "Sur autoroute, qu'est-ce qui consomme plus: climatisation ou fenêtres ouvertes ?",
+      "de": "Auf der Autobahn: was verbraucht mehr — Klima oder offene Fenster?"
+    },
+    "options": {
+      "nl": ["Airco aan", "Ramen open boven ~80 km/u, wegens luchtweerstand", "Beide hetzelfde"],
+      "en": ["A/C on", "Windows open above ~80 km/h, due to drag", "Both the same"],
+      "fr": ["Clim", "Fenêtres ouvertes au-delà de ~80 km/h, à cause de la traînée", "Pareil"],
+      "de": ["Klimaanlage", "Fenster offen über ~80 km/h, wegen Luftwiderstand", "Gleich"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Bij lage snelheden (stad) verbruikt airco méér. Op de autosnelweg verbruiken open ramen méér vanwege de extra luchtweerstand. Gebruik bij hogere snelheden bij voorkeur de airco en houd de ramen dicht.",
+      "en": "At low (urban) speeds, A/C uses more. At motorway speeds, open windows use more due to aerodynamic drag. Above ~80 km/h, prefer A/C and keep windows closed.",
+      "fr": "À basse vitesse (ville), la clim consomme plus. Sur autoroute, les fenêtres ouvertes consomment plus à cause de la traînée. Préférer la clim au-delà de ~80 km/h.",
+      "de": "Bei niedrigem Tempo (Stadt) verbraucht die Klima mehr. Auf der Autobahn verbrauchen offene Fenster wegen Luftwiderstand mehr. Über ~80 km/h Klima nutzen."
+    },
+    "legal_ref": "Eco-driving"
+  },
+  {
+    "id": "ENV-007",
+    "topic": "environmental",
+    "verified": false,
+    "question": {
+      "nl": "Een dakkoffer of fietsdrager op het dak. Wat is het milieueffect?",
+      "en": "Roof box or roof-mounted bike rack. Environmental effect?",
+      "fr": "Coffre ou porte-vélos sur le toit. Impact environnemental ?",
+      "de": "Dachbox oder Fahrradträger oben. Umweltwirkung?"
+    },
+    "options": {
+      "nl": ["Geen", "Verhoogt de luchtweerstand sterk; verbruik kan met 10–30% stijgen", "Vermindert verbruik door betere aerodynamica"],
+      "en": ["None", "Increases drag sharply; consumption may rise 10–30%", "Reduces consumption via better aerodynamics"],
+      "fr": ["Aucun", "Augmente nettement la traînée; +10–30% de conso", "Réduit la consommation"],
+      "de": ["Keine", "Erhöht den Luftwiderstand stark; Verbrauch +10–30%", "Senkt den Verbrauch"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een dakkoffer of fietsdrager op het dak verstoort de aerodynamica en verhoogt het verbruik tot 10–30%, vooral op de autosnelweg. Verwijder ze als ze niet gebruikt worden.",
+      "en": "A roof box or roof bike rack disrupts aerodynamics and raises fuel use by 10–30%, especially at motorway speeds. Remove when not in use.",
+      "fr": "Coffre/porte-vélos toit perturbe l'aérodynamique: +10–30% de conso, surtout sur autoroute. À démonter quand inutilisé.",
+      "de": "Dachbox/-träger stört Aerodynamik: 10–30% Mehrverbrauch, besonders auf der Autobahn. Bei Nichtgebrauch abnehmen."
+    },
+    "legal_ref": "Eco-driving"
+  },
+  {
+    "id": "ENV-008",
+    "topic": "environmental",
+    "verified": false,
+    "question": {
+      "nl": "Welke maatregel vermindert het verbruik en de uitstoot het meest op een lange rit op de autosnelweg?",
+      "en": "Which single measure most reduces fuel use and emissions on a long motorway trip?",
+      "fr": "Quelle mesure réduit le plus la consommation et les émissions sur un long trajet autoroutier ?",
+      "de": "Welche Einzelmaßnahme senkt Verbrauch und Emissionen am meisten auf langer Autobahnfahrt?"
+    },
+    "options": {
+      "nl": ["Airco volledig uit", "Snelheid verlagen van 130 naar 110 km/u: tot 20% minder verbruik", "Lichten uitschakelen"],
+      "en": ["Turn A/C fully off", "Reduce speed from 130 to 110 km/h: up to 20% fuel savings", "Switch lights off"],
+      "fr": ["Couper la clim", "Réduire la vitesse de 130 à 110 km/h: jusqu'à 20% d'économie", "Éteindre les feux"],
+      "de": ["Klima ganz aus", "Tempo von 130 auf 110 km/h: bis 20% weniger Verbrauch", "Licht aus"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Het verbruik op de autosnelweg stijgt sterk met snelheid (vooral door luchtweerstand, die kwadratisch toeneemt). Van 130 naar 110 km/u rijden bespaart tot 20% brandstof en verlaagt de CO2-uitstoot evenredig.",
+      "en": "Motorway fuel use rises sharply with speed (drag grows quadratically). Cutting from 130 to 110 km/h saves up to 20% fuel and proportionally lowers CO2.",
+      "fr": "La consommation sur autoroute grimpe fortement avec la vitesse (traînée quadratique). Passer de 130 à 110 km/h: jusqu'à 20% d'économie et autant de CO2 en moins.",
+      "de": "Autobahn-Verbrauch steigt stark mit Tempo (quadratischer Luftwiderstand). 130 → 110 km/h: bis 20% Spritersparnis und CO2-Senkung."
+    },
+    "legal_ref": "Eco-driving"
   }
 ]

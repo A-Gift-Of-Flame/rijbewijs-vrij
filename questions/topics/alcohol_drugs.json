@@ -48,5 +48,255 @@
       "de": "Fahranfänger (Führerschein seit weniger als 2 Jahren) dürfen maximal 0,2 ‰ Blutalkohol haben (StVO Art. 34)."
     },
     "legal_ref": "Wegcode art. 34"
+  },
+  {
+    "id": "ALC-003",
+    "topic": "alcohol_drugs",
+    "verified": false,
+    "question": {
+      "nl": "Wat is in België de algemene wettelijke limiet voor alcohol in het bloed bij autobestuurders?",
+      "en": "What is the general legal blood alcohol limit for car drivers in Belgium?",
+      "fr": "Quelle est la limite légale d'alcoolémie en Belgique pour les conducteurs ?",
+      "de": "Was ist die allgemeine gesetzliche Promillegrenze in Belgien für Autofahrer?"
+    },
+    "options": {
+      "nl": ["0,2 g/l", "0,5 g/l (0,22 mg/l ademlucht)", "0,8 g/l"],
+      "en": ["0.2 g/l", "0.5 g/l (0.22 mg/l breath)", "0.8 g/l"],
+      "fr": ["0,2 g/l", "0,5 g/l (0,22 mg/l air expiré)", "0,8 g/l"],
+      "de": ["0,2 g/l", "0,5 g/l (0,22 mg/l Atemluft)", "0,8 g/l"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "De algemene wettelijke limiet is 0,5 g/l alcohol in het bloed, of 0,22 mg/l in de uitgeademde lucht (Wegverkeerswet art. 34).",
+      "en": "The general limit is 0.5 g/l alcohol in blood, or 0.22 mg/l in breath (Belgian Road Traffic Act art. 34).",
+      "fr": "Limite générale: 0,5 g/l dans le sang, ou 0,22 mg/l dans l'air expiré (Loi sur la circulation routière art. 34).",
+      "de": "Allgemeine Grenze: 0,5 g/l im Blut oder 0,22 mg/l Atemluft (StVG Art. 34)."
+    },
+    "legal_ref": "Wegverkeerswet art. 34"
+  },
+  {
+    "id": "ALC-004",
+    "topic": "alcohol_drugs",
+    "verified": false,
+    "question": {
+      "nl": "Voor welke bestuurders geldt in België de strengere alcohollimiet van 0,2 g/l?",
+      "en": "For which drivers does the stricter 0.2 g/l limit apply in Belgium?",
+      "fr": "Pour quels conducteurs la limite stricte de 0,2 g/l s'applique-t-elle ?",
+      "de": "Für welche Fahrer gilt in Belgien die strengere Grenze von 0,2 g/l?"
+    },
+    "options": {
+      "nl": ["Alleen voor beginnende bestuurders", "Voor beroepschauffeurs (vrachtwagen, bus, taxi)", "Voor iedereen onder 25 jaar"],
+      "en": ["Only for new drivers", "For professional drivers (truck, bus, taxi)", "For everyone under 25"],
+      "fr": ["Uniquement les nouveaux conducteurs", "Pour les chauffeurs professionnels (camion, bus, taxi)", "Tous les moins de 25 ans"],
+      "de": ["Nur für Fahranfänger", "Für Berufsfahrer (Lkw, Bus, Taxi)", "Alle unter 25"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "De strenge limiet van 0,2 g/l geldt voor bestuurders van voertuigen met meer dan 8+1 zitplaatsen, vrachtwagens >3,5 ton en bezoldigd vervoer (taxi). Voor andere bestuurders, ook beginners, geldt 0,5 g/l (Wegverkeerswet art. 34).",
+      "en": "The 0.2 g/l limit applies to drivers of vehicles with 8+1 seats, trucks over 3.5 t and paid transport (taxi). Others, including new drivers, fall under 0.5 g/l (Belgian Road Traffic Act art. 34).",
+      "fr": "0,2 g/l s'applique aux véhicules de plus de 8+1 places, camions >3,5 t et transport rémunéré (taxi). Les autres, y compris débutants, restent à 0,5 g/l (Loi circulation routière art. 34).",
+      "de": "0,2 g/l gilt für Fahrzeuge mit über 8+1 Plätzen, Lkw über 3,5 t und entgeltlichen Personenverkehr (Taxi). Andere, auch Fahranfänger, fallen unter 0,5 g/l (StVG Art. 34)."
+    },
+    "legal_ref": "Wegverkeerswet art. 34"
+  },
+  {
+    "id": "ALC-005",
+    "topic": "alcohol_drugs",
+    "verified": false,
+    "question": {
+      "nl": "U weigert een ademtest. Wat zijn de gevolgen?",
+      "en": "You refuse a breath test. What are the consequences?",
+      "fr": "Vous refusez un test d'haleine. Quelles conséquences ?",
+      "de": "Sie verweigern den Atemalkoholtest. Folgen?"
+    },
+    "options": {
+      "nl": ["Geen, een weigering is uw recht", "Strafbaar, gelijkgesteld met de zwaarste alcoholovertreding (≥1,5 g/l)", "Enkel een waarschuwing"],
+      "en": ["None, refusal is your right", "Punished as the heaviest alcohol offence (≥1.5 g/l)", "Only a warning"],
+      "fr": ["Aucune, refus possible", "Sanctionné comme l'infraction la plus grave (≥1,5 g/l)", "Simple avertissement"],
+      "de": ["Keine, Sie dürfen verweigern", "Strafbar wie schwerste Alkoholtat (≥1,5 g/l)", "Nur Warnung"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Weigering van ademtest of bloedproef wordt gelijkgesteld met dronkenschap van 1,5 g/l of meer. Boete, rijverbod en mogelijk celstraf volgen (Wegverkeerswet art. 34/35).",
+      "en": "Refusing the breath or blood test is equated with a BAC of 1.5 g/l or more. Heavy fine, driving ban and possible prison (Belgian Road Traffic Act art. 34/35).",
+      "fr": "Refuser l'éthylotest ou la prise de sang équivaut à 1,5 g/l ou plus. Forte amende, déchéance de conduire, prison possible (Loi circulation routière art. 34/35).",
+      "de": "Verweigerung gilt als 1,5 g/l oder mehr. Hohe Strafe, Fahrverbot, evtl. Haft (StVG Art. 34/35)."
+    },
+    "legal_ref": "Wegverkeerswet art. 34/35"
+  },
+  {
+    "id": "ALC-006",
+    "topic": "alcohol_drugs",
+    "verified": false,
+    "question": {
+      "nl": "Welke drugs worden in België getest bij een verkeerscontrole?",
+      "en": "Which drugs are tested at a Belgian roadside check?",
+      "fr": "Quelles drogues sont testées lors d'un contrôle routier en Belgique ?",
+      "de": "Welche Drogen werden bei einer belgischen Verkehrskontrolle getestet?"
+    },
+    "options": {
+      "nl": ["Alleen cannabis", "Cannabis (THC), amfetamines, cocaïne, MDMA, opiaten", "Alle medicijnen op voorschrift"],
+      "en": ["Cannabis only", "Cannabis (THC), amphetamines, cocaine, MDMA, opiates", "All prescription medication"],
+      "fr": ["Uniquement le cannabis", "Cannabis (THC), amphétamines, cocaïne, MDMA, opiacés", "Tous les médicaments sur ordonnance"],
+      "de": ["Nur Cannabis", "Cannabis (THC), Amphetamine, Kokain, MDMA, Opiate", "Alle verschreibungspflichtigen Medikamente"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "De speekseltest controleert op vijf categorieën: THC (cannabis), amfetamines, cocaïne, MDMA en opiaten. Bij positief resultaat volgt een bloedanalyse (Wegverkeerswet art. 37bis).",
+      "en": "The saliva test screens for five categories: THC, amphetamines, cocaine, MDMA and opiates. A positive result leads to a blood analysis (Belgian Road Traffic Act art. 37bis).",
+      "fr": "Le test salivaire dépiste cinq catégories: THC, amphétamines, cocaïne, MDMA, opiacés. Si positif: prise de sang (Loi circulation routière art. 37bis).",
+      "de": "Speicheltest auf fünf Kategorien: THC, Amphetamine, Kokain, MDMA, Opiate. Positiv → Blutprobe (StVG Art. 37bis)."
+    },
+    "legal_ref": "Wegverkeerswet art. 37bis"
+  },
+  {
+    "id": "ALC-007",
+    "topic": "alcohol_drugs",
+    "verified": false,
+    "question": {
+      "nl": "U neemt een medicijn met een rode driehoek op de verpakking. Wat betekent dat?",
+      "en": "You take medication with a red triangle on the package. What does it mean?",
+      "fr": "Vous prenez un médicament avec un triangle rouge sur la boîte. Que signifie-t-il ?",
+      "de": "Sie nehmen ein Medikament mit rotem Dreieck auf der Packung. Bedeutung?"
+    },
+    "options": {
+      "nl": ["Het is een gevaarlijk medicijn — niet meer rijden", "Het kan rijvaardigheid beïnvloeden — bijsluiter raadplegen", "Het mag enkel ingenomen worden tijdens het rijden"],
+      "en": ["Dangerous medication — do not drive", "May affect driving ability — read leaflet", "May only be taken while driving"],
+      "fr": ["Médicament dangereux — ne plus conduire", "Peut affecter la conduite — lire la notice", "À prendre uniquement en conduisant"],
+      "de": ["Gefährliches Medikament — nicht fahren", "Kann Fahrtüchtigkeit beeinträchtigen — Beipackzettel lesen", "Nur beim Fahren einnehmen"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een rode driehoek waarschuwt dat het medicijn de rijvaardigheid kan aantasten. Raadpleeg de bijsluiter en, indien nodig, uw arts of apotheker voor u rijdt.",
+      "en": "A red triangle warns that the medicine may impair driving. Read the leaflet and ask a doctor or pharmacist before driving.",
+      "fr": "Un triangle rouge indique que le médicament peut altérer la conduite. Lisez la notice et demandez avis avant de conduire.",
+      "de": "Ein rotes Dreieck warnt vor Beeinträchtigung der Fahrtüchtigkeit. Beipackzettel lesen und ggf. Arzt/Apotheker fragen."
+    },
+    "legal_ref": "Geneesmiddelenwet — pictogram"
+  },
+  {
+    "id": "ALC-008",
+    "topic": "alcohol_drugs",
+    "verified": false,
+    "question": {
+      "nl": "U wordt betrapt met 0,6 g/l alcohol in het bloed. Wat zijn de gevolgen?",
+      "en": "You are caught with 0.6 g/l blood alcohol. What are the consequences?",
+      "fr": "Vous êtes contrôlé à 0,6 g/l. Quelles conséquences ?",
+      "de": "Sie werden mit 0,6 g/l erwischt. Folgen?"
+    },
+    "options": {
+      "nl": ["Geen gevolg, het is een grensgeval", "Geldboete en onmiddellijk rijverbod van ten minste 3 uur", "Alleen een schriftelijke waarschuwing"],
+      "en": ["No consequence, borderline case", "Fine and immediate driving ban of at least 3 hours", "Written warning only"],
+      "fr": ["Aucune, cas limite", "Amende et interdiction immédiate de conduire d'au moins 3 h", "Avertissement écrit"],
+      "de": ["Keine, Grenzfall", "Geldstrafe und sofortiges Fahrverbot ≥3 Stunden", "Schriftliche Warnung"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Tussen 0,5 en 0,8 g/l: geldboete en onmiddellijk rijverbod van minstens 3 uur. Bij 0,8 g/l of hoger gelden veel zwaardere straffen, inclusief mogelijk verlies van rijbewijs (Wegverkeerswet art. 34).",
+      "en": "Between 0.5 and 0.8 g/l: fine plus immediate 3-hour driving ban. From 0.8 g/l upward, much heavier penalties including possible licence loss (Belgian Road Traffic Act art. 34).",
+      "fr": "Entre 0,5 et 0,8 g/l: amende + interdiction immédiate de conduire ≥3 h. Au-delà de 0,8 g/l, sanctions bien plus lourdes (Loi circulation routière art. 34).",
+      "de": "Zwischen 0,5 und 0,8 g/l: Geldstrafe + sofortiges Fahrverbot ≥3 h. Ab 0,8 g/l deutlich härtere Strafen (StVG Art. 34)."
+    },
+    "legal_ref": "Wegverkeerswet art. 34"
+  },
+  {
+    "id": "ALC-009",
+    "topic": "alcohol_drugs",
+    "verified": false,
+    "question": {
+      "nl": "U dronk gisteravond zes pinten en stopte rond middernacht. U moet om 7u 's morgens rijden. Veilig?",
+      "en": "You drank six beers last night, stopping at midnight. You must drive at 7 a.m. Safe?",
+      "fr": "Vous avez bu six bières hier soir, dernier verre à minuit. Conduire à 7 h ?",
+      "de": "Sie haben gestern sechs Bier bis Mitternacht getrunken. Fahren um 7 Uhr — sicher?"
+    },
+    "options": {
+      "nl": ["Ja, na een nacht slapen is de alcohol verwerkt", "Niet zeker — het lichaam verwerkt slechts ca. 0,15 g/l per uur, controleer met test", "Een kop koffie en u kunt rijden"],
+      "en": ["Yes, after sleeping the alcohol is gone", "Not certain — body processes only ~0.15 g/l per hour, test first", "Coffee and you can drive"],
+      "fr": ["Oui, après une nuit, c'est éliminé", "Pas sûr — le corps élimine ~0,15 g/l par heure, faites un test", "Un café et c'est bon"],
+      "de": ["Ja, nach Schlaf weg", "Unsicher — Körper baut nur ~0,15 g/l/h ab, testen", "Kaffee reicht"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Het lichaam verwerkt alcohol traag, ongeveer 0,1 tot 0,15 g/l per uur, ongeacht koffie of douche. Veel bestuurders die 's morgens rijden zijn nog boven de wettelijke limiet (restalcohol).",
+      "en": "The body processes alcohol slowly, about 0.1–0.15 g/l per hour. Coffee or showers do nothing. Many morning drivers are still over the limit (residual alcohol).",
+      "fr": "Le corps élimine ~0,1–0,15 g/l/h. Café et douche n'y changent rien. De nombreux conducteurs matinaux sont encore au-dessus de la limite.",
+      "de": "Der Körper baut nur 0,1–0,15 g/l pro Stunde ab. Kaffee oder Dusche ändern nichts. Viele Morgenfahrer sind noch zu betrunken."
+    },
+    "legal_ref": "Wegverkeerswet art. 34 (Restalcohol)"
+  },
+  {
+    "id": "ALC-010",
+    "topic": "alcohol_drugs",
+    "verified": false,
+    "question": {
+      "nl": "Vanaf welk alcoholgehalte spreekt men van 'dronkenschap' in plaats van een gewone alcoholovertreding?",
+      "en": "From what BAC does Belgian law speak of 'drunkenness' rather than a simple alcohol offence?",
+      "fr": "À partir de quel taux parle-t-on d'ivresse plutôt que d'infraction alcool simple ?",
+      "de": "Ab welcher Promillegrenze spricht man von 'Trunkenheit' statt einfacher Alkohol-Ordnungswidrigkeit?"
+    },
+    "options": {
+      "nl": ["Vanaf 0,5 g/l, gemeten met ademtest", "Niet enkel door BAC; dronkenschap wordt vastgesteld op basis van gedrag (waggelen, onsamenhangend spreken)", "Vanaf 1,0 g/l, automatisch"],
+      "en": ["From 0.5 g/l", "Not by BAC alone; drunkenness is established by behaviour (staggering, slurring)", "From 1.0 g/l automatically"],
+      "fr": ["Dès 0,5 g/l", "Pas par taux uniquement; l'ivresse se constate par le comportement (titubation, élocution)", "Dès 1,0 g/l automatiquement"],
+      "de": ["Ab 0,5 g/l", "Nicht nur durch BAK; Trunkenheit über Verhalten (Schwanken, Sprache) festgestellt", "Ab 1,0 g/l automatisch"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Belgische wet onderscheidt 'alcoholintoxicatie' (gemeten BAC) en 'dronkenschap' (controleverlies, vastgesteld door politie zonder BAC nodig). Beide zijn afzonderlijk strafbaar (Wegverkeerswet art. 34/35).",
+      "en": "Belgian law distinguishes 'alcohol intoxication' (measured BAC) and 'drunkenness' (loss of control, established by police without needing BAC). Both are punishable separately (Belgian Road Traffic Act art. 34/35).",
+      "fr": "La loi belge distingue 'intoxication alcoolique' (taux mesuré) et 'ivresse' (perte de contrôle, constatée sans mesure). Toutes deux punissables (Loi circulation routière art. 34/35).",
+      "de": "Belgisches Recht unterscheidet 'Alkoholintoxikation' (gemessene BAK) und 'Trunkenheit' (Kontrollverlust, ohne Messung feststellbar). Beide strafbar (StVG Art. 34/35)."
+    },
+    "legal_ref": "Wegverkeerswet art. 35"
+  },
+  {
+    "id": "ALC-011",
+    "topic": "alcohol_drugs",
+    "verified": false,
+    "question": {
+      "nl": "Welke effecten heeft alcohol op het rijgedrag, zelfs onder de limiet?",
+      "en": "What effects does alcohol have on driving, even below the legal limit?",
+      "fr": "Quels effets de l'alcool sur la conduite, même sous la limite ?",
+      "de": "Welche Wirkung hat Alkohol auf das Fahren, auch unter der Grenze?"
+    },
+    "options": {
+      "nl": ["Geen effect, alleen boven 0,5 g/l problematisch", "Verminderde reactietijd, overschatting van eigen kunnen, verminderd zicht", "Versnelde reactietijd en betere concentratie"],
+      "en": ["No effect, only above 0.5 g/l", "Slower reaction, overestimation of skill, reduced vision", "Faster reaction and better focus"],
+      "fr": ["Aucun effet sous 0,5 g/l", "Réflexes lents, surestimation de soi, vision réduite", "Réflexes plus rapides"],
+      "de": ["Keine Wirkung unter 0,5 g/l", "Langsamere Reaktion, Selbstüberschätzung, schlechteres Sehen", "Schnellere Reaktion"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Zelfs lage hoeveelheden alcohol vertragen de reactietijd, verzwakken het beoordelingsvermogen, verminderen de tunnelvisie en geven valse zelfzekerheid. De wettelijke limiet is geen 'veiligheidsgrens'.",
+      "en": "Even low doses slow reaction, weaken judgement, narrow vision (tunnel effect) and give false confidence. The legal limit is not a 'safety threshold'.",
+      "fr": "Même à faible dose, l'alcool ralentit, fausse le jugement et donne une confiance excessive. La limite légale n'est pas un seuil de sécurité.",
+      "de": "Schon geringe Mengen verlangsamen, trüben Urteil und geben Selbstüberschätzung. Die Grenze ist keine 'Sicherheitsschwelle'."
+    },
+    "legal_ref": "Wegverkeerswet art. 8 (rijvaardigheid)"
+  },
+  {
+    "id": "ALC-012",
+    "topic": "alcohol_drugs",
+    "verified": false,
+    "question": {
+      "nl": "Een passagier biedt u tijdens het rijden een biertje aan. Mag u dat onder de limiet aannemen en drinken?",
+      "en": "A passenger offers you a beer while driving. May you accept and drink under the limit?",
+      "fr": "Un passager vous offre une bière en roulant. Pouvez-vous l'accepter sous la limite ?",
+      "de": "Ein Beifahrer bietet ein Bier während der Fahrt. Erlaubt unter der Grenze?"
+    },
+    "options": {
+      "nl": ["Ja, zolang u onder 0,5 g/l blijft", "Nee, drinken tijdens het rijden is sowieso ten zeerste af te raden en kan worden gestraft als 'onmacht over het stuur'", "Alleen bij stilstand op een veilige plek"],
+      "en": ["Yes, as long as under 0.5 g/l", "No — drinking while driving is strongly discouraged and may be charged as loss of control of the vehicle", "Only when stopped in a safe place"],
+      "fr": ["Oui, tant que sous 0,5 g/l", "Non — boire en conduisant est fortement déconseillé et peut être sanctionné comme perte de maîtrise", "Uniquement à l'arrêt"],
+      "de": ["Ja, solange unter 0,5 g/l", "Nein — Trinken am Steuer ist abzulehnen und kann als Kontrollverlust geahndet werden", "Nur im sicheren Stand"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Een blikje of fles vasthouden hindert het stuur en de aandacht. De bestuurder moet altijd zijn voertuig onder controle hebben (Wegcode art. 8.3). Drinken tijdens het rijden is af te raden, ook ruim onder de limiet.",
+      "en": "Holding a can or bottle hinders steering and attention. The driver must always control the vehicle (Wegcode art. 8.3). Drinking while driving is to be avoided, even well under the limit.",
+      "fr": "Tenir une cannette gêne la conduite et l'attention. Le conducteur doit toujours maîtriser son véhicule (Code de la route art. 8.3). À éviter même sous la limite.",
+      "de": "Eine Dose in der Hand stört Lenkung und Aufmerksamkeit. Der Fahrer muss das Fahrzeug stets beherrschen (StVO Art. 8.3). Zu vermeiden, auch unter der Grenze."
+    },
+    "legal_ref": "Wegcode art. 8.3"
   }
 ]
