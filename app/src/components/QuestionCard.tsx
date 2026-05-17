@@ -27,6 +27,17 @@ export default function QuestionCard({
         <p className="text-white font-medium leading-snug">{q}</p>
       </div>
 
+      {question.image && (
+        <div className="pl-8">
+          <img
+            src={question.image}
+            alt={question.id}
+            className="h-28 w-auto object-contain"
+            onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
+          />
+        </div>
+      )}
+
       <ol className="space-y-2 pl-8">
         {opts.map((opt, i) => {
           const isCorrect = i === question.correct;

@@ -14,6 +14,7 @@ export interface Question {
   correct: number;
   explanation: LocalizedText;
   legal_ref: string;
+  image?: string;
 }
 
 export interface TopicMeta {

@@ -22,7 +22,8 @@
       "fr": "Les panneaux triangulaires à bordure rouge sont des panneaux d'avertissement. Le point d'exclamation est le panneau de danger général (Code de la route Annexe 1).",
       "de": "Dreieckige Schilder mit rotem Rand sind Warnschilder. Das Ausrufezeichen ist das allgemeine Gefahrschild (StVO Anlage 1)."
     },
-    "legal_ref": "Wegcode bijlage 1 — waarschuwingsborden"
+    "legal_ref": "Wegcode bijlage 1 — waarschuwingsborden",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_A51.svg"
   },
   {
     "id": "SGN-002",
@@ -97,7 +98,8 @@
       "fr": "Le panneau B1 est le panneau 'céder le passage'. Vous devez laisser la priorité à tout le trafic sur la route qui croise (Code de la route Annexe 2).",
       "de": "Zeichen B1 ist das 'Vorfahrt gewähren'-Schild. Sie müssen dem gesamten Verkehr auf der kreuzenden Straße Vorfahrt gewähren (StVO Anlage 2)."
     },
-    "legal_ref": "Wegcode bijlage 2 — bord B1"
+    "legal_ref": "Wegcode bijlage 2 — bord B1",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_B1.svg"
   },
   {
     "id": "SGN-005",
@@ -122,7 +124,8 @@
       "fr": "Le panneau C43 (rond, blanc, bordure rouge, chiffre noir) impose une vitesse maximale. Ici 50 km/h (Code de la route art. 68.3).",
       "de": "Zeichen C43 (rund, weiß, roter Rand, schwarze Zahl) ordnet eine Höchstgeschwindigkeit an. Hier 50 km/h (StVO Art. 68.3)."
     },
-    "legal_ref": "Wegcode art. 68.3 (C43)"
+    "legal_ref": "Wegcode art. 68.3 (C43)",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_C43_50.svg"
   },
   {
     "id": "SGN-006",
@@ -147,7 +150,8 @@
       "fr": "Un panneau bleu rond avec flèche blanche est un panneau d'obligation (série D). La flèche indique la direction obligatoire (Code de la route art. 69).",
       "de": "Ein rundes blaues Schild mit weißem Pfeil ist ein Vorschriftszeichen (D-Reihe). Pfeil = vorgeschriebene Richtung (StVO Art. 69)."
     },
-    "legal_ref": "Wegcode art. 69 (D1)"
+    "legal_ref": "Wegcode art. 69 (D1)",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_D1_rd.svg"
   },
   {
     "id": "SGN-007",
@@ -222,7 +226,8 @@
       "fr": "Le panneau C1 (rond, rouge, barre blanche horizontale) interdit l'accès à tout conducteur. Fréquent sur les sens uniques (Code de la route art. 68).",
       "de": "Zeichen C1 (rund, rot, weißer Querbalken) verbietet die Einfahrt für alle. Häufig bei Einbahnstraßen (StVO Art. 68)."
     },
-    "legal_ref": "Wegcode art. 68 (C1)"
+    "legal_ref": "Wegcode art. 68 (C1)",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_C1.svg"
   },
   {
     "id": "SGN-010",
@@ -247,7 +252,8 @@
       "fr": "Un triangle rouge-blanc est un panneau de danger (série A). Le cycliste prévient d'une traversée ou d'un trafic cycliste dense (Code de la route art. 67, panneau A25).",
       "de": "Rot-weißes Dreieck ist Gefahrenzeichen (A-Reihe). Radfahrer-Symbol warnt vor Querungsstelle oder vielen Radfahrern (StVO Art. 67, Zeichen A25)."
     },
-    "legal_ref": "Wegcode art. 67 (A25)"
+    "legal_ref": "Wegcode art. 67 (A25)",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_A25.svg"
   },
   {
     "id": "SGN-011",
@@ -272,7 +278,8 @@
       "fr": "Le panneau A23 signale un lieu fréquenté par les enfants (école, plaine de jeux). Il faut ralentir (Code de la route art. 67, panneau A23).",
       "de": "Zeichen A23 warnt vor Orten mit vielen Kindern (Schule, Spielplatz). Geschwindigkeit verringern (StVO Art. 67, Zeichen A23)."
     },
-    "legal_ref": "Wegcode art. 67 (A23)"
+    "legal_ref": "Wegcode art. 67 (A23)",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_A23.svg"
   },
   {
     "id": "SGN-012",
@@ -322,7 +329,8 @@
       "fr": "Le panneau E1 (une diagonale) interdit le stationnement mais autorise l'arrêt. Le E3 (croix) interdit les deux (Code de la route art. 70).",
       "de": "Zeichen E1 (eine Diagonale) verbietet Parken, Halten erlaubt. Zeichen E3 (Kreuz) verbietet beides (StVO Art. 70)."
     },
-    "legal_ref": "Wegcode art. 70 (E1/E3)"
+    "legal_ref": "Wegcode art. 70 (E1/E3)",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_E1.svg"
   },
   {
     "id": "SGN-014",
@@ -347,7 +355,8 @@
       "fr": "Le panneau D7 désigne une piste cyclable obligatoire. Les cyclistes et cyclomoteurs A doivent l'emprunter; les autres ne peuvent pas (Code de la route art. 69 + art. 9).",
       "de": "Zeichen D7 zeigt einen vorgeschriebenen Radweg. Radfahrer und Mofas Klasse A müssen ihn nutzen; andere nicht (StVO Art. 69 + Art. 9)."
     },
-    "legal_ref": "Wegcode art. 69 (D7)"
+    "legal_ref": "Wegcode art. 69 (D7)",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_D7.svg"
   },
   {
     "id": "SGN-015",
@@ -372,7 +381,8 @@
       "fr": "Le panneau F19 indique un sens unique: vous roulez dans la direction de la flèche blanche (Code de la route art. 71).",
       "de": "Zeichen F19 zeigt eine Einbahnstraße in Richtung des weißen Pfeils (StVO Art. 71)."
     },
-    "legal_ref": "Wegcode art. 71 (F19)"
+    "legal_ref": "Wegcode art. 71 (F19)",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_F19.svg"
   },
   {
     "id": "SGN-016",
@@ -422,7 +432,8 @@
       "fr": "Le panneau C11 (rond, blanc, bord rouge, vélo) interdit l'accès aux cyclistes. À ne pas confondre avec D7 piste obligatoire (Code de la route art. 68).",
       "de": "Zeichen C11 (rund, weiß, roter Rand, Fahrrad) verbietet Radfahrer. Nicht mit D7 (blau, vorgeschriebener Radweg) verwechseln (StVO Art. 68)."
     },
-    "legal_ref": "Wegcode art. 68 (C11)"
+    "legal_ref": "Wegcode art. 68 (C11)",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_C11.svg"
   },
   {
     "id": "SGN-018",
@@ -447,7 +458,8 @@
       "fr": "Le panneau F9 indique le début d'une voie réservée aux véhicules à moteur (au moins 70 km/h). Interdit aux cyclistes, piétons et cyclomoteurs (Code de la route art. 22 + panneau F9).",
       "de": "Zeichen F9 zeigt den Beginn einer Kraftfahrstraße: nur Kfz, die mindestens 70 km/h erreichen. Radfahrer, Fußgänger, Mofas verboten (StVO Art. 22 + Zeichen F9)."
     },
-    "legal_ref": "Wegcode art. 22 (F9)"
+    "legal_ref": "Wegcode art. 22 (F9)",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_F9.svg"
   },
   {
     "id": "SGN-019",
@@ -472,7 +484,8 @@
       "fr": "Le panneau A51 est un avertissement générique. La nature du danger est indiquée par un panneau additionnel (Code de la route art. 67).",
       "de": "Zeichen A51 ist eine allgemeine Warnung. Die genaue Gefahr steht auf einem Zusatzschild (StVO Art. 67)."
     },
-    "legal_ref": "Wegcode art. 67 (A51)"
+    "legal_ref": "Wegcode art. 67 (A51)",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_A51.svg"
   },
   {
     "id": "SGN-020",
@@ -497,7 +510,8 @@
       "fr": "Le panneau C23 interdit l'accès aux camions de transport de marchandises dont la MMA dépasse 3,5 t, sauf indication contraire sur panneau additionnel (Code de la route art. 68).",
       "de": "Zeichen C23 verbietet die Einfahrt für Güterfahrzeuge über 3,5 t zGM, sofern Zusatzschild nichts anderes regelt (StVO Art. 68)."
     },
-    "legal_ref": "Wegcode art. 68 (C23)"
+    "legal_ref": "Wegcode art. 68 (C23)",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_C23.svg"
   },
   {
     "id": "SGN-021",
@@ -547,7 +561,8 @@
       "fr": "Le panneau C35 interdit le dépassement par véhicules à moteur, sauf motos sans side-car. Valable jusqu'au C37 ou au prochain carrefour (Code de la route art. 68).",
       "de": "Zeichen C35 verbietet das Überholen durch Kfz, ausgenommen Motorräder ohne Beiwagen. Gilt bis C37 oder zur nächsten Kreuzung (StVO Art. 68)."
     },
-    "legal_ref": "Wegcode art. 68 (C35)"
+    "legal_ref": "Wegcode art. 68 (C35)",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_C35.svg"
   },
   {
     "id": "SGN-023",
@@ -622,6 +637,7 @@
       "fr": "Le panneau B5 (octogone rouge, 'STOP') impose un arrêt complet à la ligne, même voie libre. Céder ensuite le passage (Code de la route art. 6 + B5).",
       "de": "Zeichen B5 (Achteck, rot, 'STOP') verlangt vollständigen Halt an der Linie, auch wenn frei. Dann Vorfahrt gewähren (StVO Art. 6 + B5)."
     },
-    "legal_ref": "Wegcode art. 6 (B5)"
+    "legal_ref": "Wegcode art. 6 (B5)",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belgian_road_sign_B5.svg"
   }
 ]
