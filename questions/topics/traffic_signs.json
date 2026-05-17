@@ -684,7 +684,8 @@
       "fr": "Le panneau A39 signale une circulation à double sens, souvent après un sens unique ou un rétrécissement (Code de la route art. 67).",
       "de": "Zeichen A39 warnt vor Gegenverkehr, oft nach Einbahn oder Engstelle (StVO Art. 67)."
     },
-    "legal_ref": "Wegcode art. 67 (A39)"
+    "legal_ref": "Wegcode art. 67 (A39)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Belgian_road_sign_A39.svg"
   },
   {
     "id": "SGN-017",
@@ -893,7 +894,8 @@
       "fr": "Le panneau A7 signale une descente dangereuse. Le pourcentage indique la pente. Rétrograder, éviter le freinage prolongé (Code de la route art. 67).",
       "de": "Zeichen A7 warnt vor gefährlichem Gefälle. Prozent = Neigung. Niedrigeren Gang einlegen, Dauerbremsen vermeiden (StVO Art. 67)."
     },
-    "legal_ref": "Wegcode art. 67 (A7)"
+    "legal_ref": "Wegcode art. 67 (A7)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Belgian_road_sign_A7a.svg"
   },
   {
     "id": "SGN-022",
@@ -976,7 +978,8 @@
       "fr": "La lettre 'M' sous 'P' réserve le stationnement aux motos. Les autres véhicules ne peuvent y stationner (Code de la route art. 70 + panneau additionnel).",
       "de": "Das 'M' unter 'P' reserviert den Parkplatz für Motorräder. Andere Fahrzeuge dürfen dort nicht parken (StVO Art. 70 + Zusatzschild)."
     },
-    "legal_ref": "Wegcode art. 70"
+    "legal_ref": "Wegcode art. 70",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Belgian_road_sign_E9.svg"
   },
   {
     "id": "SGN-024",
@@ -1017,7 +1020,8 @@
       "fr": "Le panneau C39 met fin à l'interdiction de dépasser imposée par C37 aux camions (Code de la route art. 68).",
       "de": "Zeichen C39 hebt das durch C37 verhängte Lkw-Überholverbot auf (StVO Art. 68)."
     },
-    "legal_ref": "Wegcode art. 68 (C39)"
+    "legal_ref": "Wegcode art. 68 (C39)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Belgian_road_sign_C39.svg"
   },
   {
     "id": "SGN-025",
