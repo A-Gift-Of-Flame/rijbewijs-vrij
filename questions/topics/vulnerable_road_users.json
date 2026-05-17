@@ -29,10 +29,10 @@
     "topic": "vulnerable_road_users",
     "verified": false,
     "question": {
-      "nl": "Hoeveel afstand moet u houden bij het inhalen van een fietser?",
-      "en": "What minimum lateral distance must you maintain when overtaking a cyclist?",
-      "fr": "Quelle distance latérale minimale devez-vous maintenir lors du dépassement d'un cycliste ?",
-      "de": "Welchen Mindestabstand müssen Sie beim Überholen eines Radfahrers einhalten?"
+      "nl": "U rijdt binnen de bebouwde kom en haalt een fietser in. Welke minimale zijdelingse afstand moet u bewaren?",
+      "en": "You are inside a built-up area and overtake a cyclist. What is the minimum lateral distance required?",
+      "fr": "Vous êtes en agglomération et dépassez un cycliste. Quelle distance latérale minimale devez-vous maintenir ?",
+      "de": "Sie fahren innerorts und überholen einen Radfahrer. Welchen seitlichen Mindestabstand müssen Sie einhalten?"
     },
     "options": {
       "nl": ["0,5 meter", "1 meter", "1,5 meter", "2 meter"],
@@ -40,12 +40,12 @@
       "fr": ["0,5 mètre", "1 mètre", "1,5 mètre", "2 mètres"],
       "de": ["0,5 Meter", "1 Meter", "1,5 Meter", "2 Meter"]
     },
-    "correct": 2,
+    "correct": 1,
     "explanation": {
-      "nl": "Bij het inhalen van fietsers en andere kwetsbare weggebruikers moet u minimaal 1,5 meter zijdelingse afstand houden (Wegcode art. 40bis).",
-      "en": "When overtaking cyclists and other vulnerable road users you must maintain a minimum lateral distance of 1.5 metres (Wegcode art. 40bis).",
-      "fr": "Lors du dépassement de cyclistes et autres usagers vulnérables, vous devez maintenir une distance latérale minimale de 1,5 mètre (Code de la route art. 40bis).",
-      "de": "Beim Überholen von Fahrradfahrern und anderen schwachen Verkehrsteilnehmern müssen Sie einen seitlichen Mindestabstand von 1,5 Meter einhalten (StVO Art. 40bis)."
+      "nl": "Binnen de bebouwde kom bedraagt de minimale zijdelingse afstand bij het inhalen van een fietser 1 meter. Buiten de bebouwde kom geldt 1,5 meter (Wegcode art. 40bis).",
+      "en": "Inside a built-up area the minimum lateral distance when overtaking a cyclist is 1 metre. Outside a built-up area it is 1.5 metres (Wegcode art. 40bis).",
+      "fr": "En agglomération, la distance latérale minimale lors du dépassement d'un cycliste est de 1 mètre. Hors agglomération, elle est de 1,5 mètre (Code de la route art. 40bis).",
+      "de": "Innerorts beträgt der seitliche Mindestabstand beim Überholen eines Radfahrers 1 Meter. Außerorts sind es 1,5 Meter (StVO Art. 40bis)."
     },
     "legal_ref": "Wegcode art. 40bis"
   },

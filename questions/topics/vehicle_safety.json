@@ -160,17 +160,17 @@
       "de": "Welche Sicherheitsausrüstung muss immer im Auto sein?"
     },
     "options": {
-      "nl": ["Brandblusser, EHBO-koffer, sleepkabel", "Gevarendriehoek, fluovest en brandblusser (en EHBO aanbevolen)", "Niets specifiek"],
-      "en": ["Fire extinguisher, first-aid kit, tow rope", "Warning triangle, hi-vis vest and fire extinguisher (first-aid kit recommended)", "Nothing specific"],
-      "fr": ["Extincteur, trousse secours, câble de remorquage", "Triangle, gilet fluo et extincteur (trousse secours conseillée)", "Rien de spécifique"],
-      "de": ["Feuerlöscher, Erste-Hilfe-Set, Abschleppseil", "Warndreieck, Warnweste und Feuerlöscher (Erste-Hilfe-Set empfohlen)", "Nichts Bestimmtes"]
+      "nl": ["Brandblusser, EHBO-koffer, sleepkabel", "Gevarendriehoek, fluovest, brandblusser én EHBO-koffer", "Niets specifiek"],
+      "en": ["Fire extinguisher, first-aid kit, tow rope", "Warning triangle, hi-vis vest, fire extinguisher and first-aid kit", "Nothing specific"],
+      "fr": ["Extincteur, trousse secours, câble de remorquage", "Triangle, gilet fluo, extincteur et trousse de secours", "Rien de spécifique"],
+      "de": ["Feuerlöscher, Erste-Hilfe-Set, Abschleppseil", "Warndreieck, Warnweste, Feuerlöscher und Erste-Hilfe-Set", "Nichts Bestimmtes"]
     },
     "correct": 1,
     "explanation": {
-      "nl": "Verplicht aan boord van elke personenwagen in België: een gevarendriehoek, een retroreflecterend hesje (fluovest) en een brandblusser. Een EHBO-koffer is sterk aanbevolen maar niet wettelijk verplicht (KB Technisch Reglement).",
-      "en": "Mandatory equipment in every Belgian car: warning triangle, hi-vis vest and fire extinguisher. First-aid kit is strongly recommended but not legally required (Technical Regulation Royal Decree).",
-      "fr": "Obligatoires: triangle, gilet rétroréfléchissant et extincteur. Trousse de secours fortement conseillée mais pas obligatoire (AR Règlement technique).",
-      "de": "Pflicht im Pkw: Warndreieck, Warnweste, Feuerlöscher. Erste-Hilfe-Set empfohlen, nicht Pflicht (Technische Verordnung)."
+      "nl": "Verplicht aan boord van elke personenwagen in België: een gevarendriehoek, een retroreflecterend hesje (fluovest), een brandblusser én een EHBO-koffer (KB Technisch Reglement).",
+      "en": "Mandatory equipment in every Belgian car: warning triangle, hi-vis vest, fire extinguisher and first-aid kit (Technical Regulation Royal Decree).",
+      "fr": "Équipements obligatoires dans toute voiture belge: triangle, gilet rétroréfléchissant, extincteur et trousse de secours (AR Règlement technique).",
+      "de": "Pflichtausrüstung im belgischen Pkw: Warndreieck, Warnweste, Feuerlöscher und Erste-Hilfe-Set (Technische Verordnung)."
     },
     "legal_ref": "KB Technisch Reglement"
   },
