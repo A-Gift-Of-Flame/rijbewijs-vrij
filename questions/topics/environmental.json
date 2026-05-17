@@ -17,12 +17,12 @@
     },
     "correct": 1,
     "explanation": {
-      "nl": "Een LEZ is een afgebakend stedelijk gebied waar voertuigen met te veel uitstoot niet mogen rijden. Antwerpen, Gent en Brussel hebben LEZ-zones. De regels zijn gebaseerd op de Euro-uitstootnorm van uw voertuig.",
-      "en": "A LEZ is a defined urban area where high-emission vehicles are prohibited. Antwerp, Ghent, and Brussels have LEZ zones. Rules are based on your vehicle's Euro emission standard.",
-      "fr": "Une ZBE est une zone urbaine délimitée où les véhicules à fortes émissions sont interdits. Anvers, Gand et Bruxelles ont des zones ZBE. Les règles sont basées sur la norme Euro d'émission de votre véhicule.",
-      "de": "Eine LEZ ist ein definiertes städtisches Gebiet, in dem Fahrzeuge mit hohem Schadstoffausstoß verboten sind. Antwerpen, Gent und Brüssel haben LEZ-Zonen. Die Regeln basieren auf der Euro-Abgasnorm Ihres Fahrzeugs."
+      "nl": "Een LEZ is een afgebakend stedelijk gebied waar voertuigen met te veel uitstoot niet mogen rijden. Antwerpen, Gent en Brussel hebben LEZ-zones. De toegelaten Euro-norm wordt jaarlijks verstrengd en niet-conforme voertuigen krijgen een boete (Decreet LEZ / Brussels LEZ-ordonnantie).",
+      "en": "A LEZ is a defined urban area where high-emission vehicles are prohibited. Antwerp, Ghent, and Brussels have LEZ zones. Standards tighten yearly and non-compliant vehicles are fined (LEZ Decree / Brussels LEZ Ordinance).",
+      "fr": "Une ZBE est une zone urbaine délimitée où les véhicules à fortes émissions sont interdits. Anvers, Gand et Bruxelles ont des ZBE. La norme se durcit chaque année et les infractions sont sanctionnées (Décret LEZ / Ordonnance LEZ Bruxelles).",
+      "de": "Eine LEZ ist ein definiertes städtisches Gebiet, in dem Fahrzeuge mit hohem Schadstoffausstoß verboten sind. Antwerpen, Gent und Brüssel haben LEZ-Zonen. Die Norm wird jährlich verschärft, Verstöße werden bestraft (LEZ-Dekret / Brüsseler LEZ-Ordonnanz)."
     },
-    "legal_ref": "Vlaamse LEZ-wetgeving / Brussels LEZ-ordonnantie"
+    "legal_ref": "Decreet LEZ (Vlaanderen); Brussels LEZ-ordonnantie"
   },
   {
     "id": "ENV-002",
@@ -79,31 +79,6 @@
     "topic": "environmental",
     "verified": false,
     "question": {
-      "nl": "Wat is een Lage-Emissiezone (LEZ) in Belgische steden?",
-      "en": "What is a Low Emission Zone (LEZ) in Belgian cities?",
-      "fr": "Qu'est-ce qu'une zone de basses émissions (LEZ) dans les villes belges ?",
-      "de": "Was ist eine Umweltzone (LEZ) in belgischen Städten?"
-    },
-    "options": {
-      "nl": ["Een zone waar elektrisch rijden verplicht is", "Een zone waar voertuigen met te hoge uitstoot (oude diesels, oude benzine) verboden zijn", "Een zone met gratis parkeren"],
-      "en": ["A zone where electric driving is mandatory", "A zone where high-emission vehicles (old diesel/petrol) are banned", "A zone with free parking"],
-      "fr": ["Zone où l'électrique est obligatoire", "Zone interdite aux véhicules à émissions élevées (anciens diesels/essence)", "Zone à stationnement gratuit"],
-      "de": ["Zone, in der nur Elektroautos fahren", "Zone, in der schadstoffreiche Fahrzeuge (alte Diesel/Benziner) verboten sind", "Zone mit Gratisparken"]
-    },
-    "correct": 1,
-    "explanation": {
-      "nl": "Een LEZ is een afgebakend gebied (Antwerpen, Brussel, Gent) waar voertuigen met een te lage Euro-norm niet binnen mogen. De toegelaten Euro-norm wordt jaarlijks verstrengd. Niet-conforme voertuigen krijgen een boete (regionale wetgeving).",
-      "en": "A LEZ is a defined area (Antwerp, Brussels, Ghent) where vehicles below a minimum Euro standard may not enter. Standards tighten yearly. Non-compliant vehicles are fined (regional law).",
-      "fr": "Une LEZ est un périmètre (Anvers, Bruxelles, Gand) interdit aux véhicules d'une norme Euro trop basse. La norme se durcit chaque année. Amende en cas d'infraction (législation régionale).",
-      "de": "Eine LEZ ist ein Gebiet (Antwerpen, Brüssel, Gent), in das Fahrzeuge unter einer Euro-Mindestnorm nicht einfahren dürfen. Die Norm wird jährlich verschärft. Verstoß = Strafe (Regionalgesetz)."
-    },
-    "legal_ref": "Decreet LEZ (Vlaanderen, Brussel)"
-  },
-  {
-    "id": "ENV-005",
-    "topic": "environmental",
-    "verified": false,
-    "question": {
       "nl": "Te lage bandenspanning. Welke effecten heeft dat?",
       "en": "Under-inflated tyres. What effects does that have?",
       "fr": "Pression de pneus trop basse. Quels effets ?",
@@ -125,7 +100,7 @@
     "legal_ref": "KB Technisch Reglement"
   },
   {
-    "id": "ENV-006",
+    "id": "ENV-005",
     "topic": "environmental",
     "verified": false,
     "question": {
@@ -150,7 +125,7 @@
     "legal_ref": "Eco-driving"
   },
   {
-    "id": "ENV-007",
+    "id": "ENV-006",
     "topic": "environmental",
     "verified": false,
     "question": {
@@ -175,7 +150,7 @@
     "legal_ref": "Eco-driving"
   },
   {
-    "id": "ENV-008",
+    "id": "ENV-007",
     "topic": "environmental",
     "verified": false,
     "question": {

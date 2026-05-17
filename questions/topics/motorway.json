@@ -1,6 +1,6 @@
 [
   {
-    "id": "MWY-001",
+    "id": "MOT-001",
     "topic": "motorway",
     "verified": false,
     "question": {
@@ -25,7 +25,7 @@
     "legal_ref": "Wegcode art. 11.3"
   },
   {
-    "id": "MWY-002",
+    "id": "MOT-002",
     "topic": "motorway",
     "verified": false,
     "question": {

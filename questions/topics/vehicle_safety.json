@@ -1,6 +1,6 @@
 [
   {
-    "id": "VSF-001",
+    "id": "VEH-001",
     "topic": "vehicle_safety",
     "verified": false,
     "question": {
@@ -25,7 +25,7 @@
     "legal_ref": "Wegcode art. 21"
   },
   {
-    "id": "VSF-002",
+    "id": "VEH-002",
     "topic": "vehicle_safety",
     "verified": false,
     "question": {
@@ -42,40 +42,15 @@
     },
     "correct": 1,
     "explanation": {
-      "nl": "De minimale profieldiepte voor personenwagens is 1,6 mm over de volledige breedte van het loopvlak. Rijden met te versleten banden is gevaarlijk en verboden.",
-      "en": "The minimum tread depth for passenger cars is 1.6 mm across the full width of the tread. Driving on worn tyres is dangerous and illegal.",
-      "fr": "La profondeur minimale de la bande de roulement pour les voitures particulières est de 1,6 mm sur toute la largeur de la bande de roulement. Rouler avec des pneus usés est dangereux et illégal.",
-      "de": "Die Mindestprofiltiefe für Personenkraftwagen beträgt 1,6 mm über die gesamte Breite der Lauffläche. Mit abgenutzten Reifen zu fahren ist gefährlich und verboten."
-    },
-    "legal_ref": "KB 15 maart 1968 — technische eisen voertuigen"
-  },
-  {
-    "id": "VEH-003",
-    "topic": "vehicle_safety",
-    "verified": false,
-    "question": {
-      "nl": "Wat is de wettelijke minimum profieldiepte voor banden van personenwagens in België?",
-      "en": "What is the legal minimum tread depth for passenger car tyres in Belgium?",
-      "fr": "Quelle est la profondeur minimale légale des pneus en Belgique ?",
-      "de": "Was ist die gesetzliche Mindestprofiltiefe für Pkw-Reifen in Belgien?"
-    },
-    "options": {
-      "nl": ["1,0 mm", "1,6 mm", "3,0 mm"],
-      "en": ["1.0 mm", "1.6 mm", "3.0 mm"],
-      "fr": ["1,0 mm", "1,6 mm", "3,0 mm"],
-      "de": ["1,0 mm", "1,6 mm", "3,0 mm"]
-    },
-    "correct": 1,
-    "explanation": {
-      "nl": "De wettelijke minimum profieldiepte voor personenwagens is 1,6 mm over de hele omtrek en breedte van het loopvlak. Bij minder is de band niet meer toegelaten op de openbare weg (KB Technisch Reglement art. 30).",
-      "en": "Minimum legal tread depth for cars is 1.6 mm across the whole tread surface. Below that, the tyre is no longer roadworthy (Technical Regulation Royal Decree art. 30).",
-      "fr": "Profondeur minimale légale: 1,6 mm sur toute la surface du pneu. En-dessous, le pneu n'est plus autorisé (AR Règlement technique art. 30).",
-      "de": "Mindestprofiltiefe für Pkw: 1,6 mm über die gesamte Lauffläche. Darunter nicht mehr zulässig (Technische Verordnung Art. 30)."
+      "nl": "De minimale profieldiepte voor personenwagens is 1,6 mm over de volledige breedte van het loopvlak en over de volledige omtrek. Rijden met te versleten banden is gevaarlijk en verboden (KB Technisch Reglement art. 30).",
+      "en": "The minimum tread depth for passenger cars is 1.6 mm across the full width and circumference of the tread. Driving on worn tyres is dangerous and illegal (Technical Regulation Royal Decree art. 30).",
+      "fr": "La profondeur minimale est de 1,6 mm sur toute la largeur et la circonférence de la bande de roulement. Rouler avec des pneus usés est dangereux et illégal (AR Règlement technique art. 30).",
+      "de": "Die Mindestprofiltiefe beträgt 1,6 mm über die gesamte Breite und den Umfang der Lauffläche. Mit abgenutzten Reifen zu fahren ist gefährlich und verboten (Technische Verordnung Art. 30)."
     },
     "legal_ref": "KB Technisch Reglement art. 30"
   },
   {
-    "id": "VEH-004",
+    "id": "VEH-003",
     "topic": "vehicle_safety",
     "verified": false,
     "question": {
@@ -100,7 +75,7 @@
     "legal_ref": "Belgische wetgeving (geen verplichting)"
   },
   {
-    "id": "VEH-005",
+    "id": "VEH-004",
     "topic": "vehicle_safety",
     "verified": false,
     "question": {
@@ -125,7 +100,7 @@
     "legal_ref": "Wegcode art. 30"
   },
   {
-    "id": "VEH-006",
+    "id": "VEH-005",
     "topic": "vehicle_safety",
     "verified": false,
     "question": {
@@ -150,7 +125,7 @@
     "legal_ref": "EU 661/2009"
   },
   {
-    "id": "VEH-007",
+    "id": "VEH-006",
     "topic": "vehicle_safety",
     "verified": false,
     "question": {
@@ -175,7 +150,7 @@
     "legal_ref": "Wegcode art. 30.2"
   },
   {
-    "id": "VEH-008",
+    "id": "VEH-007",
     "topic": "vehicle_safety",
     "verified": false,
     "question": {
@@ -200,7 +175,7 @@
     "legal_ref": "KB Technisch Reglement"
   },
   {
-    "id": "VEH-009",
+    "id": "VEH-008",
     "topic": "vehicle_safety",
     "verified": false,
     "question": {
@@ -225,7 +200,7 @@
     "legal_ref": "Wegcode art. 35.1.2"
   },
   {
-    "id": "VEH-010",
+    "id": "VEH-009",
     "topic": "vehicle_safety",
     "verified": false,
     "question": {
@@ -250,7 +225,7 @@
     "legal_ref": "Wegcode art. 35"
   },
   {
-    "id": "VEH-011",
+    "id": "VEH-010",
     "topic": "vehicle_safety",
     "verified": false,
     "question": {
@@ -275,7 +250,7 @@
     "legal_ref": "Wegcode art. 47"
   },
   {
-    "id": "VEH-012",
+    "id": "VEH-011",
     "topic": "vehicle_safety",
     "verified": false,
     "question": {

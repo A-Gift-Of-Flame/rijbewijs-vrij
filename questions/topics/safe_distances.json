@@ -248,5 +248,55 @@
       "de": "Bei roten Blinklichtern oder Glocke vor dem Andreaskreuz (A45/A47) oder der Haltlinie anhalten, fern der Schienen. Nie auf dem Kreuz oder zwischen den Schienen (StVO Art. 20)."
     },
     "legal_ref": "Wegcode art. 20"
+  },
+  {
+    "id": "DST-011",
+    "topic": "safe_distances",
+    "verified": false,
+    "question": {
+      "nl": "Op een droge weg rijdt u 90 km/u. Uw reactietijd is 1 seconde. Hoeveel meter legt u af tijdens uw reactietijd?",
+      "en": "You are driving at 90 km/h on a dry road. Your reaction time is 1 second. How many metres do you cover during your reaction time?",
+      "fr": "Vous roulez à 90 km/h sur route sèche. Votre temps de réaction est d'1 seconde. Combien de mètres parcourez-vous pendant ce temps ?",
+      "de": "Sie fahren 90 km/h auf trockener Straße. Ihre Reaktionszeit beträgt 1 Sekunde. Wie viele Meter legen Sie in dieser Zeit zurück?"
+    },
+    "options": {
+      "nl": ["15 meter", "25 meter", "50 meter"],
+      "en": ["15 metres", "25 metres", "50 metres"],
+      "fr": ["15 m", "25 m", "50 m"],
+      "de": ["15 m", "25 m", "50 m"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "90 km/u ÷ 3,6 = 25 m/s. In 1 seconde reactietijd legt u dus 25 meter af — nog vóór u ook maar begint te remmen. Dit toont waarom voldoende volgafstand essentieel is (Wegcode art. 10.1.1).",
+      "en": "90 km/h ÷ 3.6 = 25 m/s. In 1 second of reaction time you cover 25 metres — before you even start braking. This shows why adequate following distance is essential (Wegcode art. 10.1.1).",
+      "fr": "90 km/h ÷ 3,6 = 25 m/s. En 1 seconde de réaction vous parcourez 25 m, avant même de freiner. Cela montre pourquoi la distance de sécurité est indispensable (Code de la route art. 10.1.1).",
+      "de": "90 km/h ÷ 3,6 = 25 m/s. In 1 Sekunde Reaktionszeit legen Sie 25 m zurück — bevor Sie überhaupt bremsen. Das zeigt, warum ausreichender Abstand entscheidend ist (StVO Art. 10.1.1)."
+    },
+    "legal_ref": "Wegcode art. 10.1.1"
+  },
+  {
+    "id": "DST-012",
+    "topic": "safe_distances",
+    "verified": false,
+    "question": {
+      "nl": "Wat is een mogelijke gevolg van te dicht rijden (staartrijden) in België?",
+      "en": "What is a possible consequence of tailgating in Belgium?",
+      "fr": "Quelle est une conséquence possible du collage en Belgique ?",
+      "de": "Was ist eine mögliche Folge von Drängeln (zu geringem Abstand) in Belgien?"
+    },
+    "options": {
+      "nl": ["Geen sanctie — geen minimumafstand in wet", "Boete en rijverbod bij herhaling", "Enkel een mondeling waarschuwing van politie"],
+      "en": ["No sanction — no minimum distance in law", "Fine and possible driving ban for repeat offences", "Only a verbal warning from police"],
+      "fr": ["Aucune sanction — pas de distance minimale dans la loi", "Amende et possible interdiction de conduire en récidive", "Seulement un avertissement verbal de la police"],
+      "de": ["Keine Sanktion — kein Mindestabstand im Gesetz", "Bußgeld und mögliches Fahrverbot bei Wiederholung", "Nur eine mündliche Verwarnung der Polizei"]
+    },
+    "correct": 1,
+    "explanation": {
+      "nl": "Te dicht rijden is een overtreding van Wegcode art. 10. Het kan bestraft worden met een geldboete (GAS of politioneel) en bij ernstige of herhaalde overtredingen met een tijdelijk rijverbod. Zwaar vrachtwagens op autosnelwegen worden ook gecontroleerd via sectiecontrole (Wegcode art. 10 + KB 30/09/2005).",
+      "en": "Tailgating violates Wegcode art. 10. It can result in a fine and, for serious or repeat offences, a temporary driving ban. Heavy vehicles on motorways are also monitored by average-speed cameras (Wegcode art. 10 + KB 30/09/2005).",
+      "fr": "Le collage viole le Code de la route art. 10. Il peut entraîner une amende et, en cas d'infraction grave ou répétée, une interdiction temporaire de conduire. Les poids lourds sur autoroute sont également contrôlés par radar tronçon (Code de la route art. 10 + AR 30/09/2005).",
+      "de": "Drängeln verstößt gegen StVO Art. 10. Es kann zu einem Bußgeld und bei schweren oder wiederholten Verstößen zu einem temporären Fahrverbot führen. Lkw auf Autobahnen werden auch per Streckenradar überwacht (StVO Art. 10 + KB 30/09/2005)."
+    },
+    "legal_ref": "Wegcode art. 10; KB 30/09/2005"
   }
 ]

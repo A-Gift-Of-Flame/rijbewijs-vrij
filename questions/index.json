@@ -7,13 +7,13 @@
     { "id": "speed_limits",         "file": "topics/speed_limits.json",         "count": 15 },
     { "id": "traffic_signs",        "file": "topics/traffic_signs.json",        "count": 25 },
     { "id": "road_markings",        "file": "topics/road_markings.json",        "count": 12 },
-    { "id": "safe_distances",       "file": "topics/safe_distances.json",       "count": 10 },
+    { "id": "safe_distances",       "file": "topics/safe_distances.json",       "count": 12 },
     { "id": "alcohol_drugs",        "file": "topics/alcohol_drugs.json",        "count": 12 },
     { "id": "motorway",             "file": "topics/motorway.json",             "count": 15 },
     { "id": "vulnerable_road_users","file": "topics/vulnerable_road_users.json","count": 15 },
-    { "id": "vehicle_safety",       "file": "topics/vehicle_safety.json",       "count": 12 },
+    { "id": "vehicle_safety",       "file": "topics/vehicle_safety.json",       "count": 11 },
     { "id": "first_aid",            "file": "topics/first_aid.json",            "count": 10 },
-    { "id": "environmental",        "file": "topics/environmental.json",        "count": 8 }
+    { "id": "environmental",        "file": "topics/environmental.json",        "count": 7 }
   ],
   "total": 154
 }
