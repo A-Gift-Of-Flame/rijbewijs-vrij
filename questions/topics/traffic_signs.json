@@ -304,7 +304,8 @@
       "fr": "Le panneau F1 indique l'entrée d'une agglomération. À partir de là, 50 km/h s'applique automatiquement (Code de la route art. 71).",
       "de": "Zeichen F1 zeigt den Ortseingang. Ab hier gilt automatisch 50 km/h (StVO Art. 71)."
     },
-    "legal_ref": "Wegcode art. 71 (F1)"
+    "legal_ref": "Wegcode art. 71 (F1)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Belgian_road_sign_F1.svg"
   },
   {
     "id": "SGN-008",
@@ -345,7 +346,8 @@
       "fr": "Le panneau F3 marque la fin d'agglomération. La vitesse hors agglomération (70 km/h en Flandre, 90 km/h en Wallonie/Bruxelles) reprend (Code de la route art. 71 + 11.2.2).",
       "de": "Zeichen F3 markiert das Ortsende. Außerorts-Tempo (70 km/h in Flandern, 90 km/h in Wallonien/Brüssel) gilt wieder (StVO Art. 71 + 11.2.2)."
     },
-    "legal_ref": "Wegcode art. 71 (F3)"
+    "legal_ref": "Wegcode art. 71 (F3)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Belgian_road_sign_F3.svg"
   },
   {
     "id": "SGN-009",
@@ -512,7 +514,8 @@
       "fr": "Un panneau carré/rectangulaire bleu avec 'P' blanc (série E9) signale un parking autorisé. L'interdiction utilise un bord rouge ou une barre (Code de la route art. 70).",
       "de": "Ein quadratisches/rechteckiges blaues Schild mit weißem 'P' (E9-Reihe) zeigt einen erlaubten Parkplatz an. Verbot mit rotem Rand oder Strich (StVO Art. 70)."
     },
-    "legal_ref": "Wegcode art. 70 (E9)"
+    "legal_ref": "Wegcode art. 70 (E9)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Belgian_road_sign_E9.svg"
   },
   {
     "id": "SGN-013",
@@ -595,7 +598,8 @@
       "fr": "Le panneau D7 désigne une piste cyclable obligatoire. Les cyclistes et cyclomoteurs A doivent l'emprunter; les autres ne peuvent pas (Code de la route art. 69 + art. 9).",
       "de": "Zeichen D7 zeigt einen vorgeschriebenen Radweg. Radfahrer und Mofas Klasse A müssen ihn nutzen; andere nicht (StVO Art. 69 + Art. 9)."
     },
-    "legal_ref": "Wegcode art. 69 (D7)"
+    "legal_ref": "Wegcode art. 69 (D7)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Belgian_traffic_sign_D7.svg"
   },
   {
     "id": "SGN-015",
