@@ -15,7 +15,7 @@
       "fr": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"],
       "de": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"]
     },
-    "correct": 1,
+    "correct": 2,
     "explanation": {
       "nl": "Op autosnelwegen geldt een minimumsnelheid van 70 km/u op de rijbaan. Wie te langzaam rijdt belemmert het verkeer (Wegcode art. 11.3).",
       "en": "The minimum speed on motorway lanes is 70 km/h. Driving too slowly obstructs traffic (Wegcode art. 11.3).",
