@@ -25,7 +25,7 @@ export default async function TopicPage(props: PageProps<'/study/[topic]'>) {
   const questions = getQuestionsByTopic(topic);
 
   return (
-    <div className="min-h-screen bg-gray-950 text-white flex flex-col">
+    <div className="min-h-screen bg-gray-950 text-on-surface flex flex-col">
       <Header lang={lang} />
       <main className="flex-1 max-w-4xl mx-auto w-full px-4 py-10">
         <div className="mb-8">

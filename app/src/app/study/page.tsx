@@ -15,7 +15,7 @@ export default async function StudyPage({
   const topics = getTopics();
 
   return (
-    <div className="min-h-screen bg-gray-950 text-white flex flex-col">
+    <div className="min-h-screen bg-gray-950 text-on-surface flex flex-col">
       <Header lang={lang} />
       <main className="flex-1 max-w-4xl mx-auto w-full px-4 py-10">
         <h1 className="text-2xl font-bold mb-2">
@@ -43,7 +43,7 @@ export default async function StudyPage({
               >
                 <span className="text-2xl">{display.emoji}</span>
                 <div className="flex-1 min-w-0">
-                  <p className="font-medium text-white group-hover:text-blue-300 transition-colors">
+                  <p className="font-medium text-on-surface group-hover:text-blue-300 transition-colors">
                     {display.label[lang]}
                   </p>
                   <p className="text-gray-500 text-sm">

@@ -22,20 +22,16 @@ export default function LanguageSwitcher({ current }: { current: Lang }) {
   }
 
   return (
-    <div className="flex gap-1">
+    <select
+      value={current}
+      onChange={(e) => switchLang(e.target.value as Lang)}
+      className="bg-gray-800 text-on-surface border border-gray-700 rounded-lg px-2 py-1 text-sm cursor-pointer hover:border-gray-600 transition-colors"
+    >
       {LANGS.map((lang) => (
-        <button
-          key={lang}
-          onClick={() => switchLang(lang)}
-          className={`px-2 py-1 rounded text-sm font-medium transition-colors ${
-            lang === current
-              ? 'bg-blue-600 text-white'
-              : 'text-gray-400 hover:text-white hover:bg-gray-700'
-          }`}
-        >
+        <option key={lang} value={lang}>
           {LANG_LABELS[lang]}
-        </button>
+        </option>
       ))}
-    </div>
+    </select>
   );
 }

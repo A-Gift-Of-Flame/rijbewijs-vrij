@@ -16,7 +16,7 @@ export default async function PracticePage({
   const allQuestions = topics.flatMap((t) => getQuestionsByTopic(t.id));
 
   return (
-    <div className="min-h-screen bg-gray-950 text-white flex flex-col">
+    <div className="min-h-screen bg-gray-950 text-on-surface flex flex-col">
       <Header lang={lang} />
       <Quiz allQuestions={allQuestions} lang={lang} />
     </div>

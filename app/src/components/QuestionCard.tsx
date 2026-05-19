@@ -24,7 +24,7 @@ export default function QuestionCard({
         <span className="text-gray-500 text-sm font-mono shrink-0 pt-0.5">
           {String(index + 1).padStart(2, '0')}
         </span>
-        <p className="text-white font-medium leading-snug">{q}</p>
+        <p className="text-on-surface font-medium leading-snug">{q}</p>
       </div>
 
       {question.image && (

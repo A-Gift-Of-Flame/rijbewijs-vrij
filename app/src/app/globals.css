@@ -1,22 +1,68 @@
 @import "tailwindcss";
 
+/* Class-based dark mode */
+@variant dark (&:where(.dark, .dark *));
+
+/* Light mode defaults */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
+
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --on-surface: #0f172a;
+
+  --gr-50:  #f8fafc;
+  --gr-100: #f1f5f9;
+  --gr-200: #e2e8f0;
+  --gr-300: #334155;
+  --gr-400: #475569;
+  --gr-500: #64748b;
+  --gr-600: #94a3b8;
+  --gr-700: #cbd5e1;
+  --gr-800: #e2e8f0;
+  --gr-900: #ffffff;
+  --gr-950: #f8fafc;
+}
+
+/* Dark mode (current look) */
+.dark {
+  color-scheme: dark;
+
+  --background: #030712;
+  --foreground: #ffffff;
+  --on-surface: #ffffff;
+
+  --gr-50:  #111827;
+  --gr-100: #1f2937;
+  --gr-200: #374151;
+  --gr-300: #d1d5db;
+  --gr-400: #9ca3af;
+  --gr-500: #6b7280;
+  --gr-600: #4b5563;
+  --gr-700: #374151;
+  --gr-800: #1f2937;
+  --gr-900: #111827;
+  --gr-950: #030712;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-on-surface: var(--on-surface);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-gray-50:  var(--gr-50);
+  --color-gray-100: var(--gr-100);
+  --color-gray-200: var(--gr-200);
+  --color-gray-300: var(--gr-300);
+  --color-gray-400: var(--gr-400);
+  --color-gray-500: var(--gr-500);
+  --color-gray-600: var(--gr-600);
+  --color-gray-700: var(--gr-700);
+  --color-gray-800: var(--gr-800);
+  --color-gray-900: var(--gr-900);
+  --color-gray-950: var(--gr-950);
 }
 
 body {

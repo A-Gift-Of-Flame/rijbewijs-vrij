@@ -132,7 +132,7 @@ export default function Quiz({
     return (
       <div className="flex flex-col items-center justify-center flex-1 px-4 py-20 text-center">
         <div className="text-5xl mb-6">📝</div>
-        <h1 className="text-3xl font-bold text-white mb-3">{t.start}</h1>
+        <h1 className="text-3xl font-bold text-on-surface mb-3">{t.start}</h1>
         <p className="text-gray-400 mb-10">{t.startSub}</p>
         <button
           onClick={startQuiz}
@@ -150,7 +150,7 @@ export default function Quiz({
       <div className="max-w-2xl mx-auto w-full px-4 py-10 space-y-8">
         <div className="text-center space-y-2">
           <div className="text-5xl mb-4">{passed ? '🎉' : '😔'}</div>
-          <h1 className="text-3xl font-bold text-white">
+          <h1 className="text-3xl font-bold text-on-surface">
             {passed ? t.passed : t.failed}
           </h1>
           <p className="text-4xl font-mono font-bold mt-2">
@@ -189,7 +189,7 @@ export default function Quiz({
                 <div className="flex items-start gap-3">
                   <span className="text-lg shrink-0">{isCorrect ? '✅' : '❌'}</span>
                   <div className="space-y-1 min-w-0">
-                    <p className="text-white text-sm font-medium leading-snug">
+                    <p className="text-on-surface text-sm font-medium leading-snug">
                       {q.question[lang]}
                     </p>
                     {!isCorrect && (
@@ -239,7 +239,7 @@ export default function Quiz({
       </div>
 
       <div className="bg-gray-900 border border-gray-800 rounded-xl p-6 space-y-5">
-        <p className="text-white font-medium text-lg leading-snug">
+        <p className="text-on-surface font-medium text-lg leading-snug">
           {q.question[lang]}
         </p>
 
