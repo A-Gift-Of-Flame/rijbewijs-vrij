@@ -7,11 +7,18 @@ import type { Lang } from '@/lib/types';
 export default function Header({ lang }: { lang: Lang }) {
   return (
     <header className="bg-gray-900 border-b border-gray-800">
-      <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+      <div className="max-w-4xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-x-4">
         <Link href={`/study?lang=${lang}`} className="font-bold text-on-surface text-lg tracking-tight shrink-0">
           Rijbewijs Vrij 🚦
         </Link>
-        <nav className="flex items-center gap-1">
+        <div className="flex items-center gap-2 sm:order-3">
+          <ThemeSwitcher />
+          <Suspense fallback={null}>
+            <LanguageSwitcher current={lang} />
+          </Suspense>
+        </div>
+        <hr className="w-full border-gray-800 sm:hidden" />
+        <nav className="flex items-center gap-1 w-full sm:w-auto sm:order-2">
           <Link
             href={`/study?lang=${lang}`}
             className="px-3 py-1.5 text-sm text-gray-400 hover:text-on-surface hover:bg-gray-800 rounded-lg transition-colors"
@@ -25,12 +32,6 @@ export default function Header({ lang }: { lang: Lang }) {
             {lang === 'nl' ? 'Oefentoets' : lang === 'fr' ? 'Test' : lang === 'de' ? 'Test' : 'Practice'}
           </Link>
         </nav>
-        <div className="flex items-center gap-2">
-          <ThemeSwitcher />
-          <Suspense fallback={null}>
-            <LanguageSwitcher current={lang} />
-          </Suspense>
-        </div>
       </div>
     </header>
   );
