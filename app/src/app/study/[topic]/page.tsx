@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import QuestionCard from '@/components/QuestionCard';
 import { getTopics, getQuestionsByTopic, parseLang } from '@/lib/questions';
 import { TOPIC_DISPLAY } from '@/lib/topicMeta';
+import { UI } from '@/lib/ui';
 
 export async function generateStaticParams() {
   const topics = getTopics();
@@ -40,11 +41,7 @@ export default async function TopicPage(props: PageProps<'/study/[topic]'>) {
             <span>{display.label[lang]}</span>
           </h1>
           <p className="text-gray-400 text-sm mt-1">
-            {questions.length}{' '}
-            {lang === 'nl' && 'vragen — klik op een antwoord of "Toon antwoord" om de uitleg te zien'}
-            {lang === 'en' && 'questions — click an answer or "Show answer" to reveal the explanation'}
-            {lang === 'fr' && 'questions — cliquez sur une réponse ou "Show answer" pour voir l\'explication'}
-            {lang === 'de' && 'Fragen — klicken Sie auf eine Antwort oder "Show answer" um die Erklärung zu sehen'}
+            {questions.length}{' '}{UI[lang].studySubtitle}
           </p>
         </div>
 

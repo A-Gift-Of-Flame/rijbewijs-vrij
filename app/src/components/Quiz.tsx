@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import type { Question, Lang } from '@/lib/types';
+import { UI as SHARED_UI } from '@/lib/ui';
 import { TOPIC_DISPLAY } from '@/lib/topicMeta';
 
 type Phase = 'idle' | 'active' | 'done';
@@ -288,7 +289,7 @@ export default function Quiz({
             <p className="text-blue-500 text-xs font-mono">{q.legal_ref}</p>
             {!q.verified && (
               <p className="text-yellow-600 text-xs">
-                ⚠ AI-generated — not yet peer-reviewed.
+                {SHARED_UI[lang].aiWarning}
               </p>
             )}
           </div>

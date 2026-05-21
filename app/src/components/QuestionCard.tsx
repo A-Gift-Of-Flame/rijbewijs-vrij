@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import type { Question, Lang } from '@/lib/types';
+import { UI } from '@/lib/ui';
 
 export default function QuestionCard({
   question,
@@ -13,6 +14,7 @@ export default function QuestionCard({
   index: number;
 }) {
   const [revealed, setRevealed] = useState(false);
+  const t = UI[lang];
 
   const q = question.question[lang];
   const opts = question.options[lang];
@@ -70,7 +72,7 @@ export default function QuestionCard({
           onClick={() => setRevealed(true)}
           className="ml-8 text-sm text-blue-400 hover:text-blue-300 transition-colors"
         >
-          Show answer →
+          {t.showAnswer} →
         </button>
       )}
 
@@ -80,7 +82,7 @@ export default function QuestionCard({
           <p className="text-blue-400 text-xs font-mono">{question.legal_ref}</p>
           {!question.verified && (
             <p className="text-yellow-500 text-xs">
-              ⚠ AI-generated — not yet peer-reviewed. Verify before exam.
+              {t.aiWarningLong}
             </p>
           )}
         </div>
