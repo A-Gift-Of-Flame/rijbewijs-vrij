@@ -1,8 +1,25 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import type { Question, Lang } from '@/lib/types';
 import { UI } from '@/lib/ui';
+
+function LegalRefLink({ legalRef, lang }: { legalRef: string; lang: Lang }) {
+  const match = legalRef.match(/art\.\s*(\d+(?:\/\d+)?(?:bis|ter|quater|quinquies|sexies|septies|octies|novies|decies|undecies)?)/i);
+  if (!match) {
+    return <p className="text-blue-400 text-xs font-mono">{legalRef}</p>;
+  }
+  const articleId = match[1];
+  return (
+    <Link
+      href={`/wegcode?lang=${lang}#Art.${articleId}`}
+      className="text-blue-400 hover:text-blue-300 text-xs font-mono underline decoration-dotted transition-colors"
+    >
+      {legalRef} ↗
+    </Link>
+  );
+}
 
 export default function QuestionCard({
   question,
@@ -79,7 +96,7 @@ export default function QuestionCard({
       {revealed && (
         <div className="ml-8 p-4 bg-blue-950/50 border border-blue-800 rounded-lg space-y-2">
           <p className="text-blue-100 text-sm leading-relaxed">{explanation}</p>
-          <p className="text-blue-400 text-xs font-mono">{question.legal_ref}</p>
+          <LegalRefLink legalRef={question.legal_ref} lang={lang} />
           {!question.verified && (
             <p className="text-yellow-500 text-xs">
               {t.aiWarningLong}

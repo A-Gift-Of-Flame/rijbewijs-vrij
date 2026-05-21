@@ -31,6 +31,12 @@ export default function Header({ lang }: { lang: Lang }) {
           >
             {lang === 'nl' ? 'Oefentoets' : lang === 'fr' ? 'Test' : lang === 'de' ? 'Test' : 'Practice'}
           </Link>
+          <Link
+            href={`/wegcode?lang=${lang}`}
+            className="px-3 py-1.5 text-sm text-gray-400 hover:text-on-surface hover:bg-gray-800 rounded-lg transition-colors"
+          >
+            Wegcode
+          </Link>
         </nav>
       </div>
     </header>
