@@ -49,6 +49,9 @@ export default async function WegcodePage({
   const flat = flattenStructure(data.structure);
   const lb = LABELS[lang];
 
+  // Build prev/next nav map from flat section order
+  const navMap = new Map(flat.map((s, i) => [s.lnkId, { prev: flat[i - 1], next: flat[i + 1] }]));
+
   // Group articles by their section
   const sectionArticles: Record<string, typeof articles> = {};
   for (const section of flat) {
@@ -103,7 +106,24 @@ export default async function WegcodePage({
             </div>
           )}
 
-          {data.structure.map((section) => (
+          {/* Mobile TOC */}
+          <details className="lg:hidden mb-6 border border-gray-800 rounded-lg">
+            <summary className="px-4 py-3 cursor-pointer text-sm font-semibold text-on-surface select-none flex justify-between items-center">
+              <span>Inhoud</span>
+              <span className="text-gray-500 text-xs">▼</span>
+            </summary>
+            <nav className="px-4 pb-4 border-t border-gray-800 pt-3">
+              <ul className="space-y-0.5">
+                {data.structure.map((section) => (
+                  <TocSection key={section.lnkId} section={section} lang={lang} />
+                ))}
+              </ul>
+            </nav>
+          </details>
+
+          {data.structure.map((section) => {
+            const secNav = navMap.get(section.lnkId);
+            return (
             <div key={section.lnkId} className="mb-10">
               <h2
                 id={section.lnkId}
@@ -117,21 +137,52 @@ export default async function WegcodePage({
                 <WegcodeArticleView key={art.id} article={art} />
               ))}
 
-              {section.children?.map((chapter) => (
-                <div key={chapter.lnkId} className="mt-6">
-                  <h3
-                    id={chapter.lnkId}
-                    className="text-base font-semibold text-gray-300 mb-3 scroll-mt-20"
-                  >
-                    {lb.hoofdstuk} {chapter.number} — {chapter.title}
-                  </h3>
-                  {(sectionArticles[chapter.lnkId] ?? []).map((art) => (
-                    <WegcodeArticleView key={art.id} article={art} />
-                  ))}
+              {(!section.children || section.children.length === 0) && (
+                <div className="flex gap-2 mt-4 pt-3 border-t border-gray-800 text-xs">
+                  {secNav?.prev ? (
+                    <a href={`#${secNav.prev.lnkId}`} className="text-blue-500 hover:text-blue-400 transition-colors truncate max-w-[45%]">
+                      ← {secNav.prev.number}. {secNav.prev.title}
+                    </a>
+                  ) : <span />}
+                  {secNav?.next && (
+                    <a href={`#${secNav.next.lnkId}`} className="text-blue-500 hover:text-blue-400 transition-colors truncate max-w-[45%] ml-auto text-right">
+                      {secNav.next.number}. {secNav.next.title} →
+                    </a>
+                  )}
                 </div>
-              ))}
+              )}
+
+              {section.children?.map((chapter) => {
+                const chNav = navMap.get(chapter.lnkId);
+                return (
+                  <div key={chapter.lnkId} className="mt-6">
+                    <h3
+                      id={chapter.lnkId}
+                      className="text-base font-semibold text-gray-300 mb-3 scroll-mt-20"
+                    >
+                      {lb.hoofdstuk} {chapter.number} — {chapter.title}
+                    </h3>
+                    {(sectionArticles[chapter.lnkId] ?? []).map((art) => (
+                      <WegcodeArticleView key={art.id} article={art} />
+                    ))}
+                    <div className="flex gap-2 mt-4 pt-3 border-t border-gray-800 text-xs">
+                      {chNav?.prev ? (
+                        <a href={`#${chNav.prev.lnkId}`} className="text-blue-500 hover:text-blue-400 transition-colors truncate max-w-[45%]">
+                          ← {chNav.prev.number}. {chNav.prev.title}
+                        </a>
+                      ) : <span />}
+                      {chNav?.next && (
+                        <a href={`#${chNav.next.lnkId}`} className="text-blue-500 hover:text-blue-400 transition-colors truncate max-w-[45%] ml-auto text-right">
+                          {chNav.next.number}. {chNav.next.title} →
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
             </div>
-          ))}
+            );
+          })}
         </main>
       </div>
     </div>

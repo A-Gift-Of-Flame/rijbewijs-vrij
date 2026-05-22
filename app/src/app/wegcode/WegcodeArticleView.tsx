@@ -4,12 +4,12 @@ export default function WegcodeArticleView({ article }: { article: WegcodeArticl
   return (
     <div
       id={`Art.${article.id}`}
-      className="mb-3 p-4 rounded-lg border border-gray-800 bg-gray-900 scroll-mt-20 wegcode-article"
+      className="mb-3 p-4 rounded-lg border border-gray-800 bg-gray-900 scroll-mt-20 wegcode-article overflow-x-hidden"
     >
       <p className="text-xs font-mono text-gray-500 mb-2">Art. {article.id}</p>
-      <pre className="text-sm text-gray-200 whitespace-pre-wrap font-sans leading-relaxed">
+      <p className="text-sm text-foreground whitespace-pre-wrap font-sans leading-relaxed break-words">
         {article.text}
-      </pre>
+      </p>
     </div>
   );
 }
