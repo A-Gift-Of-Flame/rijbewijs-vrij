@@ -1,6 +1,7 @@
 import type { WegcodeArticle } from '@/lib/wegcode';
 
 export default function WegcodeArticleView({ article }: { article: WegcodeArticle }) {
+  // bg-gray-900/border-gray-800: inverted scale in globals.css → light=white card, dark=dark card
   return (
     <div
       id={`Art.${article.id}`}

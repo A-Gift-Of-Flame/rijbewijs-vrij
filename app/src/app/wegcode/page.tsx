@@ -21,7 +21,7 @@ function TocSection({ section, lang, depth = 0 }: { section: WegcodeSection; lan
       <a
         href={`#${section.lnkId}`}
         className={`block py-1 text-sm hover:text-blue-400 transition-colors leading-snug ${
-          depth === 0 ? 'font-semibold text-gray-300' : 'pl-3 text-gray-400'
+          depth === 0 ? 'font-semibold text-on-surface' : 'pl-3 text-on-surface/60'
         }`}
       >
         {typeLabel} {section.number} — {section.title}
@@ -49,7 +49,7 @@ export default async function WegcodePage({
   const flat = flattenStructure(data.structure);
   const lb = LABELS[lang];
 
-  // Build prev/next nav map from flat section order
+  // flattenStructure is 2-level (titels + direct children only); navMap reflects that depth
   const navMap = new Map(flat.map((s, i) => [s.lnkId, { prev: flat[i - 1], next: flat[i + 1] }]));
 
   // Group articles by their section
@@ -107,10 +107,10 @@ export default async function WegcodePage({
           )}
 
           {/* Mobile TOC */}
-          <details className="lg:hidden mb-6 border border-gray-800 rounded-lg">
+          <details className="lg:hidden mb-6 border border-gray-800 rounded-lg toc-details">
             <summary className="px-4 py-3 cursor-pointer text-sm font-semibold text-on-surface select-none flex justify-between items-center">
               <span>Inhoud</span>
-              <span className="text-gray-500 text-xs">▼</span>
+              <span className="text-gray-500 text-xs inline-block transition-transform toc-arrow">▼</span>
             </summary>
             <nav className="px-4 pb-4 border-t border-gray-800 pt-3">
               <ul className="space-y-0.5">

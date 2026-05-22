@@ -71,7 +71,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.toc-details[open] .toc-arrow {
+  transform: rotate(180deg);
+}
+
 .wegcode-article:target {
   border-color: #2563eb;
+  background-color: rgba(219, 234, 254, 0.6);
+}
+
+.dark .wegcode-article:target {
   background-color: rgba(23, 37, 84, 0.4);
 }

@@ -16,8 +16,8 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-const QUIZ_SIZE = 10;
-const PASS_MARK = 8; // 8/10 ≈ GOCA 41/50
+const DEFAULT_SIZE = 10;
+const PRESETS = [10, 25, 50];
 
 export default function Quiz({
   allQuestions,
@@ -26,20 +26,31 @@ export default function Quiz({
   allQuestions: Question[];
   lang: Lang;
 }) {
+  const maxQuestions = allQuestions.length;
   const [phase, setPhase] = useState<Phase>('idle');
+  const [quizSize, setQuizSize] = useState(DEFAULT_SIZE);
+  const [inputStr, setInputStr] = useState(String(DEFAULT_SIZE));
   const [questions, setQuestions] = useState<Question[]>([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [answers, setAnswers] = useState<(number | null)[]>([]);
 
+  const passMark = Math.round(quizSize * 0.8);
+
+  function applySize(n: number) {
+    const clamped = Math.min(Math.max(1, n), maxQuestions);
+    setQuizSize(clamped);
+    setInputStr(String(clamped));
+  }
+
   const startQuiz = useCallback(() => {
-    const picked = shuffle(allQuestions).slice(0, QUIZ_SIZE);
+    const picked = shuffle(allQuestions).slice(0, quizSize);
     setQuestions(picked);
     setCurrent(0);
     setSelected(null);
     setAnswers([]);
     setPhase('active');
-  }, [allQuestions]);
+  }, [allQuestions, quizSize]);
 
   function selectAnswer(idx: number) {
     if (selected !== null) return;
@@ -63,7 +74,8 @@ export default function Quiz({
   const UI = {
     nl: {
       start: 'Start oefentoets',
-      startSub: `${QUIZ_SIZE} willekeurige vragen uit alle onderwerpen`,
+      startSub: `${quizSize} willekeurige vragen uit alle onderwerpen`,
+      sizeLabel: 'Aantal vragen',
       question: 'Vraag',
       of: 'van',
       next: 'Volgende',
@@ -73,13 +85,14 @@ export default function Quiz({
       yourScore: 'Jouw score',
       passed: 'Geslaagd! 🎉',
       failed: 'Niet geslaagd',
-      passNote: `Slaaggrens: ${PASS_MARK}/${QUIZ_SIZE}`,
+      passNote: `Slaaggrens: ${passMark}/${quizSize}`,
       tryAgain: 'Opnieuw proberen',
       review: 'Overzicht',
     },
     en: {
       start: 'Start practice test',
-      startSub: `${QUIZ_SIZE} random questions from all topics`,
+      startSub: `${quizSize} random questions from all topics`,
+      sizeLabel: 'Number of questions',
       question: 'Question',
       of: 'of',
       next: 'Next',
@@ -89,13 +102,14 @@ export default function Quiz({
       yourScore: 'Your score',
       passed: 'Passed! 🎉',
       failed: 'Not passed',
-      passNote: `Pass mark: ${PASS_MARK}/${QUIZ_SIZE}`,
+      passNote: `Pass mark: ${passMark}/${quizSize}`,
       tryAgain: 'Try again',
       review: 'Review',
     },
     fr: {
       start: 'Commencer le test',
-      startSub: `${QUIZ_SIZE} questions aléatoires de tous les sujets`,
+      startSub: `${quizSize} questions aléatoires de tous les sujets`,
+      sizeLabel: 'Nombre de questions',
       question: 'Question',
       of: 'sur',
       next: 'Suivant',
@@ -105,13 +119,14 @@ export default function Quiz({
       yourScore: 'Votre score',
       passed: 'Réussi ! 🎉',
       failed: 'Non réussi',
-      passNote: `Note de passage : ${PASS_MARK}/${QUIZ_SIZE}`,
+      passNote: `Note de passage : ${passMark}/${quizSize}`,
       tryAgain: 'Réessayer',
       review: 'Révision',
     },
     de: {
       start: 'Test starten',
-      startSub: `${QUIZ_SIZE} zufällige Fragen aus allen Themen`,
+      startSub: `${quizSize} zufällige Fragen aus allen Themen`,
+      sizeLabel: 'Anzahl der Fragen',
       question: 'Frage',
       of: 'von',
       next: 'Weiter',
@@ -121,7 +136,7 @@ export default function Quiz({
       yourScore: 'Ihr Ergebnis',
       passed: 'Bestanden! 🎉',
       failed: 'Nicht bestanden',
-      passNote: `Bestehensgrenze: ${PASS_MARK}/${QUIZ_SIZE}`,
+      passNote: `Bestehensgrenze: ${passMark}/${quizSize}`,
       tryAgain: 'Erneut versuchen',
       review: 'Überprüfung',
     },
@@ -134,7 +149,40 @@ export default function Quiz({
       <div className="flex flex-col items-center justify-center flex-1 px-4 py-20 text-center">
         <div className="text-5xl mb-6">📝</div>
         <h1 className="text-3xl font-bold text-on-surface mb-3">{t.start}</h1>
-        <p className="text-gray-400 mb-10">{t.startSub}</p>
+        <p className="text-gray-400 mb-8">{t.startSub}</p>
+
+        <div className="mb-8 space-y-3">
+          <p className="text-sm text-gray-400 font-medium">{t.sizeLabel}</p>
+          <div className="flex gap-2 justify-center">
+            {PRESETS.filter((n) => n <= maxQuestions).map((n) => (
+              <button
+                key={n}
+                onClick={() => applySize(n)}
+                className={`px-5 py-2 rounded-lg font-semibold text-sm transition-colors ${
+                  quizSize === n
+                    ? 'bg-blue-600 text-white'
+                    : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
+                }`}
+              >
+                {n}
+              </button>
+            ))}
+          </div>
+          <input
+            type="number"
+            min={1}
+            max={maxQuestions}
+            value={inputStr}
+            onChange={(e) => {
+              setInputStr(e.target.value);
+              const parsed = parseInt(e.target.value, 10);
+              if (!isNaN(parsed)) setQuizSize(Math.min(Math.max(1, parsed), maxQuestions));
+            }}
+            onBlur={() => setInputStr(String(quizSize))}
+            className="w-24 text-center px-3 py-2 rounded-lg bg-gray-800 border border-gray-700 text-on-surface text-sm focus:outline-none focus:border-blue-500"
+          />
+        </div>
+
         <button
           onClick={startQuiz}
           className="px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-xl text-lg transition-colors"
@@ -146,7 +194,7 @@ export default function Quiz({
   }
 
   if (phase === 'done') {
-    const passed = score >= PASS_MARK;
+    const passed = score >= passMark;
     return (
       <div className="max-w-2xl mx-auto w-full px-4 py-10 space-y-8">
         <div className="text-center space-y-2">
@@ -158,7 +206,7 @@ export default function Quiz({
             <span className={passed ? 'text-green-400' : 'text-red-400'}>
               {score}
             </span>
-            <span className="text-gray-600">/{QUIZ_SIZE}</span>
+            <span className="text-gray-600">/{questions.length}</span>
           </p>
           <p className="text-gray-500 text-sm">{t.passNote}</p>
         </div>
@@ -221,22 +269,34 @@ export default function Quiz({
         <span className="text-gray-500 text-sm">
           {t.question} {current + 1} {t.of} {questions.length}
         </span>
-        <div className="flex gap-1">
-          {questions.map((_, i) => (
-            <div
-              key={i}
-              className={`h-1.5 w-6 rounded-full transition-colors ${
-                i < current
-                  ? answers[i] === questions[i].correct
-                    ? 'bg-green-500'
-                    : 'bg-red-500'
-                  : i === current
-                  ? 'bg-blue-500'
-                  : 'bg-gray-700'
-              }`}
-            />
-          ))}
-        </div>
+        {questions.length <= 20 ? (
+          <div className="flex gap-1">
+            {questions.map((_, i) => (
+              <div
+                key={i}
+                className={`h-1.5 w-6 rounded-full transition-colors ${
+                  i < current
+                    ? answers[i] === questions[i].correct
+                      ? 'bg-green-500'
+                      : 'bg-red-500'
+                    : i === current
+                    ? 'bg-blue-500'
+                    : 'bg-gray-700'
+                }`}
+              />
+            ))}
+          </div>
+        ) : (
+          <div className="flex items-center gap-2">
+            <div className="w-32 h-1.5 bg-gray-700 rounded-full overflow-hidden">
+              <div
+                className="h-full bg-blue-500 rounded-full transition-all duration-300"
+                style={{ width: `${(current / questions.length) * 100}%` }}
+              />
+            </div>
+            <span className="text-xs text-gray-500">{current + 1}/{questions.length}</span>
+          </div>
+        )}
       </div>
 
       <div className="bg-gray-900 border border-gray-800 rounded-xl p-6 space-y-5">
