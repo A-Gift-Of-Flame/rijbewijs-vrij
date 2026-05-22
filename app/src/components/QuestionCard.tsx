@@ -50,7 +50,7 @@ export default function QuestionCard({
         <div className="pl-8">
           <img
             src={question.image}
-            alt={question.id}
+            alt={question.question[lang]}
             className="h-28 w-auto object-contain"
             onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
           />

@@ -10,10 +10,30 @@
       "de": "Was ist die Mindestgeschwindigkeit auf einer belgischen Autobahn?"
     },
     "options": {
-      "nl": ["50 km/u", "60 km/u", "70 km/u", "80 km/u"],
-      "en": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"],
-      "fr": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"],
-      "de": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"]
+      "nl": [
+        "50 km/u",
+        "60 km/u",
+        "70 km/u",
+        "80 km/u"
+      ],
+      "en": [
+        "50 km/h",
+        "60 km/h",
+        "70 km/h",
+        "80 km/h"
+      ],
+      "fr": [
+        "50 km/h",
+        "60 km/h",
+        "70 km/h",
+        "80 km/h"
+      ],
+      "de": [
+        "50 km/h",
+        "60 km/h",
+        "70 km/h",
+        "80 km/h"
+      ]
     },
     "correct": 2,
     "explanation": {
@@ -35,10 +55,30 @@
       "de": "Darf man auf einer Autobahn rückwärts fahren?"
     },
     "options": {
-      "nl": ["Ja, als u voorbij een afrit gemist heeft", "Ja, maar alleen op de pechstrook", "Nee, nooit", "Ja, als er weinig verkeer is"],
-      "en": ["Yes, if you have passed a missed exit", "Yes, but only on the hard shoulder", "No, never", "Yes, if traffic is light"],
-      "fr": ["Oui, si vous avez raté une sortie", "Oui, mais uniquement sur la bande d'arrêt d'urgence", "Non, jamais", "Oui, si la circulation est faible"],
-      "de": ["Ja, wenn Sie eine Ausfahrt verpasst haben", "Ja, aber nur auf dem Standstreifen", "Nein, niemals", "Ja, wenn wenig Verkehr ist"]
+      "nl": [
+        "Ja, als u voorbij een afrit gemist heeft",
+        "Ja, maar alleen op de pechstrook",
+        "Nee, nooit",
+        "Ja, als er weinig verkeer is"
+      ],
+      "en": [
+        "Yes, if you have passed a missed exit",
+        "Yes, but only on the hard shoulder",
+        "No, never",
+        "Yes, if traffic is light"
+      ],
+      "fr": [
+        "Oui, si vous avez raté une sortie",
+        "Oui, mais uniquement sur la bande d'arrêt d'urgence",
+        "Non, jamais",
+        "Oui, si la circulation est faible"
+      ],
+      "de": [
+        "Ja, wenn Sie eine Ausfahrt verpasst haben",
+        "Ja, aber nur auf dem Standstreifen",
+        "Nein, niemals",
+        "Ja, wenn wenig Verkehr ist"
+      ]
     },
     "correct": 2,
     "explanation": {
@@ -60,10 +100,26 @@
       "de": "Sie fahren über einen Beschleunigungsstreifen auf die Autobahn. Wer hat Vorfahrt?"
     },
     "options": {
-      "nl": ["U, want u moet versnellen", "Het verkeer dat al op de autosnelweg rijdt", "Wie het kleinste voertuig heeft"],
-      "en": ["You, because you must accelerate", "Traffic already on the motorway", "Whoever has the smaller vehicle"],
-      "fr": ["Vous, car vous devez accélérer", "Le trafic déjà sur l'autoroute", "Le véhicule le plus petit"],
-      "de": ["Sie, weil Sie beschleunigen müssen", "Verkehr, der bereits auf der Autobahn fährt", "Wer das kleinere Fahrzeug hat"]
+      "nl": [
+        "U, want u moet versnellen",
+        "Het verkeer dat al op de autosnelweg rijdt",
+        "Wie het kleinste voertuig heeft"
+      ],
+      "en": [
+        "You, because you must accelerate",
+        "Traffic already on the motorway",
+        "Whoever has the smaller vehicle"
+      ],
+      "fr": [
+        "Vous, car vous devez accélérer",
+        "Le trafic déjà sur l'autoroute",
+        "Le véhicule le plus petit"
+      ],
+      "de": [
+        "Sie, weil Sie beschleunigen müssen",
+        "Verkehr, der bereits auf der Autobahn fährt",
+        "Wer das kleinere Fahrzeug hat"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -85,10 +141,26 @@
       "de": "Darf man auf dem Standstreifen halten, um jemanden mitzunehmen?"
     },
     "options": {
-      "nl": ["Ja, kort stoppen is toegestaan", "Nee, alleen bij echte noodzaak (defect, ongeval, gevaar)", "Alleen tijdens de daluren"],
-      "en": ["Yes, brief stops are allowed", "No, only in genuine emergency (breakdown, accident, danger)", "Only off-peak"],
-      "fr": ["Oui, arrêt bref autorisé", "Non, uniquement en cas de réelle urgence (panne, accident, danger)", "Hors heures de pointe uniquement"],
-      "de": ["Ja, kurz halten erlaubt", "Nein, nur in echtem Notfall (Panne, Unfall, Gefahr)", "Nur außerhalb der Stoßzeit"]
+      "nl": [
+        "Ja, kort stoppen is toegestaan",
+        "Nee, alleen bij echte noodzaak (defect, ongeval, gevaar)",
+        "Alleen tijdens de daluren"
+      ],
+      "en": [
+        "Yes, brief stops are allowed",
+        "No, only in genuine emergency (breakdown, accident, danger)",
+        "Only off-peak"
+      ],
+      "fr": [
+        "Oui, arrêt bref autorisé",
+        "Non, uniquement en cas de réelle urgence (panne, accident, danger)",
+        "Hors heures de pointe uniquement"
+      ],
+      "de": [
+        "Ja, kurz halten erlaubt",
+        "Nein, nur in echtem Notfall (Panne, Unfall, Gefahr)",
+        "Nur außerhalb der Stoßzeit"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -110,10 +182,26 @@
       "de": "Dreispurige Autobahn: welche Spur normalerweise?"
     },
     "options": {
-      "nl": ["De middelste rijstrook", "De rechterrijstrook, behalve om in te halen", "Vrij te kiezen"],
-      "en": ["The middle lane", "The right lane, except to overtake", "Your choice"],
-      "fr": ["La voie centrale", "La voie de droite, sauf pour dépasser", "Au choix"],
-      "de": ["Mittlere Spur", "Rechte Spur, außer beim Überholen", "Beliebig"]
+      "nl": [
+        "De middelste rijstrook",
+        "De rechterrijstrook, behalve om in te halen",
+        "Vrij te kiezen"
+      ],
+      "en": [
+        "The middle lane",
+        "The right lane, except to overtake",
+        "Your choice"
+      ],
+      "fr": [
+        "La voie centrale",
+        "La voie de droite, sauf pour dépasser",
+        "Au choix"
+      ],
+      "de": [
+        "Mittlere Spur",
+        "Rechte Spur, außer beim Überholen",
+        "Beliebig"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -135,10 +223,26 @@
       "de": "Auto bekommt auf der Autobahn eine Panne. Erste Handlung?"
     },
     "options": {
-      "nl": ["Direct uitstappen en hulp zoeken", "Pechstrook bereiken, waarschuwingsknipperlichten aanzetten, voertuig verlaten via rechterportier en achter de vangrail wachten", "Op de rijstrook stoppen om te bellen"],
-      "en": ["Get out immediately and seek help", "Reach the hard shoulder, hazard lights on, exit via right doors, wait behind barrier", "Stop in the lane to call"],
-      "fr": ["Sortir immédiatement", "Atteindre la bande d'arrêt, feux de détresse, sortir par la droite, attendre derrière la glissière", "S'arrêter sur la voie pour appeler"],
-      "de": ["Sofort aussteigen", "Standstreifen erreichen, Warnblinker, rechts aussteigen, hinter der Leitplanke warten", "In der Spur halten zum Telefonieren"]
+      "nl": [
+        "Direct uitstappen en hulp zoeken",
+        "Pechstrook bereiken, waarschuwingsknipperlichten aanzetten, voertuig verlaten via rechterportier en achter de vangrail wachten",
+        "Op de rijstrook stoppen om te bellen"
+      ],
+      "en": [
+        "Get out immediately and seek help",
+        "Reach the hard shoulder, hazard lights on, exit via right doors, wait behind barrier",
+        "Stop in the lane to call"
+      ],
+      "fr": [
+        "Sortir immédiatement",
+        "Atteindre la bande d'arrêt, feux de détresse, sortir par la droite, attendre derrière la glissière",
+        "S'arrêter sur la voie pour appeler"
+      ],
+      "de": [
+        "Sofort aussteigen",
+        "Standstreifen erreichen, Warnblinker, rechts aussteigen, hinter der Leitplanke warten",
+        "In der Spur halten zum Telefonieren"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -160,10 +264,26 @@
       "de": "Welche Fahrzeuge sind auf Autobahnen verboten?"
     },
     "options": {
-      "nl": ["Alleen vrachtwagens", "Voertuigen die structureel niet 70 km/u kunnen halen, fietsen, voetgangers, bromfietsen, landbouwvoertuigen", "Alle voertuigen met aanhangwagen"],
-      "en": ["Trucks only", "Vehicles unable to do 70 km/h, bicycles, pedestrians, mopeds, agricultural vehicles", "Anything with a trailer"],
-      "fr": ["Camions uniquement", "Véhicules ne pouvant rouler à 70 km/h, vélos, piétons, cyclomoteurs, engins agricoles", "Tout véhicule avec remorque"],
-      "de": ["Nur Lkw", "Fahrzeuge die nicht 70 km/h schaffen, Räder, Fußgänger, Mofas, Landmaschinen", "Alle mit Anhänger"]
+      "nl": [
+        "Alleen vrachtwagens",
+        "Voertuigen die structureel niet 70 km/u kunnen halen, fietsen, voetgangers, bromfietsen, landbouwvoertuigen",
+        "Alle voertuigen met aanhangwagen"
+      ],
+      "en": [
+        "Trucks only",
+        "Vehicles unable to do 70 km/h, bicycles, pedestrians, mopeds, agricultural vehicles",
+        "Anything with a trailer"
+      ],
+      "fr": [
+        "Camions uniquement",
+        "Véhicules ne pouvant rouler à 70 km/h, vélos, piétons, cyclomoteurs, engins agricoles",
+        "Tout véhicule avec remorque"
+      ],
+      "de": [
+        "Nur Lkw",
+        "Fahrzeuge die nicht 70 km/h schaffen, Räder, Fußgänger, Mofas, Landmaschinen",
+        "Alle mit Anhänger"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -185,10 +305,26 @@
       "de": "Sie wollen die Autobahn verlassen. Wo bremsen Sie?"
     },
     "options": {
-      "nl": ["Op de rechterrijstrook al ver vóór de afrit", "Pas op de uitvoegstrook zelf", "Op de pechstrook"],
-      "en": ["On the right lane well before the exit", "Only on the exit lane itself", "On the hard shoulder"],
-      "fr": ["Sur la voie de droite bien avant la sortie", "Uniquement sur la bande de sortie", "Sur la bande d'arrêt"],
-      "de": ["Auf der rechten Spur weit vor der Abfahrt", "Erst auf dem Ausfädelstreifen", "Auf dem Standstreifen"]
+      "nl": [
+        "Op de rechterrijstrook al ver vóór de afrit",
+        "Pas op de uitvoegstrook zelf",
+        "Op de pechstrook"
+      ],
+      "en": [
+        "On the right lane well before the exit",
+        "Only on the exit lane itself",
+        "On the hard shoulder"
+      ],
+      "fr": [
+        "Sur la voie de droite bien avant la sortie",
+        "Uniquement sur la bande de sortie",
+        "Sur la bande d'arrêt"
+      ],
+      "de": [
+        "Auf der rechten Spur weit vor der Abfahrt",
+        "Erst auf dem Ausfädelstreifen",
+        "Auf dem Standstreifen"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -210,10 +346,26 @@
       "de": "Darf man auf der Autobahn zurücksetzen oder wenden, wenn man die Ausfahrt verpasst hat?"
     },
     "options": {
-      "nl": ["Ja, indien geen ander verkeer", "Nee, nooit; u rijdt door tot de volgende afrit", "Alleen op de pechstrook"],
-      "en": ["Yes, if no traffic", "No, never; drive to the next exit", "Only on the hard shoulder"],
-      "fr": ["Oui, si pas de trafic", "Non, jamais; continuer à la sortie suivante", "Uniquement sur la bande d'arrêt"],
-      "de": ["Ja, wenn niemand kommt", "Nein, nie; bis zur nächsten Abfahrt fahren", "Nur auf dem Standstreifen"]
+      "nl": [
+        "Ja, indien geen ander verkeer",
+        "Nee, nooit; u rijdt door tot de volgende afrit",
+        "Alleen op de pechstrook"
+      ],
+      "en": [
+        "Yes, if no traffic",
+        "No, never; drive to the next exit",
+        "Only on the hard shoulder"
+      ],
+      "fr": [
+        "Oui, si pas de trafic",
+        "Non, jamais; continuer à la sortie suivante",
+        "Uniquement sur la bande d'arrêt"
+      ],
+      "de": [
+        "Ja, wenn niemand kommt",
+        "Nein, nie; bis zur nächsten Abfahrt fahren",
+        "Nur auf dem Standstreifen"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -235,10 +387,26 @@
       "de": "Über Ihrer Spur zeigt eine grüne Abwärtspfeile. Bedeutung?"
     },
     "options": {
-      "nl": ["Rijstrook open: u mag erop rijden", "U moet onmiddellijk stoppen", "Rijstrook gereserveerd voor hulpdiensten"],
-      "en": ["Lane open: you may use it", "Stop immediately", "Lane reserved for emergency vehicles"],
-      "fr": ["Voie ouverte: vous pouvez l'utiliser", "Arrêt immédiat", "Voie réservée aux secours"],
-      "de": ["Spur frei: dürfen befahren", "Sofort halten", "Nur Einsatzfahrzeuge"]
+      "nl": [
+        "Rijstrook open: u mag erop rijden",
+        "U moet onmiddellijk stoppen",
+        "Rijstrook gereserveerd voor hulpdiensten"
+      ],
+      "en": [
+        "Lane open: you may use it",
+        "Stop immediately",
+        "Lane reserved for emergency vehicles"
+      ],
+      "fr": [
+        "Voie ouverte: vous pouvez l'utiliser",
+        "Arrêt immédiat",
+        "Voie réservée aux secours"
+      ],
+      "de": [
+        "Spur frei: dürfen befahren",
+        "Sofort halten",
+        "Nur Einsatzfahrzeuge"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -260,10 +428,26 @@
       "de": "Zeichen F5 (Autobahn) gegen F9 (Schnellstraße). Wichtiger Unterschied?"
     },
     "options": {
-      "nl": ["Geen, ze betekenen hetzelfde", "Autosnelweg: 120 km/u en gescheiden rijbanen; autoweg: 120 km/u maar niet altijd gescheiden, andere regels", "Autoweg is voor fietsen"],
-      "en": ["None, same thing", "Motorway: 120 km/h with separated carriageways; expressway: 120 km/h but not always separated, different rules", "Expressway is for cyclists"],
-      "fr": ["Aucune, identique", "Autoroute: 120 km/h, chaussées séparées; voie rapide: 120 km/h mais pas toujours séparée", "Voie rapide pour vélos"],
-      "de": ["Keiner, gleich", "Autobahn: 120 km/h, getrennte Fahrbahnen; Kraftfahrstraße: 120 km/h aber nicht immer getrennt", "Kraftfahrstraße für Radfahrer"]
+      "nl": [
+        "Geen, ze betekenen hetzelfde",
+        "Autosnelweg: 120 km/u en gescheiden rijbanen; autoweg: 120 km/u maar niet altijd gescheiden, andere regels",
+        "Autoweg is voor fietsen"
+      ],
+      "en": [
+        "None, same thing",
+        "Motorway: 120 km/h with separated carriageways; expressway: 120 km/h but not always separated, different rules",
+        "Expressway is for cyclists"
+      ],
+      "fr": [
+        "Aucune, identique",
+        "Autoroute: 120 km/h, chaussées séparées; voie rapide: 120 km/h mais pas toujours séparée",
+        "Voie rapide pour vélos"
+      ],
+      "de": [
+        "Keiner, gleich",
+        "Autobahn: 120 km/h, getrennte Fahrbahnen; Kraftfahrstraße: 120 km/h aber nicht immer getrennt",
+        "Kraftfahrstraße für Radfahrer"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -272,7 +456,8 @@
       "fr": "Même limite 120 et minimum 70 km/h. Autoroute: chaussées séparées strictement, sans carrefours. Voie rapide peut avoir des carrefours (Code de la route art. 21 + 22).",
       "de": "Beide 120 km/h, Mindest 70. Autobahn: getrennt, keine Kreuzungen. Kraftfahrstraße kann Kreuzungen haben (StVO Art. 21 + 22)."
     },
-    "legal_ref": "Wegcode art. 21/22"
+    "legal_ref": "Wegcode art. 21/22",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Belgian_road_sign_F5.svg"
   },
   {
     "id": "MOT-012",
@@ -285,10 +470,26 @@
       "de": "Sie fahren 120 km/h auf der Autobahn. Mindestabstand?"
     },
     "options": {
-      "nl": ["Ongeveer 30 meter", "Ongeveer 65–70 meter (2 seconden)", "Tegen de bumper aan"],
-      "en": ["About 30 metres", "About 65–70 metres (2 seconds)", "Bumper to bumper"],
-      "fr": ["Environ 30 m", "Environ 65–70 m (2 s)", "Pare-chocs contre pare-chocs"],
-      "de": ["Etwa 30 m", "Etwa 65–70 m (2 s)", "Stoßstange an Stoßstange"]
+      "nl": [
+        "Ongeveer 30 meter",
+        "Ongeveer 65–70 meter (2 seconden)",
+        "Tegen de bumper aan"
+      ],
+      "en": [
+        "About 30 metres",
+        "About 65–70 metres (2 seconds)",
+        "Bumper to bumper"
+      ],
+      "fr": [
+        "Environ 30 m",
+        "Environ 65–70 m (2 s)",
+        "Pare-chocs contre pare-chocs"
+      ],
+      "de": [
+        "Etwa 30 m",
+        "Etwa 65–70 m (2 s)",
+        "Stoßstange an Stoßstange"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -310,10 +511,26 @@
       "de": "Über Ihrer Spur zeigt ein variables Schild '90'. Was gilt?"
     },
     "options": {
-      "nl": ["Aanbeveling, mag genegeerd worden", "Bindende maximumsnelheid op die rijstrook", "Minimumsnelheid 90 km/u"],
-      "en": ["Recommendation, may be ignored", "Binding maximum on that lane", "Minimum speed 90 km/h"],
-      "fr": ["Recommandation", "Vitesse maximale obligatoire sur cette voie", "Minimum 90 km/h"],
-      "de": ["Empfehlung", "Verbindliche Höchstgeschwindigkeit auf dieser Spur", "Mindestgeschwindigkeit 90"]
+      "nl": [
+        "Aanbeveling, mag genegeerd worden",
+        "Bindende maximumsnelheid op die rijstrook",
+        "Minimumsnelheid 90 km/u"
+      ],
+      "en": [
+        "Recommendation, may be ignored",
+        "Binding maximum on that lane",
+        "Minimum speed 90 km/h"
+      ],
+      "fr": [
+        "Recommandation",
+        "Vitesse maximale obligatoire sur cette voie",
+        "Minimum 90 km/h"
+      ],
+      "de": [
+        "Empfehlung",
+        "Verbindliche Höchstgeschwindigkeit auf dieser Spur",
+        "Mindestgeschwindigkeit 90"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -335,10 +552,26 @@
       "de": "Sie fahren in einen Tunnel auf der Autobahn. Welche Beleuchtung?"
     },
     "options": {
-      "nl": ["Geen, de tunnel is verlicht", "Dimlichten, ook in een verlichte tunnel", "Grootlicht en mistlichten"],
-      "en": ["None, the tunnel is lit", "Dipped headlights, even in a lit tunnel", "High beam and fog lights"],
-      "fr": ["Aucun, le tunnel est éclairé", "Feux de croisement, même dans un tunnel éclairé", "Phares de route et antibrouillards"],
-      "de": ["Keine, der Tunnel ist beleuchtet", "Abblendlicht, auch im beleuchteten Tunnel", "Fernlicht und Nebellampen"]
+      "nl": [
+        "Geen, de tunnel is verlicht",
+        "Dimlichten, ook in een verlichte tunnel",
+        "Grootlicht en mistlichten"
+      ],
+      "en": [
+        "None, the tunnel is lit",
+        "Dipped headlights, even in a lit tunnel",
+        "High beam and fog lights"
+      ],
+      "fr": [
+        "Aucun, le tunnel est éclairé",
+        "Feux de croisement, même dans un tunnel éclairé",
+        "Phares de route et antibrouillards"
+      ],
+      "de": [
+        "Keine, der Tunnel ist beleuchtet",
+        "Abblendlicht, auch im beleuchteten Tunnel",
+        "Fernlicht und Nebellampen"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -360,10 +593,26 @@
       "de": "Sie sehen einen Stau auf der Autobahn. Was tun, um Auffahrunfälle zu vermeiden?"
     },
     "options": {
-      "nl": ["Sterk remmen en hopen dat anderen reageren", "Tijdig de waarschuwingsknipperlichten kort aanzetten om bestuurders achter u te waarschuwen", "Op de pechstrook gaan staan"],
-      "en": ["Brake hard and hope others react", "Briefly switch on hazard lights to warn drivers behind", "Stop on the hard shoulder"],
-      "fr": ["Freiner fort et espérer", "Activer brièvement les feux de détresse pour avertir derrière", "Se garer sur la bande d'arrêt"],
-      "de": ["Stark bremsen und hoffen", "Kurz Warnblinker einschalten, um Nachfolger zu warnen", "Auf den Standstreifen"]
+      "nl": [
+        "Sterk remmen en hopen dat anderen reageren",
+        "Tijdig de waarschuwingsknipperlichten kort aanzetten om bestuurders achter u te waarschuwen",
+        "Op de pechstrook gaan staan"
+      ],
+      "en": [
+        "Brake hard and hope others react",
+        "Briefly switch on hazard lights to warn drivers behind",
+        "Stop on the hard shoulder"
+      ],
+      "fr": [
+        "Freiner fort et espérer",
+        "Activer brièvement les feux de détresse pour avertir derrière",
+        "Se garer sur la bande d'arrêt"
+      ],
+      "de": [
+        "Stark bremsen und hoffen",
+        "Kurz Warnblinker einschalten, um Nachfolger zu warnen",
+        "Auf den Standstreifen"
+      ]
     },
     "correct": 1,
     "explanation": {

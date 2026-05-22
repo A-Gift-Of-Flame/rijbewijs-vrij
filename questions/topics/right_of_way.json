@@ -10,10 +10,26 @@
       "de": "Sie nähern sich einer Kreuzung ohne Verkehrszeichen. Ein Fahrzeug kommt von rechts. Wer hat Vorfahrt?"
     },
     "options": {
-      "nl": ["U, want u reed er eerst naartoe", "Het voertuig van rechts", "Degene die harder rijdt"],
-      "en": ["You, because you arrived first", "The vehicle from the right", "Whoever is driving faster"],
-      "fr": ["Vous, car vous êtes arrivé en premier", "Le véhicule venant de droite", "Celui qui roule le plus vite"],
-      "de": ["Sie, weil Sie zuerst ankamen", "Das Fahrzeug von rechts", "Wer schneller fährt"]
+      "nl": [
+        "U, want u reed er eerst naartoe",
+        "Het voertuig van rechts",
+        "Degene die harder rijdt"
+      ],
+      "en": [
+        "You, because you arrived first",
+        "The vehicle from the right",
+        "Whoever is driving faster"
+      ],
+      "fr": [
+        "Vous, car vous êtes arrivé en premier",
+        "Le véhicule venant de droite",
+        "Celui qui roule le plus vite"
+      ],
+      "de": [
+        "Sie, weil Sie zuerst ankamen",
+        "Das Fahrzeug von rechts",
+        "Wer schneller fährt"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -35,10 +51,26 @@
       "de": "Sie fahren auf einer als 'Vorfahrtstraße' gekennzeichneten Straße. Wer hat an der Kreuzung Vorfahrt?"
     },
     "options": {
-      "nl": ["U heeft altijd voorrang", "Het verkeer van rechts heeft voorrang", "Hangt af van het type kruispunt"],
-      "en": ["You always have right of way", "Traffic from the right has priority", "Depends on the type of intersection"],
-      "fr": ["Vous avez toujours la priorité", "Le trafic venant de droite a la priorité", "Cela dépend du type de carrefour"],
-      "de": ["Sie haben immer Vorfahrt", "Der Verkehr von rechts hat Vorfahrt", "Hängt vom Kreuzungstyp ab"]
+      "nl": [
+        "U heeft altijd voorrang",
+        "Het verkeer van rechts heeft voorrang",
+        "Hangt af van het type kruispunt"
+      ],
+      "en": [
+        "You always have right of way",
+        "Traffic from the right has priority",
+        "Depends on the type of intersection"
+      ],
+      "fr": [
+        "Vous avez toujours la priorité",
+        "Le trafic venant de droite a la priorité",
+        "Cela dépend du type de carrefour"
+      ],
+      "de": [
+        "Sie haben immer Vorfahrt",
+        "Der Verkehr von rechts hat Vorfahrt",
+        "Hängt vom Kreuzungstyp ab"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -47,7 +79,8 @@
       "fr": "Sur une route prioritaire, vous avez la priorité sur tout le trafic qui la croise, quelle que soit la direction (Code de la route art. 12.4).",
       "de": "Auf einer Vorfahrtstraße haben Sie Vorfahrt gegenüber dem gesamten kreuzenden Verkehr (StVO Art. 12.4)."
     },
-    "legal_ref": "Wegcode art. 12.4"
+    "legal_ref": "Wegcode art. 12.4",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Belgian_road_sign_B9.svg"
   },
   {
     "id": "ROW-003",
@@ -60,10 +93,26 @@
       "de": "Eine Straßenbahn nähert sich von links. Sie befinden sich auf einer ungeregelten Straße. Wer hat Vorfahrt?"
     },
     "options": {
-      "nl": ["U, want de tram komt van links", "De tram, altijd", "Hangt af van de snelheid van de tram"],
-      "en": ["You, because the tram comes from the left", "The tram, always", "Depends on the tram's speed"],
-      "fr": ["Vous, car le tram vient de gauche", "Le tram, toujours", "Cela dépend de la vitesse du tram"],
-      "de": ["Sie, weil die Straßenbahn von links kommt", "Die Straßenbahn, immer", "Hängt von der Geschwindigkeit der Straßenbahn ab"]
+      "nl": [
+        "U, want de tram komt van links",
+        "De tram, altijd",
+        "Hangt af van de snelheid van de tram"
+      ],
+      "en": [
+        "You, because the tram comes from the left",
+        "The tram, always",
+        "Depends on the tram's speed"
+      ],
+      "fr": [
+        "Vous, car le tram vient de gauche",
+        "Le tram, toujours",
+        "Cela dépend de la vitesse du tram"
+      ],
+      "de": [
+        "Sie, weil die Straßenbahn von links kommt",
+        "Die Straßenbahn, immer",
+        "Hängt von der Geschwindigkeit der Straßenbahn ab"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -85,10 +134,26 @@
       "de": "Sie nähern sich einem Kreisverkehr mit einem umgekehrten Dreieck (Zeichen B1) an der Einfahrt. Wer hat Vorfahrt?"
     },
     "options": {
-      "nl": ["Verkeer dat zich al op de rotonde bevindt", "U, want u nadert via de inrit", "Het verkeer dat van rechts de rotonde oprijdt"],
-      "en": ["Traffic already on the roundabout", "You, because you are entering", "Traffic entering from the right"],
-      "fr": ["Le trafic déjà sur le rond-point", "Vous, car vous entrez", "Le trafic entrant par la droite"],
-      "de": ["Verkehr, der sich bereits im Kreisverkehr befindet", "Sie, weil Sie einfahren", "Verkehr, der von rechts einfährt"]
+      "nl": [
+        "Verkeer dat zich al op de rotonde bevindt",
+        "U, want u nadert via de inrit",
+        "Het verkeer dat van rechts de rotonde oprijdt"
+      ],
+      "en": [
+        "Traffic already on the roundabout",
+        "You, because you are entering",
+        "Traffic entering from the right"
+      ],
+      "fr": [
+        "Le trafic déjà sur le rond-point",
+        "Vous, car vous entrez",
+        "Le trafic entrant par la droite"
+      ],
+      "de": [
+        "Verkehr, der sich bereits im Kreisverkehr befindet",
+        "Sie, weil Sie einfahren",
+        "Verkehr, der von rechts einfährt"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -97,7 +162,8 @@
       "fr": "À un rond-point avec panneau B1 ou B5, vous devez céder le passage aux conducteurs déjà engagés. La priorité de droite ne s'applique pas (Code de la route art. 12.4bis).",
       "de": "An einem Kreisverkehr mit Zeichen B1 oder B5 müssen Sie Fahrern Vorfahrt gewähren, die sich bereits im Kreisverkehr befinden. Rechts-vor-Links gilt nicht (StVO Art. 12.4bis)."
     },
-    "legal_ref": "Wegcode art. 12.4bis"
+    "legal_ref": "Wegcode art. 12.4bis",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Belgian_road_sign_B1.svg"
   },
   {
     "id": "ROW-005",
@@ -110,10 +176,26 @@
       "de": "Sie nähern sich einer Kreuzung mit Stoppschild (B5). Die Straße ist völlig frei. Was müssen Sie tun?"
     },
     "options": {
-      "nl": ["Vaart minderen en doorrijden", "Volledig stilstaan aan de stopstreep, dan pas verder", "Alleen stoppen als er verkeer is"],
-      "en": ["Slow down and continue", "Come to a complete stop at the line, then proceed", "Only stop if other traffic is present"],
-      "fr": ["Ralentir et continuer", "Marquer l'arrêt complet à la ligne, puis avancer", "S'arrêter seulement si du trafic est présent"],
-      "de": ["Verlangsamen und weiterfahren", "Vollständig an der Linie anhalten, dann weiterfahren", "Nur halten, wenn anderer Verkehr da ist"]
+      "nl": [
+        "Vaart minderen en doorrijden",
+        "Volledig stilstaan aan de stopstreep, dan pas verder",
+        "Alleen stoppen als er verkeer is"
+      ],
+      "en": [
+        "Slow down and continue",
+        "Come to a complete stop at the line, then proceed",
+        "Only stop if other traffic is present"
+      ],
+      "fr": [
+        "Ralentir et continuer",
+        "Marquer l'arrêt complet à la ligne, puis avancer",
+        "S'arrêter seulement si du trafic est présent"
+      ],
+      "de": [
+        "Verlangsamen und weiterfahren",
+        "Vollständig an der Linie anhalten, dann weiterfahren",
+        "Nur halten, wenn anderer Verkehr da ist"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -122,7 +204,8 @@
       "fr": "Le panneau B5 impose un arrêt complet, même si la voie est libre. Vous cédez ensuite le passage avant d'avancer (Code de la route art. 6 + panneau B5).",
       "de": "Zeichen B5 verlangt vollständigen Halt, auch wenn die Straße frei ist. Erst danach Vorfahrt gewähren und weiterfahren (StVO Art. 6 + Zeichen B5)."
     },
-    "legal_ref": "Wegcode art. 6 (B5)"
+    "legal_ref": "Wegcode art. 6 (B5)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Belgian_road_sign_B5.svg"
   },
   {
     "id": "ROW-006",
@@ -135,10 +218,26 @@
       "de": "Sie nähern sich einer Kreuzung mit umgekehrtem Dreieck (B1). Müssen Sie anhalten?"
     },
     "options": {
-      "nl": ["Ja, altijd volledig stoppen", "Nee, alleen voorrang verlenen; stoppen indien nodig", "Nee, doorrijden zonder snelheid te wijzigen"],
-      "en": ["Yes, always come to a full stop", "No, only yield; stop if necessary", "No, drive through without changing speed"],
-      "fr": ["Oui, toujours marquer l'arrêt complet", "Non, simplement céder le passage; s'arrêter si nécessaire", "Non, passer sans changer de vitesse"],
-      "de": ["Ja, immer vollständig anhalten", "Nein, nur Vorfahrt gewähren; halten falls nötig", "Nein, ohne Geschwindigkeitsänderung durchfahren"]
+      "nl": [
+        "Ja, altijd volledig stoppen",
+        "Nee, alleen voorrang verlenen; stoppen indien nodig",
+        "Nee, doorrijden zonder snelheid te wijzigen"
+      ],
+      "en": [
+        "Yes, always come to a full stop",
+        "No, only yield; stop if necessary",
+        "No, drive through without changing speed"
+      ],
+      "fr": [
+        "Oui, toujours marquer l'arrêt complet",
+        "Non, simplement céder le passage; s'arrêter si nécessaire",
+        "Non, passer sans changer de vitesse"
+      ],
+      "de": [
+        "Ja, immer vollständig anhalten",
+        "Nein, nur Vorfahrt gewähren; halten falls nötig",
+        "Nein, ohne Geschwindigkeitsänderung durchfahren"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -147,7 +246,8 @@
       "fr": "Le panneau B1 signifie céder le passage, pas un arrêt obligatoire. Vous ne devez vous arrêter que si d'autres ont la priorité (Code de la route art. 6 + panneau B1).",
       "de": "Zeichen B1 bedeutet Vorfahrt gewähren, keinen Pflichthalt. Anhalten nur wenn andere Vorfahrt haben (StVO Art. 6 + Zeichen B1)."
     },
-    "legal_ref": "Wegcode art. 6 (B1)"
+    "legal_ref": "Wegcode art. 6 (B1)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Belgian_road_sign_B1.svg"
   },
   {
     "id": "ROW-007",
@@ -160,10 +260,26 @@
       "de": "Sie fahren von einer Privateinfahrt auf die öffentliche Straße. Wer hat Vorfahrt?"
     },
     "options": {
-      "nl": ["U, want u verlaat de oprit", "Al het verkeer op de openbare weg", "Alleen verkeer dat van rechts komt"],
-      "en": ["You, because you are leaving the driveway", "All traffic on the public road", "Only traffic coming from the right"],
-      "fr": ["Vous, car vous quittez l'entrée", "Tout le trafic sur la voie publique", "Uniquement le trafic venant de droite"],
-      "de": ["Sie, weil Sie die Einfahrt verlassen", "Der gesamte Verkehr auf der öffentlichen Straße", "Nur Verkehr von rechts"]
+      "nl": [
+        "U, want u verlaat de oprit",
+        "Al het verkeer op de openbare weg",
+        "Alleen verkeer dat van rechts komt"
+      ],
+      "en": [
+        "You, because you are leaving the driveway",
+        "All traffic on the public road",
+        "Only traffic coming from the right"
+      ],
+      "fr": [
+        "Vous, car vous quittez l'entrée",
+        "Tout le trafic sur la voie publique",
+        "Uniquement le trafic venant de droite"
+      ],
+      "de": [
+        "Sie, weil Sie die Einfahrt verlassen",
+        "Der gesamte Verkehr auf der öffentlichen Straße",
+        "Nur Verkehr von rechts"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -185,10 +301,26 @@
       "de": "Ein Fußgänger betritt den Zebrastreifen, während Sie sich nähern. Was müssen Sie tun?"
     },
     "options": {
-      "nl": ["Doorrijden indien u eerst was", "Stoppen en de voetganger laten oversteken", "Claxonneren en doorrijden"],
-      "en": ["Continue if you arrived first", "Stop and let the pedestrian cross", "Honk and continue"],
-      "fr": ["Continuer si vous étiez là en premier", "S'arrêter et laisser passer le piéton", "Klaxonner et continuer"],
-      "de": ["Weiterfahren, wenn Sie zuerst da waren", "Anhalten und den Fußgänger passieren lassen", "Hupen und weiterfahren"]
+      "nl": [
+        "Doorrijden indien u eerst was",
+        "Stoppen en de voetganger laten oversteken",
+        "Claxonneren en doorrijden"
+      ],
+      "en": [
+        "Continue if you arrived first",
+        "Stop and let the pedestrian cross",
+        "Honk and continue"
+      ],
+      "fr": [
+        "Continuer si vous étiez là en premier",
+        "S'arrêter et laisser passer le piéton",
+        "Klaxonner et continuer"
+      ],
+      "de": [
+        "Weiterfahren, wenn Sie zuerst da waren",
+        "Anhalten und den Fußgänger passieren lassen",
+        "Hupen und weiterfahren"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -210,10 +342,26 @@
       "de": "Sie nähern sich einer ungeregelten Kreuzung. Ein Radfahrer kommt von rechts aus einer Seitenstraße. Wer hat Vorfahrt?"
     },
     "options": {
-      "nl": ["De fietser, want hij komt van rechts", "U, want auto's hebben voorrang op fietsers", "Wie het kruispunt eerst bereikt"],
-      "en": ["The cyclist, because they come from the right", "You, because cars have priority over cyclists", "Whoever reaches the intersection first"],
-      "fr": ["Le cycliste, car il vient de droite", "Vous, car les voitures priment sur les cyclistes", "Le premier arrivé au carrefour"],
-      "de": ["Der Radfahrer, weil er von rechts kommt", "Sie, weil Autos Vorfahrt vor Radfahrern haben", "Wer zuerst an der Kreuzung ist"]
+      "nl": [
+        "De fietser, want hij komt van rechts",
+        "U, want auto's hebben voorrang op fietsers",
+        "Wie het kruispunt eerst bereikt"
+      ],
+      "en": [
+        "The cyclist, because they come from the right",
+        "You, because cars have priority over cyclists",
+        "Whoever reaches the intersection first"
+      ],
+      "fr": [
+        "Le cycliste, car il vient de droite",
+        "Vous, car les voitures priment sur les cyclistes",
+        "Le premier arrivé au carrefour"
+      ],
+      "de": [
+        "Der Radfahrer, weil er von rechts kommt",
+        "Sie, weil Autos Vorfahrt vor Radfahrern haben",
+        "Wer zuerst an der Kreuzung ist"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -235,10 +383,26 @@
       "de": "Ein Einsatzfahrzeug mit Sirene und Blaulicht nähert sich. Was müssen Sie tun?"
     },
     "options": {
-      "nl": ["Onmiddellijk de doorgang vrijmaken, ook door over een fietspad of zebrapad te rijden indien nodig", "Onmiddellijk de doorgang vrijmaken zonder andere verkeersregels te overtreden", "Doorrijden, het prioritaire voertuig moet zelf oppassen"],
-      "en": ["Immediately clear the way, even over cycle paths or crossings if needed", "Immediately clear the way without breaking other traffic rules", "Continue; the priority vehicle must look out for itself"],
-      "fr": ["Libérer immédiatement le passage, même en franchissant une piste cyclable ou un passage piéton si nécessaire", "Libérer immédiatement le passage sans enfreindre d'autres règles", "Continuer; le véhicule prioritaire doit se débrouiller"],
-      "de": ["Sofort Platz machen, notfalls auch über Radweg oder Zebrastreifen", "Sofort Platz machen, ohne andere Regeln zu verletzen", "Weiterfahren; das Einsatzfahrzeug muss selbst aufpassen"]
+      "nl": [
+        "Onmiddellijk de doorgang vrijmaken, ook door over een fietspad of zebrapad te rijden indien nodig",
+        "Onmiddellijk de doorgang vrijmaken zonder andere verkeersregels te overtreden",
+        "Doorrijden, het prioritaire voertuig moet zelf oppassen"
+      ],
+      "en": [
+        "Immediately clear the way, even over cycle paths or crossings if needed",
+        "Immediately clear the way without breaking other traffic rules",
+        "Continue; the priority vehicle must look out for itself"
+      ],
+      "fr": [
+        "Libérer immédiatement le passage, même en franchissant une piste cyclable ou un passage piéton si nécessaire",
+        "Libérer immédiatement le passage sans enfreindre d'autres règles",
+        "Continuer; le véhicule prioritaire doit se débrouiller"
+      ],
+      "de": [
+        "Sofort Platz machen, notfalls auch über Radweg oder Zebrastreifen",
+        "Sofort Platz machen, ohne andere Regeln zu verletzen",
+        "Weiterfahren; das Einsatzfahrzeug muss selbst aufpassen"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -260,10 +424,26 @@
       "de": "Ein Trauerzug kreuzt Ihren Weg an einer Kreuzung. Was müssen Sie tun?"
     },
     "options": {
-      "nl": ["De stoet niet onderbreken; voorrang verlenen", "Het kruispunt zo snel mogelijk oversteken", "Tussen de voertuigen door rijden als er ruimte is"],
-      "en": ["Do not break the procession; give way", "Cross the intersection as quickly as possible", "Drive between vehicles if there is space"],
-      "fr": ["Ne pas couper le cortège; céder le passage", "Traverser le carrefour le plus vite possible", "Passer entre les véhicules s'il y a de la place"],
-      "de": ["Den Zug nicht unterbrechen; Vorfahrt gewähren", "Die Kreuzung schnellstmöglich überqueren", "Bei Platz zwischen den Fahrzeugen durchfahren"]
+      "nl": [
+        "De stoet niet onderbreken; voorrang verlenen",
+        "Het kruispunt zo snel mogelijk oversteken",
+        "Tussen de voertuigen door rijden als er ruimte is"
+      ],
+      "en": [
+        "Do not break the procession; give way",
+        "Cross the intersection as quickly as possible",
+        "Drive between vehicles if there is space"
+      ],
+      "fr": [
+        "Ne pas couper le cortège; céder le passage",
+        "Traverser le carrefour le plus vite possible",
+        "Passer entre les véhicules s'il y a de la place"
+      ],
+      "de": [
+        "Den Zug nicht unterbrechen; Vorfahrt gewähren",
+        "Die Kreuzung schnellstmöglich überqueren",
+        "Bei Platz zwischen den Fahrzeugen durchfahren"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -285,10 +465,26 @@
       "de": "Innerorts setzt ein Bus den linken Blinker, um die Haltestelle zu verlassen. Was müssen Sie tun?"
     },
     "options": {
-      "nl": ["Doorrijden; u heeft voorrang", "Snelheid matigen en de bus voorrang verlenen, indien nodig stoppen", "Inhalen voordat de bus wegrijdt"],
-      "en": ["Continue; you have priority", "Slow down and give the bus priority, stop if necessary", "Overtake before the bus pulls out"],
-      "fr": ["Continuer; vous avez la priorité", "Ralentir et céder le passage au bus, s'arrêter si nécessaire", "Dépasser avant que le bus ne s'engage"],
-      "de": ["Weiterfahren; Sie haben Vorfahrt", "Verlangsamen und dem Bus Vorfahrt gewähren, notfalls anhalten", "Überholen, bevor der Bus losfährt"]
+      "nl": [
+        "Doorrijden; u heeft voorrang",
+        "Snelheid matigen en de bus voorrang verlenen, indien nodig stoppen",
+        "Inhalen voordat de bus wegrijdt"
+      ],
+      "en": [
+        "Continue; you have priority",
+        "Slow down and give the bus priority, stop if necessary",
+        "Overtake before the bus pulls out"
+      ],
+      "fr": [
+        "Continuer; vous avez la priorité",
+        "Ralentir et céder le passage au bus, s'arrêter si nécessaire",
+        "Dépasser avant que le bus ne s'engage"
+      ],
+      "de": [
+        "Weiterfahren; Sie haben Vorfahrt",
+        "Verlangsamen und dem Bus Vorfahrt gewähren, notfalls anhalten",
+        "Überholen, bevor der Bus losfährt"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -310,10 +506,26 @@
       "de": "Sie wollen an einer ungeregelten Kreuzung links abbiegen. Ein Entgegenkommender will geradeaus. Wer hat Vorfahrt?"
     },
     "options": {
-      "nl": ["U, want u was er eerst", "De tegenligger die rechtdoor wil", "Wie het kleinste voertuig heeft"],
-      "en": ["You, because you were there first", "The oncoming vehicle going straight", "Whoever has the smaller vehicle"],
-      "fr": ["Vous, car vous étiez là en premier", "Le véhicule en face qui continue tout droit", "Celui qui a le plus petit véhicule"],
-      "de": ["Sie, weil Sie zuerst da waren", "Der Entgegenkommende, der geradeaus fährt", "Wer das kleinere Fahrzeug hat"]
+      "nl": [
+        "U, want u was er eerst",
+        "De tegenligger die rechtdoor wil",
+        "Wie het kleinste voertuig heeft"
+      ],
+      "en": [
+        "You, because you were there first",
+        "The oncoming vehicle going straight",
+        "Whoever has the smaller vehicle"
+      ],
+      "fr": [
+        "Vous, car vous étiez là en premier",
+        "Le véhicule en face qui continue tout droit",
+        "Celui qui a le plus petit véhicule"
+      ],
+      "de": [
+        "Sie, weil Sie zuerst da waren",
+        "Der Entgegenkommende, der geradeaus fährt",
+        "Wer das kleinere Fahrzeug hat"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -335,10 +547,26 @@
       "de": "Sie fahren auf einer Vorfahrtstraße. Zeichen B11 (Ende der Vorfahrtstraße) erscheint. Was ändert sich an der nächsten Kreuzung?"
     },
     "options": {
-      "nl": ["Niets, u behoudt voorrang", "De voorrang-van-rechts-regel geldt opnieuw", "U moet altijd stoppen bij het volgende kruispunt"],
-      "en": ["Nothing, you keep priority", "The priority-from-right rule applies again", "You must always stop at the next intersection"],
-      "fr": ["Rien, vous conservez la priorité", "La priorité de droite s'applique à nouveau", "Vous devez toujours vous arrêter au prochain carrefour"],
-      "de": ["Nichts, Sie behalten Vorfahrt", "Rechts-vor-Links gilt wieder", "Sie müssen an der nächsten Kreuzung immer anhalten"]
+      "nl": [
+        "Niets, u behoudt voorrang",
+        "De voorrang-van-rechts-regel geldt opnieuw",
+        "U moet altijd stoppen bij het volgende kruispunt"
+      ],
+      "en": [
+        "Nothing, you keep priority",
+        "The priority-from-right rule applies again",
+        "You must always stop at the next intersection"
+      ],
+      "fr": [
+        "Rien, vous conservez la priorité",
+        "La priorité de droite s'applique à nouveau",
+        "Vous devez toujours vous arrêter au prochain carrefour"
+      ],
+      "de": [
+        "Nichts, Sie behalten Vorfahrt",
+        "Rechts-vor-Links gilt wieder",
+        "Sie müssen an der nächsten Kreuzung immer anhalten"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -347,7 +575,8 @@
       "fr": "Le panneau B11 met fin à la route prioritaire. La priorité de droite s'applique de nouveau, sauf indication contraire (Code de la route art. 12.1 + panneau B11).",
       "de": "Zeichen B11 beendet die Vorfahrtstraße. Ab diesem Punkt gilt wieder Rechts-vor-Links, sofern andere Schilder nichts anderes anordnen (StVO Art. 12.1 + Zeichen B11)."
     },
-    "legal_ref": "Wegcode art. 12.1 (B11)"
+    "legal_ref": "Wegcode art. 12.1 (B11)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Belgian_road_sign_B11.svg"
   },
   {
     "id": "ROW-015",
@@ -360,10 +589,26 @@
       "de": "Sie sehen Zeichen B17 (Kreuzung mit Rechts-vor-Links). Was bedeutet das?"
     },
     "options": {
-      "nl": ["U moet stoppen", "Waarschuwing: bij het volgende kruispunt heeft verkeer van rechts voorrang", "U heeft voorrang op alle zijwegen"],
-      "en": ["You must stop", "Warning: at the next intersection traffic from the right has priority", "You have priority over all side roads"],
-      "fr": ["Vous devez vous arrêter", "Avertissement: au prochain carrefour, la priorité de droite s'applique", "Vous avez la priorité sur toutes les voies latérales"],
-      "de": ["Sie müssen anhalten", "Warnung: An der nächsten Kreuzung gilt Rechts-vor-Links", "Sie haben Vorfahrt vor allen Seitenstraßen"]
+      "nl": [
+        "U moet stoppen",
+        "Waarschuwing: bij het volgende kruispunt heeft verkeer van rechts voorrang",
+        "U heeft voorrang op alle zijwegen"
+      ],
+      "en": [
+        "You must stop",
+        "Warning: at the next intersection traffic from the right has priority",
+        "You have priority over all side roads"
+      ],
+      "fr": [
+        "Vous devez vous arrêter",
+        "Avertissement: au prochain carrefour, la priorité de droite s'applique",
+        "Vous avez la priorité sur toutes les voies latérales"
+      ],
+      "de": [
+        "Sie müssen anhalten",
+        "Warnung: An der nächsten Kreuzung gilt Rechts-vor-Links",
+        "Sie haben Vorfahrt vor allen Seitenstraßen"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -372,7 +617,8 @@
       "fr": "Le panneau B17 rappelle que la priorité de droite s'applique au prochain carrefour. Il est placé là où les conducteurs pourraient à tort se croire prioritaires (Code de la route art. 12.1 + panneau B17).",
       "de": "Zeichen B17 erinnert daran, dass an der nächsten Kreuzung Rechts-vor-Links gilt. Es steht dort, wo Fahrer fälschlich Vorfahrt vermuten könnten (StVO Art. 12.1 + Zeichen B17)."
     },
-    "legal_ref": "Wegcode art. 12.1 (B17)"
+    "legal_ref": "Wegcode art. 12.1 (B17)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/Belgian_road_sign_B17.svg"
   },
   {
     "id": "ROW-016",
@@ -385,10 +631,26 @@
       "de": "Auf einer schmalen Straße sehen Sie Zeichen B19 (Vorrang vor Gegenverkehr, roter Pfeil). Was bedeutet es?"
     },
     "options": {
-      "nl": ["U moet stoppen voor tegenliggers", "U heeft voorrang op tegenliggers in de versmalling", "Verboden in te rijden"],
-      "en": ["You must stop for oncoming traffic", "You have priority over oncoming traffic in the narrowing", "Entry forbidden"],
-      "fr": ["Vous devez céder le passage aux véhicules venant en face", "Vous avez la priorité sur les véhicules venant en face dans le rétrécissement", "Sens interdit"],
-      "de": ["Sie müssen vor Gegenverkehr halten", "Sie haben Vorrang vor Gegenverkehr in der Engstelle", "Einfahrt verboten"]
+      "nl": [
+        "U moet stoppen voor tegenliggers",
+        "U heeft voorrang op tegenliggers in de versmalling",
+        "Verboden in te rijden"
+      ],
+      "en": [
+        "You must stop for oncoming traffic",
+        "You have priority over oncoming traffic in the narrowing",
+        "Entry forbidden"
+      ],
+      "fr": [
+        "Vous devez céder le passage aux véhicules venant en face",
+        "Vous avez la priorité sur les véhicules venant en face dans le rétrécissement",
+        "Sens interdit"
+      ],
+      "de": [
+        "Sie müssen vor Gegenverkehr halten",
+        "Sie haben Vorrang vor Gegenverkehr in der Engstelle",
+        "Einfahrt verboten"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -397,7 +659,8 @@
       "fr": "Le panneau B19 (grande flèche blanche, petite flèche rouge) vous donne la priorité dans un rétrécissement. Le panneau opposé B21 vous oblige à céder (Code de la route art. 6 + panneau B19).",
       "de": "Zeichen B19 (großer weißer Pfeil, kleiner roter Pfeil) gibt Ihnen Vorrang an der Engstelle. Das Gegenstück B21 zwingt Sie zu warten (StVO Art. 6 + Zeichen B19)."
     },
-    "legal_ref": "Wegcode art. 6 (B19/B21)"
+    "legal_ref": "Wegcode art. 6 (B19/B21)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Belgian_road_sign_B19.svg"
   },
   {
     "id": "ROW-017",
@@ -410,10 +673,26 @@
       "de": "Sie fahren an einer ungeregelten T-Kreuzung. Sie sind auf der durchgehenden Straße, geradeaus. Ein Auto will aus der Seitenstraße ausfahren. Wer hat Vorfahrt?"
     },
     "options": {
-      "nl": ["Altijd u, want u rijdt rechtdoor", "Hangt af van de positie: als de zijweg rechts is, heeft die auto voorrang", "Altijd de zijweg, want die rijdt op"],
-      "en": ["You always, because you are going straight", "Depends on position: if the side road is on the right, that car has priority", "Always the side road, because they are joining"],
-      "fr": ["Toujours vous, car vous allez tout droit", "Selon la position: si la voie latérale est à droite, cette voiture a la priorité", "Toujours la voie latérale, car elle s'insère"],
-      "de": ["Immer Sie, weil Sie geradeaus fahren", "Je nach Lage: Liegt die Seitenstraße rechts, hat das Auto Vorfahrt", "Immer die Seitenstraße, weil sie einfädelt"]
+      "nl": [
+        "Altijd u, want u rijdt rechtdoor",
+        "Hangt af van de positie: als de zijweg rechts is, heeft die auto voorrang",
+        "Altijd de zijweg, want die rijdt op"
+      ],
+      "en": [
+        "You always, because you are going straight",
+        "Depends on position: if the side road is on the right, that car has priority",
+        "Always the side road, because they are joining"
+      ],
+      "fr": [
+        "Toujours vous, car vous allez tout droit",
+        "Selon la position: si la voie latérale est à droite, cette voiture a la priorité",
+        "Toujours la voie latérale, car elle s'insère"
+      ],
+      "de": [
+        "Immer Sie, weil Sie geradeaus fahren",
+        "Je nach Lage: Liegt die Seitenstraße rechts, hat das Auto Vorfahrt",
+        "Immer die Seitenstraße, weil sie einfädelt"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -435,10 +714,26 @@
       "de": "Was ist ein 'Verwirken der Rechts-vor-Links-Vorfahrt'?"
     },
     "options": {
-      "nl": ["Wanneer de bestuurder van rechts stopt of duidelijk vertraagt en zo voorrang verleent", "Wanneer de bestuurder van rechts uit een onverharde weg of pad komt", "Beide a en b"],
-      "en": ["When the driver from the right stops or visibly slows, yielding priority", "When the driver from the right comes from an unpaved road or path", "Both a and b"],
-      "fr": ["Quand le conducteur de droite s'arrête ou ralentit visiblement, cédant la priorité", "Quand il sort d'une voie non pavée ou d'un chemin", "Les deux a et b"],
-      "de": ["Wenn der Fahrer von rechts hält oder sichtbar verlangsamt", "Wenn er aus einem unbefestigten Weg oder Pfad kommt", "Beides a und b"]
+      "nl": [
+        "Wanneer de bestuurder van rechts stopt of duidelijk vertraagt en zo voorrang verleent",
+        "Wanneer de bestuurder van rechts uit een onverharde weg of pad komt",
+        "Beide a en b"
+      ],
+      "en": [
+        "When the driver from the right stops or visibly slows, yielding priority",
+        "When the driver from the right comes from an unpaved road or path",
+        "Both a and b"
+      ],
+      "fr": [
+        "Quand le conducteur de droite s'arrête ou ralentit visiblement, cédant la priorité",
+        "Quand il sort d'une voie non pavée ou d'un chemin",
+        "Les deux a et b"
+      ],
+      "de": [
+        "Wenn der Fahrer von rechts hält oder sichtbar verlangsamt",
+        "Wenn er aus einem unbefestigten Weg oder Pfad kommt",
+        "Beides a und b"
+      ]
     },
     "correct": 2,
     "explanation": {
@@ -460,10 +755,26 @@
       "de": "Eine Straßenbahn fährt von einer Haltestelle in der Fahrbahnmitte los. Sie nähern sich von hinten in gleicher Richtung. Was tun Sie?"
     },
     "options": {
-      "nl": ["Voorrang verlenen aan de tram", "De tram inhalen langs links", "Doorrijden; de tram moet wachten"],
-      "en": ["Yield to the tram", "Overtake the tram on the left", "Continue; the tram must wait"],
-      "fr": ["Céder le passage au tram", "Dépasser le tram par la gauche", "Continuer; le tram doit attendre"],
-      "de": ["Der Straßenbahn Vorfahrt gewähren", "Die Straßenbahn links überholen", "Weiterfahren; die Bahn muss warten"]
+      "nl": [
+        "Voorrang verlenen aan de tram",
+        "De tram inhalen langs links",
+        "Doorrijden; de tram moet wachten"
+      ],
+      "en": [
+        "Yield to the tram",
+        "Overtake the tram on the left",
+        "Continue; the tram must wait"
+      ],
+      "fr": [
+        "Céder le passage au tram",
+        "Dépasser le tram par la gauche",
+        "Continuer; le tram doit attendre"
+      ],
+      "de": [
+        "Der Straßenbahn Vorfahrt gewähren",
+        "Die Straßenbahn links überholen",
+        "Weiterfahren; die Bahn muss warten"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -485,10 +796,26 @@
       "de": "Sie biegen an einer Kreuzung rechts ab. Ein Radfahrer auf dem Radweg fährt neben Ihnen geradeaus. Wer hat Vorfahrt?"
     },
     "options": {
-      "nl": ["U, want u was eerst op het kruispunt", "De fietser die rechtdoor gaat op het fietspad", "Wie het snelste rijdt"],
-      "en": ["You, because you reached the intersection first", "The cyclist going straight on the cycle path", "Whoever drives faster"],
-      "fr": ["Vous, car arrivé en premier", "Le cycliste qui continue tout droit sur la piste", "Le plus rapide"],
-      "de": ["Sie, weil Sie zuerst da waren", "Der Radfahrer, der auf dem Radweg geradeaus fährt", "Wer schneller fährt"]
+      "nl": [
+        "U, want u was eerst op het kruispunt",
+        "De fietser die rechtdoor gaat op het fietspad",
+        "Wie het snelste rijdt"
+      ],
+      "en": [
+        "You, because you reached the intersection first",
+        "The cyclist going straight on the cycle path",
+        "Whoever drives faster"
+      ],
+      "fr": [
+        "Vous, car arrivé en premier",
+        "Le cycliste qui continue tout droit sur la piste",
+        "Le plus rapide"
+      ],
+      "de": [
+        "Sie, weil Sie zuerst da waren",
+        "Der Radfahrer, der auf dem Radweg geradeaus fährt",
+        "Wer schneller fährt"
+      ]
     },
     "correct": 1,
     "explanation": {

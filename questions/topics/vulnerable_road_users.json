@@ -10,10 +10,30 @@
       "de": "Was müssen Sie tun, wenn Sie einen Fußgänger an einem Zebrastreifen sehen?"
     },
     "options": {
-      "nl": ["Doorrijden als er geen verkeerslicht is", "Vertragen en voorrang geven aan de voetganger", "Claxonneren en doorrijden", "Stoppen alleen als de voetganger al op het zebrapad staat"],
-      "en": ["Continue if there is no traffic light", "Slow down and give way to the pedestrian", "Honk and continue", "Stop only if the pedestrian is already on the crossing"],
-      "fr": ["Continuer s'il n'y a pas de feu", "Ralentir et céder la priorité au piéton", "Klaxonner et continuer", "S'arrêter seulement si le piéton est déjà sur le passage"],
-      "de": ["Weiterfahren wenn keine Ampel vorhanden", "Langsamer werden und dem Fußgänger Vorfahrt gewähren", "Hupen und weiterfahren", "Nur anhalten wenn der Fußgänger bereits auf dem Zebrastreifen ist"]
+      "nl": [
+        "Doorrijden als er geen verkeerslicht is",
+        "Vertragen en voorrang geven aan de voetganger",
+        "Claxonneren en doorrijden",
+        "Stoppen alleen als de voetganger al op het zebrapad staat"
+      ],
+      "en": [
+        "Continue if there is no traffic light",
+        "Slow down and give way to the pedestrian",
+        "Honk and continue",
+        "Stop only if the pedestrian is already on the crossing"
+      ],
+      "fr": [
+        "Continuer s'il n'y a pas de feu",
+        "Ralentir et céder la priorité au piéton",
+        "Klaxonner et continuer",
+        "S'arrêter seulement si le piéton est déjà sur le passage"
+      ],
+      "de": [
+        "Weiterfahren wenn keine Ampel vorhanden",
+        "Langsamer werden und dem Fußgänger Vorfahrt gewähren",
+        "Hupen und weiterfahren",
+        "Nur anhalten wenn der Fußgänger bereits auf dem Zebrastreifen ist"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -35,10 +55,30 @@
       "de": "Sie fahren innerorts und überholen einen Radfahrer. Welchen seitlichen Mindestabstand müssen Sie einhalten?"
     },
     "options": {
-      "nl": ["0,5 meter", "1 meter", "1,5 meter", "2 meter"],
-      "en": ["0.5 metres", "1 metre", "1.5 metres", "2 metres"],
-      "fr": ["0,5 mètre", "1 mètre", "1,5 mètre", "2 mètres"],
-      "de": ["0,5 Meter", "1 Meter", "1,5 Meter", "2 Meter"]
+      "nl": [
+        "0,5 meter",
+        "1 meter",
+        "1,5 meter",
+        "2 meter"
+      ],
+      "en": [
+        "0.5 metres",
+        "1 metre",
+        "1.5 metres",
+        "2 metres"
+      ],
+      "fr": [
+        "0,5 mètre",
+        "1 mètre",
+        "1,5 mètre",
+        "2 mètres"
+      ],
+      "de": [
+        "0,5 Meter",
+        "1 Meter",
+        "1,5 Meter",
+        "2 Meter"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -60,10 +100,26 @@
       "de": "Sie öffnen Ihre Fahrertür neben einem Radweg. Was tun?"
     },
     "options": {
-      "nl": ["Snel openen om de fietser te dwingen uit te wijken", "Eerst kijken in spiegel en over de schouder, dan voorzichtig openen — 'Dutch reach' helpt", "Het portier blokkeren en doortrekken"],
-      "en": ["Open quickly so the cyclist swerves", "Check mirror and over your shoulder, then open carefully — 'Dutch reach' helps", "Block the door and yank"],
-      "fr": ["Ouvrir vite pour forcer le cycliste à dévier", "Vérifier rétro et regard épaule, ouvrir doucement — méthode 'main opposée' utile", "Bloquer la portière"],
-      "de": ["Schnell öffnen, damit der Radfahrer ausweicht", "Spiegel und Schulterblick, dann vorsichtig — 'Holländischer Griff' hilft", "Tür blockieren"]
+      "nl": [
+        "Snel openen om de fietser te dwingen uit te wijken",
+        "Eerst kijken in spiegel en over de schouder, dan voorzichtig openen — 'Dutch reach' helpt",
+        "Het portier blokkeren en doortrekken"
+      ],
+      "en": [
+        "Open quickly so the cyclist swerves",
+        "Check mirror and over your shoulder, then open carefully — 'Dutch reach' helps",
+        "Block the door and yank"
+      ],
+      "fr": [
+        "Ouvrir vite pour forcer le cycliste à dévier",
+        "Vérifier rétro et regard épaule, ouvrir doucement — méthode 'main opposée' utile",
+        "Bloquer la portière"
+      ],
+      "de": [
+        "Schnell öffnen, damit der Radfahrer ausweicht",
+        "Spiegel und Schulterblick, dann vorsichtig — 'Holländischer Griff' hilft",
+        "Tür blockieren"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -85,10 +141,26 @@
       "de": "Sie fahren bei Schulschluss durch eine Schulzone. Verhalten?"
     },
     "options": {
-      "nl": ["Normale snelheid behouden, kinderen kijken zelf wel uit", "Snelheid extra matigen, klaar zijn om te stoppen — kinderen kunnen plots oversteken", "Claxonneren om kinderen te waarschuwen"],
-      "en": ["Normal speed, kids watch out themselves", "Slow down extra, ready to stop — children may dart out", "Honk to warn children"],
-      "fr": ["Vitesse normale, les enfants font attention", "Ralentir davantage, prêt à freiner — un enfant peut surgir", "Klaxonner"],
-      "de": ["Normale Geschwindigkeit, Kinder passen auf", "Stark verlangsamen, bremsbereit — Kinder können plötzlich queren", "Hupen"]
+      "nl": [
+        "Normale snelheid behouden, kinderen kijken zelf wel uit",
+        "Snelheid extra matigen, klaar zijn om te stoppen — kinderen kunnen plots oversteken",
+        "Claxonneren om kinderen te waarschuwen"
+      ],
+      "en": [
+        "Normal speed, kids watch out themselves",
+        "Slow down extra, ready to stop — children may dart out",
+        "Honk to warn children"
+      ],
+      "fr": [
+        "Vitesse normale, les enfants font attention",
+        "Ralentir davantage, prêt à freiner — un enfant peut surgir",
+        "Klaxonner"
+      ],
+      "de": [
+        "Normale Geschwindigkeit, Kinder passen auf",
+        "Stark verlangsamen, bremsbereit — Kinder können plötzlich queren",
+        "Hupen"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -110,10 +182,26 @@
       "de": "Ein blinder Fußgänger mit Blindenstock will queren. Was tun?"
     },
     "options": {
-      "nl": ["Doorrijden, hij hoort u toch niet", "Stoppen en hem laten oversteken, ook buiten een zebrapad", "Claxonneren om hem te waarschuwen"],
-      "en": ["Continue, he won't hear you", "Stop and let him cross, even outside a zebra crossing", "Honk to warn him"],
-      "fr": ["Continuer, il n'entend pas", "S'arrêter, le laisser traverser même hors passage", "Klaxonner pour l'avertir"],
-      "de": ["Weiterfahren, hört eh nicht", "Halten und queren lassen, auch ohne Zebrastreifen", "Hupen zur Warnung"]
+      "nl": [
+        "Doorrijden, hij hoort u toch niet",
+        "Stoppen en hem laten oversteken, ook buiten een zebrapad",
+        "Claxonneren om hem te waarschuwen"
+      ],
+      "en": [
+        "Continue, he won't hear you",
+        "Stop and let him cross, even outside a zebra crossing",
+        "Honk to warn him"
+      ],
+      "fr": [
+        "Continuer, il n'entend pas",
+        "S'arrêter, le laisser traverser même hors passage",
+        "Klaxonner pour l'avertir"
+      ],
+      "de": [
+        "Weiterfahren, hört eh nicht",
+        "Halten und queren lassen, auch ohne Zebrastreifen",
+        "Hupen zur Warnung"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -135,10 +223,26 @@
       "de": "Sie biegen rechts ab. Welche schwächeren Verkehrsteilnehmer übersehen Sie leicht?"
     },
     "options": {
-      "nl": ["Voetgangers op het zebrapad recht voor u uit", "Fietsers en bromfietsers die rechtdoor gaan in uw dode hoek rechts", "Tegenliggers"],
-      "en": ["Pedestrians on the crossing ahead", "Cyclists and mopeds going straight in your right-side blind spot", "Oncoming traffic"],
-      "fr": ["Piétons sur le passage devant", "Cyclistes et cyclos allant tout droit dans l'angle mort droit", "Véhicules en face"],
-      "de": ["Fußgänger auf dem Zebrastreifen vorn", "Radfahrer und Mofas geradeaus im rechten toten Winkel", "Gegenverkehr"]
+      "nl": [
+        "Voetgangers op het zebrapad recht voor u uit",
+        "Fietsers en bromfietsers die rechtdoor gaan in uw dode hoek rechts",
+        "Tegenliggers"
+      ],
+      "en": [
+        "Pedestrians on the crossing ahead",
+        "Cyclists and mopeds going straight in your right-side blind spot",
+        "Oncoming traffic"
+      ],
+      "fr": [
+        "Piétons sur le passage devant",
+        "Cyclistes et cyclos allant tout droit dans l'angle mort droit",
+        "Véhicules en face"
+      ],
+      "de": [
+        "Fußgänger auf dem Zebrastreifen vorn",
+        "Radfahrer und Mofas geradeaus im rechten toten Winkel",
+        "Gegenverkehr"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -160,10 +264,26 @@
       "de": "Was ist eine 'Fahrradstraße' (Zeichen F111)?"
     },
     "options": {
-      "nl": ["Straat voorbehouden voor fietsers", "Straat waar auto's fietsers niet mogen inhalen en max. 30 km/u rijden", "Straat waar fietsen verboden zijn"],
-      "en": ["Street reserved for cyclists only", "Street where cars may not overtake cyclists and max 30 km/h applies", "Street forbidden for cyclists"],
-      "fr": ["Rue réservée aux cyclistes", "Rue où les voitures ne peuvent pas dépasser les cyclistes, max 30 km/h", "Rue interdite aux vélos"],
-      "de": ["Nur Radfahrer", "Straße ohne Überholen von Radfahrern, max 30 km/h", "Radfahrer verboten"]
+      "nl": [
+        "Straat voorbehouden voor fietsers",
+        "Straat waar auto's fietsers niet mogen inhalen en max. 30 km/u rijden",
+        "Straat waar fietsen verboden zijn"
+      ],
+      "en": [
+        "Street reserved for cyclists only",
+        "Street where cars may not overtake cyclists and max 30 km/h applies",
+        "Street forbidden for cyclists"
+      ],
+      "fr": [
+        "Rue réservée aux cyclistes",
+        "Rue où les voitures ne peuvent pas dépasser les cyclistes, max 30 km/h",
+        "Rue interdite aux vélos"
+      ],
+      "de": [
+        "Nur Radfahrer",
+        "Straße ohne Überholen von Radfahrern, max 30 km/h",
+        "Radfahrer verboten"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -172,7 +292,8 @@
       "fr": "En rue cyclable (F111), les cyclistes priment. Les véhicules motorisés peuvent y circuler mais ne peuvent pas dépasser les vélos et sont limités à 30 km/h (Code de la route art. 22novies).",
       "de": "In einer Fahrradstraße (F111) sind Radfahrer Hauptnutzer. Kfz dürfen fahren, aber nicht überholen, max 30 km/h (StVO Art. 22novies)."
     },
-    "legal_ref": "Wegcode art. 22novies"
+    "legal_ref": "Wegcode art. 22novies",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Belgian_road_sign_F111.svg"
   },
   {
     "id": "VRU-008",
@@ -185,10 +306,26 @@
       "de": "Ein Schulbus hält und Kinder steigen aus. Was tun?"
     },
     "options": {
-      "nl": ["Voorbij rijden aan normale snelheid", "Snelheid sterk matigen en bereid zijn te stoppen — kinderen kunnen plots oversteken", "Claxonneren om aandacht te trekken"],
-      "en": ["Pass at normal speed", "Slow down sharply and be ready to stop — children may dart out", "Honk to alert"],
-      "fr": ["Passer à vitesse normale", "Ralentir fortement, prêt à freiner — un enfant peut surgir", "Klaxonner"],
-      "de": ["Normal vorbeifahren", "Stark verlangsamen, bremsbereit — Kinder können plötzlich queren", "Hupen"]
+      "nl": [
+        "Voorbij rijden aan normale snelheid",
+        "Snelheid sterk matigen en bereid zijn te stoppen — kinderen kunnen plots oversteken",
+        "Claxonneren om aandacht te trekken"
+      ],
+      "en": [
+        "Pass at normal speed",
+        "Slow down sharply and be ready to stop — children may dart out",
+        "Honk to alert"
+      ],
+      "fr": [
+        "Passer à vitesse normale",
+        "Ralentir fortement, prêt à freiner — un enfant peut surgir",
+        "Klaxonner"
+      ],
+      "de": [
+        "Normal vorbeifahren",
+        "Stark verlangsamen, bremsbereit — Kinder können plötzlich queren",
+        "Hupen"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -210,10 +347,26 @@
       "de": "Eine ältere Person quert langsam den Zebrastreifen. Was tun?"
     },
     "options": {
-      "nl": ["Voorzichtig naast hen rijden", "Volledig stoppen en wachten tot zij de overkant bereiken", "Claxonneren om hen te haasten"],
-      "en": ["Drive carefully past", "Stop completely and wait until they reach the other side", "Honk to hurry them"],
-      "fr": ["Passer prudemment", "S'arrêter complètement jusqu'à l'autre côté", "Klaxonner pour les presser"],
-      "de": ["Vorsichtig vorbei", "Vollständig halten, bis sie drüben sind", "Hupen, um Tempo zu machen"]
+      "nl": [
+        "Voorzichtig naast hen rijden",
+        "Volledig stoppen en wachten tot zij de overkant bereiken",
+        "Claxonneren om hen te haasten"
+      ],
+      "en": [
+        "Drive carefully past",
+        "Stop completely and wait until they reach the other side",
+        "Honk to hurry them"
+      ],
+      "fr": [
+        "Passer prudemment",
+        "S'arrêter complètement jusqu'à l'autre côté",
+        "Klaxonner pour les presser"
+      ],
+      "de": [
+        "Vorsichtig vorbei",
+        "Vollständig halten, bis sie drüben sind",
+        "Hupen, um Tempo zu machen"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -235,10 +388,26 @@
       "de": "Auf einem Kreisverkehr fährt ein Radfahrer. Wer hat Vorfahrt?"
     },
     "options": {
-      "nl": ["U, omdat u in een auto zit", "De fietser, want hij bevindt zich al op de rotonde", "Wie de rotonde rechts oprijdt"],
-      "en": ["You, because you are in a car", "The cyclist, because they are already on the roundabout", "Whoever enters from the right"],
-      "fr": ["Vous, vous êtes en voiture", "Le cycliste, déjà sur le rond-point", "Celui qui entre par la droite"],
-      "de": ["Sie im Auto", "Der Radfahrer, weil schon im Kreisverkehr", "Wer von rechts einfährt"]
+      "nl": [
+        "U, omdat u in een auto zit",
+        "De fietser, want hij bevindt zich al op de rotonde",
+        "Wie de rotonde rechts oprijdt"
+      ],
+      "en": [
+        "You, because you are in a car",
+        "The cyclist, because they are already on the roundabout",
+        "Whoever enters from the right"
+      ],
+      "fr": [
+        "Vous, vous êtes en voiture",
+        "Le cycliste, déjà sur le rond-point",
+        "Celui qui entre par la droite"
+      ],
+      "de": [
+        "Sie im Auto",
+        "Der Radfahrer, weil schon im Kreisverkehr",
+        "Wer von rechts einfährt"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -260,10 +429,26 @@
       "de": "Mofa Klasse A (max 25 km/h). Wo fährt es?"
     },
     "options": {
-      "nl": ["Altijd op de rijbaan", "Op het fietspad indien aanwezig (zoals fietsers)", "Op het voetpad"],
-      "en": ["Always on the carriageway", "On the cycle path if present (like cyclists)", "On the sidewalk"],
-      "fr": ["Toujours sur la chaussée", "Sur la piste cyclable si présente (comme les cyclistes)", "Sur le trottoir"],
-      "de": ["Immer auf der Fahrbahn", "Auf dem Radweg falls vorhanden (wie Radfahrer)", "Auf dem Gehweg"]
+      "nl": [
+        "Altijd op de rijbaan",
+        "Op het fietspad indien aanwezig (zoals fietsers)",
+        "Op het voetpad"
+      ],
+      "en": [
+        "Always on the carriageway",
+        "On the cycle path if present (like cyclists)",
+        "On the sidewalk"
+      ],
+      "fr": [
+        "Toujours sur la chaussée",
+        "Sur la piste cyclable si présente (comme les cyclistes)",
+        "Sur le trottoir"
+      ],
+      "de": [
+        "Immer auf der Fahrbahn",
+        "Auf dem Radweg falls vorhanden (wie Radfahrer)",
+        "Auf dem Gehweg"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -285,10 +470,26 @@
       "de": "Außerorts ohne Gehweg oder Bankett, wo geht der Fußgänger?"
     },
     "options": {
-      "nl": ["Op de rijbaan, rechts in de rijrichting", "Op de rijbaan, links — tegen de rijrichting in, zodat hij tegenliggers ziet", "Midden op de weg"],
-      "en": ["On the road, right with traffic", "On the road, left — against traffic, so he sees oncoming cars", "In the middle"],
-      "fr": ["Sur la chaussée, à droite", "Sur la chaussée, à gauche — face au trafic", "Au milieu"],
-      "de": ["Auf der Fahrbahn rechts mit dem Verkehr", "Auf der Fahrbahn links — gegen den Verkehr, sieht entgegenkommende Autos", "Mitte"]
+      "nl": [
+        "Op de rijbaan, rechts in de rijrichting",
+        "Op de rijbaan, links — tegen de rijrichting in, zodat hij tegenliggers ziet",
+        "Midden op de weg"
+      ],
+      "en": [
+        "On the road, right with traffic",
+        "On the road, left — against traffic, so he sees oncoming cars",
+        "In the middle"
+      ],
+      "fr": [
+        "Sur la chaussée, à droite",
+        "Sur la chaussée, à gauche — face au trafic",
+        "Au milieu"
+      ],
+      "de": [
+        "Auf der Fahrbahn rechts mit dem Verkehr",
+        "Auf der Fahrbahn links — gegen den Verkehr, sieht entgegenkommende Autos",
+        "Mitte"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -310,10 +511,26 @@
       "de": "Eine Tram steht an einer Haltestelle ohne Insel. Fahrgäste steigen aus. Was tun?"
     },
     "options": {
-      "nl": ["Voorzichtig voorbijrijden, niet sneller dan 30 km/u, of stoppen als passagiers in/uitstappen", "Snel inhalen voor de passagiers oversteken", "Wachten tot de tram volledig vertrekt"],
-      "en": ["Pass carefully under 30 km/h, or stop while passengers board/alight", "Overtake quickly before passengers cross", "Wait until the tram fully leaves"],
-      "fr": ["Passer prudemment à 30 km/h max, ou s'arrêter pendant la montée/descente", "Dépasser vite avant les passagers", "Attendre le départ du tram"],
-      "de": ["Vorsichtig unter 30 km/h, oder halten während Ein-/Aussteigen", "Schnell überholen vor Querung", "Warten bis die Tram weg ist"]
+      "nl": [
+        "Voorzichtig voorbijrijden, niet sneller dan 30 km/u, of stoppen als passagiers in/uitstappen",
+        "Snel inhalen voor de passagiers oversteken",
+        "Wachten tot de tram volledig vertrekt"
+      ],
+      "en": [
+        "Pass carefully under 30 km/h, or stop while passengers board/alight",
+        "Overtake quickly before passengers cross",
+        "Wait until the tram fully leaves"
+      ],
+      "fr": [
+        "Passer prudemment à 30 km/h max, ou s'arrêter pendant la montée/descente",
+        "Dépasser vite avant les passagers",
+        "Attendre le départ du tram"
+      ],
+      "de": [
+        "Vorsichtig unter 30 km/h, oder halten während Ein-/Aussteigen",
+        "Schnell überholen vor Querung",
+        "Warten bis die Tram weg ist"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -335,10 +552,26 @@
       "de": "Sie folgen einer Gruppe von mehr als 15 Radfahrern. Was tun?"
     },
     "options": {
-      "nl": ["Hen inhalen voertuig per voertuig", "Hen behandelen als één geheel — niet door de groep heen rijden, voldoende afstand houden bij inhalen", "Hen splitsen door tussen hen door te rijden"],
-      "en": ["Overtake one cyclist at a time", "Treat them as one unit — do not split the group, leave enough room when overtaking", "Cut through them"],
-      "fr": ["Dépasser un par un", "Les traiter comme un seul ensemble — ne pas couper le groupe", "Passer au milieu"],
-      "de": ["Einzeln überholen", "Als Einheit behandeln — Gruppe nicht teilen, beim Überholen Abstand", "Durch die Mitte"]
+      "nl": [
+        "Hen inhalen voertuig per voertuig",
+        "Hen behandelen als één geheel — niet door de groep heen rijden, voldoende afstand houden bij inhalen",
+        "Hen splitsen door tussen hen door te rijden"
+      ],
+      "en": [
+        "Overtake one cyclist at a time",
+        "Treat them as one unit — do not split the group, leave enough room when overtaking",
+        "Cut through them"
+      ],
+      "fr": [
+        "Dépasser un par un",
+        "Les traiter comme un seul ensemble — ne pas couper le groupe",
+        "Passer au milieu"
+      ],
+      "de": [
+        "Einzeln überholen",
+        "Als Einheit behandeln — Gruppe nicht teilen, beim Überholen Abstand",
+        "Durch die Mitte"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -360,10 +593,26 @@
       "de": "Was ist die 'vermutete Haftung' bei Unfällen mit schwachen Verkehrsteilnehmern?"
     },
     "options": {
-      "nl": ["De zwakke weggebruiker is altijd schuldig", "De verzekeraar van het motorvoertuig vergoedt de schade van de zwakke weggebruiker, ongeacht schuld (behoudens grove fout)", "Iedereen draagt zelf zijn schade"],
-      "en": ["The vulnerable user is always at fault", "The motor vehicle's insurer compensates the vulnerable user regardless of fault (except gross fault)", "Each party bears its own damage"],
-      "fr": ["L'usager faible est toujours fautif", "L'assureur du véhicule motorisé indemnise l'usager faible, sauf faute grave", "Chacun assume ses dégâts"],
-      "de": ["Schwacher Teilnehmer immer schuld", "Versicherer des Kfz entschädigt schwachen Teilnehmer unabhängig von Schuld (außer grobem Verschulden)", "Jeder trägt seinen Schaden"]
+      "nl": [
+        "De zwakke weggebruiker is altijd schuldig",
+        "De verzekeraar van het motorvoertuig vergoedt de schade van de zwakke weggebruiker, ongeacht schuld (behoudens grove fout)",
+        "Iedereen draagt zelf zijn schade"
+      ],
+      "en": [
+        "The vulnerable user is always at fault",
+        "The motor vehicle's insurer compensates the vulnerable user regardless of fault (except gross fault)",
+        "Each party bears its own damage"
+      ],
+      "fr": [
+        "L'usager faible est toujours fautif",
+        "L'assureur du véhicule motorisé indemnise l'usager faible, sauf faute grave",
+        "Chacun assume ses dégâts"
+      ],
+      "de": [
+        "Schwacher Teilnehmer immer schuld",
+        "Versicherer des Kfz entschädigt schwachen Teilnehmer unabhängig von Schuld (außer grobem Verschulden)",
+        "Jeder trägt seinen Schaden"
+      ]
     },
     "correct": 1,
     "explanation": {

@@ -304,6 +304,17 @@ export default function Quiz({
           {q.question[lang]}
         </p>
 
+        {q.image && (
+          <div className="pl-1">
+            <img
+              src={q.image}
+              alt={q.question[lang]}
+              className="h-28 w-auto object-contain"
+              onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
+            />
+          </div>
+        )}
+
         <ol className="space-y-2">
           {opts.map((opt, i) => {
             const isCorrect = i === q.correct;

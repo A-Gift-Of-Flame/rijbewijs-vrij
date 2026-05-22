@@ -10,10 +10,30 @@
       "de": "Was ist die Höchstgeschwindigkeit innerhalb geschlossener Ortschaften in Belgien?"
     },
     "options": {
-      "nl": ["30 km/u", "50 km/u", "70 km/u", "90 km/u"],
-      "en": ["30 km/h", "50 km/h", "70 km/h", "90 km/h"],
-      "fr": ["30 km/h", "50 km/h", "70 km/h", "90 km/h"],
-      "de": ["30 km/h", "50 km/h", "70 km/h", "90 km/h"]
+      "nl": [
+        "30 km/u",
+        "50 km/u",
+        "70 km/u",
+        "90 km/u"
+      ],
+      "en": [
+        "30 km/h",
+        "50 km/h",
+        "70 km/h",
+        "90 km/h"
+      ],
+      "fr": [
+        "30 km/h",
+        "50 km/h",
+        "70 km/h",
+        "90 km/h"
+      ],
+      "de": [
+        "30 km/h",
+        "50 km/h",
+        "70 km/h",
+        "90 km/h"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -35,10 +55,30 @@
       "de": "Was ist die Höchstgeschwindigkeit auf einer Autobahn in Belgien?"
     },
     "options": {
-      "nl": ["100 km/u", "110 km/u", "120 km/u", "130 km/u"],
-      "en": ["100 km/h", "110 km/h", "120 km/h", "130 km/h"],
-      "fr": ["100 km/h", "110 km/h", "120 km/h", "130 km/h"],
-      "de": ["100 km/h", "110 km/h", "120 km/h", "130 km/h"]
+      "nl": [
+        "100 km/u",
+        "110 km/u",
+        "120 km/u",
+        "130 km/u"
+      ],
+      "en": [
+        "100 km/h",
+        "110 km/h",
+        "120 km/h",
+        "130 km/h"
+      ],
+      "fr": [
+        "100 km/h",
+        "110 km/h",
+        "120 km/h",
+        "130 km/h"
+      ],
+      "de": [
+        "100 km/h",
+        "110 km/h",
+        "120 km/h",
+        "130 km/h"
+      ]
     },
     "correct": 2,
     "explanation": {
@@ -60,10 +100,30 @@
       "de": "Was ist die Höchstgeschwindigkeit außerorts auf einer normalen Straße (keine Autobahn)?"
     },
     "options": {
-      "nl": ["70 km/u", "90 km/u", "100 km/u", "120 km/u"],
-      "en": ["70 km/h", "90 km/h", "100 km/h", "120 km/h"],
-      "fr": ["70 km/h", "90 km/h", "100 km/h", "120 km/h"],
-      "de": ["70 km/h", "90 km/h", "100 km/h", "120 km/h"]
+      "nl": [
+        "70 km/u",
+        "90 km/u",
+        "100 km/u",
+        "120 km/u"
+      ],
+      "en": [
+        "70 km/h",
+        "90 km/h",
+        "100 km/h",
+        "120 km/h"
+      ],
+      "fr": [
+        "70 km/h",
+        "90 km/h",
+        "100 km/h",
+        "120 km/h"
+      ],
+      "de": [
+        "70 km/h",
+        "90 km/h",
+        "100 km/h",
+        "120 km/h"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -85,10 +145,26 @@
       "de": "Was ist die Standardhöchstgeschwindigkeit innerorts?"
     },
     "options": {
-      "nl": ["30 km/u", "50 km/u", "70 km/u"],
-      "en": ["30 km/h", "50 km/h", "70 km/h"],
-      "fr": ["30 km/h", "50 km/h", "70 km/h"],
-      "de": ["30 km/h", "50 km/h", "70 km/h"]
+      "nl": [
+        "30 km/u",
+        "50 km/u",
+        "70 km/u"
+      ],
+      "en": [
+        "30 km/h",
+        "50 km/h",
+        "70 km/h"
+      ],
+      "fr": [
+        "30 km/h",
+        "50 km/h",
+        "70 km/h"
+      ],
+      "de": [
+        "30 km/h",
+        "50 km/h",
+        "70 km/h"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -110,10 +186,26 @@
       "de": "Außerorts auf einer normalen Straße (keine Autobahn/Schnellstraße) in Flandern. Standard-Höchstgeschwindigkeit?"
     },
     "options": {
-      "nl": ["50 km/u", "70 km/u", "90 km/u"],
-      "en": ["50 km/h", "70 km/h", "90 km/h"],
-      "fr": ["50 km/h", "70 km/h", "90 km/h"],
-      "de": ["50 km/h", "70 km/h", "90 km/h"]
+      "nl": [
+        "50 km/u",
+        "70 km/u",
+        "90 km/u"
+      ],
+      "en": [
+        "50 km/h",
+        "70 km/h",
+        "90 km/h"
+      ],
+      "fr": [
+        "50 km/h",
+        "70 km/h",
+        "90 km/h"
+      ],
+      "de": [
+        "50 km/h",
+        "70 km/h",
+        "90 km/h"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -135,10 +227,26 @@
       "de": "Auf der Autobahn gilt eine Mindestgeschwindigkeit. Welche?"
     },
     "options": {
-      "nl": ["50 km/u", "70 km/u", "Er is geen minimumsnelheid"],
-      "en": ["50 km/h", "70 km/h", "There is no minimum speed"],
-      "fr": ["50 km/h", "70 km/h", "Il n'y a pas de vitesse minimale"],
-      "de": ["50 km/h", "70 km/h", "Es gibt keine Mindestgeschwindigkeit"]
+      "nl": [
+        "50 km/u",
+        "70 km/u",
+        "Er is geen minimumsnelheid"
+      ],
+      "en": [
+        "50 km/h",
+        "70 km/h",
+        "There is no minimum speed"
+      ],
+      "fr": [
+        "50 km/h",
+        "70 km/h",
+        "Il n'y a pas de vitesse minimale"
+      ],
+      "de": [
+        "50 km/h",
+        "70 km/h",
+        "Es gibt keine Mindestgeschwindigkeit"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -160,10 +268,26 @@
       "de": "Sie fahren durch eine mit A23 + Zonenzeichen 'Schulumgebung' beschilderte Schulzone. Höchstgeschwindigkeit?"
     },
     "options": {
-      "nl": ["20 km/u", "30 km/u", "50 km/u"],
-      "en": ["20 km/h", "30 km/h", "50 km/h"],
-      "fr": ["20 km/h", "30 km/h", "50 km/h"],
-      "de": ["20 km/h", "30 km/h", "50 km/h"]
+      "nl": [
+        "20 km/u",
+        "30 km/u",
+        "50 km/u"
+      ],
+      "en": [
+        "20 km/h",
+        "30 km/h",
+        "50 km/h"
+      ],
+      "fr": [
+        "20 km/h",
+        "30 km/h",
+        "50 km/h"
+      ],
+      "de": [
+        "20 km/h",
+        "30 km/h",
+        "50 km/h"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -172,7 +296,8 @@
       "fr": "Dans une zone scolaire avec panneau de zone officiel, la limite est de 30 km/h pendant l'activité. Cela protège les enfants (Code de la route art. 22ter).",
       "de": "In einer mit dem offiziellen Zonenschild ausgewiesenen Schulzone gilt während der Öffnung 30 km/h. Schützt Kinder, die plötzlich auf die Straße treten (StVO Art. 22ter)."
     },
-    "legal_ref": "Wegcode art. 22ter"
+    "legal_ref": "Wegcode art. 22ter",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Belgian_road_sign_A23.svg"
   },
   {
     "id": "SPD-008",
@@ -185,10 +310,26 @@
       "de": "Sie fahren in eine Wohnerf-Zone (Zeichen F12a). Höchstgeschwindigkeit?"
     },
     "options": {
-      "nl": ["20 km/u (stapvoets)", "30 km/u", "50 km/u"],
-      "en": ["20 km/h (walking pace)", "30 km/h", "50 km/h"],
-      "fr": ["20 km/h (au pas)", "30 km/h", "50 km/h"],
-      "de": ["20 km/h (Schrittgeschwindigkeit)", "30 km/h", "50 km/h"]
+      "nl": [
+        "20 km/u (stapvoets)",
+        "30 km/u",
+        "50 km/u"
+      ],
+      "en": [
+        "20 km/h (walking pace)",
+        "30 km/h",
+        "50 km/h"
+      ],
+      "fr": [
+        "20 km/h (au pas)",
+        "30 km/h",
+        "50 km/h"
+      ],
+      "de": [
+        "20 km/h (Schrittgeschwindigkeit)",
+        "30 km/h",
+        "50 km/h"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -197,7 +338,8 @@
       "fr": "Dans une zone résidentielle, la vitesse est limitée à 20 km/h. Les piétons peuvent occuper toute la largeur et les enfants peuvent y jouer (Code de la route art. 22bis).",
       "de": "Im Wohnerf gilt Tempo 20. Fußgänger dürfen die ganze Breite nutzen, Kinder dürfen dort spielen (StVO Art. 22bis)."
     },
-    "legal_ref": "Wegcode art. 22bis"
+    "legal_ref": "Wegcode art. 22bis",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/34/Belgian_road_sign_F12a.svg"
   },
   {
     "id": "SPD-009",
@@ -210,10 +352,26 @@
       "de": "Sie fahren in eine Tempo-30-Zone. Bis wann gilt die Begrenzung?"
     },
     "options": {
-      "nl": ["Tot het volgende kruispunt", "Tot u het zonebord 'einde zone 30' passeert", "Tot 500 meter na het bord"],
-      "en": ["Until the next intersection", "Until you pass the 'end of 30 zone' sign", "Until 500 metres past the sign"],
-      "fr": ["Jusqu'au prochain carrefour", "Jusqu'au panneau 'fin de zone 30'", "Jusqu'à 500 m après le panneau"],
-      "de": ["Bis zur nächsten Kreuzung", "Bis zum Schild 'Ende Tempo-30-Zone'", "Bis 500 m hinter dem Schild"]
+      "nl": [
+        "Tot het volgende kruispunt",
+        "Tot u het zonebord 'einde zone 30' passeert",
+        "Tot 500 meter na het bord"
+      ],
+      "en": [
+        "Until the next intersection",
+        "Until you pass the 'end of 30 zone' sign",
+        "Until 500 metres past the sign"
+      ],
+      "fr": [
+        "Jusqu'au prochain carrefour",
+        "Jusqu'au panneau 'fin de zone 30'",
+        "Jusqu'à 500 m après le panneau"
+      ],
+      "de": [
+        "Bis zur nächsten Kreuzung",
+        "Bis zum Schild 'Ende Tempo-30-Zone'",
+        "Bis 500 m hinter dem Schild"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -235,10 +393,26 @@
       "de": "Sie ziehen einen Anhänger auf der Autobahn. Höchstgeschwindigkeit?"
     },
     "options": {
-      "nl": ["90 km/u", "120 km/u", "Dezelfde als zonder aanhangwagen"],
-      "en": ["90 km/h", "120 km/h", "Same as without trailer"],
-      "fr": ["90 km/h", "120 km/h", "La même que sans remorque"],
-      "de": ["90 km/h", "120 km/h", "Gleich wie ohne Anhänger"]
+      "nl": [
+        "90 km/u",
+        "120 km/u",
+        "Dezelfde als zonder aanhangwagen"
+      ],
+      "en": [
+        "90 km/h",
+        "120 km/h",
+        "Same as without trailer"
+      ],
+      "fr": [
+        "90 km/h",
+        "120 km/h",
+        "La même que sans remorque"
+      ],
+      "de": [
+        "90 km/h",
+        "120 km/h",
+        "Gleich wie ohne Anhänger"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -260,10 +434,26 @@
       "de": "Sie passieren eine haltende Tram an einer Haltestelle ohne erhöhten Bahnsteig. Was gilt?"
     },
     "options": {
-      "nl": ["Snelheid behouden, voldoende afstand", "Maximaal 30 km/u en zo nodig stoppen voor in- en uitstappende reizigers", "Volledig stoppen tot de tram vertrekt"],
-      "en": ["Keep speed, leave room", "Maximum 30 km/h and stop if needed for boarding passengers", "Stop completely until the tram leaves"],
-      "fr": ["Maintenir la vitesse, laisser de la place", "Maximum 30 km/h, s'arrêter si nécessaire pour les voyageurs", "Arrêt complet jusqu'au départ du tram"],
-      "de": ["Geschwindigkeit halten, Platz lassen", "Höchstens 30 km/h und ggf. anhalten für ein-/aussteigende Fahrgäste", "Komplett halten, bis die Tram fährt"]
+      "nl": [
+        "Snelheid behouden, voldoende afstand",
+        "Maximaal 30 km/u en zo nodig stoppen voor in- en uitstappende reizigers",
+        "Volledig stoppen tot de tram vertrekt"
+      ],
+      "en": [
+        "Keep speed, leave room",
+        "Maximum 30 km/h and stop if needed for boarding passengers",
+        "Stop completely until the tram leaves"
+      ],
+      "fr": [
+        "Maintenir la vitesse, laisser de la place",
+        "Maximum 30 km/h, s'arrêter si nécessaire pour les voyageurs",
+        "Arrêt complet jusqu'au départ du tram"
+      ],
+      "de": [
+        "Geschwindigkeit halten, Platz lassen",
+        "Höchstens 30 km/h und ggf. anhalten für ein-/aussteigende Fahrgäste",
+        "Komplett halten, bis die Tram fährt"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -285,10 +475,26 @@
       "de": "Darf man auf der Autobahn weit unter der Höchstgeschwindigkeit fahren, z.B. 60 km/h bei gutem Wetter?"
     },
     "options": {
-      "nl": ["Ja, voorzichtig is altijd toegestaan", "Nee, dat is verboden en hindert het verkeer", "Alleen op de rechterrijstrook"],
-      "en": ["Yes, caution is always allowed", "No, that is forbidden and obstructs traffic", "Only in the right-hand lane"],
-      "fr": ["Oui, la prudence est toujours autorisée", "Non, c'est interdit et entrave la circulation", "Seulement sur la voie de droite"],
-      "de": ["Ja, Vorsicht ist immer erlaubt", "Nein, das ist verboten und behindert den Verkehr", "Nur auf der rechten Spur"]
+      "nl": [
+        "Ja, voorzichtig is altijd toegestaan",
+        "Nee, dat is verboden en hindert het verkeer",
+        "Alleen op de rechterrijstrook"
+      ],
+      "en": [
+        "Yes, caution is always allowed",
+        "No, that is forbidden and obstructs traffic",
+        "Only in the right-hand lane"
+      ],
+      "fr": [
+        "Oui, la prudence est toujours autorisée",
+        "Non, c'est interdit et entrave la circulation",
+        "Seulement sur la voie de droite"
+      ],
+      "de": [
+        "Ja, Vorsicht ist immer erlaubt",
+        "Nein, das ist verboten und behindert den Verkehr",
+        "Nur auf der rechten Spur"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -310,10 +516,26 @@
       "de": "Bei starkem Regen oder Nebel mit Sicht unter 100 m: wie passt man die Geschwindigkeit an?"
     },
     "options": {
-      "nl": ["U mag de maximumsnelheid behouden", "U moet zodanig vertragen dat u kunt stoppen binnen de zichtbare afstand", "U mag stoppen op de pechstrook"],
-      "en": ["You may keep the maximum speed", "You must slow enough to stop within visible distance", "You may stop on the hard shoulder"],
-      "fr": ["On peut conserver la vitesse maximale", "On doit ralentir pour pouvoir s'arrêter dans la distance visible", "On peut s'arrêter sur la bande d'arrêt d'urgence"],
-      "de": ["Höchstgeschwindigkeit darf gehalten werden", "Soweit verlangsamen, dass man innerhalb der Sichtweite anhalten kann", "Auf dem Standstreifen halten"]
+      "nl": [
+        "U mag de maximumsnelheid behouden",
+        "U moet zodanig vertragen dat u kunt stoppen binnen de zichtbare afstand",
+        "U mag stoppen op de pechstrook"
+      ],
+      "en": [
+        "You may keep the maximum speed",
+        "You must slow enough to stop within visible distance",
+        "You may stop on the hard shoulder"
+      ],
+      "fr": [
+        "On peut conserver la vitesse maximale",
+        "On doit ralentir pour pouvoir s'arrêter dans la distance visible",
+        "On peut s'arrêter sur la bande d'arrêt d'urgence"
+      ],
+      "de": [
+        "Höchstgeschwindigkeit darf gehalten werden",
+        "Soweit verlangsamen, dass man innerhalb der Sichtweite anhalten kann",
+        "Auf dem Standstreifen halten"
+      ]
     },
     "correct": 1,
     "explanation": {
@@ -335,10 +557,26 @@
       "de": "Sie passieren Zeichen F1 (Beginn Innerorts). Welche Geschwindigkeit gilt sofort?"
     },
     "options": {
-      "nl": ["50 km/u, ook zonder ander bord", "70 km/u tot het volgende bord", "Snelheid blijft 90 km/u"],
-      "en": ["50 km/h, even without another sign", "70 km/h until the next sign", "Speed remains 90 km/h"],
-      "fr": ["50 km/h, même sans autre panneau", "70 km/h jusqu'au prochain panneau", "La vitesse reste 90 km/h"],
-      "de": ["50 km/h, auch ohne weiteres Schild", "70 km/h bis zum nächsten Schild", "Bleibt 90 km/h"]
+      "nl": [
+        "50 km/u, ook zonder ander bord",
+        "70 km/u tot het volgende bord",
+        "Snelheid blijft 90 km/u"
+      ],
+      "en": [
+        "50 km/h, even without another sign",
+        "70 km/h until the next sign",
+        "Speed remains 90 km/h"
+      ],
+      "fr": [
+        "50 km/h, même sans autre panneau",
+        "70 km/h jusqu'au prochain panneau",
+        "La vitesse reste 90 km/h"
+      ],
+      "de": [
+        "50 km/h, auch ohne weiteres Schild",
+        "70 km/h bis zum nächsten Schild",
+        "Bleibt 90 km/h"
+      ]
     },
     "correct": 0,
     "explanation": {
@@ -347,7 +585,8 @@
       "fr": "Le panneau F1 marque l'entrée de l'agglomération. À partir de là, 50 km/h s'applique automatiquement, sans panneau de vitesse supplémentaire (Code de la route art. 11.2.1 + panneau F1).",
       "de": "Zeichen F1 markiert den Ortseingang. Ab dort gilt automatisch 50 km/h ohne zusätzliches Geschwindigkeitsschild (StVO Art. 11.2.1 + Zeichen F1)."
     },
-    "legal_ref": "Wegcode art. 11.2.1 (F1)"
+    "legal_ref": "Wegcode art. 11.2.1 (F1)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Belgian_road_sign_F1.svg"
   },
   {
     "id": "SPD-015",
@@ -360,10 +599,26 @@
       "de": "Lkw >3,5 t auf belgischer Autobahn. Höchstgeschwindigkeit?"
     },
     "options": {
-      "nl": ["120 km/u", "90 km/u", "70 km/u"],
-      "en": ["120 km/h", "90 km/h", "70 km/h"],
-      "fr": ["120 km/h", "90 km/h", "70 km/h"],
-      "de": ["120 km/h", "90 km/h", "70 km/h"]
+      "nl": [
+        "120 km/u",
+        "90 km/u",
+        "70 km/u"
+      ],
+      "en": [
+        "120 km/h",
+        "90 km/h",
+        "70 km/h"
+      ],
+      "fr": [
+        "120 km/h",
+        "90 km/h",
+        "70 km/h"
+      ],
+      "de": [
+        "120 km/h",
+        "90 km/h",
+        "70 km/h"
+      ]
     },
     "correct": 1,
     "explanation": {
