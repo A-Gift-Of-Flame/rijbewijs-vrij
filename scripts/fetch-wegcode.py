@@ -60,6 +60,8 @@ def clean_text(raw: str) -> str:
     text = re.sub(r"\]'>(\d+)", ']', text)
     # Remove (NOTA: ...) notes
     text = re.sub(r'\(NOTA:[^)]*\)', '', text, flags=re.DOTALL)
+    # Strip amendment footnote block at article end (----------\n(1) KB ref...) — not useful for study
+    text = re.sub(r'\n[ \t]*-{4,}[\s\S]*$', '', text)
     # Clean whitespace
     text = re.sub(r'[ \t]+', ' ', text)
     text = re.sub(r'\n +', '\n', text)

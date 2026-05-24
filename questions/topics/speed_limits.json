@@ -250,12 +250,12 @@
     },
     "correct": 1,
     "explanation": {
-      "nl": "Op autosnelwegen mag een voertuig in normale omstandigheden niet trager rijden dan 70 km/u (Wegcode art. 21.4).",
-      "en": "On motorways a vehicle must not, in normal conditions, drive slower than 70 km/h (Wegcode art. 21.4).",
-      "fr": "Sur autoroute, un véhicule ne peut, en conditions normales, rouler à moins de 70 km/h (Code de la route art. 21.4).",
-      "de": "Auf Autobahnen darf ein Fahrzeug unter normalen Bedingungen nicht langsamer als 70 km/h fahren (StVO Art. 21.4)."
+      "nl": "Op autosnelwegen mag een voertuig in normale omstandigheden niet trager rijden dan 70 km/u (Wegcode art. 21.2).",
+      "en": "On motorways a vehicle must not, in normal conditions, drive slower than 70 km/h (Wegcode art. 21.2).",
+      "fr": "Sur autoroute, un véhicule ne peut, en conditions normales, rouler à moins de 70 km/h (Code de la route art. 21.2).",
+      "de": "Auf Autobahnen darf ein Fahrzeug unter normalen Bedingungen nicht langsamer als 70 km/h fahren (StVO Art. 21.2)."
     },
-    "legal_ref": "Wegcode art. 21.4"
+    "legal_ref": "Wegcode art. 21.2"
   },
   {
     "id": "SPD-007",
@@ -498,10 +498,10 @@
     },
     "correct": 1,
     "explanation": {
-      "nl": "Te traag rijden zonder geldige reden is verboden: het hindert het verkeer en kan gevaarlijk zijn. Op de autosnelweg geldt 70 km/u als minimum (Wegcode art. 10.3 + 21.4).",
-      "en": "Driving too slowly without valid reason is forbidden: it obstructs traffic and is dangerous. On the motorway 70 km/h is the minimum (Wegcode art. 10.3 + 21.4).",
-      "fr": "Rouler trop lentement sans raison valable est interdit: cela entrave la circulation. Sur autoroute, 70 km/h est le minimum (Code de la route art. 10.3 + 21.4).",
-      "de": "Unbegründet langsam zu fahren ist verboten: behindert und gefährdet. Auf der Autobahn sind 70 km/h Minimum (StVO Art. 10.3 + 21.4)."
+      "nl": "Te traag rijden zonder geldige reden is verboden: het hindert het verkeer en kan gevaarlijk zijn. Op de autosnelweg geldt 70 km/u als minimum (Wegcode art. 10.3 + 21.2).",
+      "en": "Driving too slowly without valid reason is forbidden: it obstructs traffic and is dangerous. On the motorway 70 km/h is the minimum (Wegcode art. 10.3 + 21.2).",
+      "fr": "Rouler trop lentement sans raison valable est interdit: cela entrave la circulation. Sur autoroute, 70 km/h est le minimum (Code de la route art. 10.3 + 21.2).",
+      "de": "Unbegründet langsam zu fahren ist verboten: behindert und gefährdet. Auf der Autobahn sind 70 km/h Minimum (StVO Art. 10.3 + 21.2)."
     },
     "legal_ref": "Wegcode art. 10.3"
   },
