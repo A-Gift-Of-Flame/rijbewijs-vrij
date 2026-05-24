@@ -247,7 +247,8 @@
       "fr": "Sur feux rouges clignotants ou sonnerie, arrêt avant la croix (A45/A47) ou ligne d'arrêt, à distance des rails. Jamais sur la croix ou entre les rails (Code de la route art. 20).",
       "de": "Bei roten Blinklichtern oder Glocke vor dem Andreaskreuz (A45/A47) oder der Haltlinie anhalten, fern der Schienen. Nie auf dem Kreuz oder zwischen den Schienen (StVO Art. 20)."
     },
-    "legal_ref": "Wegcode art. 20"
+    "legal_ref": "Wegcode art. 20",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Belgian_road_sign_A45.svg"
   },
   {
     "id": "DST-011",

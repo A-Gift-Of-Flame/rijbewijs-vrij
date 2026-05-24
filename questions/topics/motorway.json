@@ -457,7 +457,10 @@
       "de": "Beide 120 km/h, Mindest 70. Autobahn: getrennt, keine Kreuzungen. Kraftfahrstraße kann Kreuzungen haben (StVO Art. 21 + 22)."
     },
     "legal_ref": "Wegcode art. 21/22",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Belgian_road_sign_F5.svg"
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/be/Belgian_road_sign_F5.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f1/Belgian_road_sign_F9.svg"
+    ]
   },
   {
     "id": "MOT-012",

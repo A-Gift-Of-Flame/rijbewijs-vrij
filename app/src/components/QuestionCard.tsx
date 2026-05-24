@@ -46,14 +46,17 @@ export default function QuestionCard({
         <p className="text-on-surface font-medium leading-snug">{q}</p>
       </div>
 
-      {question.image && (
-        <div className="pl-8">
-          <img
-            src={question.image}
-            alt={question.question[lang]}
-            className="h-28 w-auto object-contain"
-            onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
-          />
+      {(question.images ?? (question.image ? [question.image] : [])).length > 0 && (
+        <div className="pl-8 flex flex-wrap gap-4">
+          {(question.images ?? [question.image!]).map((src, i) => (
+            <img
+              key={i}
+              src={src}
+              alt={question.question[lang]}
+              className="h-28 w-auto object-contain"
+              onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
+            />
+          ))}
         </div>
       )}
 
