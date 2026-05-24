@@ -3,6 +3,7 @@
 import { useState, useCallback } from 'react';
 import type { Question, Lang } from '@/lib/types';
 import { UI as SHARED_UI } from '@/lib/ui';
+import { LegalRefLink } from '@/components/LegalRefLink';
 import { TOPIC_DISPLAY } from '@/lib/topicMeta';
 
 type Phase = 'idle' | 'active' | 'done';
@@ -360,7 +361,7 @@ export default function Quiz({
             <p className="text-blue-200 text-sm leading-relaxed">
               {q.explanation[lang]}
             </p>
-            <p className="text-blue-500 text-xs font-mono">{q.legal_ref}</p>
+            <LegalRefLink legalRef={q.legal_ref} lang={lang} />
             {!q.verified && (
               <p className="text-yellow-600 text-xs">
                 {SHARED_UI[lang].aiWarning}
