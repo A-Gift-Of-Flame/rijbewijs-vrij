@@ -94,10 +94,10 @@
     "topic": "speed_limits",
     "verified": false,
     "question": {
-      "nl": "Wat is de maximumsnelheid buiten de bebouwde kom op een gewone weg (geen autosnelweg)?",
-      "en": "What is the default speed limit outside built-up areas on an ordinary road (not motorway)?",
-      "fr": "Quelle est la vitesse maximale hors agglomération sur une route ordinaire (pas une autoroute) ?",
-      "de": "Was ist die Höchstgeschwindigkeit außerorts auf einer normalen Straße (keine Autobahn)?"
+      "nl": "Wat is de maximumsnelheid buiten de bebouwde kom op een gewone weg (geen autosnelweg) in Wallonië en Brussel?",
+      "en": "What is the default speed limit outside built-up areas on an ordinary road (not motorway) in Wallonia and Brussels?",
+      "fr": "Quelle est la vitesse maximale hors agglomération sur une route ordinaire (pas une autoroute) en Wallonie et à Bruxelles ?",
+      "de": "Was ist die Höchstgeschwindigkeit außerorts auf einer normalen Straße (keine Autobahn) in der Wallonie und Brüssel?"
     },
     "options": {
       "nl": [
@@ -127,10 +127,10 @@
     },
     "correct": 1,
     "explanation": {
-      "nl": "Buiten de bebouwde kom op gewone wegen geldt 90 km/u tenzij anders aangeduid (Wegcode art. 11.2).",
-      "en": "Outside built-up areas on ordinary roads the limit is 90 km/h unless otherwise signed (Wegcode art. 11.2).",
-      "fr": "Hors agglomération sur routes ordinaires, la limite est de 90 km/h sauf indication contraire (Code de la route art. 11.2).",
-      "de": "Außerorts auf normalen Straßen gilt Tempo 90, sofern nicht anders beschildert (StVO Art. 11.2)."
+      "nl": "In Wallonië en Brussel geldt buiten de bebouwde kom op gewone wegen 90 km/u tenzij anders aangeduid (Wegcode art. 11.2). In Vlaanderen is dit 70 km/u (Vlaams regeling).",
+      "en": "In Wallonia and Brussels the limit outside built-up areas on ordinary roads is 90 km/h unless otherwise signed (Wegcode art. 11.2). In Flanders this is 70 km/h (Flemish rule).",
+      "fr": "En Wallonie et à Bruxelles, hors agglomération sur routes ordinaires, la limite est de 90 km/h sauf indication contraire (Code de la route art. 11.2). En Flandre, c'est 70 km/h (règle flamande).",
+      "de": "In der Wallonie und Brüssel gilt außerorts auf normalen Straßen Tempo 90, sofern nicht anders beschildert (StVO Art. 11.2). In Flandern gilt 70 km/h (flämische Regelung)."
     },
     "legal_ref": "Wegcode art. 11.2"
   },
