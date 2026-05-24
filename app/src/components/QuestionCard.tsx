@@ -14,6 +14,8 @@ function LegalRefLink({ legalRef, lang }: { legalRef: string; lang: Lang }) {
   return (
     <Link
       href={`/wegcode?lang=${lang}#Art.${articleId}`}
+      target="_blank"
+      rel="noopener noreferrer"
       className="text-blue-400 hover:text-blue-300 text-xs font-mono underline decoration-dotted transition-colors"
     >
       {legalRef} ↗
