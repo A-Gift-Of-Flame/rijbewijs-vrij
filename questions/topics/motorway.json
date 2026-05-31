@@ -430,31 +430,31 @@
     "options": {
       "nl": [
         "Geen, ze betekenen hetzelfde",
-        "Autosnelweg: 120 km/u en gescheiden rijbanen; autoweg: 120 km/u maar niet altijd gescheiden, andere regels",
+        "Autosnelweg: max. 120 km/u en minstens 70 km/u vereist; autoweg: geen minimumsnelheid en max. zoals op een gewone weg, soms met kruispunten",
         "Autoweg is voor fietsen"
       ],
       "en": [
         "None, same thing",
-        "Motorway: 120 km/h with separated carriageways; expressway: 120 km/h but not always separated, different rules",
+        "Motorway: max 120 km/h and a 70 km/h minimum capability; expressway: no minimum speed and limit like an ordinary road, sometimes with intersections",
         "Expressway is for cyclists"
       ],
       "fr": [
         "Aucune, identique",
-        "Autoroute: 120 km/h, chaussées séparées; voie rapide: 120 km/h mais pas toujours séparée",
+        "Autoroute: max 120 km/h, minimum 70 km/h requis; voie rapide: pas de minimum, limite comme une route ordinaire, parfois des carrefours",
         "Voie rapide pour vélos"
       ],
       "de": [
         "Keiner, gleich",
-        "Autobahn: 120 km/h, getrennte Fahrbahnen; Kraftfahrstraße: 120 km/h aber nicht immer getrennt",
+        "Autobahn: max 120 km/h, mindestens 70 km/h nötig; Kraftfahrstraße: keine Mindestgeschwindigkeit, Limit wie normale Straße, manchmal Kreuzungen",
         "Kraftfahrstraße für Radfahrer"
       ]
     },
     "correct": 1,
     "explanation": {
-      "nl": "Beide hebben dezelfde maximumsnelheid 120 km/u en zijn voorbehouden aan motorvoertuigen die minstens 70 km/u halen. Verschillen: autosnelweg heeft strikt gescheiden rijbanen en specifieke regels (geen oversteekplaatsen, geen kruispunten). Autoweg kan kruispunten hebben (Wegcode art. 21 + 22).",
-      "en": "Same 120 km/h limit and same minimum-70 requirement. Motorway: strictly separated carriageways, no crossings. Expressway may have intersections (Wegcode art. 21 + 22).",
-      "fr": "Même limite 120 et minimum 70 km/h. Autoroute: chaussées séparées strictement, sans carrefours. Voie rapide peut avoir des carrefours (Code de la route art. 21 + 22).",
-      "de": "Beide 120 km/h, Mindest 70. Autobahn: getrennt, keine Kreuzungen. Kraftfahrstraße kann Kreuzungen haben (StVO Art. 21 + 22)."
+      "nl": "Op de autosnelweg (F5) geldt max. 120 km/u en zijn enkel motorvoertuigen toegelaten die minstens 70 km/u kunnen halen; de rijbanen zijn strikt gescheiden en er zijn geen kruispunten. Op de autoweg (F9) geldt géén minimumsnelheid en is de maximumsnelheid dezelfde als op een gewone weg (afhankelijk van plaats en gewest); een autoweg kan kruispunten en oversteekplaatsen hebben (Wegcode art. 21 + 22).",
+      "en": "On a motorway (F5) the limit is 120 km/h and only motor vehicles able to reach at least 70 km/h are allowed; carriageways are strictly separated with no intersections. On an expressway (F9) there is no minimum speed and the maximum is the same as on an ordinary road (varies by location and region); an expressway may have intersections and crossings (Wegcode art. 21 + 22).",
+      "fr": "Sur l'autoroute (F5): max 120 km/h, réservée aux véhicules pouvant atteindre au moins 70 km/h, chaussées strictement séparées, sans carrefours. Sur la voie rapide (F9): pas de vitesse minimale et maximum identique à une route ordinaire (selon le lieu et la région); elle peut comporter des carrefours et passages (Code de la route art. 21 + 22).",
+      "de": "Auf der Autobahn (F5): max 120 km/h, nur Kfz, die mindestens 70 km/h erreichen, streng getrennte Fahrbahnen, keine Kreuzungen. Auf der Kraftfahrstraße (F9): keine Mindestgeschwindigkeit und Höchstgeschwindigkeit wie auf einer normalen Straße (je nach Ort und Region); kann Kreuzungen und Übergänge haben (StVO Art. 21 + 22)."
     },
     "legal_ref": "Wegcode art. 21/22",
     "images": [

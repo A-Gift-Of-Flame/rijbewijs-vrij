@@ -36,7 +36,7 @@ export default function Quiz({
   const [selected, setSelected] = useState<number | null>(null);
   const [answers, setAnswers] = useState<(number | null)[]>([]);
 
-  const passMark = Math.round(quizSize * 0.8);
+  const passMark = Math.ceil(quizSize * 0.82);
 
   function applySize(n: number) {
     const clamped = Math.min(Math.max(1, n), maxQuestions);

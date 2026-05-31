@@ -142,10 +142,10 @@
     "topic": "traffic_signs",
     "verified": false,
     "question": {
-      "nl": "Wat betekent een bord B1 (gelijkzijdige driehoek met punt naar boven, rode rand)?",
-      "en": "What does sign B1 (equilateral triangle pointing up, red border) mean?",
-      "fr": "Que signifie le panneau B1 (triangle équilatéral pointe en haut, bordure rouge) ?",
-      "de": "Was bedeutet Zeichen B1 (gleichseitiges Dreieck mit Spitze nach oben, roter Rand)?"
+      "nl": "Wat betekent een bord B1 (gelijkzijdige driehoek met punt naar beneden, rode rand)?",
+      "en": "What does sign B1 (equilateral triangle pointing down, red border) mean?",
+      "fr": "Que signifie le panneau B1 (triangle équilatéral pointe en bas, bordure rouge) ?",
+      "de": "Was bedeutet Zeichen B1 (gleichseitiges Dreieck mit Spitze nach unten, roter Rand)?"
     },
     "options": {
       "nl": [
@@ -608,10 +608,10 @@
     "topic": "traffic_signs",
     "verified": false,
     "question": {
-      "nl": "Wat betekent bord F19 (vierkant, blauw, witte pijl met daaronder een rode pijl)?",
-      "en": "What does sign F19 mean (square, blue, white arrow and below a red arrow)?",
-      "fr": "Que signifie F19 (carré, bleu, flèche blanche et flèche rouge en-dessous) ?",
-      "de": "Bedeutung von F19 (quadratisch, blau, weißer Pfeil und darunter roter Pfeil)?"
+      "nl": "Wat betekent bord F19 (rechthoekig, blauw, met een witte pijl in de rijrichting)?",
+      "en": "What does sign F19 mean (rectangular, blue, white arrow in the direction of travel)?",
+      "fr": "Que signifie F19 (rectangulaire, bleu, flèche blanche dans le sens de circulation) ?",
+      "de": "Bedeutung von F19 (rechteckig, blau, weißer Pfeil in Fahrtrichtung)?"
     },
     "options": {
       "nl": [
@@ -763,10 +763,10 @@
     },
     "correct": 2,
     "explanation": {
-      "nl": "Bord F9 duidt het begin van een autoweg aan: voorbehouden voor motorvoertuigen die minstens 70 km/u kunnen halen. Fietsers, voetgangers en bromfietsers zijn verboden (Wegcode art. 22 + bord F9).",
-      "en": "Sign F9 marks the start of an expressway: reserved for motor vehicles capable of at least 70 km/h. Cyclists, pedestrians and mopeds forbidden (Wegcode art. 22 + sign F9).",
-      "fr": "Le panneau F9 indique le début d'une voie réservée aux véhicules à moteur (au moins 70 km/h). Interdit aux cyclistes, piétons et cyclomoteurs (Code de la route art. 22 + panneau F9).",
-      "de": "Zeichen F9 zeigt den Beginn einer Kraftfahrstraße: nur Kfz, die mindestens 70 km/h erreichen. Radfahrer, Fußgänger, Mofas verboten (StVO Art. 22 + Zeichen F9)."
+      "nl": "Bord F9 duidt het begin van een autoweg aan: voorbehouden aan motorvoertuigen. Voetgangers, fietsers en bromfietsers zijn verboden. Anders dan op de autosnelweg geldt er geen minimumsnelheid (Wegcode art. 22 + bord F9).",
+      "en": "Sign F9 marks the start of an expressway reserved for motor vehicles. Pedestrians, cyclists and mopeds forbidden. Unlike a motorway, there is no minimum speed (Wegcode art. 22 + sign F9).",
+      "fr": "Le panneau F9 indique le début d'une route réservée aux véhicules à moteur. Interdit aux piétons, cyclistes et cyclomoteurs. Contrairement à l'autoroute, pas de vitesse minimale (Code de la route art. 22 + panneau F9).",
+      "de": "Zeichen F9 zeigt den Beginn einer Kraftfahrstraße: nur Kraftfahrzeuge. Fußgänger, Radfahrer und Mofas verboten. Anders als auf der Autobahn gilt keine Mindestgeschwindigkeit (StVO Art. 22 + Zeichen F9)."
     },
     "legal_ref": "Wegcode art. 22 (F9)",
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Belgian_road_sign_F9.svg"
@@ -889,13 +889,13 @@
     },
     "correct": 0,
     "explanation": {
-      "nl": "Bord A7 waarschuwt voor een gevaarlijke afdaling. Het percentage geeft de hellingsgraad aan. Schakel naar een lagere versnelling, vermijd langdurig remmen (Wegcode art. 67).",
-      "en": "Sign A7 warns of a dangerous descent. Percentage shows gradient. Shift to lower gear, avoid prolonged braking (Wegcode art. 67).",
-      "fr": "Le panneau A7 signale une descente dangereuse. Le pourcentage indique la pente. Rétrograder, éviter le freinage prolongé (Code de la route art. 67).",
-      "de": "Zeichen A7 warnt vor gefährlichem Gefälle. Prozent = Neigung. Niedrigeren Gang einlegen, Dauerbremsen vermeiden (StVO Art. 67)."
+      "nl": "Bord A3 waarschuwt voor een gevaarlijke afdaling. Het percentage geeft de hellingsgraad aan. Schakel naar een lagere versnelling, vermijd langdurig remmen (Wegcode art. 67).",
+      "en": "Sign A3 warns of a dangerous descent. Percentage shows gradient. Shift to lower gear, avoid prolonged braking (Wegcode art. 67).",
+      "fr": "Le panneau A3 signale une descente dangereuse. Le pourcentage indique la pente. Rétrograder, éviter le freinage prolongé (Code de la route art. 67).",
+      "de": "Zeichen A3 warnt vor gefährlichem Gefälle. Prozent = Neigung. Niedrigeren Gang einlegen, Dauerbremsen vermeiden (StVO Art. 67)."
     },
-    "legal_ref": "Wegcode art. 67 (A7)",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Belgian_road_sign_A7a.svg"
+    "legal_ref": "Wegcode art. 67 (A3)",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Belgian_road_sign_A3.svg"
   },
   {
     "id": "SGN-022",
